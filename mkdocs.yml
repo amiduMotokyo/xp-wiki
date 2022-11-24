@@ -1,0 +1,63 @@
+site_name: XP Wiki
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        separator: '[\s\-\.]+'
+nav:
+    - 导航: index.md
+    - 规则:
+      - 规则书: rules/mainRules.md
+      - 扩展规则: 
+        - 子弹时间: rules/bulletTime.md
+        - 骑乘战斗: rules/ridingBattle.md
+      - 游戏数据: 
+        - 技能升级:
+          - 泛用技能熟练度升级: rules/data/update/skills.md
+          - 武器熟练度升级: rules/ridingBattle.md
+          - 坐骑熟练度升级: rules/ridingBattle.md
+    - 世界观设定:
+      - 世界群理论:
+        - 世界群的形成: settings/forming.md
+        - 灵魂循环机制与智慧生命的形成: settings/soul.md
+        - 上层世界: settings/upper.md
+        - 中层世界: settings/middle.md
+        - 下层世界: settings/downer.md
+      - 文明简介:
+        - 天狗国:
+          - 天狗国国家概况: settings/civilization/Tengu/summary.md
+          - 种族:
+            - 鸦天狗: settings/civilization/Tengu/karasu.md
+            - 狐天狗: settings/civilization/Tengu/kitsune.md
+            - 鲸天狗: settings/civilization/Tengu/gujira.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.caret
