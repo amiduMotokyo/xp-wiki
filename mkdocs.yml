@@ -23,7 +23,8 @@ nav:
           - 炼金类魔法: rules/data/magic/alchemy.md
           - 召唤类魔法: rules/data/magic/summon.md
         - 社群:
-          - 集群规模表: rules/ridingBattle.md
+          - 集群规模表: rules/data/social/scaleList.md
+          - 汇率: rules/data/social/exchangeRate.md
         - 装备:
           - 武器及其平均性能表: rules/ridingBattle.md
     - 世界观设定:
