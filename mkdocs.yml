@@ -18,7 +18,7 @@ nav:
           - 武器熟练度升级: rules/ridingBattle.md
           - 坐骑熟练度升级: rules/ridingBattle.md
         - 魔法书:
-          - 元素类魔法: rules/ridingBattle.md
+          - 元素类魔法: rules/data/magic/elemental.md
           - 自然类魔法: rules/ridingBattle.md
           - 炼金类魔法: rules/ridingBattle.md
           - 召唤类魔法: rules/ridingBattle.md
