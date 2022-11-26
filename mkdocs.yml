@@ -21,7 +21,7 @@ nav:
           - 元素类魔法: rules/data/magic/elemental.md
           - 自然类魔法: rules/data/magic/natural.md
           - 炼金类魔法: rules/data/magic/alchemy.md
-          - 召唤类魔法: rules/ridingBattle.md
+          - 召唤类魔法: rules/data/magic/summon.md
         - 社群:
           - 集群规模表: rules/ridingBattle.md
         - 装备:
