@@ -17,6 +17,15 @@ nav:
           - 泛用技能熟练度升级: rules/data/update/skills.md
           - 武器熟练度升级: rules/ridingBattle.md
           - 坐骑熟练度升级: rules/ridingBattle.md
+        - 魔法书:
+          - 元素类魔法: rules/ridingBattle.md
+          - 自然类魔法: rules/ridingBattle.md
+          - 炼金类魔法: rules/ridingBattle.md
+          - 召唤类魔法: rules/ridingBattle.md
+        - 社群:
+          - 集群规模表: rules/ridingBattle.md
+        - 装备:
+          - 武器及其平均性能表: rules/ridingBattle.md
     - 世界观设定:
       - 世界群理论:
         - 世界群的形成: settings/forming.md
