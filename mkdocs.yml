@@ -15,8 +15,7 @@ nav:
       - 游戏数据: 
         - 技能升级:
           - 泛用技能熟练度升级: rules/data/update/skills.md
-          - 武器熟练度升级: rules/ridingBattle.md
-          - 坐骑熟练度升级: rules/ridingBattle.md
+          - 武器熟练度升级: rules/data/update/weapons.md
         - 魔法书:
           - 元素类魔法: rules/data/magic/elemental.md
           - 自然类魔法: rules/data/magic/natural.md
