@@ -16,6 +16,7 @@ nav:
         - 技能升级:
           - 泛用技能熟练度升级: rules/data/update/skills.md
           - 武器熟练度升级: rules/data/update/weapons.md
+          - 通用武器技能: rules/data/update/universal.md
         - 魔法书:
           - 元素类魔法: rules/data/magic/elemental.md
           - 自然类魔法: rules/data/magic/natural.md
