@@ -8,27 +8,32 @@ plugins:
 nav:
     - 导航: index.md
     - 规则:
-      - 规则书: rules/mainRules.md
-      - 扩展规则: 
-        - 子弹时间: rules/bulletTime.md
-        - 骑乘战斗: rules/ridingBattle.md
-      - 游戏数据: 
-        - 技能升级:
-          - 泛用技能熟练度升级: rules/data/update/skills.md
-          - 武器熟练度升级: rules/data/update/weapons.md
-          - 通用武器技能: rules/data/update/universal.md
-          - 战术技能: rules/data/update/tactics.md
-        - 魔法书:
-          - 元素类魔法: rules/data/magic/elemental.md
-          - 自然类魔法: rules/data/magic/natural.md
-          - 炼金类魔法: rules/data/magic/alchemy.md
-          - 召唤类魔法: rules/data/magic/summon.md
-        - 社群:
-          - 集群规模表: rules/data/social/scaleList.md
-          - 汇率: rules/data/social/exchangeRate.md
-        - 装备:
-          - 武器及其平均性能表: rules/data/equipment/weapons.md
-          - 防具及其平均性能表: rules/data/equipment/armor.md
+      - V3.8规则:
+        - 规则书: rules/V3.8rules/mainRules.md
+        - 扩展规则: 
+          - 子弹时间: rules/V3.8rules/bulletTime.md
+          - 骑乘战斗: rules/V3.8rules/ridingBattle.md
+          - 料理规则: rules/V3.8rules/cook.md
+          - 长休规则: rules/V3.8rules/rest.md
+          - 竞速规则: rules/V3.8rules/contest.md
+          - 轻量级副本探索规则: rules/V3.8rules/mapFarm.md
+    - 游戏数据: 
+      - 技能升级:
+        - 泛用技能熟练度升级: rules/data/update/skills.md
+        - 武器熟练度升级: rules/data/update/weapons.md
+        - 通用武器技能: rules/data/update/universal.md
+        - 战术技能: rules/data/update/tactics.md
+      - 魔法书:
+        - 元素类魔法: rules/data/magic/elemental.md
+        - 自然类魔法: rules/data/magic/natural.md
+        - 炼金类魔法: rules/data/magic/alchemy.md
+        - 召唤类魔法: rules/data/magic/summon.md
+      - 社群:
+        - 集群规模表: rules/data/social/scaleList.md
+        - 汇率: rules/data/social/exchangeRate.md
+      - 装备:
+        - 武器及其平均性能表: rules/data/equipment/weapons.md
+        - 防具及其平均性能表: rules/data/equipment/armor.md
     - 世界观设定:
       - 世界群理论:
         - 世界群的形成: settings/forming.md
