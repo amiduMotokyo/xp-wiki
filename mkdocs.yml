@@ -28,6 +28,7 @@ nav:
           - 汇率: rules/data/social/exchangeRate.md
         - 装备:
           - 武器及其平均性能表: rules/data/equipment/weapons.md
+          - 防具及其平均性能表: rules/data/equipment/armor.md
     - 世界观设定:
       - 世界群理论:
         - 世界群的形成: settings/forming.md
