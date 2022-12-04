@@ -8,6 +8,11 @@ plugins:
 nav:
     - 导航: index.md
     - 规则:
+      - V4.x规则:
+        - 序章：简介: rules/V4.x rules/prologue.md
+        - 第一章：属性: rules/V4.x rules/1·attribute.md
+        - 第二章：种族: rules/V4.x rules/2·race.md
+        - 第三章：技能: rules/V4.x rules/3·skills.md
       - V3.8规则:
         - 规则书: rules/V3.8rules/mainRules.md
         - 扩展规则: 
