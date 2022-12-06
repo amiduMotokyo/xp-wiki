@@ -77,10 +77,11 @@
 潜行|60|无
 布置陷阱|60|无
 战术|50|无
+采集|50|无
 
 ### 战技
 
-<a href="../../../../social/monman/hugeHunter" target="_blank">追迹猎手的职业技能</a>：强制驯服、落地翻滚、抱脸虫、气息感知
+<a href="../../../../social/monman/hugeHunter" target="_blank">追迹猎手的职业技能</a>：强制驯服、落地翻滚、气息感知
 
 <a href="../../../../update/universal" target="_blank">通用武器升级技能</a>：物尽其用、效力强化
 

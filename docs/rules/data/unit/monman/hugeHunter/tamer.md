@@ -72,14 +72,14 @@
 驯兽类特殊技艺|70|检定值-5
 见闻|70|检定值-5
 恐吓|70|检定值-5
-搬运|50|无
+采集|70|检定值-5
 侦查|50|无
 
 ### 战技
 
-<a href="../../../../social/monman/hugeHunter" target="_blank">驯兽师的职业技能</a>：强制驯服、落地翻滚、抱脸虫、激活野性
+<a href="../../../../social/monman/hugeHunter" target="_blank">驯兽师的职业技能</a>：强制驯服、落地翻滚、激活野性、动物密友
 
-<a href="../../../../update/skills" target="_blank">泛用技能升级技能</a>：细致入微、见多识广、举重若轻
+<a href="../../../../update/skills" target="_blank">泛用技能升级技能</a>：细致入微、见多识广
 
 ### 特殊战技
 

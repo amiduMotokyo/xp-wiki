@@ -75,10 +75,11 @@
 攀爬|50|无
 跳跃|50|无
 战术|30|无
+采集|30|无
 
 ### 战技
 
-<a href="../../../../social/monman/hugeHunter" target="_blank">巨兽猎手的职业技能</a>：强制驯服、落地翻滚、抱脸虫
+<a href="../../../../social/monman/hugeHunter" target="_blank">巨兽猎手的职业技能</a>：强制驯服、落地翻滚
 
 <a href="../../../../update/weapons" target="_blank">武器升级技能</a>：失衡打击
 
