@@ -20,6 +20,7 @@ nav:
         - 第八章：魔法: rules/V4.x rules/8·magic.md
         - 第九章：角色专属技能: rules/V4.x rules/9·individualSkill.md
         - 第十章：天命: rules/V4.x rules/10·fate.md
+        - 第十一章：资源: rules/V4.x rules/11·resources.md
       - V3.8规则:
         - 规则书: rules/V3.8rules/mainRules.md
         - 扩展规则: 
@@ -54,6 +55,7 @@ nav:
       - 装备:
         - 武器及其平均性能表: rules/data/equipment/weapons.md
         - 防具及其平均性能表: rules/data/equipment/armor.md
+        - 道具列表: rules/data/equipment/item.md
     - 世界观设定:
       - 世界群理论:
         - 世界群的形成: settings/forming.md
