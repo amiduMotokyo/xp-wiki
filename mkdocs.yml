@@ -70,6 +70,16 @@ nav:
             - 鸦天狗: settings/civilization/Tengu/karasu.md
             - 狐天狗: settings/civilization/Tengu/kitsune.md
             - 鲸天狗: settings/civilization/Tengu/gujira.md
+        - 西方大陆:
+          - 人类联合王国国家概况: settings/civilization/Westland/human/summary.md
+          - 木精灵社群国家概况: settings/civilization/Westland/woodElf/summary.md
+          - 沙漠帝国国家概况: settings/civilization/Westland/sandEmpire/summary.md
+          - 蚁族夜镰商会概况: settings/civilization/Westland/NightSickle/NightSickle.md
+          - 种族:
+            - 人类: settings/civilization/Westland/human/human.md
+            - 精灵: settings/civilization/Westland/woodElf/elf.md
+            - 北方沙族: settings/civilization/Westland/sandEmpire/sandMan.md
+            - 蚁族: settings/civilization/Westland/NightSickle/antMan.md
 theme:
   name: material
   features:
