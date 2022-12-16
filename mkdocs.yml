@@ -64,22 +64,28 @@ nav:
         - 中层世界: settings/middle.md
         - 下层世界: settings/downer.md
       - 文明简介:
+        - 西方大陆:
+          - 人类联合王国国家概况: settings/civilization/Westland/human/summary.md
+          - 木精灵社群国家概况: settings/civilization/Westland/woodElf/summary.md
+          - 沙漠帝国国家概况: settings/civilization/Westland/sandEmpire/summary.md
+          - 蚁族夜镰商会概况: settings/civilization/Westland/NightSickle/NightSickle.md
+          - 黎云组织概况: settings/civilization/Westland/DawnCloud/DawnCloud.md
+          - 种族:
+            - 人类: settings/civilization/Westland/human/human.md
+            - 精灵: settings/civilization/Westland/woodElf/elf.md
+            - 北方沙族: settings/civilization/Westland/sandEmpire/sandMan.md
+            - 蚁族: settings/civilization/Westland/NightSickle/antMan.md
         - 天狗国:
           - 天狗国国家概况: settings/civilization/Tengu/summary.md
           - 种族:
             - 鸦天狗: settings/civilization/Tengu/karasu.md
             - 狐天狗: settings/civilization/Tengu/kitsune.md
             - 鲸天狗: settings/civilization/Tengu/gujira.md
-        - 西方大陆:
-          - 人类联合王国国家概况: settings/civilization/Westland/human/summary.md
-          - 木精灵社群国家概况: settings/civilization/Westland/woodElf/summary.md
-          - 沙漠帝国国家概况: settings/civilization/Westland/sandEmpire/summary.md
-          - 蚁族夜镰商会概况: settings/civilization/Westland/NightSickle/NightSickle.md
+        - 魔族:
+          - 魔族国家概况: settings/civilization/Monman/summary.md
           - 种族:
-            - 人类: settings/civilization/Westland/human/human.md
-            - 精灵: settings/civilization/Westland/woodElf/elf.md
-            - 北方沙族: settings/civilization/Westland/sandEmpire/sandMan.md
-            - 蚁族: settings/civilization/Westland/NightSickle/antMan.md
+            - 鬼族: settings/civilization/Monman/demon.md
+        
 theme:
   name: material
   features:
