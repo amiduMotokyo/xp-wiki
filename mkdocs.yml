@@ -91,6 +91,11 @@ nav:
       - 大事年表:
         - 魔族大事年表: settings/chronology/Monman.md
         - 大鸿大事年表（未完）: settings/chronology/GreatHong.md
+      - 重大战役简介:
+        - 贝塞克顿战役: settings/campaign/bicycleton.md
+        - 第二次人界内战（未完）: settings/campaign/secondHumanVsElf.md
+      - 魔法理论:
+        - 魔法百科全书（未完）: settings/magic/magicBook.md
         
 theme:
   name: material
