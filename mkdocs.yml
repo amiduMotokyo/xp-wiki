@@ -64,6 +64,8 @@ nav:
         - 中层世界: settings/middle.md
         - 下层世界: settings/downer.md
       - 文明简介:
+        - 鸿国:
+          - 大鸿国家概况: settings/civilization/GreatHong/GreatHong.md
         - 西方大陆:
           - 人类联合王国国家概况: settings/civilization/Westland/human/summary.md
           - 木精灵社群国家概况: settings/civilization/Westland/woodElf/summary.md
@@ -85,6 +87,7 @@ nav:
           - 魔族国家概况: settings/civilization/Monman/summary.md
           - 种族:
             - 鬼族: settings/civilization/Monman/demon.md
+            - 亡灵生物: settings/civilization/Monman/ghost.md
         
 theme:
   name: material
