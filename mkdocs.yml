@@ -88,6 +88,9 @@ nav:
           - 种族:
             - 鬼族: settings/civilization/Monman/demon.md
             - 亡灵生物: settings/civilization/Monman/ghost.md
+      - 大事年表:
+        - 魔族大事年表: settings/chronology/Monman.md
+        - 大鸿大事年表（未完）: settings/chronology/GreatHong.md
         
 theme:
   name: material
