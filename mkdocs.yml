@@ -21,6 +21,7 @@ nav:
         - 第九章：角色专属技能: rules/V4.x rules/9·individualSkill.md
         - 第十章：天命: rules/V4.x rules/10·fate.md
         - 第十一章：资源: rules/V4.x rules/11·resources.md
+        - 车卡指南: rules/V4.x rules/tutorial.md
       - V3.8规则:
         - 规则书: rules/V3.8rules/mainRules.md
         - 扩展规则: 
@@ -44,6 +45,8 @@ nav:
       - 社群:
         - 集群规模表: rules/data/social/scaleList.md
         - 汇率: rules/data/social/exchangeRate.md
+        - 通用:
+          - 魔法学院: rules/data/social/universal/magicSchool.md
         - 魔族:
           - 巨兽猎手: rules/data/social/monman/hugeHunter.md
       - 单位:
