@@ -50,6 +50,12 @@ nav:
         - 魔族:
           - 巨兽猎手: rules/data/social/monman/hugeHunter.md
       - 单位:
+        - 召唤单位:
+          - 魔像: rules/data/unit/summon/golem.md
+          - 石兽: rules/data/unit/summon/stoneBeast.md
+          - 迷你战车: rules/data/unit/summon/miniChariot.md
+          - 神龛: rules/data/unit/summon/shrine.md
+          - 棋塔: rules/data/unit/summon/chessTower.md
         - 魔族: 
           - 巨兽猎手: 
             - 巨兽猎兵: rules/data/unit/monman/hugeHunter/huntman.md
