@@ -56,6 +56,7 @@ nav:
           - 迷你战车: rules/data/unit/summon/miniChariot.md
           - 神龛: rules/data/unit/summon/shrine.md
           - 棋塔: rules/data/unit/summon/chessTower.md
+          - 巨像: rules/data/unit/summon/titan.md
         - 魔族: 
           - 巨兽猎手: 
             - 巨兽猎兵: rules/data/unit/monman/hugeHunter/huntman.md
