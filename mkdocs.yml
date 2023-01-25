@@ -44,6 +44,7 @@ nav:
         - 召唤类魔法: rules/data/magic/summon.md
         - 信仰类魔法:
           - 天狗国:
+            - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
             - 斗争大神: rules/data/magic/faith/Tengu/tatakaiKami.md
       - 社群:
         - 集群规模表: rules/data/social/scaleList.md
