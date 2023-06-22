@@ -13,22 +13,28 @@ nav:
         - 第一章：属性: rules/V4.x rules/1·attribute.md
         - 第二章：种族: rules/V4.x rules/2·race.md
         - 第三章：技能: rules/V4.x rules/3·skills.md
-        - 第四章：社群: rules/V4.x rules/4·social.md
-        - 第五章：职业: rules/V4.x rules/5·occupation.md
-        - 第六章：随从: rules/V4.x rules/6·entourage.md
-        - 第七章：战斗: rules/V4.x rules/7·battle.md
+        - 第四章：职业: rules/V4.x rules/4·occupation.md
+        - 第五章：社群: rules/V4.x rules/5·social.md
+        - 第六章：战斗: rules/V4.x rules/6·battle.md
+        - 第七章：子弹时间与破绽: rules/V4.x rules/Extra/BulletTime.md
         - 第八章：魔法: rules/V4.x rules/8·magic.md
         - 第九章：角色专属技能: rules/V4.x rules/9·individualSkill.md
         - 第十章：天命: rules/V4.x rules/10·fate.md
         - 第十一章：资源: rules/V4.x rules/11·resources.md
         - 车卡指南: rules/V4.x rules/tutorial.md
+        - 扩展规则: 
+          - 骑乘战斗(4.x): rules/V4.x rules/Extra/Riding.md
+          - 长休规则: rules/V3.8rules/rest.md
+          - 随从: rules/V4.x rules/Extra/Entourage.md
+        - 旧设备份:
+          - 职业设定: rules/V4.x rules/Back/old_occupation.md
+          - 社群设定: rules/V4.x rules/Back/old_social.md
       - V3.8规则:
         - 规则书: rules/V3.8rules/mainRules.md
         - 扩展规则: 
           - 子弹时间: rules/V3.8rules/bulletTime.md
           - 骑乘战斗: rules/V3.8rules/ridingBattle.md
           - 料理规则: rules/V3.8rules/cook.md
-          - 长休规则: rules/V3.8rules/rest.md
           - 竞速规则: rules/V3.8rules/contest.md
           - 轻量级副本探索规则: rules/V3.8rules/mapFarm.md
     - 游戏数据: 
@@ -37,6 +43,8 @@ nav:
         - 武器熟练度升级: rules/data/update/weapons.md
         - 通用武器技能: rules/data/update/universal.md
         - 战术技能: rules/data/update/tactics.md
+        - 驯兽熟练度升级: rules/data/update/mount.md
+        - 通用坐骑技能: rules/data/update/mountUniversal.md
       - 魔法书:
         - 元素类魔法: rules/data/magic/elemental.md
         - 自然类魔法: rules/data/magic/natural.md
@@ -46,15 +54,77 @@ nav:
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
             - 斗争大神: rules/data/magic/faith/Tengu/tatakaiKami.md
-      - 社群:
+            - 锻造大神: rules/data/magic/faith/Tengu/tanzouKami.md
+            - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
+          - 大鸿:
+            - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
+      - 社群与职业:
         - 集群规模表: rules/data/social/scaleList.md
         - 汇率: rules/data/social/exchangeRate.md
-        - 通用:
-          - 魔法学院: rules/data/social/universal/magicSchool.md
+        - 基础职业:
+          - ★武者: rules/data/social/basicJob/Warrior.md
+          - ★哨兵: rules/data/social/basicJob/Sentinel.md
+          - ★卫士: rules/data/social/basicJob/Guard.md
+          - ★旗手: rules/data/social/basicJob/Standard-bearer.md
+          - ☆专家: rules/data/social/basicJob/Specialist.md
+        - 西方大陆:
+          - 封土（世袭领地）:
+            - 社群简介: rules/data/social/universal/feoff/feoff.md
+            - 进阶职业:
+              - ★步兵: rules/data/social/universal/feoff/footman.md
+              - ★扈从: rules/data/social/universal/feoff/squire.md
+              - ★★骑士: rules/data/social/universal/feoff/knight.md
+          - Zwei佣兵团: 
+            - 社群简介: rules/data/social/universal/zwei/zwei.md
+            - 进阶职业:
+              - ★Zwei佣兵: rules/data/social/universal/zwei/zwei-mercenary.md
+              - ★★Zwei重剑士: rules/data/social/universal/zwei/zwei-heavy-swordsman.md
+              - ★★Zwei暗袭者: rules/data/social/universal/zwei/zwei-assassin.md
+              - ★★Zwei近弓手: rules/data/social/universal/zwei/zwei-archer.md
+              - ★★Zwei佣兵队长: rules/data/social/universal/zwei/zwei-commander.md
+          - 魔法学院: 
+            - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
+            - 进阶职业:
+              - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
+              - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
+        - 大鸿:
+          - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
+          - 拜龙密教（待重置）: rules/data/social/GreatHong/BaiLong.md
         - 天狗国:
-          - 桐坂众（火器·桐坂流）: rules/data/social/Tengu/kirisaki_ryu.md
+          - 段位与流派: rules/data/social/Tengu/dan.md
+          - 源流报社:
+            - 社群简介: rules/data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha.md
+            - 进阶职业:
+              - ★编辑: rules/data/social/Tengu/genryu_shinbunsha/editor.md
+              - ★执笔: rules/data/social/Tengu/genryu_shinbunsha/writer.md
+              - ★摄影: rules/data/social/Tengu/genryu_shinbunsha/photographer.md
+              - ★信使: rules/data/social/Tengu/genryu_shinbunsha/messenger.md
+          - 桐坂众:
+            - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
+            - 进阶职业:
+              - ★★散兵: rules/data/social/Tengu/kirisaki_ryu/skirmisher.md
+              - ★★★尖兵: rules/data/social/Tengu/kirisaki_ryu/vanguard.md
+              - ★★狙击手: rules/data/social/Tengu/kirisaki_ryu/sniper.md
+              - ★★★枪眼: rules/data/social/Tengu/kirisaki_ryu/gunEye.md
+              - ★★战勤: rules/data/social/Tengu/kirisaki_ryu/service.md
+              - ★★★司务: rules/data/social/Tengu/kirisaki_ryu/secretary.md
         - 魔族:
-          - 巨兽猎手: rules/data/social/monman/hugeHunter.md
+          - 魔族基础职业:
+            - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
+            - ☆穿界者: rules/data/social/monman/basicJob/interWorlder.md
+          - 明光学联:
+            - 社群简介: rules/data/social/monman/lightUnion/lightUnion.md
+            - 光耀系魔法书: rules/data/social/monman/lightUnion/lightMagic.md
+            - 进阶职业:
+              - ★微光学徒: rules/data/social/monman/lightUnion/lightApprentice.md
+              - ★烁光工匠: rules/data/social/monman/lightUnion/lightArtisan.md
+              - ★★明光学士: rules/data/social/monman/lightUnion/lightBachelor.md
+              - ★★辉光巧匠: rules/data/social/monman/lightUnion/lightCraftsman.md
+              - ★★吸光龙影: rules/data/social/monman/lightUnion/dragonShadow.md
+              - ★★★耀光学者: rules/data/social/monman/lightUnion/lightMaster.md
+              - ★★★流光乱匠: rules/data/social/monman/lightUnion/lightArtist.md
+              - ★★★暮光龙侯: rules/data/social/monman/lightUnion/dragoner.md
+          - 巨兽猎手（待重置）: rules/data/social/monman/hugeHunter.md
       - 单位:
         - 召唤单位:
           - 魔像: rules/data/unit/summon/golem.md
@@ -71,14 +141,21 @@ nav:
           - 低阶骷髅: rules/data/unit/summon/lowSkeleton.md
           - 低阶僵尸: rules/data/unit/summon/lowZombie.md
         - 魔族: 
-          - 巨兽猎手: 
+          - 巨兽猎手（废案备份）: 
             - 巨兽猎兵: rules/data/unit/monman/hugeHunter/huntman.md
             - 追迹猎手: rules/data/unit/monman/hugeHunter/pathHunter.md
             - 驯兽师: rules/data/unit/monman/hugeHunter/tamer.md
+        - 天狗国:
+          - 桐坂众（废案备份）:
+            - 桐坂众散兵: rules/data/unit/tengu/kirisaki/skirmisher.md
+            - 桐坂众狙击手: rules/data/unit/tengu/kirisaki/sniper.md
+            - 桐坂众战勤: rules/data/unit/tengu/kirisaki/service.md
       - 装备:
         - 武器及其平均性能表: rules/data/equipment/weapons.md
         - 防具及其平均性能表: rules/data/equipment/armor.md
         - 道具列表: rules/data/equipment/item.md
+        - 坐骑及其平均性能表: rules/data/equipment/mount.md
+        - 坐骑防具及其平均性能表: rules/data/equipment/mountArmor.md
     - 世界观设定:
       - 世界群理论:
         - 世界群的形成: settings/forming.md
@@ -102,12 +179,14 @@ nav:
             - 蚁族: settings/civilization/Westland/NightSickle/antMan.md
         - 天狗国:
           - 天狗国国家概况: settings/civilization/Tengu/summary.md
+          - 天狗国的姓名构成: settings/civilization/Tengu/name.md
           - 种族:
             - 鸦天狗: settings/civilization/Tengu/karasu.md
             - 狐天狗: settings/civilization/Tengu/kitsune.md
             - 鲸天狗: settings/civilization/Tengu/gujira.md
         - 魔族:
           - 魔族国家概况: settings/civilization/Monman/summary.md
+          - 魂源与魂源网络: settings/civilization/Monman/soulmine.md
           - 种族:
             - 鬼族: settings/civilization/Monman/demon.md
             - 亡灵生物: settings/civilization/Monman/ghost.md

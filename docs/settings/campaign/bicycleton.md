@@ -11,7 +11,17 @@
 
 ### 参战方
 
-王都讨伐军、灭世者军团、圣骑士团援军
+王都讨伐军
+
+[![p96Sixf.md.png](https://s1.ax1x.com/2023/05/12/p96Sixf.md.png)](https://imgse.com/i/p96Sixf)
+
+灭世者军团
+
+[![p96SEqg.md.png](https://s1.ax1x.com/2023/05/12/p96SEqg.md.png)](https://imgse.com/i/p96SEqg)
+
+圣骑士团援军
+
+[![p96SPRP.md.png](https://s1.ax1x.com/2023/05/12/p96SPRP.md.png)](https://imgse.com/i/p96SPRP)
 
 ### 结果
 
