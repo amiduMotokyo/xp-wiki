@@ -26,6 +26,7 @@ nav:
           - 骑乘战斗(4.x): rules/V4.x rules/Extra/Riding.md
           - 长休规则: rules/V3.8rules/rest.md
           - 随从: rules/V4.x rules/Extra/Entourage.md
+          - 重量规则: rules/V4.x rules/Extra/Weight.md
         - 旧设备份:
           - 职业设定: rules/V4.x rules/Back/old_occupation.md
           - 社群设定: rules/V4.x rules/Back/old_social.md
@@ -46,10 +47,17 @@ nav:
         - 驯兽熟练度升级: rules/data/update/mount.md
         - 通用坐骑技能: rules/data/update/mountUniversal.md
       - 魔法书:
-        - 元素类魔法: rules/data/magic/elemental.md
-        - 自然类魔法: rules/data/magic/natural.md
-        - 炼金类魔法: rules/data/magic/alchemy.md
-        - 召唤类魔法: rules/data/magic/summon.md
+        - 元素类魔法:
+          - 火系魔法: rules/data/magic/elemental/fire.md
+          - 水系魔法: rules/data/magic/elemental/water.md
+          - 雷系魔法: rules/data/magic/elemental/thunder.md
+          - 土系魔法: rules/data/magic/elemental/earth.md
+          - 气系魔法: rules/data/magic/elemental/air.md
+        - 自然类魔法:
+          - 丛林系魔法: rules/data/magic/natural/forest.md
+          - 山岳系魔法: rules/data/magic/natural/mountain.md
+          - 川流系魔法: rules/data/magic/natural/river.md
+          - 大地系魔法: rules/data/magic/natural/ground.md
         - 信仰类魔法:
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
@@ -58,6 +66,12 @@ nav:
             - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
           - 大鸿:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
+        - 心灵类魔法: rules/data/magic/mind.md
+        - 3.8规则旧设:
+          - 元素类魔法: rules/data/magic/elemental.md
+          - 自然类魔法: rules/data/magic/natural.md
+          - 炼金类魔法: rules/data/magic/alchemy.md
+          - 召唤类魔法: rules/data/magic/summon.md
       - 社群与职业:
         - 集群规模表: rules/data/social/scaleList.md
         - 汇率: rules/data/social/exchangeRate.md
@@ -89,9 +103,32 @@ nav:
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
         - 大鸿:
           - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
-          - 拜龙密教（待重置）: rules/data/social/GreatHong/BaiLong.md
+          - 相剑道门:
+            - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
+            - 进阶职业: 
+              - ★相剑学徒: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Apprentice.md
+              - ★★相剑师: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Artisan.md
+              - ★★★相剑大师: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Master.md
+          - 拜龙密教: 
+            - 社群简介: rules/data/social/GreatHong/abyssesotericism/abyssesotericism.md
+            - 进阶职业: 
+              - ★虔信徒: rules/data/social/GreatHong/abyssesotericism/devotedcultist.md
+              - ★★狞教士: rules/data/social/GreatHong/abyssesotericism/grimnarchclergy.md
+              - ★★播信师: rules/data/social/GreatHong/abyssesotericism/faithspreader.md
+              - ★★★蚀锋卫: rules/data/social/GreatHong/abyssesotericism/bladecorroder.md
+              - ★★★处刑人: rules/data/social/GreatHong/abyssesotericism/executioner.md
+              - ★★★守尸客: rules/data/social/GreatHong/abyssesotericism/bodykeeper.md
+              - ★★★邪术师: rules/data/social/GreatHong/abyssesotericism/cultwizard.md
+              - ★★★唤龙使: rules/data/social/GreatHong/abyssesotericism/dragonsummoner.md
         - 天狗国:
-          - 段位与流派: rules/data/social/Tengu/dan.md
+          - 士幕府:
+            - 社群简介: rules/data/social/Tengu/bakufu/bakufu.md
+            - 进阶职业:
+              - ★★武士: rules/data/social/Tengu/bakufu/samurai.md
+              - ★★旗本大将: rules/data/social/Tengu/bakufu/hatamoto_taishou.md
+              - ★★旗本马回众: rules/data/social/Tengu/bakufu/hatamoto_umamawarishu.md
+              - ☆☆奉行: rules/data/social/Tengu/bakufu/bugyou.md
+              - ★★★大名: rules/data/social/Tengu/bakufu/daimyou.md          
           - 源流报社:
             - 社群简介: rules/data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha.md
             - 进阶职业:
@@ -99,7 +136,21 @@ nav:
               - ★执笔: rules/data/social/Tengu/genryu_shinbunsha/writer.md
               - ★摄影: rules/data/social/Tengu/genryu_shinbunsha/photographer.md
               - ★信使: rules/data/social/Tengu/genryu_shinbunsha/messenger.md
-          - 桐坂众:
+          - 鳞海戍卫军:
+            - 社群简介: rules/data/social/Tengu/seaDragonGuard/seaDragonGuard.md
+            - 进阶职业:
+              - ★列兵: rules/data/social/Tengu/seaDragonGuard/enlistedpersonnel.md
+              - ★士官: rules/data/social/Tengu/seaDragonGuard/noncommissionedofficer.md
+              - ★★尉官: rules/data/social/Tengu/seaDragonGuard/lieutenant.md
+              - ★★★校官（战斗岗）: rules/data/social/Tengu/seaDragonGuard/battlecadet.md
+              - ★★★校官（研究岗）: rules/data/social/Tengu/seaDragonGuard/r&dcadet.md 
+          - 段位与流派: rules/data/social/Tengu/dan.md
+          - 剑术流派:
+            - 进阶职业:
+              - ☆☆集心流: rules/data/social/Tengu/kenjutsu/shushin_ryu.md
+              - ☆☆缭乱流: rules/data/social/Tengu/kenjutsu/ryouran_ryu.md
+              - ☆☆野兽流: rules/data/social/Tengu/kenjutsu/yaju_ryu.md
+          - 桐坂众（桐坂流）:
             - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
             - 进阶职业:
               - ★★散兵: rules/data/social/Tengu/kirisaki_ryu/skirmisher.md
@@ -192,7 +243,7 @@ nav:
             - 亡灵生物: settings/civilization/Monman/ghost.md
       - 大事年表:
         - 魔族大事年表: settings/chronology/Monman.md
-        - 大鸿大事年表（未完）: settings/chronology/GreatHong.md
+        - 大鸿大事年表: settings/chronology/GreatHong.md
       - 重大战役简介:
         - 贝塞克顿战役: settings/campaign/bicycleton.md
         - 第二次人界内战（未完）: settings/campaign/secondHumanVsElf.md

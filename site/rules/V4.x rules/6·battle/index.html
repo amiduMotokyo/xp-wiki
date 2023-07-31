@@ -1,0 +1,5924 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>第六章：战斗 - XP Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 0 1 .25-.25h5.025a.25.25 0 0 1 .177.073l6.25 6.25a.25.25 0 0 1 0 .354l-5.025 5.025a.25.25 0 0 1-.354 0l-6.25-6.25a.25.25 0 0 1-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.75 1.75 0 0 1 1 7.775zM6 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 0 1 .25-.25h8.5a.25.25 0 0 1 .25.25v7.736a.75.75 0 1 0 1.5 0V1.75A1.75 1.75 0 0 0 11.25 0h-8.5A1.75 1.75 0 0 0 1 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 0 0 0-1.5H2.75a.25.25 0 0 1-.25-.25V1.75zM4.75 4a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5zM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75zm11.774 3.537a.75.75 0 0 0-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 0 0-1.062 1.058l1.943 1.95a.75.75 0 0 0 1.055.008l4.557-4.45z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.5-.25A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.489 4.489 0 0 1-.563-1.191 3.833 3.833 0 0 1-.05-2.063 4.636 4.636 0 0 1-2.025-.293.75.75 0 1 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.748.748 0 0 1 1.06 0 .75.75 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.404 2.404 0 0 1-.507-.441 3.063 3.063 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19a.753.753 0 0 1 .01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768a85.08 85.08 0 0 0-.317-.265c-.814-.68-1.75-1.462-2.692-2.619a3.74 3.74 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353V.75z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 0 1 9 6.25c0 .177-.04.264-.077.318a.956.956 0 0 1-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 0 0-.313.195 2.416 2.416 0 0 0-.692.661.75.75 0 0 0 1.248.832.956.956 0 0 1 .276-.245 6.3 6.3 0 0 1 .26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 0 0 8 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 1 0 1.342.67z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575L6.457 1.047zM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-5.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.404 12.596a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192zM2.344 2.343a8 8 0 1 0 11.313 11.314A8 8 0 0 0 2.343 2.343zM6.03 4.97a.75.75 0 0 0-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 1 0 1.06 1.06L8 9.06l1.97 1.97a.75.75 0 1 0 1.06-1.06L9.06 8l1.97-1.97a.75.75 0 1 0-1.06-1.06L8 6.94 6.03 4.97z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10.561 1.5a.016.016 0 0 0-.01.004L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006a.02.02 0 0 0-.004-.009.02.02 0 0 0-.006-.006L10.56 1.5zM9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.492 3.492 0 0 1 2.441 0l.999-1a.75.75 0 1 1 1.06 1.061l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.013 5.013 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.684 1.684 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06zM6.173 5h3.654A.173.173 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173zM5.25 6.5a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75h-5.5z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 0 1-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 0 1-.633 1.153H3.233a.75.75 0 0 1-.633-1.153z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75zm4 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm0 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zM2.5 7.75a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="XP Wiki" class="md-header__button md-logo" aria-label="XP Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XP Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              第六章：战斗
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      导航
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../prologue/" class="md-tabs__link md-tabs__link--active">
+        规则
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../data/update/skills/" class="md-tabs__link">
+        游戏数据
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../settings/forming/" class="md-tabs__link">
+        世界观设定
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="XP Wiki" class="md-nav__button md-logo" aria-label="XP Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    XP Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        导航
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          规则
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="规则" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          规则
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          V4.x规则
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="V4.x规则" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          V4.x规则
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prologue/" class="md-nav__link">
+        序章：简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1%C2%B7attribute/" class="md-nav__link">
+        第一章：属性
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2%C2%B7race/" class="md-nav__link">
+        第二章：种族
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3%C2%B7skills/" class="md-nav__link">
+        第三章：技能
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4%C2%B7occupation/" class="md-nav__link">
+        第四章：职业
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5%C2%B7social/" class="md-nav__link">
+        第五章：社群
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          第六章：战斗
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        第六章：战斗
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基础属性
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    行动点
+  </a>
+  
+    <nav class="md-nav" aria-label="行动点">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    移动规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    飞行规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    水下行动规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    战斗行动顺序
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    交战状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    长距离武器的范围惩罚
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    部位与防具
+  </a>
+  
+    <nav class="md-nav" aria-label="部位与防具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    防具的属性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    部位判定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    部位致伤
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    武器
+  </a>
+  
+    <nav class="md-nav" aria-label="武器">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    武器的类型与属性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    主副武器切换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    双持武器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    进攻与防守
+  </a>
+  
+    <nav class="md-nav" aria-label="进攻与防守">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    进攻
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    防守
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    伤害计算公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    举例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    远程战斗
+  </a>
+  
+    <nav class="md-nav" aria-label="远程战斗">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    弹药
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    直射、抛射与障碍物
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    近战接触惩罚
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    战技
+  </a>
+  
+    <nav class="md-nav" aria-label="战技">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    普通战技
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    特殊战技
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    朝向
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Extra/BulletTime/" class="md-nav__link">
+        第七章：子弹时间与破绽
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8%C2%B7magic/" class="md-nav__link">
+        第八章：魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9%C2%B7individualSkill/" class="md-nav__link">
+        第九章：角色专属技能
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10%C2%B7fate/" class="md-nav__link">
+        第十章：天命
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11%C2%B7resources/" class="md-nav__link">
+        第十一章：资源
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorial/" class="md-nav__link">
+        车卡指南
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_14" type="checkbox" id="__nav_2_1_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_14">
+          扩展规则
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="扩展规则" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_14">
+          <span class="md-nav__icon md-icon"></span>
+          扩展规则
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Extra/Riding/" class="md-nav__link">
+        骑乘战斗(4.x)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/rest/" class="md-nav__link">
+        长休规则
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Extra/Entourage/" class="md-nav__link">
+        随从
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Extra/Weight/" class="md-nav__link">
+        重量规则
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_15" type="checkbox" id="__nav_2_1_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_15">
+          旧设备份
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="旧设备份" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_15">
+          <span class="md-nav__icon md-icon"></span>
+          旧设备份
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Back/old_occupation/" class="md-nav__link">
+        职业设定
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Back/old_social/" class="md-nav__link">
+        社群设定
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          V3.8规则
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="V3.8规则" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          V3.8规则
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/mainRules/" class="md-nav__link">
+        规则书
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_2" type="checkbox" id="__nav_2_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_2">
+          扩展规则
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="扩展规则" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          扩展规则
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/bulletTime/" class="md-nav__link">
+        子弹时间
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/ridingBattle/" class="md-nav__link">
+        骑乘战斗
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/cook/" class="md-nav__link">
+        料理规则
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/contest/" class="md-nav__link">
+        竞速规则
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../V3.8rules/mapFarm/" class="md-nav__link">
+        轻量级副本探索规则
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          游戏数据
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="游戏数据" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          游戏数据
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          技能升级
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="技能升级" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          技能升级
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/skills/" class="md-nav__link">
+        泛用技能熟练度升级
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/weapons/" class="md-nav__link">
+        武器熟练度升级
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/universal/" class="md-nav__link">
+        通用武器技能
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/tactics/" class="md-nav__link">
+        战术技能
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/mount/" class="md-nav__link">
+        驯兽熟练度升级
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/update/mountUniversal/" class="md-nav__link">
+        通用坐骑技能
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          魔法书
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔法书" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          魔法书
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          元素类魔法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="元素类魔法" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          元素类魔法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/fire/" class="md-nav__link">
+        火系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/water/" class="md-nav__link">
+        水系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/thunder/" class="md-nav__link">
+        雷系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/earth/" class="md-nav__link">
+        土系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/air/" class="md-nav__link">
+        气系魔法
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2">
+          自然类魔法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="自然类魔法" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          自然类魔法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/natural/forest/" class="md-nav__link">
+        丛林系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/natural/mountain/" class="md-nav__link">
+        山岳系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/natural/river/" class="md-nav__link">
+        川流系魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/natural/ground/" class="md-nav__link">
+        大地系魔法
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3" type="checkbox" id="__nav_3_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_3">
+          信仰类魔法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="信仰类魔法" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          信仰类魔法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3_1" type="checkbox" id="__nav_3_2_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_3_1">
+          天狗国
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="天狗国" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          天狗国
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/faith/Tengu/yatagarasuKami/" class="md-nav__link">
+        八咫鸟大神
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/faith/Tengu/tatakaiKami/" class="md-nav__link">
+        斗争大神
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/faith/Tengu/tanzouKami/" class="md-nav__link">
+        锻造大神
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/faith/Tengu/inariKami/" class="md-nav__link">
+        稻荷大神
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3_2" type="checkbox" id="__nav_3_2_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_3_2">
+          大鸿
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="大鸿" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          大鸿
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/faith/GreatHong/JunLi/" class="md-nav__link">
+        大鸿军理
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/mind/" class="md-nav__link">
+        心灵类魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_5" type="checkbox" id="__nav_3_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_5">
+          3.8规则旧设
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3.8规则旧设" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          3.8规则旧设
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/elemental/" class="md-nav__link">
+        元素类魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/natural/" class="md-nav__link">
+        自然类魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/alchemy/" class="md-nav__link">
+        炼金类魔法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/summon/" class="md-nav__link">
+        召唤类魔法
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          社群与职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="社群与职业" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          社群与职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/scaleList/" class="md-nav__link">
+        集群规模表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/exchangeRate/" class="md-nav__link">
+        汇率
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_3" type="checkbox" id="__nav_3_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_3">
+          基础职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="基础职业" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          基础职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/basicJob/Warrior/" class="md-nav__link">
+        ★武者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/basicJob/Sentinel/" class="md-nav__link">
+        ★哨兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/basicJob/Guard/" class="md-nav__link">
+        ★卫士
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/basicJob/Standard-bearer/" class="md-nav__link">
+        ★旗手
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/basicJob/Specialist/" class="md-nav__link">
+        ☆专家
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4" type="checkbox" id="__nav_3_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4">
+          西方大陆
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="西方大陆" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          西方大陆
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_1" type="checkbox" id="__nav_3_3_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_1">
+          封土（世袭领地）
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="封土（世袭领地）" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          封土（世袭领地）
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/feoff/feoff/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_1_2" type="checkbox" id="__nav_3_3_4_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_1_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_4_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/feoff/footman/" class="md-nav__link">
+        ★步兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/feoff/squire/" class="md-nav__link">
+        ★扈从
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/feoff/knight/" class="md-nav__link">
+        ★★骑士
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_2" type="checkbox" id="__nav_3_3_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_2">
+          Zwei佣兵团
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Zwei佣兵团" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Zwei佣兵团
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_2_2" type="checkbox" id="__nav_3_3_4_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_2_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei-mercenary/" class="md-nav__link">
+        ★Zwei佣兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei-heavy-swordsman/" class="md-nav__link">
+        ★★Zwei重剑士
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei-assassin/" class="md-nav__link">
+        ★★Zwei暗袭者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei-archer/" class="md-nav__link">
+        ★★Zwei近弓手
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/zwei/zwei-commander/" class="md-nav__link">
+        ★★Zwei佣兵队长
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_3" type="checkbox" id="__nav_3_3_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_3">
+          魔法学院
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔法学院" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          魔法学院
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/magicSchool/magicSchool/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_4_3_2" type="checkbox" id="__nav_3_3_4_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_4_3_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/magicSchool/apprentice/" class="md-nav__link">
+        ★魔法学徒
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/universal/magicSchool/professor/" class="md-nav__link">
+        ★★★魔法教授
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5" type="checkbox" id="__nav_3_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_5">
+          大鸿
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="大鸿" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          大鸿
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/YuFeng/" class="md-nav__link">
+        玉峰剑派（待重置）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_2" type="checkbox" id="__nav_3_3_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_5_2">
+          相剑道门
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="相剑道门" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          相剑道门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/XiangJian_Sect/XiangJian_Sect/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_2_2" type="checkbox" id="__nav_3_3_5_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_5_2_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_5_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/XiangJian_Sect/XiangJian_Apprentice/" class="md-nav__link">
+        ★相剑学徒
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/XiangJian_Sect/XiangJian_Artisan/" class="md-nav__link">
+        ★★相剑师
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/XiangJian_Sect/XiangJian_Master/" class="md-nav__link">
+        ★★★相剑大师
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_3" type="checkbox" id="__nav_3_3_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_5_3">
+          拜龙密教
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="拜龙密教" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          拜龙密教
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/abyssesotericism/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_3_2" type="checkbox" id="__nav_3_3_5_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_5_3_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_5_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/devotedcultist/" class="md-nav__link">
+        ★虔信徒
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/grimnarchclergy/" class="md-nav__link">
+        ★★狞教士
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/faithspreader/" class="md-nav__link">
+        ★★播信师
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/bladecorroder/" class="md-nav__link">
+        ★★★蚀锋卫
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/executioner/" class="md-nav__link">
+        ★★★处刑人
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/bodykeeper/" class="md-nav__link">
+        ★★★守尸客
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/cultwizard/" class="md-nav__link">
+        ★★★邪术师
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/GreatHong/abyssesotericism/dragonsummoner/" class="md-nav__link">
+        ★★★唤龙使
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6" type="checkbox" id="__nav_3_3_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6">
+          天狗国
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="天狗国" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          天狗国
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_1" type="checkbox" id="__nav_3_3_6_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_1">
+          士幕府
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="士幕府" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          士幕府
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/bakufu/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_1_2" type="checkbox" id="__nav_3_3_6_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_1_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_6_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/samurai/" class="md-nav__link">
+        ★★武士
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/hatamoto_taishou/" class="md-nav__link">
+        ★★旗本大将
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/hatamoto_umamawarishu/" class="md-nav__link">
+        ★★旗本马回众
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/bugyou/" class="md-nav__link">
+        ☆☆奉行
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/bakufu/daimyou/" class="md-nav__link">
+        ★★★大名
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_2" type="checkbox" id="__nav_3_3_6_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_2">
+          源流报社
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="源流报社" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          源流报社
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_2_2" type="checkbox" id="__nav_3_3_6_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_2_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_6_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/genryu_shinbunsha/editor/" class="md-nav__link">
+        ★编辑
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/genryu_shinbunsha/writer/" class="md-nav__link">
+        ★执笔
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/genryu_shinbunsha/photographer/" class="md-nav__link">
+        ★摄影
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/genryu_shinbunsha/messenger/" class="md-nav__link">
+        ★信使
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_3" type="checkbox" id="__nav_3_3_6_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_3">
+          鳞海戍卫军
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="鳞海戍卫军" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          鳞海戍卫军
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/seaDragonGuard/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_3_2" type="checkbox" id="__nav_3_3_6_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_3_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_6_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/enlistedpersonnel/" class="md-nav__link">
+        ★列兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/noncommissionedofficer/" class="md-nav__link">
+        ★士官
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/lieutenant/" class="md-nav__link">
+        ★★尉官
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/battlecadet/" class="md-nav__link">
+        ★★★校官（战斗岗）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/seaDragonGuard/r%26dcadet/" class="md-nav__link">
+        ★★★校官（研究岗）
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/dan/" class="md-nav__link">
+        段位与流派
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_5" type="checkbox" id="__nav_3_3_6_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_5">
+          剑术流派
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="剑术流派" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          剑术流派
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_5_1" type="checkbox" id="__nav_3_3_6_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_5_1">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_6_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kenjutsu/shushin_ryu/" class="md-nav__link">
+        ☆☆集心流
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kenjutsu/ryouran_ryu/" class="md-nav__link">
+        ☆☆缭乱流
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kenjutsu/yaju_ryu/" class="md-nav__link">
+        ☆☆野兽流
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_6" type="checkbox" id="__nav_3_3_6_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_6">
+          桐坂众（桐坂流）
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="桐坂众（桐坂流）" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_6_6">
+          <span class="md-nav__icon md-icon"></span>
+          桐坂众（桐坂流）
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/kirisaki_ryu/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_6_6_2" type="checkbox" id="__nav_3_3_6_6_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_6_6_2">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_6_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/skirmisher/" class="md-nav__link">
+        ★★散兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/vanguard/" class="md-nav__link">
+        ★★★尖兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/sniper/" class="md-nav__link">
+        ★★狙击手
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/gunEye/" class="md-nav__link">
+        ★★★枪眼
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/service/" class="md-nav__link">
+        ★★战勤
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/Tengu/kirisaki_ryu/secretary/" class="md-nav__link">
+        ★★★司务
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_7" type="checkbox" id="__nav_3_3_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_7">
+          魔族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔族" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          魔族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_7_1" type="checkbox" id="__nav_3_3_7_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_7_1">
+          魔族基础职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔族基础职业" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          魔族基础职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/basicJob/citizen/" class="md-nav__link">
+        ☆魔族公民
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/basicJob/interWorlder/" class="md-nav__link">
+        ☆穿界者
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_7_2" type="checkbox" id="__nav_3_3_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_7_2">
+          明光学联
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="明光学联" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_3_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          明光学联
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightUnion/" class="md-nav__link">
+        社群简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightMagic/" class="md-nav__link">
+        光耀系魔法书
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_7_2_3" type="checkbox" id="__nav_3_3_7_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_7_2_3">
+          进阶职业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
+        <label class="md-nav__title" for="__nav_3_3_7_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          进阶职业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightApprentice/" class="md-nav__link">
+        ★微光学徒
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightArtisan/" class="md-nav__link">
+        ★烁光工匠
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightBachelor/" class="md-nav__link">
+        ★★明光学士
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightCraftsman/" class="md-nav__link">
+        ★★辉光巧匠
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/dragonShadow/" class="md-nav__link">
+        ★★吸光龙影
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightMaster/" class="md-nav__link">
+        ★★★耀光学者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/lightArtist/" class="md-nav__link">
+        ★★★流光乱匠
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/lightUnion/dragoner/" class="md-nav__link">
+        ★★★暮光龙侯
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/social/monman/hugeHunter/" class="md-nav__link">
+        巨兽猎手（待重置）
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          单位
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="单位" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          单位
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_1" type="checkbox" id="__nav_3_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_1">
+          召唤单位
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="召唤单位" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          召唤单位
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/golem/" class="md-nav__link">
+        魔像
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/stoneBeast/" class="md-nav__link">
+        石兽
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/miniChariot/" class="md-nav__link">
+        迷你战车
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/shrine/" class="md-nav__link">
+        神龛
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/chessTower/" class="md-nav__link">
+        棋塔
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/titan/" class="md-nav__link">
+        巨像
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/shadowWolf/" class="md-nav__link">
+        影狼
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/cockatrice/" class="md-nav__link">
+        鸡蛇兽
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/battleBoar/" class="md-nav__link">
+        战猪
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/goanna/" class="md-nav__link">
+        巨蜥
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/warBear/" class="md-nav__link">
+        战熊
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/lowSkeleton/" class="md-nav__link">
+        低阶骷髅
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/summon/lowZombie/" class="md-nav__link">
+        低阶僵尸
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_2" type="checkbox" id="__nav_3_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_2">
+          魔族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔族" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          魔族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_2_1" type="checkbox" id="__nav_3_4_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_2_1">
+          巨兽猎手（废案备份）
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="巨兽猎手（废案备份）" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          巨兽猎手（废案备份）
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/monman/hugeHunter/huntman/" class="md-nav__link">
+        巨兽猎兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/monman/hugeHunter/pathHunter/" class="md-nav__link">
+        追迹猎手
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/monman/hugeHunter/tamer/" class="md-nav__link">
+        驯兽师
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_3" type="checkbox" id="__nav_3_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_3">
+          天狗国
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="天狗国" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          天狗国
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_3_1" type="checkbox" id="__nav_3_4_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_3_1">
+          桐坂众（废案备份）
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="桐坂众（废案备份）" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          桐坂众（废案备份）
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/tengu/kirisaki/skirmisher/" class="md-nav__link">
+        桐坂众散兵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/tengu/kirisaki/sniper/" class="md-nav__link">
+        桐坂众狙击手
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/unit/tengu/kirisaki/service/" class="md-nav__link">
+        桐坂众战勤
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5">
+          装备
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="装备" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          装备
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/equipment/weapons/" class="md-nav__link">
+        武器及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/equipment/armor/" class="md-nav__link">
+        防具及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/equipment/item/" class="md-nav__link">
+        道具列表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/equipment/mount/" class="md-nav__link">
+        坐骑及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/equipment/mountArmor/" class="md-nav__link">
+        坐骑防具及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          世界观设定
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="世界观设定" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          世界观设定
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          世界群理论
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="世界群理论" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          世界群理论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/forming/" class="md-nav__link">
+        世界群的形成
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/soul/" class="md-nav__link">
+        灵魂循环机制与智慧生命的形成
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/upper/" class="md-nav__link">
+        上层世界
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/middle/" class="md-nav__link">
+        中层世界
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/downer/" class="md-nav__link">
+        下层世界
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          文明简介
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="文明简介" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          文明简介
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_1" type="checkbox" id="__nav_4_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_1">
+          鸿国
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="鸿国" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          鸿国
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/GreatHong/GreatHong/" class="md-nav__link">
+        大鸿国家概况
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_2" type="checkbox" id="__nav_4_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_2">
+          西方大陆
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="西方大陆" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          西方大陆
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/human/summary/" class="md-nav__link">
+        人类联合王国国家概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/woodElf/summary/" class="md-nav__link">
+        木精灵社群国家概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/sandEmpire/summary/" class="md-nav__link">
+        沙漠帝国国家概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/NightSickle/NightSickle/" class="md-nav__link">
+        蚁族夜镰商会概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/DawnCloud/DawnCloud/" class="md-nav__link">
+        黎云组织概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_2_6" type="checkbox" id="__nav_4_2_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_2_6">
+          种族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="种族" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_2_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          种族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/human/human/" class="md-nav__link">
+        人类
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/woodElf/elf/" class="md-nav__link">
+        精灵
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/sandEmpire/sandMan/" class="md-nav__link">
+        北方沙族
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Westland/NightSickle/antMan/" class="md-nav__link">
+        蚁族
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_3" type="checkbox" id="__nav_4_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_3">
+          天狗国
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="天狗国" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          天狗国
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Tengu/summary/" class="md-nav__link">
+        天狗国国家概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Tengu/name/" class="md-nav__link">
+        天狗国的姓名构成
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_3_3" type="checkbox" id="__nav_4_2_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_3_3">
+          种族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="种族" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          种族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Tengu/karasu/" class="md-nav__link">
+        鸦天狗
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Tengu/kitsune/" class="md-nav__link">
+        狐天狗
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Tengu/gujira/" class="md-nav__link">
+        鲸天狗
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_4" type="checkbox" id="__nav_4_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_4">
+          魔族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔族" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          魔族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Monman/summary/" class="md-nav__link">
+        魔族国家概况
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Monman/soulmine/" class="md-nav__link">
+        魂源与魂源网络
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_4_3" type="checkbox" id="__nav_4_2_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_4_3">
+          种族
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="种族" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_2_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          种族
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Monman/demon/" class="md-nav__link">
+        鬼族
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/civilization/Monman/ghost/" class="md-nav__link">
+        亡灵生物
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          大事年表
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="大事年表" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          大事年表
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/chronology/Monman/" class="md-nav__link">
+        魔族大事年表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/chronology/GreatHong/" class="md-nav__link">
+        大鸿大事年表
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          重大战役简介
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="重大战役简介" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          重大战役简介
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/campaign/bicycleton/" class="md-nav__link">
+        贝塞克顿战役
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/campaign/secondHumanVsElf/" class="md-nav__link">
+        第二次人界内战（未完）
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_5">
+          魔法理论
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="魔法理论" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          魔法理论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../settings/magic/magicBook/" class="md-nav__link">
+        魔法百科全书（未完）
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基础属性
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    行动点
+  </a>
+  
+    <nav class="md-nav" aria-label="行动点">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    移动规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    飞行规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    水下行动规则
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    战斗行动顺序
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    交战状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    长距离武器的范围惩罚
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    部位与防具
+  </a>
+  
+    <nav class="md-nav" aria-label="部位与防具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    防具的属性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    部位判定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    部位致伤
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    武器
+  </a>
+  
+    <nav class="md-nav" aria-label="武器">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    武器的类型与属性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    主副武器切换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    双持武器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    进攻与防守
+  </a>
+  
+    <nav class="md-nav" aria-label="进攻与防守">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    进攻
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    防守
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    伤害计算公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    举例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    远程战斗
+  </a>
+  
+    <nav class="md-nav" aria-label="远程战斗">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    弹药
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    直射、抛射与障碍物
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    近战接触惩罚
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    战技
+  </a>
+  
+    <nav class="md-nav" aria-label="战技">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    普通战技
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    特殊战技
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    朝向
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">第六章：战斗</h1>
+<h2 id="_2">基础属性</h2>
+<div class="admonition success">
+<p class="admonition-title">体力（HP）与精神力（SP）</p>
+<p>你的体质属性决定了你的体力（HP）上限，你的魔力属性决定了你的精神力（SP）上限，属性的值是多少就是多少。</p>
+</div>
+<p>HP、SP均可为负数。HP&lt;=0则陷入“濒死”状态；SP&lt;=0在某些场所会有特殊处理。</p>
+<div class="admonition question">
+<p class="admonition-title">HP归零了怎么办</p>
+<p>如果对手没打算下死手，且你的HP并没有<code>低于你体质负值的一半</code>，你只是陷入濒死状态与倒地状态，HP上限固定到0，等人来营救即可。要注意的是，此时你会失去你的行动轮：同一回合内到你的行动轮，若你濒死，会延后行动轮，如果这一回合结束时你仍然没有解除濒死状态，那你就会丢失你这一回合的行动轮。</p>
+<p>如果对手下了死手，或者你的HP<code>低于你体质负值的一半</code>，那么就会在濒死和倒地的基础上，陷入“致命伤”状态：每回合（10秒）你需要过一个“抵抗”技能的检定，如果失败，HP再-5，直到你的HP<code>低于你体质负值</code>时，你正式死亡。你的灵魂会从肉体中飞出，种族转变为“幽灵”，如果在场没有巫妖指引，则默认前往魔界。（如果本身就在魔界则会不受控制四散而逃）</p>
+<p>如何在上述状态下自救，并恢复到继续战斗的状态？第一步，你需要把你的HP修正到0点，例如通过喂药等手段，但此时的HP的上限是0，不会超过0。第二步，使用能够解除“濒死”与“致命伤”状态的药品或能力，这么做会把你的HP固定到1点，此时你就能恢复意识，拥有自己的行动轮了。第三步，到你的行动轮时，消耗2行动点解除倒地状态，然后是回血还是进攻就随你的便了。</p>
+</div>
+<h2 id="_3">行动点</h2>
+<p>战斗中，你必须依靠消耗行动点进行行动。</p>
+<div class="admonition success">
+<p class="admonition-title">行动点（AP）</p>
+<p>每位角色的基础行动点有6点，除此以外该角色还有非基础行动点，包括敏捷/10（向下取整）点，以及若干额外行动点（默认为0）。三者相加，便是该角色的全额行动点。</p>
+</div>
+<p>你的回合中，如果有剩余的非基础行动点没有用完，则可以保存并累加到下一回合，或是在敌方回合使用某些被动技能，但这种保存只能持续一回合。如果有剩余基础行动点没有用完，则会直接消失。</p>
+<h3 id="_4">移动规则</h3>
+<p>每移动一格需要消耗1点行动点，斜走需要消耗1.5点。（计算攻击和施法距离的时候不算斜向）</p>
+<p>通常情况下，除移动外的其他行动都需要消耗2点行动点。一些特殊的技能或魔法甚至需要消耗更多，当然也有行动只需要消耗1点行动点的情况，这些特殊情况会在技能简介里明确列出。</p>
+<h3 id="_5">飞行规则</h3>
+<p>允许飞行的角色可以飞到空中进行作战。</p>
+<p>飞行的过程中，每纵向向上移动1格（1米），消耗1.0倍行动点；每纵向向下，或横向移动1格，消耗0.5倍行动点。</p>
+<p>如果你想在空中结束你的回合，你必须花费2点行动点来维持你身体的平衡，否则你只能找个地方降落。如果你在空中花光了你的所有行动点，那么虽然你仍然可以停留在空中，但这一回合你视为时刻露出一次<a href="../Extra/BulletTime" target="_blank">破绽</a>，敌人有各种办法能轻易将你击落。</p>
+<h3 id="_6">水下行动规则</h3>
+<p>通常情况下，角色在进行水下行动时，所有行动消耗行动点翻倍。且每回合要过一次“水性”（与体质挂钩）（不消耗行动点数），如果过了则无事发生，如果没过，则叠加一层“溺水”状态，每一层“溺水”状态下每回合HP-5。该角色可以返回水平面以上呼吸，来清空所有“溺水”状态层数。允许水下行动的角色则没有这些惩罚，和陆上规则相同。</p>
+<h3 id="_7">战斗行动顺序</h3>
+<p>行动顺序由在场所有角色的敏捷属性排序决定。</p>
+<h3 id="_8">交战状态</h3>
+<p>当角色进入敌方角色的近战武器范围时，不管有没有刀锋相向，都会进入“交战”状态。此时如果角色在敌方角色的近战武器范围内移动，或是离开这个范围，都视为想要脱离“交战”状态。这种情况下，这名角色会露出一次<a href="../Extra/BulletTime" target="_blank">破绽</a>。此时如果敌方抓住破绽进行攻击，就与DND规则中所描述的【借机攻击】类似。特别情况下，进攻方使用特殊能力强制让防守方离开了进攻方的近战武器范围，此时防守方不会露出破绽。</p>
+<h3 id="_9">长距离武器的范围惩罚</h3>
+<p>由此可见，长距离武器对战短距离武器时有一定的优势。然而，当短距离武器单刀入枪后，长距离武器就会处于劣势了。若是一个长距离近战武器的攻击范围大于等于3，那么对付处于攻击范围-2内的敌人时，进攻检定阈值就会减半。例如，使用攻击范围为3的长枪对战处于1格范围内的敌人时，长枪就难以发挥全部的作用了。</p>
+<h2 id="_10">部位与防具</h2>
+<h3 id="_11">防具的属性</h3>
+<p>你的防御力是分散在你的各处部位的。不同的防具会在不同的部位提供不同的护甲值、减伤以及额外生命。这些防具属性会为你有效地减小伤害。（有些防具还能提供特殊效果加成）</p>
+<ul>
+<li>护甲值：等值地减轻伤害值</li>
+<li>减伤：按百分比减轻伤害值</li>
+<li>额外生命：被减伤无视掉的那些伤害值会扣除在防具的额外生命上。额外生命归零，这个防具的减伤会失效，护甲值减半。</li>
+</ul>
+<p><a href="../../data/equipment/armor" target="_blank">防具及其平均性能表</a>中列出了1级防具的平均性能，可供参考。</p>
+<p>不过，并不是所有防具都能轻易穿上的，每种防具都有一个力量阈值，只有你的力量超过了这个阈值，才能穿上这件防具。</p>
+<h3 id="_12">部位判定</h3>
+<p>那么如何判定攻击到哪个部位呢？只要将造成攻击成功的那次检定的数值，十位与个位颠倒，就是相应的部位了（如上图方框上方的数值范围所示）。</p>
+<table>
+<thead>
+<tr>
+<th align="center">骰点逆转后的值</th>
+<th align="center">对应部位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">01~09</td>
+<td align="center">头部</td>
+</tr>
+<tr>
+<td align="center">10~24</td>
+<td align="center">左手（或副手）</td>
+</tr>
+<tr>
+<td align="center">25~44</td>
+<td align="center">右手（或主手）</td>
+</tr>
+<tr>
+<td align="center">45~79</td>
+<td align="center">躯干</td>
+</tr>
+<tr>
+<td align="center">80~89</td>
+<td align="center">左脚</td>
+</tr>
+<tr>
+<td align="center">90~00</td>
+<td align="center">右脚</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_13">部位致伤</h3>
+<p>对于任何一个部位，如果单次受到超过总体力值一半的伤害，且对方下了死手，则可能会致伤。各部位致伤效果如下：</p>
+<ul>
+<li>头部：
+HP直接再扣除体力值的一半（爆头），就算被治疗HP归正也无法继续战斗。需要之后前往医疗部门配合医生的医术才能恢复状态。</li>
+<li>左右手：
+断臂，若是惯用手断臂，则之后所有要动手的技能都要获得一枚惩罚骰。如果是非惯用手断臂，之后只有双手武器使用，或是需要双手操作的技能才要获得一枚惩罚骰。如果两只手都断臂，则无法使用任何动手的技能。可以持有断臂前往医疗部门，配合医生的医术来接续断臂。</li>
+<li>躯干：
+进入“重伤”状态，所有检定要获得一枚惩罚骰。需要之后前往医疗部门配合医生的医术才能恢复状态。</li>
+<li>左右腿：
+断肢，断一条腿的情况下，移动力减半，敏捷相关检定获得一枚惩罚骰。双腿全断，无法移动，无法使用与敏捷相关的技能。可以持有断肢前往医疗部门，配合医生的医术来接续断肢。</li>
+</ul>
+<h2 id="_14">武器</h2>
+<h3 id="_15">武器的类型与属性</h3>
+<p><a href="../../data/equipment/weapons" target="_blank">武器种类及其平均性能表</a>中列出了所有类型的武器及其属性，按照其字面意思理解即可。</p>
+<h3 id="_16">主副武器切换</h3>
+<p>武器分为主武器和副武器。主武器就是你现在拿在手上的武器，副武器就是放在便利的地方可以随时拿出来切换的武器。</p>
+<p>注意：每人只能携带一把副武器，若要更换背包里的其他武器，相当于使用一次物品，需要露出一个<a href="../Extra/BulletTime" target="_blank">破绽</a>。</p>
+<div class="admonition success">
+<p class="admonition-title">武器切换规则</p>
+<p>战斗外，你无需指定哪一把武器是主武器。进入战斗后，你第一个使用的武器自动就是你的主武器。</p>
+<p>此后的战斗中，切换主副武器需要消耗2点行动点。这一过程可以分解成：1、收起主武器（1行动点）2、拔出副武器（1行动点）。</p>
+<p>收起武器后，你进入“收刀状态”，相当于你在战斗外不持用武器的状态。此状态下，你视为徒手攻击，武器范围为1。</p>
+<p>对于那些“切换武器不消耗行动点”的能力，意味着收拔武器都不需要消耗行动点。</p>
+</div>
+<p>并不是所有武器都能轻易使用的，每种武器都有一个力量阈值，只有你的力量超过了这个阈值，才能使用这件武器。</p>
+<h3 id="_17">双持武器</h3>
+<p>任何人都可以尝试左右手各持一把单手武器（即主副武器）发起进攻，在一次攻击机会中分别用2种武器造成伤害。为了这么做，你需要同时拔出主副武器，在未持用武器的状态下需要消耗2行动点。同样的，收起两把武器，进入收刀状态，也需要消耗2行动点。如果你只消耗1行动点收起一把武器，那么另一把武器将会自动作为你的主武器。</p>
+<p>然而对于技术不纯熟的角色来说，这种进攻会受到非常严重的惩罚：</p>
+<div class="admonition failure">
+<p class="admonition-title">双持武器的进攻惩罚</p>
+<p>主、副武器的武器威力减半，副武器的进攻阈值减半。</p>
+</div>
+<p>角色可以通过学习特定的战技来抵消这些惩罚。</p>
+<h2 id="_18">进攻与防守</h2>
+<h3 id="_19">进攻</h3>
+<p>一般来说，有2种攻击手段：</p>
+<ul>
+<li>盲斗：不指定目标部位攻击，挂钩属性取决于武器，遵循上述部位规则，消耗2点行动点</li>
+<li>瞄准：指定目标部位攻击，挂钩属性取决于武器，不遵循上述部位规则，消耗3点行动点</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">注意</p>
+<p>上面两种攻击手段都可以提升武器类型熟练度。</p>
+</div>
+<p>要注意的是，一回合内，角色的连续进攻会降低其进攻的阈值，这种现象被称为进攻阈值衰减。阈值衰减的大小与角色力量与武器力量阈值的差值有关，越是轻便的武器，进攻阈值的衰减速度就越小，角色就能用它们在一回合内发起更多次有效的进攻。</p>
+<div class="admonition success">
+<p class="admonition-title">进攻阈值衰减公式</p>
+<p>衰减速度=20/144*[(力量-武器力量阈值)/5-12]<sup>2</sup>+10（向下取整）</p>
+<p>到每个角色的行动轮时各自的进攻衰减刷新，角色每进攻一次，进攻阈值（所有武器的）就会减去衰减速度。若是双持进攻，主副武器的2次检定算作同一次进攻，各自计算各自的衰减。</p>
+<p>特别地，使用特殊战技和魔法不会算上阈值衰减。</p>
+</div>
+<p>这令人两眼一黑的公式显然不是给人算的，请放心交给excel表格来解决。</p>
+<p>下表中列出了每5点差值所带来的进攻阈值衰减变化以供参考：</p>
+<table>
+<thead>
+<tr>
+<th align="center">差值</th>
+<th align="center">衰减速度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0</td>
+<td align="center">30</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">26</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">23</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">21</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">18</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">16</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td align="center">13</td>
+</tr>
+<tr>
+<td align="center">40</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="center">45</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">55</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td align="center">10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_20">防守</h3>
+<p>一般来说，有3种防守手段：</p>
+<ul>
+<li>防御：与力量挂钩的对抗手段，但有的攻击无法被防御，成功时只会受到25％伤害，失败时会受到75％伤害，不消耗行动点</li>
+<li>闪避：与敏捷挂钩的对抗手段，但有的攻击无法被闪避，成功时闪避全额伤害，失败时直接扣HP，不消耗行动点</li>
+<li>拼刀：近战限定，用两种攻击手段来对抗，失败的一方扣HP，每一轮拼刀需要消耗双方的行动点，但消耗量-1（最开始进攻方消耗的行动点也会-1）。双方行动点同时耗光，则自动结束拼刀。一开始由进攻方占据主动权，没有占据主动权的一方必须用拼刀来对抗，直到行动点耗尽才可用其他两种防守手段来结束这场拼刀。占据主动权的进攻方行动点耗光后将主动权交给防守方，也可以主动交付。取得主动权的防守方可以选择继续和进攻方拼刀直到行动点耗尽，也可以选择主动放弃主动权来结束这场拼刀。</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">注意</p>
+<p>上面前2种防守手段都属于泛用技能，也就是说，都是有熟练度，可以练级的。拼刀练的是武器熟练度，而且只能由防守方在攻击范围允许的情况下发起拼刀</p>
+<p>你同一时间只能和1个目标进行拼刀，如果拼刀过程中被第三者攻击，你只能选择闪避或防御来应对</p>
+</div>
+<p>与进攻阈值衰减类似，一回合内，角色受到攻击会降低其防守的阈值，这种现象被称为防守阈值衰减。阈值衰减的大小与角色力量与防具力量阈值平均值的差值有关，穿戴越是轻便的防具，防守阈值的衰减速度就越小，角色就在一回合内有效地承受更多伤害。</p>
+<div class="admonition success">
+<p class="admonition-title">防守阈值衰减公式</p>
+<p>衰减速度=15/144*[(力量-防具力量阈值均值)/5-12]<sup>2</sup>+5（向下取整）</p>
+<p>到每个角色的行动轮时各自的防守衰减刷新，角色每防守一次，防守检定（包括防御与闪避）阈值就会减去衰减速度。</p>
+<p>特别地，使用拼刀用的是进攻阈值衰减规则，而且拼刀时双方的进攻阈值衰减速度均减半。</p>
+<p>与进攻阈值衰减不同的是，防守阈值衰减不会把防守阈值扣到太低，最低衰减到<code>防守手段挂钩属性的一半</code>就不会再继续衰减了。</p>
+</div>
+<p>这令人两眼一黑的公式显然不是给人算的，请放心交给excel表格来解决。</p>
+<p>下表中列出了每5点差值所带来的防守阈值衰减变化以供参考：</p>
+<table>
+<thead>
+<tr>
+<th align="center">差值</th>
+<th align="center">衰减速度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">17</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">13</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td align="center">7</td>
+</tr>
+<tr>
+<td align="center">40</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="center">45</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">55</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td align="center">5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_21">伤害计算公式</h3>
+<div class="admonition success">
+<p class="admonition-title">伤害计算公式</p>
+<p>最终伤害=(武器基础威力+（攻击方检定差值-防守方检定差值）\10-部位护甲值)*(1-部位减伤值）+其他角色附加项</p>
+<p>拼刀伤害，则要求成功的一方在上述基础上减去对方的武器基础威力的一半（向下取整）。</p>
+<p>若某一方大成功或对方大失败，则造成暴击，最终伤害*1.5倍。</p>
+</div>
+<h3 id="_22">举例</h3>
+<div class="admonition example">
+<p class="admonition-title">举例：普通战斗</p>
+<p>骨剑一言不合与穿界门看守骨灰大打出手。</p>
+<p>骨剑一共<code>9</code>点行动点，骨剑先向骨灰方向移动<code>6</code>格，消耗剩余<code>3</code>点行动点对它使用了瞄准攻击，他瞄准了骨灰的头部。</p>
+<p>骨剑的力量是<code>54</code>，剑的熟练度（与力量挂钩）为<code>28</code>级，但是他投出了<code>93</code>点，差值为<code>（54+28）-93=-11</code>。</p>
+<p>骨灰使用闪避来对抗。骨灰的敏捷是<code>38</code>，闪避熟练度等级是<code>19</code>，他投出了<code>23</code>，差值为<code>（38+19）-23=34</code>成功闪避了骨剑的攻击。</p>
+<p>接着，骨灰远离骨剑<code>6</code>格，拉开了距离，使用了武器威力为<code>20</code>的RPG反坦克式火箭炮（攻击范围<code>8</code>），消耗<code>2</code>点行动点进行进行盲斗攻击。</p>
+<p>骨灰的智力是<code>38</code>，火箭炮熟练度（与智力挂钩）等级是<code>30</code>，他投出了<code>8</code>点！差值是<code>（38+30）-8=60</code>。</p>
+<p>骨剑使用防御来对抗，骨剑的力量是<code>54</code>，防御熟练度为<code>27</code>级，他投出了<code>85</code>，差值是<code>-4</code>，他并没能防住这次攻击！将骨灰投出的<code>08</code>反转，得到<code>80</code>，查阅部位列表，得知骨灰打中的是骨剑的<code>左脚</code>！</p>
+<p>好在骨剑的左脚穿了制式长靴，为他提供了<code>3</code>点护甲值,<code>20％</code>的减伤以及<code>5</code>点额外生命。于是最终伤害=<code>(20+【60-（-4）】\10-3)*0.8=18</code>点！由于减伤，<code>5</code>点伤害由制式长靴承担，额外生命<code>-5</code>，归零，制式长靴损坏，减伤失效，护甲值降低为<code>1</code>点。由于骨剑选择了防御的防守手段，且防守失败，所以<code>18</code>点中有<code>75％</code>的伤害，也就是<code>14</code>点伤害打在了骨剑的HP上！</p>
+<p>另外，骨灰剩余了<code>1</code>点额外的行动点，将其保存了下来，供下回合使用。</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">举例：拼刀（例子中忽视了防具减伤效果与阈值衰减）</p>
+<p>骨剑和阿尔西斯展开了宿命的对决。</p>
+<p>两人本回合内剩余行动点均只剩<code>3</code>点。两人展开了一对一的拼刀，并由骨剑发起先攻，占据主动。</p>
+<p>阿尔西斯使用武器威力为<code>15</code>的密斯利尔剑展开盲斗攻击，他的力量为<code>48</code>，剑的熟练度等级为<code>30</code>，他投出了<code>48</code>点，差值为<code>30</code>。</p>
+<p>骨剑使用武器威力为<code>12</code>的骑士长剑用近身盲斗来对抗，他的力量为<code>54</code>，剑的熟练度等级为<code>30</code>，他投出了<code>44</code>点，差值为<code>40</code>，刀光剑影之下，骨剑略处上风！</p>
+<p>将骨剑的<code>44</code>反转，得知骨剑砍中了阿尔西斯的右手！好在阿尔西斯的右手绑有王国制式护臂，为他提供了<code>2</code>点的护甲值，于是伤害=<code>12+（40-30）\10-2-15\2=4</code>点，全部扣在了阿尔西斯的HP上！</p>
+<p>双方行动点均<code>-1</code>。</p>
+<p>第二轮开始，骨剑投出<code>50</code>，差值为<code>34</code>，阿尔西斯投出<code>23</code>，差值为<code>55</code>，阿尔西斯略处上风。</p>
+<p>将阿尔西斯投出的<code>23</code>反转，得知阿尔西斯也攻击了骨剑的右手，好在骨剑右手绑有魔族护卫制式护臂，为他提供了<code>3</code>点护甲值，于是伤害=<code>15+（55-34）\10-3-12\2=8</code>点，全部扣在了骨剑的HP上！</p>
+<p>两人行动点均<code>-1</code>。</p>
+<p>第三轮开始，骨剑感觉形势不妙，放弃主动权，切换防守方式为防御，阿尔西斯投出了<code>56</code>，差值为<code>22</code>，骨剑的防御熟练度等级为<code>30</code>，他投出了<code>67</code>，差值为<code>11</code>，他没能防住这一击。</p>
+<p>将阿尔西斯投出的<code>56</code>反转，得知他打中了骨剑的躯干，好在骨剑穿有魔族护卫制式盔甲，为他提供了<code>5</code>点护甲值，于是伤害=<code>15+（22-11）\10-5=11</code>点，其中75％的·伤害，也就是<code>8</code>点扣在了骨剑的HP上！</p>
+<p>不过，由于骨剑转换了不消耗行动点的防守方式，故相比阿尔西斯，骨剑多保留了<code>1</code>点行动点以备后用。</p>
+</div>
+<h2 id="_23">远程战斗</h2>
+<h3 id="_24">弹药</h3>
+<p>一般来说，使用远程武器进攻都需要消耗弹药，除了使用石头作为弹药的发射器。</p>
+<p>所有武器初始都会给出一些默认的弹药，这些弹药不会有任何增益或惩罚效果。</p>
+<p>特别地，如果你在冒险中获得了一些特殊的强力弹药，那么这些弹药会带来什么好处会在物品简介里详细说明。请在射击前声明你要使用这些特殊弹药。</p>
+<p>另外，默认情况下，命中目标的弹药无法进行回收；没有命中目标的弹药（特指对方对抗失败），可以在战后进行采集（特殊技艺）检定，如果检定成功就能进行回收。</p>
+<h3 id="_25">直射、抛射与障碍物</h3>
+<p>一般来说，远程攻击在射程允许的情况下，有2种攻击模式：</p>
+<ul>
+<li>直射：消耗1.0倍进攻行动点，目标进行闪避对抗时对抗阈值减半。无法对中间有任何障碍物的目标使用。</li>
+<li>抛射：消耗1.5倍进攻行动点，无法对躲在超过身高高度掩体后的目标使用。</li>
+</ul>
+<p>在战斗中经常会遇到友方角色挡在弹道中间的情况。若是射手和友方角色相邻，则不算遮挡；若射手和友方角色不相邻，那么要么使用抛射，要么使用直射的情况下，让中间那名队友过个闪避，若闪避没过，则中间那名队友受到来自射手的全额伤害。</p>
+<h3 id="_26">近战接触惩罚</h3>
+<p>当射手处于敌方角色的近战射程内时，则会受到近战接触惩罚，此时进行射击的检定阈值要减半。</p>
+<h2 id="_27">战技</h2>
+<p>角色经过成长或是在社群中任职，可以获得一些有独特模式的个人能力，可以在战斗中为其提供各种各样的好处。</p>
+<h3 id="_28">普通战技</h3>
+<p>普通战技通常是那些被动能力，或是消耗一定行动点和SP就能直接生效的能力。</p>
+<h3 id="_29">特殊战技</h3>
+<p>特殊战技通常是那些需要主动使用，且需要根据检定结果生效的能力。</p>
+<p>特殊战技拥有独立的熟练度，随着熟练度等级提升，特殊战技的效果也会有所增幅，等级阀值一般来说是10级、20级和30级。如果是进攻型特殊战技，检定时直接使用对抗检定，不提升武器熟练度，而是提升特殊战技的熟练度；如果是功能型特殊战技，则使用普通检定，成功则生效，不成功则不生效。</p>
+<p>每种特殊战技每回合只能使用一次，但所有特殊战技都不会应用进攻阈值衰减或防守阈值衰减。根据战斗的情况合理规划使用特殊战技的时机，将会大幅度降低战斗的难度。</p>
+<div class="admonition info">
+<p class="admonition-title">注意</p>
+<p>防守方在面临敌方进攻型特殊战技时，默认无法进行拼刀，部分特殊的除外。</p>
+<p>对于有些既有伤害，又有附加异常状态的进攻行为，你可以选择放弃进攻带来的伤害，来转入另一种判定是否附加异常状态的方式：用你的进攻检定（或者特殊战技检定）对抗对方的抵抗检定，若成功，则附加异常状态。</p>
+</div>
+<h2 id="_30">朝向</h2>
+<p>有一些技能（尤其是战术技能）需要根据角色的朝向来发挥作用。规定朝向机制如下：</p>
+<ul>
+<li>朝向分为4个方向：东南西北</li>
+<li>战斗开始时，可以指定你角色的初始朝向</li>
+<li>你的角色行动轮中，你的角色进行指向性行动时（例如移动、进攻），会自动变换到指向目标的朝向</li>
+<li>你的角色行动轮结束时，可以指定你角色的朝向</li>
+<li>你的角色行动轮外，被攻击时，如果你选择闪避或防御等消极防守手段，不会改变朝向</li>
+<li>你的角色行动轮外，被攻击时，如果你能够并选择了拼刀，则在第一轮拼刀结束后，自动变换到指向目标的朝向</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../5%C2%B7social/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 第五章：社群" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              第五章：社群
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Extra/BulletTime/" class="md-footer__link md-footer__link--next" aria-label="Next: 第七章：子弹时间与破绽" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              第七章：子弹时间与破绽
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

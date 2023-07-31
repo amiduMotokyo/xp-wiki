@@ -9,6 +9,7 @@
 * <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级达到3级
 * <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业中“武具精通”能力选择了“火器”类型
 * <a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>职业等级达到3级
+* 流派能力适用范围：火器
 
 ## 关键属性
 

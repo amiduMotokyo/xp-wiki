@@ -9,7 +9,7 @@
 ## 必要条件
 
 * 信仰天教
-* <a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级达到3级
+* 拥有<a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级
 
 ## 关键属性
 

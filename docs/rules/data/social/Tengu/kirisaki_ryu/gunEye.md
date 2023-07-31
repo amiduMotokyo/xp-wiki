@@ -10,6 +10,7 @@
 * <a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>职业等级达到5级
 * <a href="../sniper" target="_blank">狙击手</a>职业等级达到5级
 * “火器”技能熟练度达到20以上
+* 流派能力适用范围：火器
 
 ## 关键属性
 
