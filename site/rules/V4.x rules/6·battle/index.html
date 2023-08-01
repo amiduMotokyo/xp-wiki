@@ -1555,12 +1555,59 @@
       
       
         <label class="md-nav__link" for="__nav_3_2_3">
+          炼金类魔法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="炼金类魔法" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          炼金类魔法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/magic/alchemy/metallurgy/" class="md-nav__link">
+        冶金系魔法
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4" type="checkbox" id="__nav_3_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_4">
           信仰类魔法
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="信仰类魔法" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_2_3">
+        <label class="md-nav__title" for="__nav_3_2_4">
           <span class="md-nav__icon md-icon"></span>
           信仰类魔法
         </label>
@@ -1575,18 +1622,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3_1" type="checkbox" id="__nav_3_2_3_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4_1" type="checkbox" id="__nav_3_2_4_1" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_2_3_1">
+        <label class="md-nav__link" for="__nav_3_2_4_1">
           天狗国
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="天狗国" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_2_3_1">
+        <label class="md-nav__title" for="__nav_3_2_4_1">
           <span class="md-nav__icon md-icon"></span>
           天狗国
         </label>
@@ -1664,18 +1711,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3_2" type="checkbox" id="__nav_3_2_3_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4_2" type="checkbox" id="__nav_3_2_4_2" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_2_3_2">
+        <label class="md-nav__link" for="__nav_3_2_4_2">
           大鸿
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="大鸿" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_2_3_2">
+        <label class="md-nav__title" for="__nav_3_2_4_2">
           <span class="md-nav__icon md-icon"></span>
           大鸿
         </label>
@@ -1732,18 +1779,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_5" type="checkbox" id="__nav_3_2_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_6" type="checkbox" id="__nav_3_2_6" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_2_5">
+        <label class="md-nav__link" for="__nav_3_2_6">
           3.8规则旧设
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="3.8规则旧设" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_2_5">
+        <label class="md-nav__title" for="__nav_3_2_6">
           <span class="md-nav__icon md-icon"></span>
           3.8规则旧设
         </label>
@@ -5645,7 +5692,7 @@ HP直接再扣除体力值的一半（爆头），就算被治疗HP归正也无�
 <div class="admonition success">
 <p class="admonition-title">进攻阈值衰减公式</p>
 <p>衰减速度=20/144*[(力量-武器力量阈值)/5-12]<sup>2</sup>+10（向下取整）</p>
-<p>到每个角色的行动轮时各自的进攻衰减刷新，角色每进攻一次，进攻阈值（所有武器的）就会减去衰减速度。若是双持进攻，主副武器的2次检定算作同一次进攻，各自计算各自的衰减。</p>
+<p>到每个角色的行动轮时各自的进攻衰减刷新，角色每进攻一次，进攻阈值就会减去衰减速度。若是双持进攻，主副武器的2次检定算作同一次进攻，各自计算各自的衰减。不同武器的衰减独立计算，不共享次数。</p>
 <p>特别地，使用特殊战技和魔法不会算上阈值衰减。</p>
 </div>
 <p>这令人两眼一黑的公式显然不是给人算的，请放心交给excel表格来解决。</p>
@@ -5719,6 +5766,7 @@ HP直接再扣除体力值的一半（爆头），就算被治疗HP归正也无�
 <li>闪避：与敏捷挂钩的对抗手段，但有的攻击无法被闪避，成功时闪避全额伤害，失败时直接扣HP，不消耗行动点</li>
 <li>拼刀：近战限定，用两种攻击手段来对抗，失败的一方扣HP，每一轮拼刀需要消耗双方的行动点，但消耗量-1（最开始进攻方消耗的行动点也会-1）。双方行动点同时耗光，则自动结束拼刀。一开始由进攻方占据主动权，没有占据主动权的一方必须用拼刀来对抗，直到行动点耗尽才可用其他两种防守手段来结束这场拼刀。占据主动权的进攻方行动点耗光后将主动权交给防守方，也可以主动交付。取得主动权的防守方可以选择继续和进攻方拼刀直到行动点耗尽，也可以选择主动放弃主动权来结束这场拼刀。</li>
 </ul>
+<p>特别地，拼刀的进攻衰减阈值减半，成功的一方造成的伤害减去对方的武器基础威力的一半（向下取整）。</p>
 <div class="admonition info">
 <p class="admonition-title">注意</p>
 <p>上面前2种防守手段都属于泛用技能，也就是说，都是有熟练度，可以练级的。拼刀练的是武器熟练度，而且只能由防守方在攻击范围允许的情况下发起拼刀</p>
@@ -5728,7 +5776,7 @@ HP直接再扣除体力值的一半（爆头），就算被治疗HP归正也无�
 <div class="admonition success">
 <p class="admonition-title">防守阈值衰减公式</p>
 <p>衰减速度=15/144*[(力量-防具力量阈值均值)/5-12]<sup>2</sup>+5（向下取整）</p>
-<p>到每个角色的行动轮时各自的防守衰减刷新，角色每防守一次，防守检定（包括防御与闪避）阈值就会减去衰减速度。</p>
+<p>到每个角色的行动轮时各自的防守衰减刷新，角色每防守一次，防守检定阈值就会减去衰减速度。不同防守手段的衰减独立计算，不共享次数。</p>
 <p>特别地，使用拼刀用的是进攻阈值衰减规则，而且拼刀时双方的进攻阈值衰减速度均减半。</p>
 <p>与进攻阈值衰减不同的是，防守阈值衰减不会把防守阈值扣到太低，最低衰减到<code>防守手段挂钩属性的一半</code>就不会再继续衰减了。</p>
 </div>
@@ -5852,7 +5900,7 @@ HP直接再扣除体力值的一半（爆头），就算被治疗HP归正也无�
 <p>普通战技通常是那些被动能力，或是消耗一定行动点和SP就能直接生效的能力。</p>
 <h3 id="_29">特殊战技</h3>
 <p>特殊战技通常是那些需要主动使用，且需要根据检定结果生效的能力。</p>
-<p>特殊战技拥有独立的熟练度，随着熟练度等级提升，特殊战技的效果也会有所增幅，等级阀值一般来说是10级、20级和30级。如果是进攻型特殊战技，检定时直接使用对抗检定，不提升武器熟练度，而是提升特殊战技的熟练度；如果是功能型特殊战技，则使用普通检定，成功则生效，不成功则不生效。</p>
+<p>特殊战技拥有独立的熟练度，与武器熟练度并不共享。如果是进攻型特殊战技，检定时直接使用对抗检定，不提升武器熟练度，而是提升特殊战技的熟练度；如果是功能型特殊战技，则使用普通检定，成功则生效，不成功则不生效。</p>
 <p>每种特殊战技每回合只能使用一次，但所有特殊战技都不会应用进攻阈值衰减或防守阈值衰减。根据战斗的情况合理规划使用特殊战技的时机，将会大幅度降低战斗的难度。</p>
 <div class="admonition info">
 <p class="admonition-title">注意</p>

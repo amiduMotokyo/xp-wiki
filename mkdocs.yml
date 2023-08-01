@@ -60,6 +60,8 @@ nav:
           - 大地系魔法: rules/data/magic/natural/ground.md
           - 岩窟系魔法: rules/data/magic/natural/dungeon.md
           - 荒漠系魔法: rules/data/magic/natural/sand.md
+        - 炼金类魔法:
+          - 冶金系魔法: rules/data/magic/alchemy/metallurgy.md
         - 信仰类魔法:
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
