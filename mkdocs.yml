@@ -46,7 +46,8 @@ nav:
         - 战术技能: rules/data/update/tactics.md
         - 驯兽熟练度升级: rules/data/update/mount.md
         - 通用坐骑技能: rules/data/update/mountUniversal.md
-      - 魔法书:
+      - 魔法书: 
+        - 塑型土: rules/data/magic/plastic_Soil.md
         - 元素类魔法:
           - 火系魔法: rules/data/magic/elemental/fire.md
           - 水系魔法: rules/data/magic/elemental/water.md
@@ -62,12 +63,16 @@ nav:
           - 荒漠系魔法: rules/data/magic/natural/sand.md
         - 炼金类魔法:
           - 冶金系魔法: rules/data/magic/alchemy/metallurgy.md
+          - 医药系魔法: rules/data/magic/alchemy/medical.md
+          - 符文系魔法: rules/data/magic/alchemy/rune.md
         - 信仰类魔法:
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
             - 斗争大神: rules/data/magic/faith/Tengu/tatakaiKami.md
             - 锻造大神: rules/data/magic/faith/Tengu/tanzouKami.md
             - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
+            - 荒胫大神: rules/data/magic/faith/Tengu/arasuneKami.md
+            - 开拓大神: rules/data/magic/faith/Tengu/kaitakuKami.md
           - 大鸿:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
         - 心灵类魔法: rules/data/magic/mind.md
