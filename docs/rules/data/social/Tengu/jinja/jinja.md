@@ -33,4 +33,4 @@
 
 <a href="../shuku_miko" target="_blank">★祝/巫女</a>
 
-<a href="../oshuku_omiko" target="_blank">★御祝/御巫女</a>
+<a href="../oshuku_omiko" target="_blank">★★御祝/御巫女</a>

@@ -73,6 +73,7 @@ nav:
             - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
             - 荒胫大神: rules/data/magic/faith/Tengu/arasuneKami.md
             - 开拓大神: rules/data/magic/faith/Tengu/kaitakuKami.md
+            - 梅山: rules/data/magic/faith/Tengu/umeyama.md
           - 大鸿:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
         - 心灵类魔法: rules/data/magic/mind.md
@@ -109,6 +110,7 @@ nav:
             - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
             - 进阶职业:
               - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
+              - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
         - 大鸿:
           - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
@@ -142,7 +144,7 @@ nav:
             - 社群简介: rules/data/social/Tengu/jinja/jinja.md      
             - 进阶职业:
               - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
-              - ★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
+              - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
           - 源流报社:
             - 社群简介: rules/data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha.md
             - 进阶职业:
@@ -173,6 +175,8 @@ nav:
               - ★★★枪眼: rules/data/social/Tengu/kirisaki_ryu/gunEye.md
               - ★★战勤: rules/data/social/Tengu/kirisaki_ryu/service.md
               - ★★★司务: rules/data/social/Tengu/kirisaki_ryu/secretary.md
+          - 北乡府:
+            - 社群简介: rules/data/social/Tengu/nao_the_prince/nao_the_profile.md
         - 魔族:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
