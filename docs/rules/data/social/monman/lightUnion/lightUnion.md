@@ -50,8 +50,12 @@
 
 <a href="../dragonShadow" target="_blank">★★吸光龙影</a>
 
+<a href="../lighthuntsman" target="_blank">★★披光猎手</a>
+
 <a href="../lightMaster" target="_blank">★★★耀光学者</a>
 
 <a href="../lightArtist" target="_blank">★★★流光乱匠</a>
 
 <a href="../dragoner" target="_blank">★★★暮光龙侯</a>
+
+<a href="../lightmarksman" target="_blank">★★★影光猎户</a>

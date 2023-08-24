@@ -177,6 +177,8 @@ nav:
               - ★★★司务: rules/data/social/Tengu/kirisaki_ryu/secretary.md
           - 北乡府:
             - 社群简介: rules/data/social/Tengu/nao_the_prince/nao_the_profile.md
+            - 进阶职业:
+              - ★镙纹御前（近海巫女）: rules/data/social/Tengu/nao_the_prince/ramongozen.md 
         - 魔族:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
@@ -190,9 +192,11 @@ nav:
               - ★★明光学士: rules/data/social/monman/lightUnion/lightBachelor.md
               - ★★辉光巧匠: rules/data/social/monman/lightUnion/lightCraftsman.md
               - ★★吸光龙影: rules/data/social/monman/lightUnion/dragonShadow.md
+              - ★★披光猎手: rules/data/social/monman/lightUnion/lighthuntsman.md
               - ★★★耀光学者: rules/data/social/monman/lightUnion/lightMaster.md
               - ★★★流光乱匠: rules/data/social/monman/lightUnion/lightArtist.md
               - ★★★暮光龙侯: rules/data/social/monman/lightUnion/dragoner.md
+              - ★★★影光猎户: rules/data/social/monman/lightUnion/lightmarksman.md
           - 巨兽猎手（待重置）: rules/data/social/monman/hugeHunter.md
       - 单位:
         - 召唤单位:
