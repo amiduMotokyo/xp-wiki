@@ -4,9 +4,9 @@
 
 项目|信息
 :--:|:--:
-集群等级|6
+集群等级|7
 消费水平|80通
-成员数|2500+
+成员数|6000+
 创始人|凡尔西诺
 领导人|兹里拉·叉舌
 成立年份|天历前796年
@@ -59,3 +59,7 @@
 <a href="../dragoner" target="_blank">★★★暮光龙侯</a>
 
 <a href="../lightmarksman" target="_blank">★★★影光猎户</a>
+
+<a href="../sunKnight" target="_blank">☆☆烈光骁骑</a>
+
+<a href="../moonKnight" target="_blank">☆☆柔光从骑</a>
