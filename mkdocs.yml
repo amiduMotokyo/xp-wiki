@@ -282,7 +282,7 @@ nav:
       - 说明: temp/index.md
       - 如何开始创作: temp/tutorial.md
       - 秋田创作区:
-        - 先塞一个凑数的: temp/akita/temp.md
+        - 说明: temp/akita/akita_profile.md
       - 苍术创作区:
         - 魔百（非官方）: temp/cangzhu/magic.md
         
