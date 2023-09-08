@@ -278,6 +278,9 @@ nav:
         - 第二次人界内战（未完）: settings/campaign/secondHumanVsElf.md
       - 魔法理论:
         - 魔法百科全书（未完）: settings/magic/magicBook.md
+    - 创作缓冲区: 
+      - 说明: temp/index.md
+      - 如何开始创作: temp/tutorial.md
         
 theme:
   name: material
