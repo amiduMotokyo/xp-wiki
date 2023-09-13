@@ -288,6 +288,11 @@ nav:
         - 魔百（非官方）: temp/cangzhu/magic.md
       - 地猫创作区:
         - 说明: temp/DMAL/DMAL_profile.md
+        - 乐府社群:
+          - 社群简介: temp/DMAL/Musician_Sect/Musician_Sect.md
+          - ★教坊学徒: temp/DMAL/Musician_Sect/Musician_Apprentice.md
+
+
 
 theme:
   name: material
