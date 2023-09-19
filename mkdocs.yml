@@ -131,6 +131,8 @@ nav:
               - ★★★守尸客: rules/data/social/GreatHong/abyssesotericism/bodykeeper.md
               - ★★★邪术师: rules/data/social/GreatHong/abyssesotericism/cultwizard.md
               - ★★★唤龙使: rules/data/social/GreatHong/abyssesotericism/dragonsummoner.md
+          - 武术流派:
+            - ★开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
         - 天狗国:
           - 士幕府:
             - 社群简介: rules/data/social/Tengu/bakufu/bakufu.md
@@ -293,11 +295,17 @@ nav:
           - 社群简介: temp/DMAL/Musician_Sect/Musician_Sect.md
           - ★教坊学徒: temp/DMAL/Musician_Sect/Musician_Apprentice.md
         - 武术流派:
-          - ★开门拳: docs/temp/DMAL/Martial arts/Gatebuster.md
-
-
-
-
+          - ★开门拳: temp/DMAL/Martial arts/Gatebuster.md
+      - 像素头创作区:
+        - 说明: temp/pixelhead/introduce.md
+        - F&Q:
+          - 高维空间相关: temp/pixelhead/FA♂Q/high.md
+          - 高维空间、魔界、幽灵性质: temp/pixelhead/FA♂Q/highmonghost.md
+          - 魔法学院高层相关: temp/pixelhead/FA♂Q/magicschoolleader.md
+          - 魔法学院新人物相关: temp/pixelhead/FA♂Q/magicschoolnewpeople.md
+          - 关于穿界门的一些问题: temp/pixelhead/FA♂Q/portal.md
+          - 雷电相关: temp/pixelhead/FA♂Q/thunder.md
+      
 
 theme:
   name: material
