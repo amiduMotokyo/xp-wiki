@@ -298,13 +298,15 @@ nav:
           - ★开门拳: temp/DMAL/Martial arts/Gatebuster.md
       - 像素头创作区:
         - 说明: temp/pixelhead/introduce.md
+        - 修改意见: temp/pixelhead/debug.md
         - F&Q:
-          - 高维空间相关: temp/pixelhead/FA♂Q/high.md
+          - 高维生物: temp/pixelhead/FA♂Q/high.md
           - 高维空间、魔界、幽灵性质: temp/pixelhead/FA♂Q/highmonghost.md
           - 魔法学院高层相关: temp/pixelhead/FA♂Q/magicschoolleader.md
-          - 魔法学院新人物相关: temp/pixelhead/FA♂Q/magicschoolnewpeople.md
+          - 魔法学院招生政策及立场相关: temp/pixelhead/FA♂Q/magicschoolnewpeople.md
           - 关于穿界门的一些问题: temp/pixelhead/FA♂Q/portal.md
-          - 雷电相关: temp/pixelhead/FA♂Q/thunder.md
+        - 画师社群社群:
+          - 社群简介: temp/pixelhead/artistgroup/artistgroup.md
       
 
 theme:
