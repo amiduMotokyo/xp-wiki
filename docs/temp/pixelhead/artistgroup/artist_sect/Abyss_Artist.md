@@ -6,7 +6,7 @@
 
 ## 必要条件
 
-* <a href="../Artist_Apprentice" target="_blank">研墨门徒</a>达到5级或拥有<a href="../../../GreatHong/abyssesotericism" target="_blank">拜龙密教</a>中任意二星职业等级
+* <a href="../Artist_Apprentice" target="_blank">研墨门徒</a>达到5级或拥有<a href="../../../GreatHong/abyssesotericism" target="_blank">拜龙密教</a>中任意二星职业等级或拥有<a href="../Artist_Master" target="_blank">万艺巨匠</a>职业等级
 
 ## 关键属性
 
