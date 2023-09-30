@@ -132,6 +132,18 @@ nav:
               - ★★★守尸客: rules/data/social/GreatHong/abyssesotericism/bodykeeper.md
               - ★★★邪术师: rules/data/social/GreatHong/abyssesotericism/cultwizard.md
               - ★★★唤龙使: rules/data/social/GreatHong/abyssesotericism/dragonsummoner.md
+          - 绝艺画院:
+            - 社群简介: rules/data/social/GreatHong/artistgroup/artistgroup.md
+            - 墨法书:
+              - 彩艺教典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Colorful_Codex.md
+              - 塑灵伪典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Shaper_Pseudepigrapha.md
+              - 墨法原典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Traditional_Canonical.md
+            - 进阶职业:
+              - ★研墨门徒: rules/data/social/GreatHong/artistgroup/artist_sect/Artist_Apprentice.md
+              - ★★异彩涂客: rules/data/social/GreatHong/artistgroup/artist_sect/Colorful_Artist.md
+              - ★★黯绘塑师: rules/data/social/GreatHong/artistgroup/artist_sect/Shaper_Artist.md
+              - ★★水墨画工: rules/data/social/GreatHong/artistgroup/artist_sect/Traditional_Artist.md
+              - ★★★万艺巨匠: rules/data/social/GreatHong/artistgroup/artist_sect/Versatile_Colossus.md
           - 武术流派:
             - ★开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
         - 天狗国:
