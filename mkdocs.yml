@@ -99,6 +99,12 @@ nav:
               - ★步兵: rules/data/social/universal/feoff/footman.md
               - ★扈从: rules/data/social/universal/feoff/squire.md
               - ★★骑士: rules/data/social/universal/feoff/knight.md
+          - 精灵家族领:
+            - 社群简介: rules/data/social/universal/elfFamily/elfFamily.md
+            - 进阶职业:
+              - ★守望者: rules/data/social/universal/elfFamily/watcher.md
+              - ★★游侠: rules/data/social/universal/elfFamily/ranger.md
+              - ★★猎师: rules/data/social/universal/elfFamily/huntMaster.md
           - Zwei佣兵团:
             - 社群简介: rules/data/social/universal/zwei/zwei.md
             - 进阶职业:
