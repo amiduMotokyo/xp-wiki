@@ -26,14 +26,14 @@
 
 死翼鸟组织是由魔界部分来到人界继续自己研究或者单纯为了利益的合作者与公爵府联合建立的情报组织与雇佣机构。目的是为了成立者提供佣兵服务，包括不限于护卫、暗杀、魔法实验等非法行为，同时为天教管理一部分有能力但是忤逆教会管理的人员。
 
-<a href="Deathbird/ShadowFeather" target="_blank">★影羽</a>
+<a href="../ShadowFeather" target="_blank">★影羽</a>
 
-<a href="Deathbird/BloodyClaw" target="_blank">★血爪</a>
+<a href="../BloodyClaw" target="_blank">★血爪</a>
 
-<a href="Deathbird/FrighteningFeather" target="_blank">★★魇羽</a>
+<a href="../FrighteningFeather" target="_blank">★★魇羽</a>
 
-<a href="Deathbird/BloodyBeak" target="_blank">★★血喙</a>
+<a href="../BloodyBeak" target="_blank">★★血喙</a>
 
-<a href="Deathbird/MiasmBone" target="_blank">☆☆瘴骨</a>
+<a href="../MiasmBone" target="_blank">☆☆瘴骨</a>
 
-<a href="Deathbird/DeathBird" target="_blank">★★★死翼鸟</a>
+<a href="../DeathBird" target="_blank">★★★死翼鸟</a>
