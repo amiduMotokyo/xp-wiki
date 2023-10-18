@@ -332,6 +332,18 @@ nav:
         - 画师社群社群:
           - 社群简介: temp/pixelhead/artistgroup/artistgroup.md
       
+      - 黑羽魇鸽创作区:
+        - 修改意见: temp/DeatLvens/debug.md
+        - 死翼鸟社群: 
+          - 社群简介: temp/DeatLvens/Deathbird/Deathbird(union).md
+          - ★影羽: temp/DeatLvens/Deathbird/ShadowFeather.md
+          - ★血爪: temp/DeatLvens/Deathbird/BloodyClaw.md
+          - ★★魇羽: temp/DeatLvens/Deathbird/FrighteningFeather.md
+          - ★★血喙: temp/DeatLvens/Deathbird/BloodyBeak.md
+          - ☆☆瘴骨: temp/DeatLvens/Deathbird/MiasmBone.md
+          - ★★★死翼鸟: temp/DeatLvens/Deathbird/DeathBird.md
+          - 暗影系魔法书: temp/DeatLvens/ShadowMagic.md
+
 
 theme:
   name: material
