@@ -66,6 +66,8 @@ nav:
           - 医药系魔法: rules/data/magic/alchemy/medical.md
           - 符文系魔法: rules/data/magic/alchemy/rune.md
         - 信仰类魔法:
+          - 西方大陆:
+            - 圣光魔法: rules/data/magic/faith/west/holy.md
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
             - 斗争大神: rules/data/magic/faith/Tengu/tatakaiKami.md
@@ -100,6 +102,12 @@ nav:
               - ★步兵: rules/data/social/universal/feoff/footman.md
               - ★扈从: rules/data/social/universal/feoff/squire.md
               - ★★骑士: rules/data/social/universal/feoff/knight.md
+          - 圣堂:
+            - 社群简介: rules/data/social/universal/sanctuary/sanctuary.md
+            - 进阶职业:
+              - ★修士/修女: rules/data/social/universal/sanctuary/friar_nun.md
+              - ★★诵经师: rules/data/social/universal/sanctuary/chanter.md
+              - ★★★圣裁官: rules/data/social/universal/sanctuary/inquisitor.md
           - 精灵家族领:
             - 社群简介: rules/data/social/universal/elfFamily/elfFamily.md
             - 进阶职业:
@@ -130,6 +138,7 @@ nav:
               - ★★★相剑大师: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Master.md
           - 拜龙密教:
             - 社群简介: rules/data/social/GreatHong/abyssesotericism/abyssesotericism.md
+            - 渗透系统: rules/data/social/GreatHong/abyssesotericism/infiltration.md
             - 进阶职业:
               - ★虔信徒: rules/data/social/GreatHong/abyssesotericism/devotedcultist.md
               - ★★狞教士: rules/data/social/GreatHong/abyssesotericism/grimnarchclergy.md
