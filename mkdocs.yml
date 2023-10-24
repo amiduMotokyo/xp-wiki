@@ -27,6 +27,7 @@ nav:
           - 长休规则: rules/V3.8rules/rest.md
           - 随从: rules/V4.x rules/Extra/Entourage.md
           - 重量规则: rules/V4.x rules/Extra/Weight.md
+          - 潜行与反隐规则: rules/V4.x rules/Extra/Stealth.md
         - 旧设备份:
           - 职业设定: rules/V4.x rules/Back/old_occupation.md
           - 社群设定: rules/V4.x rules/Back/old_social.md
@@ -129,7 +130,10 @@ nav:
               - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
         - 大鸿:
-          - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
+          - 郡县:
+            - 社群简介: rules/data/social/GreatHong/Jun&Xian/Jun&Xian.md
+            - 进阶职业:
+              - ★小吏: rules/data/social/GreatHong/Jun&Xian/beadle.md
           - 相剑道门:
             - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
             - 进阶职业:
@@ -162,6 +166,7 @@ nav:
               - ★★★万艺巨匠: rules/data/social/GreatHong/artistgroup/artist_sect/Versatile_Colossus.md
           - 武术流派:
             - ★开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
+          - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
         - 天狗国:
           - 士幕府:
             - 社群简介: rules/data/social/Tengu/bakufu/bakufu.md
