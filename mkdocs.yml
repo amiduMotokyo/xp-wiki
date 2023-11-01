@@ -182,6 +182,19 @@ nav:
             - 进阶职业:
               - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
               - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
+          - 忍者屋敷:
+            - 社群简介: rules/data/social/Tengu/shinobi_yashiki/shinobi_yashiki.md
+            - 进阶职业:
+              - ★下忍: rules/data/social/Tengu/shinobi_yashiki/genin.md
+              - ★★中忍: rules/data/social/Tengu/shinobi_yashiki/chunin.md
+              - ★★★上忍: rules/data/social/Tengu/shinobi_yashiki/jounin.md
+          - 御庭番:
+            - 社群简介: rules/data/social/Tengu/oniwagen/oniwagen.md
+            - 进阶职业:
+              - ★★目付: rules/data/social/Tengu/oniwagen/metsuke.md
+              - ★★★御空行者: rules/data/social/Tengu/oniwagen/osora_gyouja.md
+              - ★★★御地行者: rules/data/social/Tengu/oniwagen/otsuchi_gyouja.md
+              - ★★★御海行者: rules/data/social/Tengu/oniwagen/oumi_gyouja.md
           - 源流报社:
             - 社群简介: rules/data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha.md
             - 进阶职业:
@@ -223,6 +236,13 @@ nav:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
             - ☆穿界者: rules/data/social/monman/basicJob/interWorlder.md
+          - 巨兽猎手:
+            - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
+            - 进阶职业:
+              - ★巨兽猎兵: rules/data/social/monman/hugeHunter/jager.md
+              - ★★追迹猎手: rules/data/social/monman/hugeHunter/chaser.md
+              - ★★驯兽师: rules/data/social/monman/hugeHunter/tamer.md
+              - ★★★追迹猎手: rules/data/social/monman/hugeHunter/siegeMaster.md
           - 明光学联:
             - 社群简介: rules/data/social/monman/lightUnion/lightUnion.md
             - 光耀系魔法书: rules/data/social/monman/lightUnion/lightMagic.md
@@ -239,7 +259,6 @@ nav:
               - ★★★影光猎户: rules/data/social/monman/lightUnion/lightmarksman.md
               - ☆☆烈光骁骑: rules/data/social/monman/lightUnion/sunKnight.md
               - ☆☆柔光从骑: rules/data/social/monman/lightUnion/moonKnight.md
-          - 巨兽猎手（待重置）: rules/data/social/monman/hugeHunter.md
       - 单位:
         - 召唤单位:
           - 魔像: rules/data/unit/summon/golem.md
