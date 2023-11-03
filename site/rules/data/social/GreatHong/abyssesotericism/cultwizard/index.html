@@ -2683,22 +2683,36 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../Jun%26Xian/militiamen/" class="md-nav__link">
+        乡勇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_1_2" type="checkbox" id="__nav_3_3_5_1_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_1_3" type="checkbox" id="__nav_3_3_5_1_3" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_3_5_1_2">
+        <label class="md-nav__link" for="__nav_3_3_5_1_3">
           进阶职业
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
-        <label class="md-nav__title" for="__nav_3_3_5_1_2">
+        <label class="md-nav__title" for="__nav_3_3_5_1_3">
           <span class="md-nav__icon md-icon"></span>
           进阶职业
         </label>
@@ -2712,6 +2726,20 @@
     <li class="md-nav__item">
       <a href="../../Jun%26Xian/beadle/" class="md-nav__link">
         ★小吏
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Jun%26Xian/bureaucrat/" class="md-nav__link">
+        ★★士大夫
       </a>
     </li>
   
@@ -4919,7 +4947,7 @@
   
     <li class="md-nav__item">
       <a href="../../../monman/hugeHunter/siegeMaster/" class="md-nav__link">
-        ★★★追迹猎手
+        ★★★围猎大师
       </a>
     </li>
   
@@ -7665,7 +7693,7 @@
 <li>心理学</li>
 <li>乔装</li>
 <li>见闻</li>
-<li>灵感</li>
+<li>防御或闪避</li>
 <li>法杖</li>
 </ul>
 <h2 id="_6">职业特性</h2>
@@ -7693,12 +7721,17 @@
 <tr>
 <td align="center">3</td>
 <td align="center">35贯</td>
-<td align="center">获得心神之法：反戈之叛，初始熟练度为基础值+5，每回合一次可以支付5点生命值来发动第二次反戈之叛。</td>
+<td align="center">获得特殊战技：反戈之叛，初始熟练度为基础值+5，每回合一次可以支付5点生命值来发动第二次反戈之叛。反戈之叛也视为话术。</td>
 </tr>
 <tr>
 <td align="center">4</td>
 <td align="center">40贯</td>
 <td align="center">获得战技：战功之诱。</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">50贯</td>
+<td align="center">获得战技：操念之影。</td>
 </tr>
 </tbody>
 </table>
@@ -7719,28 +7752,35 @@
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">激励的精神力回复效果对自己也生效，使用激励时也会治疗友方的2点精神损伤，超出部分转换为精神力回复，邪术师作为主职时禁用旗手以外基础职业带来的收益</td>
+<td align="center">激励的精神力回复效果对自己也生效，使用激励时也会治疗友方的3点精神损伤与等量HP，超出部分转换为回复SP，邪术师作为主职时禁用旗手以外基础职业带来的收益</td>
 </tr>
 <tr>
 <td align="center">清醒之偿</td>
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">每当有敌方单位因超过10点而减少精神损伤，其对周围四格内的所有其他敌方单位附加3层精神损伤。</td>
+<td align="center">每当有敌方单位因超过上限而减少精神损伤，可令其精神损伤上限+5（最高25），那之后对半径四格内的所有其他敌方单位附加其当前上限/5的精神损伤。</td>
 </tr>
 <tr>
 <td align="center">反戈之叛</td>
-<td align="center">心神之法</td>
-<td align="center">魔力</td>
+<td align="center">特殊战技</td>
+<td align="center">魅力</td>
 <td align="center">0</td>
-<td align="center">只能以具有3点以上精神损伤，且攻击范围内有那个单位的友军的单位为目标。令其对攻击范围内的一名友军发动一次不消耗行动点的攻击。</td>
+<td align="center">只能以具有3点以上精神损伤的单位为目标，令其对攻击范围内其一名友军发动一次不消耗行动点的攻击。若其攻击范围内没有其友军，则改为对目标造成相当于其当前武器威力的精神损伤。</td>
 </tr>
 <tr>
 <td align="center">战功之诱</td>
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">全场敌方在对虔信徒和深渊龙的攻击中永远下死手，全场友军死亡时对击杀者造成8点固伤且击杀者抵抗判晕眩。</td>
+<td align="center">受到带有精神损伤的敌人攻击时，可以选择让自身当次防守阈值下降目标进攻阈值衰减量的数值。若此做，则攻击结束后为目标附加那个数值的精神损伤。</td>
+</tr>
+<tr>
+<td align="center">操念之影</td>
+<td align="center">战技</td>
+<td align="center">被动</td>
+<td align="center">0</td>
+<td align="center">处于旗手光环内的敌方与拜龙密教成员对抗时，精神损伤效果翻倍，所有检定每有10点精神损伤便获得一枚惩罚骰。</td>
 </tr>
 </tbody>
 </table>

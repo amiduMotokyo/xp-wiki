@@ -132,8 +132,10 @@ nav:
         - 大鸿:
           - 郡县:
             - 社群简介: rules/data/social/GreatHong/Jun&Xian/Jun&Xian.md
+            - 乡勇: rules/data/social/GreatHong/Jun&Xian/militiamen.md
             - 进阶职业:
               - ★小吏: rules/data/social/GreatHong/Jun&Xian/beadle.md
+              - ★★士大夫: rules/data/social/GreatHong/Jun&Xian/bureaucrat.md
           - 相剑道门:
             - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
             - 进阶职业:

@@ -2683,22 +2683,36 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../Jun%26Xian/militiamen/" class="md-nav__link">
+        乡勇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_1_2" type="checkbox" id="__nav_3_3_5_1_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_5_1_3" type="checkbox" id="__nav_3_3_5_1_3" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_3_5_1_2">
+        <label class="md-nav__link" for="__nav_3_3_5_1_3">
           进阶职业
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="进阶职业" data-md-level="5">
-        <label class="md-nav__title" for="__nav_3_3_5_1_2">
+        <label class="md-nav__title" for="__nav_3_3_5_1_3">
           <span class="md-nav__icon md-icon"></span>
           进阶职业
         </label>
@@ -2712,6 +2726,20 @@
     <li class="md-nav__item">
       <a href="../../Jun%26Xian/beadle/" class="md-nav__link">
         ★小吏
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Jun%26Xian/bureaucrat/" class="md-nav__link">
+        ★★士大夫
       </a>
     </li>
   
@@ -4919,7 +4947,7 @@
   
     <li class="md-nav__item">
       <a href="../../../monman/hugeHunter/siegeMaster/" class="md-nav__link">
-        ★★★追迹猎手
+        ★★★围猎大师
       </a>
     </li>
   
@@ -7666,10 +7694,10 @@
 <li>水性</li>
 <li>防御</li>
 <li>缴械</li>
-<li>任意武器</li>
+<li>任意长柄武器</li>
 </ul>
 <h2 id="_6">职业特性</h2>
-<p>继承卫士职业特性；每次成功的防御会为攻击者叠加（差值/10）层精神损伤；禁止转职为非拜龙密教职业</p>
+<p>继承卫士职业特性；每次成功的防御会为攻击者叠加（差值因子）层精神损伤；禁止转职为非拜龙密教职业</p>
 <h2 id="_7">升级收益</h2>
 <table>
 <thead>
@@ -7693,12 +7721,17 @@
 <tr>
 <td align="center">3</td>
 <td align="center">35贯</td>
-<td align="center">获得战技：尸身之导，可以通过一个成功的搬运携带一具尸体，携带的时候有一个破绽。</td>
+<td align="center">获得战技：尸身之导，可以通过一个成功的搬运携带一具尸体，携带的时候有一个破绽。<br>（扔下来之后才能正常吃到加成，搬起消耗2行动，扔下不消耗）</td>
 </tr>
 <tr>
 <td align="center">4</td>
 <td align="center">40贯</td>
-<td align="center">获得战技：噬亡之壁，可以消耗一具尸体使渊刻尸护的效果在两回合内+10。<br>（半具尸体持续时长减半）</td>
+<td align="center">获得战技：噬亡之壁，可以消耗一具尸体使渊刻尸护的效果在两回合内翻倍。<br>（半具尸体持续时长减半）</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">50贯</td>
+<td align="center">获得战技：血海之盾</td>
 </tr>
 </tbody>
 </table>
@@ -7719,7 +7752,7 @@
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">周围两圈内每有一具尸体或2名队友，防御和嘲讽阈值+5，防御时可以选择支付3点生命值来在这次检定中获得1层该效果。守尸客作为主职时禁用卫士以外基础职业带来的收益</td>
+<td align="center">半径三格内每有一具尸体或2名队友，防御和嘲讽阈值+10，防御时仅一次可以选择支付3点生命值来在这次检定中获得1层该效果。守尸客作为主职时禁用卫士以外基础职业带来的收益</td>
 </tr>
 <tr>
 <td align="center">狂气之刃γ</td>
@@ -7733,14 +7766,21 @@
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">当有尸体产生或被消耗的时候，选择一项：<br>回复8点生命<br>获得5点额外生命<br>回复共4点护甲生命，可任意分配</td>
+<td align="center">当有尸体产生或被消耗的时候，选择一项：<br>回复12点生命<br>获得8点额外生命<br>回复共6点护甲生命，可任意分配</td>
 </tr>
 <tr>
 <td align="center">噬亡之壁</td>
 <td align="center">战技</td>
 <td align="center">被动</td>
 <td align="center">0</td>
-<td align="center">防御时，若渊刻尸护提供的阈值在15以上，选择一项：<br>本次防御阈值不衰减<br>本次防御恰一枚奖励骰<br>使攻击者获得4点精神损伤</td>
+<td align="center">防御时，渊刻尸护提供的阈值每比10高10，选择一项：<br>本次防御阈值不衰减<br>本次防御获得一枚奖励骰<br>使攻击者获得4点精神损伤</td>
+</tr>
+<tr>
+<td align="center">血海之盾</td>
+<td align="center">战技</td>
+<td align="center">被动</td>
+<td align="center">0</td>
+<td align="center">使用支付生命值的效果时，记录支付的数值并累加，根据数值适用效果：<br>12以上：你的威压总是全额生效，防御时仅一次可以选择支付3点生命值使检定值-5<br>24以上：抵抗行动不能类效果时获得一枚奖励骰，抵抗其他效果时检定值-10<br>36以上：立刻获得一次免行动点挖掘尸体的机会，对半径三格内其他队友的攻击获得一枚惩罚骰，检定值+10</td>
 </tr>
 </tbody>
 </table>
