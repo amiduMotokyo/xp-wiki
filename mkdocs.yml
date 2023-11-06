@@ -342,12 +342,15 @@ nav:
       - 秋田创作区:
         - 说明: temp/akita/akita_profile.md
         - 小说:
+          - 人物背景补足:
+            - 【穿刺】: temp/akita/idling_characters/calissi_barrier.md
           - 佘镇故事补: temp/akita/shezhen_story/shezhen-1.md
         - 图画:
           - 露娜: temp/akita/lunaluna.png
         - 梅尔里夫国立地理所:
           - 社群简介: temp/akita/mererif_geo_center/geo_center_profile.md
           - ★初级测绘师: temp/akita/mererif_geo_center/primeSurveyor.md
+          - ★中级测绘师: temp/akita/mererif_geo_center/commonSurveyor.md
       - 苍术创作区:
         - 魔百（非官方）: temp/cangzhu/magic.md
       - 地猫创作区:
