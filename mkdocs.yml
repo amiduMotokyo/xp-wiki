@@ -115,6 +115,16 @@ nav:
               - ★守望者: rules/data/social/universal/elfFamily/watcher.md
               - ★★游侠: rules/data/social/universal/elfFamily/ranger.md
               - ★★猎师: rules/data/social/universal/elfFamily/huntMaster.md
+          - 哈克海盗:
+            - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
+            - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md
+            - 舰船支援: rules/data/social/universal/Hark_pirate/ship_reinforcement.md
+            - 进阶职业:
+              - ★海盗劫掠者: rules/data/social/universal/Hark_pirate/pirate_raider.md
+              - ★海盗水手: rules/data/social/universal/Hark_pirate/pirate_sailer.md
+              - ★★海盗强袭者: rules/data/social/universal/Hark_pirate/pirate_assaulter.md
+              - ★★海盗军需官: rules/data/social/universal/Hark_pirate/pirate_supplier.md
+              - ★★★海盗船长: rules/data/social/universal/Hark_pirate/pirate_captain.md
           - Zwei佣兵团:
             - 社群简介: rules/data/social/universal/zwei/zwei.md
             - 进阶职业:
@@ -349,7 +359,7 @@ nav:
           - 佘镇故事补: temp/akita/shezhen_story/shezhen-1.md
         - 图画:
           - 露娜: temp/akita/lunaluna.png
-          - 衣奈日后谈: temp/akita/ina&taily.jpg
+          - 衣奈日后谈: temp/akita/ina'n'taily.png
         - 梅尔里夫国立地理所:
           - 社群简介: temp/akita/mererif_geo_center/geo_center_profile.md
           - ★初级测绘师: temp/akita/mererif_geo_center/primeSurveyor.md
