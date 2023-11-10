@@ -8,8 +8,8 @@
 ## 必要条件
 
 * 长枪熟练度至少为20
-* <a href="../dragon_shielder" target="_blank">龙盾卫职业等级至少为5
-* <a href="../../../basicJob/Warrior" target="_blank">卫士</a>职业等级至少为8
+* <a href="../dragon_shielder" target="_blank">空掠者职业等级至少为5
+* 至少投入8经历点于基础职业
 
 ## 关键属性
 

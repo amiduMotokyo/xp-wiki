@@ -8,7 +8,7 @@
 
 * 巨盾熟练度至少为20
 * <a href="../dragon_shielder" target="_blank">龙盾卫职业等级至少为5
-* <a href="../../../basicJob/Warrior" target="_blank">卫士</a>职业等级至少为8
+* <a href="../../../basicJob/Warrior" target="_blank">卫士</a>职业等级至少为9
 
 ## 关键属性
 

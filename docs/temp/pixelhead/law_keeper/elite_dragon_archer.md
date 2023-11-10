@@ -8,7 +8,7 @@
 
 * 弓熟练度至少为20
 * <a href="../dragon_shielder" target="_blank">龙弓士职业等级至少为5
-* <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级至少为8
+* <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级至少为9
 
 ## 关键属性
 
