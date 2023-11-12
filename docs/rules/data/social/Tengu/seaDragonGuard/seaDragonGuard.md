@@ -43,3 +43,5 @@
 <a href="../battlecadet" target="_blank">★★★校官（战斗岗）</a>
 
 <a href="../r&dcadet" target="_blank">★★★校官（研究岗）</a>
+
+<a href="../C4ISR" target="_blank">☆☆☆C4ISR</a>
