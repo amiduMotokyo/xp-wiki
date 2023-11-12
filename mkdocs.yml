@@ -139,6 +139,21 @@ nav:
               - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
               - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
+          - 律法守护者:
+            - 社群简介: rules/data/social/universal/law_keeper/law_keeper.md
+            - 进阶职业:
+              - ★★龙盾卫: rules/data/social/universal/law_keeper/dragon_shielder.md
+              - ★★龙弓士: rules/data/social/universal/law_keeper/dragon_archer.md
+              - ★★龙舞姬: rules/data/social/universal/law_keeper/dragon_dancer.md
+              - ★★撕裂者: rules/data/social/universal/law_keeper/dilacerater.md
+              - ★★空掠者: rules/data/social/universal/law_keeper/sky_raider.md
+              - ★★变形者: rules/data/social/universal/law_keeper/deformer.md
+              - ★★★龙之城塞: rules/data/social/universal/law_keeper/elite_dragon_shielder.md
+              - ★★★龙之焰鍭: rules/data/social/universal/law_keeper/elite_dragon_archer.md
+              - ★★★龙之华励: rules/data/social/universal/law_keeper/elite_dragon_dancer.md
+              - ★★★锐爪袭者: rules/data/social/universal/law_keeper/elite_dilacerater.md
+              - ★★★葬空游者: rules/data/social/universal/law_keeper/elite_sky_raider.md
+              - ★★★化龙缚者: rules/data/social/universal/law_keeper/elite_deformer.md
         - 大鸿:
           - 郡县:
             - 社群简介: rules/data/social/GreatHong/Jun&Xian/Jun&Xian.md
