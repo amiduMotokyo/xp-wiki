@@ -102,7 +102,7 @@
 4|获得战技：王翼弃兵<br>获得特殊技艺：思想强化
 5|NPC倾向于相信你的官员身份，只要队伍中有至少两名信徒，他们便被认为是乡勇且释放拜龙密教的特殊战技便不会引起怀疑。<br>只有战技“王翼弃兵”已转化才能进入该等级，将任一话术加入<a href="../grimnarchclergy" target="_blank">★★狞教士</a>或<a href="../faithspreader" target="_blank">★★播信师</a>的熟练技能
 7|战斗开始时可以派遣最多2名信徒与你一同上阵，升级战技“统御信徒”：允许带领最多4名信徒<br>特殊战技“协同打击”升级：SP消耗变为2
-9|每在绝艺画院投入2点经历点，便令播信师的熟练技能加成额外+1
+9|每在郡县投入2点经历点，便令<a href="../grimnarchclergy" target="_blank">★★狞教士</a>或<a href="../faithspreader" target="_blank">★★播信师</a>的熟练技能加成额外+1
 12|获得战技：渊佑领军，将传教与思想强化加入<a href="../grimnarchclergy" target="_blank">★★狞教士</a>或<a href="../faithspreader" target="_blank">★★播信师</a>的熟练技能
 
 ### 奖励能力解释：
