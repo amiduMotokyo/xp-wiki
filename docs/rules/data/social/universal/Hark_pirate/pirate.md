@@ -45,3 +45,7 @@
 <a href="../pirate_supplier" target="_blank">★★海盗军需官</a>
 
 <a href="../pirate_captain" target="_blank">★★★海盗船长</a>
+
+---
+
+> *小龙龙宝宝*

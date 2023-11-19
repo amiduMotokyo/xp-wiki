@@ -37,3 +37,6 @@
 
 <a href="../XiangJian_Master" target="_blank">★★★相剑大师</a>
 
+---
+
+> *夕神ミカザ*

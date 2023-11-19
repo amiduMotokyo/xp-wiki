@@ -61,3 +61,7 @@
 <a href="../denjumenomikoto" target="_blank">★★钿珠女命</a>
 
 <a href="../umiumenochisha" target="_blank">★★海族智者</a>
+
+---
+
+> *秋田*

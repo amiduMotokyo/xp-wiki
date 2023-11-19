@@ -83,3 +83,7 @@
 
 !!! success "水冷易伤"
     下一次受到的<font color="#00dbdb">水冷伤害</font>变为1.5倍，触发后减少一层。（无法叠加）
+
+---
+
+> *PixelHead*

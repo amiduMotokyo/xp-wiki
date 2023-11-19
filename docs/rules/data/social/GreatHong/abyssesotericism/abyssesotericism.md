@@ -60,3 +60,7 @@
 <a href="../cultwizard" target="_blank">★★★邪术师</a>
 
 <a href="../dragonsummoner" target="_blank">★★★唤龙使</a>
+
+---
+
+> *PixelHead*
