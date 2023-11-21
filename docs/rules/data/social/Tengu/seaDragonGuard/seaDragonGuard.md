@@ -44,7 +44,7 @@
 
 <a href="../r&dcadet" target="_blank">★★★校官（研究岗）</a>
 
-<a href="../C4ISR" target="_blank">☆☆☆C4ISR</a>
+<a href="../C4ISR" target="_blank">☆☆☆舰队领航</a>
 
 ---
 
