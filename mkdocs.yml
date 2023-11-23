@@ -160,7 +160,12 @@ nav:
             - 乡勇: rules/data/social/GreatHong/Jun&Xian/militiamen.md
             - 进阶职业:
               - ★小吏: rules/data/social/GreatHong/Jun&Xian/beadle.md
+              - ★骑手: rules/data/social/GreatHong/Jun&Xian/rider.md
               - ★★士大夫: rules/data/social/GreatHong/Jun&Xian/bureaucrat.md
+              - ★★校尉: rules/data/social/GreatHong/Jun&Xian/field_officer.md
+              - ★★豪杰: rules/data/social/GreatHong/Jun&Xian/despotic_gentry.md
+              - ★★★将帅: rules/data/social/GreatHong/Jun&Xian/general.md
+              - ★★★督军: rules/data/social/GreatHong/Jun&Xian/governor.md
           - 相剑道门:
             - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
             - 进阶职业:
