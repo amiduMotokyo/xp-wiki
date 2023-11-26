@@ -9,7 +9,7 @@
 ## 必要条件
 
 * 信仰天教
-* <a href="../footman" target="_blank">步兵</a>职业等级达到3级
+* <a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级达到3级
 * 指定某主职为“骑士”职业的角色为老爷（不一定是pc，也可以是npc，甚至是背景板中的npc）
 
 ## 关键属性
