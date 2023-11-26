@@ -29,4 +29,4 @@
 
 <a href="../Sandwalker_Sand Explorer" target="_blank">★探沙者</a>
 <a href="../Sandwalker_Sandwalker" target="_blank">★★行沙者</a>
-
+<a href="../Sandwalker_Hidden Master" target="_blank">★★★隐沙大师</a>
