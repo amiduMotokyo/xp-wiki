@@ -6,7 +6,7 @@
 
 ## 必要条件
 
-* <a href="../devotedcultist" target="_blank">虔信徒</a>达到5级
+* <a href="../devotedcultist" target="_blank">虔信徒</a>达到4级
 * <a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>、<a href="../../../basicJob/Specialist" target="_blank">专家</a>中任意职业达到3级
 
 ## 关键属性

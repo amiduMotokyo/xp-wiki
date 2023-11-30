@@ -6,7 +6,7 @@
 
 ## 必要条件
 
-* <a href="../devotedcultist" target="_blank">虔信徒</a>达到5级
+* <a href="../devotedcultist" target="_blank">虔信徒</a>达到4级
 * <a href="../../../basicJob/Warrior" target="_blank">武者</a>、<a href="../../../basicJob/Sentinel" target="_blank">哨兵</a>、<a href="../../../basicJob/Guard" target="_blank">卫士</a>中任意职业达到3级
 
 ## 关键属性
