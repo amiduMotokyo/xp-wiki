@@ -189,14 +189,14 @@ nav:
           - 绝艺画院:
             - 社群简介: rules/data/social/GreatHong/artistgroup/artistgroup.md
             - 墨法书:
+              - 墨法原典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Traditional_Canonical.md
               - 彩艺教典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Colorful_Codex.md
               - 塑灵伪典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Shaper_Pseudepigrapha.md
-              - 墨法原典: rules/data/social/GreatHong/artistgroup/artist_magicbook/Traditional_Canonical.md
             - 进阶职业:
               - ★研墨门徒: rules/data/social/GreatHong/artistgroup/artist_sect/Artist_Apprentice.md
+              - ★★水墨画工: rules/data/social/GreatHong/artistgroup/artist_sect/Traditional_Artist.md
               - ★★异彩涂客: rules/data/social/GreatHong/artistgroup/artist_sect/Colorful_Artist.md
               - ★★黯绘塑师: rules/data/social/GreatHong/artistgroup/artist_sect/Shaper_Artist.md
-              - ★★水墨画工: rules/data/social/GreatHong/artistgroup/artist_sect/Traditional_Artist.md
               - ★★★万艺巨匠: rules/data/social/GreatHong/artistgroup/artist_sect/Versatile_Colossus.md
           - 武术段位等级: rules/data/social/GreatHong/MartialLevel.md
           - 武术:
@@ -237,7 +237,7 @@ nav:
               - ★★尉官: rules/data/social/Tengu/seaDragonGuard/lieutenant.md
               - ★★★校官（战斗岗）: rules/data/social/Tengu/seaDragonGuard/battlecadet.md
               - ★★★校官（研究岗）: rules/data/social/Tengu/seaDragonGuard/r&dcadet.md
-              - ☆☆☆C4ISR: rules/data/social/Tengu/seaDragonGuard/C4ISR.md
+              - ☆☆☆舰队领航: rules/data/social/Tengu/seaDragonGuard/C4ISR.md
           - 段位与流派: rules/data/social/Tengu/dan.md
           - 流派:
             - 进阶职业:
@@ -410,7 +410,10 @@ nav:
           - ★开门拳: temp/DMAL/Martial arts/Gatebuster.md
       - 像素头创作区:
         - 说明: temp/pixelhead/introduce.md
-        - 修改意见: temp/pixelhead/debug.md
+        - 装备系统先行:
+          - 武器及其平均性能表: temp/pixelhead/Pro_release/weapons_beta.md
+          - 防具及其平均性能表: temp/pixelhead/Pro_release/armor_beta.md
+          - 道具列表: temp/pixelhead/Pro_release/item_beta.md
         - F&Q:
           - 高维生物: temp/pixelhead/FA♂Q/high.md
           - 高维空间、魔界、幽灵性质: temp/pixelhead/FA♂Q/highmonghost.md
