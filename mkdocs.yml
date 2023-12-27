@@ -370,6 +370,12 @@ nav:
       - 魔法理论:
         - 魔法百科全书（未完）: settings/magic/magicBook.md
     - 废案:
+      - 装备:
+        - 武器及其平均性能表: rules/data/abandoned/equipment/weapons.md
+        - 防具及其平均性能表: rules/data/abandoned/equipment/armor.md
+        - 道具列表: rules/data/abandoned/equipment/item.md
+        - 坐骑及其平均性能表: rules/data/abandoned/equipment/mount.md
+        - 坐骑防具及其平均性能表: rules/data/abandoned/equipment/mountArmor.md
       - 源流报社:
         - 社群简介: rules/data/abandoned/genryu_shinbunsha/genryu_shinbunsha.md
         - 进阶职业:
