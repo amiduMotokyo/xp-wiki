@@ -290,7 +290,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../abandoned/genryu_shinbunsha/genryu_shinbunsha/" class="md-tabs__link">
+      <a href="../../abandoned/equipment/weapons/" class="md-tabs__link">
         废案
       </a>
     </li>
@@ -7233,12 +7233,115 @@
       
       
         <label class="md-nav__link" for="__nav_5_1">
+          装备
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="装备" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          装备
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abandoned/equipment/weapons/" class="md-nav__link">
+        武器及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abandoned/equipment/armor/" class="md-nav__link">
+        防具及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abandoned/equipment/item/" class="md-nav__link">
+        道具列表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abandoned/equipment/mount/" class="md-nav__link">
+        坐骑及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abandoned/equipment/mountArmor/" class="md-nav__link">
+        坐骑防具及其平均性能表
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
           源流报社
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="源流报社" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_1">
+        <label class="md-nav__title" for="__nav_5_2">
           <span class="md-nav__icon md-icon"></span>
           源流报社
         </label>
@@ -7267,18 +7370,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1_2" type="checkbox" id="__nav_5_1_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_2" type="checkbox" id="__nav_5_2_2" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_1_2">
+        <label class="md-nav__link" for="__nav_5_2_2">
           进阶职业
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="进阶职业" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_1_2">
+        <label class="md-nav__title" for="__nav_5_2_2">
           <span class="md-nav__icon md-icon"></span>
           进阶职业
         </label>
@@ -8526,149 +8629,224 @@
 <tr>
 <th align="center">名称</th>
 <th align="center">效果</th>
+<th align="center">携带上限</th>
 <th align="center">价格（通）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">25％治疗药剂</td>
-<td align="center">恢复25％的HP</td>
-<td align="center">50</td>
+<td align="center">迷你治疗药剂</td>
+<td align="center">恢复20点HP</td>
+<td align="center">玩家数量×2</td>
+<td align="center">100</td>
+</tr>
+<tr>
+<td align="center">治疗药剂</td>
+<td align="center">恢复35点HP</td>
+<td align="center">玩家数量+1</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">优质治疗药剂</td>
+<td align="center">恢复60点HP</td>
+<td align="center">玩家数量-1（至少为1）</td>
+<td align="center">400</td>
+</tr>
+<tr>
+<td align="center">强效治疗药剂</td>
+<td align="center">恢复100点HP</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">800</td>
 </tr>
 <tr>
 <td align="center">50％治疗药剂</td>
 <td align="center">恢复50％的HP</td>
-<td align="center">100</td>
-</tr>
-<tr>
-<td align="center">25％魔法药剂</td>
-<td align="center">恢复25％的SP</td>
-<td align="center">50</td>
-</tr>
-<tr>
-<td align="center">50％魔法药剂</td>
-<td align="center">恢复50％的SP</td>
-<td align="center">100</td>
+<td align="center">玩家数量</td>
+<td align="center">250</td>
 </tr>
 <tr>
 <td align="center">100％治疗药剂</td>
 <td align="center">恢复100％的HP</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">650</td>
+</tr>
+<tr>
+<td align="center">迷你魔力药剂</td>
+<td align="center">恢复12点SP</td>
+<td align="center">玩家数量×2</td>
+<td align="center">50</td>
+</tr>
+<tr>
+<td align="center">魔力药剂</td>
+<td align="center">恢复25点SP</td>
+<td align="center">玩家数量+1</td>
+<td align="center">150</td>
+</tr>
+<tr>
+<td align="center">优质魔力药剂</td>
+<td align="center">恢复40点SP</td>
+<td align="center">玩家数量-1（至少为1）</td>
+<td align="center">300</td>
+</tr>
+<tr>
+<td align="center">强效魔力药剂</td>
+<td align="center">恢复60点SP</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">500</td>
+</tr>
+<tr>
+<td align="center">50％魔力药剂</td>
+<td align="center">恢复50％的SP</td>
+<td align="center">玩家数量</td>
 <td align="center">200</td>
 </tr>
 <tr>
-<td align="center">100％魔法药剂</td>
+<td align="center">100％魔力药剂</td>
 <td align="center">恢复100％的SP</td>
-<td align="center">200</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">450</td>
 </tr>
 <tr>
 <td align="center">活力药剂</td>
-<td align="center">对于HP被修正到0的目标，解除其“濒死”与“致命伤”状态</td>
-<td align="center">200</td>
-</tr>
-<tr>
-<td align="center">xx瓶</td>
-<td align="center">目标及地点周围一圈角色抵抗判异常状态</td>
-<td align="center">150</td>
-</tr>
-<tr>
-<td align="center">炸药</td>
-<td align="center">目标及地点周围一圈角色造成5点固伤</td>
-<td align="center">150</td>
+<td align="center">对HP低于0的目标使用，尽可能恢复其10点HP，若修正到0则解除其“濒死”与“致命伤”状态</td>
+<td align="center">玩家数量</td>
+<td align="center">500</td>
 </tr>
 <tr>
 <td align="center">精灵药草</td>
-<td align="center">可以抵消最近一次所受到的非致命伤害，并且下一次受到攻击伤害减半</td>
-<td align="center">150</td>
-</tr>
-<tr>
-<td align="center">增幅剂</td>
-<td align="center">下回合获得指定属性+5加成，可累加，单属性最多不超过+20</td>
-<td align="center">100</td>
-</tr>
-<tr>
-<td align="center">兴奋剂</td>
-<td align="center">下一个回合行动点额外+4，不可累加</td>
-<td align="center">100</td>
+<td align="center">抵消最近一次所受到的非致命伤害，并且下一次受到攻击伤害减半<br>可以在受击后消耗一次子弹时间机会立刻使用，若以此法使用则下次受击伤害不减半</td>
+<td align="center">玩家数量</td>
+<td align="center">500</td>
 </tr>
 <tr>
 <td align="center">万能药</td>
 <td align="center">解除一切内生型异常状态</td>
-<td align="center">100</td>
-</tr>
-</tbody>
-</table>
-<p>xx瓶可以涂在武器或弹药上，使攻击目标抵抗判异常状态，每种瓶可以涂5次。</p>
-<p>xx瓶可用异常状态表：</p>
-<table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="center">效果</th>
-<th align="center">持续时间</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">中毒</td>
-<td align="center">每回合HP-5，力量与敏捷属性暂时-5</td>
-<td align="center">每回合进行一次抵抗，成功则解除；每未成功一次，增加一枚奖励骰</td>
-</tr>
-<tr>
-<td align="center">麻痹</td>
-<td align="center">所有检定获得一枚惩罚骰，所有行动消耗的行动点翻倍</td>
-<td align="center">接地，并处于不导电的地形中，1回合后自动解除；与石附状态相互抵消</td>
-</tr>
-<tr>
-<td align="center">昏睡</td>
-<td align="center">无法行动，对抗阈值固定为10</td>
-<td align="center">受击解除</td>
+<td align="center">玩家数量×2</td>
+<td align="center">250</td>
 </tr>
 </tbody>
 </table>
 <h2 id="_3">食品类</h2>
+<p>不同于小瓶装的药水，进食会显著带来饱腹感，当心吃撑！</p>
+<p>玩家的基础饱腹值上限为2+（体质/15向下取整），饱腹值会在战斗后每一个小时下降一点。饱腹值没超出上限时不会有影响，若超出上限则会产生一些惩罚。</p>
+<table>
+<thead>
+<tr>
+<th align="center">超额量</th>
+<th align="center">描述</th>
+<th align="center">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">≥1</td>
+<td align="center">你感觉有点饱了，不太想吃更多的东西</td>
+<td align="center">通过饮食方式获得的好处与回复量减半（包括药品类）</td>
+</tr>
+<tr>
+<td align="center">≥2</td>
+<td align="center">你稍许有些犯困，行动也有些受影响</td>
+<td align="center">每回合行动点下降相当于饱腹值超额量的数值</td>
+</tr>
+<tr>
+<td align="center">≥3</td>
+<td align="center">你感觉胃里满满的，动作也变得有些疲软</td>
+<td align="center">物理伤害倍率-0.5，防守阈值衰减速度加倍</td>
+</tr>
+<tr>
+<td align="center">≥4</td>
+<td align="center">你撑的不行，腹胀与腹痛让你无法正常行动</td>
+<td align="center">无法饮食，所有行动阈值-10，检定值+10</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
 <th align="center">名称</th>
 <th align="center">效果</th>
+<th align="center">携带上限</th>
+<th align="center">饱腹度</th>
 <th align="center">价格（通）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center">苹果</td>
-<td align="center">回复8点HP</td>
-<td align="center">30</td>
+<td align="center">一回合内力量，敏捷，智力属性+2</td>
+<td align="center">玩家数量+1</td>
+<td align="center">1</td>
+<td align="center">50</td>
 </tr>
 <tr>
 <td align="center">汽水</td>
-<td align="center">回复8点SP</td>
-<td align="center">30</td>
+<td align="center">回复5SP，下次魔法攻击伤害倍率+0.2</td>
+<td align="center">玩家数量+1</td>
+<td align="center">1</td>
+<td align="center">50</td>
 </tr>
 <tr>
 <td align="center">蛋糕</td>
 <td align="center">自己以及周围一圈的友方角色回复5HP，总计40HP份量，用不完可留到下次</td>
-<td align="center">80</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">每次0.5</td>
+<td align="center">150</td>
 </tr>
 <tr>
 <td align="center">桶装汽水</td>
 <td align="center">自己以及周围一圈的友方角色回复5SP，总计40SP份量，用不完可留到下次</td>
-<td align="center">80</td>
+<td align="center">1+玩家数量/2（向下取整）</td>
+<td align="center">每次0.5</td>
+<td align="center">200</td>
 </tr>
 <tr>
 <td align="center">跳跳糖</td>
 <td align="center">激发人的灵感！下次魔法攻击威力+5，可叠加</td>
+<td align="center">玩家数量×1.5（向下取整）</td>
+<td align="center">0.5</td>
 <td align="center">100</td>
 </tr>
 <tr>
 <td align="center">鸡蛇兽肉</td>
 <td align="center">不知道是什么鸟类的肉，似乎有些种族和生物很喜欢它，食用后回复20点HP与20点SP</td>
-<td align="center">150</td>
+<td align="center">玩家数量</td>
+<td align="center">2</td>
+<td align="center">200</td>
 </tr>
 <tr>
 <td align="center">红茶</td>
 <td align="center">投掷1d3决定效果：1或2获得1回合兴奋效果，所有检定有-10奖励；3则陷入一回合昏睡</td>
-<td align="center">150</td>
+<td align="center">玩家数量×1.5（向下取整）</td>
+<td align="center">0.5</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">苹果派</td>
+<td align="center">下回合获得指定属性+10加成，不可累加</td>
+<td align="center">玩家数量</td>
+<td align="center">2</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">特制三明治</td>
+<td align="center">立刻回复2行动点，下一个回合行动点额外+4，不可累加</td>
+<td align="center">玩家数量</td>
+<td align="center">2</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">海鲜寿司</td>
+<td align="center">天狗国风味~下一次检定获得一枚奖励骰，阈值增加战术奖励的数值（不是战术奖励）</td>
+<td align="center">玩家数量</td>
+<td align="center">2</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">健胃消食片</td>
+<td align="center">每人每场战斗限一次，可以与其他食品类道具一起使用</td>
+<td align="center">玩家数量</td>
+<td align="center">-1</td>
+<td align="center">100</td>
 </tr>
 </tbody>
 </table>
@@ -8678,6 +8856,7 @@
 <tr>
 <th align="center">名称</th>
 <th align="center">效果</th>
+<th align="center">携带上限</th>
 <th align="center">价格（通）</th>
 </tr>
 </thead>
@@ -8685,30 +8864,44 @@
 <tr>
 <td align="center">一把弹珠</td>
 <td align="center">目标地点以及周围一圈出现弹珠，经过此地的角色要过跳跃检定，若没过，则陷入倒地状态；可以耗费2行动点清理面前的弹珠</td>
-<td align="center">100</td>
-</tr>
-<tr>
-<td align="center">小抄</td>
-<td align="center">下一次检定获得一枚奖励骰</td>
-<td align="center">50</td>
+<td align="center">玩家数量×1.5（向下取整）</td>
+<td align="center">150</td>
 </tr>
 <tr>
 <td align="center">烟雾弹</td>
 <td align="center">目标地点及其周围3格产生烟雾，处于烟雾外角色立刻丢失处于烟雾内角色的视野，处于烟雾内角色立刻丢失所有人的视野</td>
-<td align="center">150</td>
+<td align="center">玩家数量</td>
+<td align="center">300</td>
 </tr>
 <tr>
 <td align="center">防雾面罩</td>
 <td align="center">若处于烟雾内，则免疫烟雾效果</td>
+<td align="center">每人1</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">xx瓶</td>
+<td align="center">目标及地点周围一圈角色抵抗判异常状态</td>
+<td align="center">玩家数量</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="center">炸药</td>
+<td align="center">目标及地点周围一圈角色造成5点固伤</td>
+<td align="center">玩家数量</td>
 <td align="center">200</td>
 </tr>
 <tr>
 <td align="center">词典</td>
 <td align="center">学习对应语言需要用到的书籍，也可以在语言应用时起到辅助效果</td>
+<td align="center">每人1</td>
 <td align="center">800</td>
 </tr>
 </tbody>
 </table>
+<p>xx瓶可以涂在武器或弹药上，使攻击目标抵抗判异常状态，每种瓶可以涂5次。</p>
+<p>xx瓶可用异常状态表：</p>
+<p><a href="../../../../status/normal" target="_blank">中毒</a>、<a href="../../../../status/normal" target="_blank">麻痹</a>、<a href="../../../../status/normal" target="_blank">昏睡</a></p>
 <h2 id="_5">一次性法杖类</h2>
 <p>一次性法杖的默认施法范围是6格。</p>
 <p>一次性法杖存储的魔法在购买时决定，一根法杖只能存储1种魔法。另外，一次性法杖无法存储仪式之法。</p>
@@ -8716,6 +8909,7 @@
 <p>释放魔法的阈值为你的魔力属性+对应魔法熟练度，1级的话就是+1。</p>
 <p>你可以花费更多的释放机会来获得更高等级的魔法效果，每多花费1次释放机会，视为你临时学会的对应魔法的熟练度+10（最多加到30）。</p>
 <p>如果你本身就学会了对应的魔法，你也可以辅助使用一次性法杖，花费更多的释放机会来获得更高等级的魔法效果。</p>
+<p>特别的，所有一次性法杖共享携带上限，每人最多带5根。</p>
 <table>
 <thead>
 <tr>
