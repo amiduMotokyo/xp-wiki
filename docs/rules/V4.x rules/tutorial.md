@@ -4,9 +4,9 @@
 
 ## 第一步：下载角色卡
 
-链接：<a href="https://pan.baidu.com/s/1O7Mg8_qlqPqoIxVWMMI-vg" target="_blank">https://pan.baidu.com/s/1O7Mg8_qlqPqoIxVWMMI-vg</a>
+链接：<a href="https://pan.baidu.com/s/1eKdRyFo_r3mfAInXSsHdAw" target="_blank">https://pan.baidu.com/s/1eKdRyFo_r3mfAInXSsHdAw</a>
 
-提取码：fsu3
+提取码：xoqy
 
 表格中凡是有公式占据的位置都是不用你手动填写的。
 
