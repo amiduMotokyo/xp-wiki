@@ -4,21 +4,15 @@
 
 ### <a href="../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态
 
-### 冻伤状态
+* 触发条件：单次受到的<font color="#00dddd">水冷伤害</font>超过5点，即进入<a href="../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态。
 
-* 触发条件：累积25层“冻伤印记”。角色每受到1点<font color="#00dddd">水冷伤害</font>就会被叠上一层“冻伤印记”。“冻伤印记”存在1回合后就会自动消失。
-* 效果：所有检定值获得+15惩罚。
-* 解除条件1：战斗结束后，前往温暖的安全区域，待上一段时间后自动解除。
-* 解除条件2：与<font color="#dd0000">“燃烧”</font>状态相互抵消。
-* 解除条件3：进入<font color="#dd0000">“火墙”</font>地形后自动解除。
+### <a href="../../../status/normal/#冻伤" target="_blank">“冻伤”</a>状态
 
-### 冻结状态
+* 触发条件：累积25层<a href="../../../status/mark/#冻伤印记" target="_blank">“冻伤印记”</a>后，抵抗判<a href="../../../status/normal/#冻伤" target="_blank">“冻伤”</a>。
 
-* 触发条件：当处于“冻伤”状态的角色再次被附加“冻伤”状态时，立刻附加“冻结”状态。
-* 效果：无法行动，受击时只能用“防御”来对抗，且阈值减半，受到下一次伤害翻倍。
-* 解除条件1：受到伤害后解除。
-* 解除条件2：与<font color="#dd0000">“燃烧”</font>状态相互抵消。
-* 解除条件3：进入<font color="#dd0000">“火墙”</font>地形后自动解除。
+### <a href="../../../status/normal/#冻结" target="_blank">“冻结”</a>状态
+
+* 触发条件：当处于<a href="../../../status/normal/#冻伤" target="_blank">“冻伤”</a>状态的角色再次被附加<a href="../../../status/normal/#冻伤" target="_blank">“冻伤”</a>状态（无论是否是弱化版本）时，抵抗判<a href="../../../status/normal/#冻结" target="_blank">“冻结”</a>状态。
 
 ## 初级魔法
 
