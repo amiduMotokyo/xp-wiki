@@ -33,10 +33,12 @@
 
 <a href="../BloodyClaw" target="_blank">★血爪</a>
 
+<a href="../MiasmBone" target="_blank">★瘴骨</a>
+
 <a href="../FrighteningFeather" target="_blank">★★魇羽</a>
 
 <a href="../BloodyBeak" target="_blank">★★血喙</a>
 
-<a href="../MiasmBone" target="_blank">☆☆瘴骨</a>
+<a href="../PestilenceHeart" target="_blank">★★疫心</a>
 
 <a href="../DeathBird" target="_blank">★★★死翼鸟</a>
