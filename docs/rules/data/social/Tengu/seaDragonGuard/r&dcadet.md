@@ -49,7 +49,7 @@
 :--:|:--:|:--:|:--:|:--:
 导魔炼弹|战技|被动|0|手铳的攻击可以选择攻击地面，成功攻击后可在攻击落点派生一个法术。
 优良导体|战技|被动|0|<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态的敌人受到电系伤害变为两倍，抵抗<a href="../../../../status/normal/#麻痹" target="_blank">“麻痹”</a>获得一枚惩罚骰。
-快速冷冻|战技|被动|0|全场<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的敌人在受到冻伤后会立刻获得10层“冻伤印记”；<br>全场<a href="../../../../status/normal/#冻伤" target="_blank">“冻伤”</a>或<a href="../../../../status/normal/#冻结" target="_blank">“冻结”</a>的敌人防守阈值再-8。
+快速冷冻|战技|被动|0|全场<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的敌人在受到冻伤后会立刻获得10层<a href="../../../../status/mark/#冻伤印记" target="_blank">“冻伤印记”</a>；<br>全场<a href="../../../../status/normal/#冻伤" target="_blank">“冻伤”</a>或<a href="../../../../status/normal/#冻结" target="_blank">“冻结”</a>的敌人防守阈值再-8。
 海波涌动|特殊战技|魔力|10|在脚下生成一格持续两回合的海洋单元格，失败持续时长减半
 
 ### 电流迭变
