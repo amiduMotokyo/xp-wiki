@@ -62,7 +62,7 @@
 #### 效果
 
 * 初始：对半径为2的范围内所有具有<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的敌人造成魔法威力为6的<font color="#dddd00">雷电伤害</font>
-* 增益效果：若目标处于<a href="../../../../status/normal/#水冷易伤" target="_blank">“水冷易伤”</a>状态，则此次攻击可以选择是否导电。
+* 增益效果：若目标处于非弱化版<a href="../../../../status/normal/#水冷易伤" target="_blank">“水冷易伤”</a>状态，则此次攻击可以选择是否导电。
 * 10级进阶：魔法威力变为8
 * 20级进阶：目标抵抗<a href="../../../../status/normal/#麻痹" target="_blank">“麻痹”</a>获得一枚惩罚骰
 * 30级进阶：半径变为3，魔法威力变为10
@@ -76,7 +76,7 @@
 #### 效果
 
 * 初始：令半径为2的范围内所有敌人抵抗判<a href="../../../../status/normal/#冻伤" target="_blank">“冻伤”</a>，若目标已经处于<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>或<a href="../../../../status/normal/#冻伤" target="_blank">“冻伤”</a>，则额外造成5点<font color="#00dbdb">水冷伤害</font>。
-* 增益效果：若目标处于<a href="../../../../status/normal/#水冷易伤" target="_blank">“水冷易伤”</a>状态，则在过载效果中增加“目标附加（差值因子）层<a href="../../../../status/mark/#冻伤印记" target="_blank">“冻伤印记”</a>
+* 增益效果：若目标处于非弱化版<a href="../../../../status/normal/#水冷易伤" target="_blank">“水冷易伤”</a>状态，则在过载效果中增加“目标附加（差值因子）层<a href="../../../../status/mark/#冻伤印记" target="_blank">“冻伤印记”</a>
 * 10级进阶：额外伤害变为7
 * 20级进阶：目标抵抗本技能时获得一枚惩罚骰
 * 30级进阶：半径变为3，受此技能影响的冻伤敌人全部位护甲生命值-2
