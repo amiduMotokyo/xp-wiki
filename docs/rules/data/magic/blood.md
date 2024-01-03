@@ -68,7 +68,7 @@
 
 * 初始：将本魔法的额外与保底施法消耗从HP改为SP。恢复自己（检定差值/10四舍五入）+SP/2的HP
 * 10级进阶：升级为恢复（检定差值/10四舍五入）+SP的HP
-* 20级进阶：同时清除中毒、<a href="../../status/mark/#流血印记" target="_blank">“流血印记”</a>的所有层数与<a href="../../status/normal/#麻痹" target="_blank">“麻痹”</a>状态
+* 20级进阶：同时清除<a href="../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>、<a href="../../status/mark/#流血印记" target="_blank">“流血印记”</a>的所有层数与<a href="../../status/normal/#麻痹" target="_blank">“麻痹”</a>状态
 * 30级进阶：升级为恢复（检定差值/5四舍五入）+SP的HP
 * 30级名称改变：猩红再生
 

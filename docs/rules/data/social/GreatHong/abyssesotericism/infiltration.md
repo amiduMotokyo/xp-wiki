@@ -75,7 +75,7 @@
 凝墨击|特殊战技|与武器一致|5|用杖释放该特殊战技时射程范围等于施法范围。<br>进行一次武器威力+1的射击，当次攻击视为墨法，若使用该特殊战技时消耗了至少4点渊墨，则获得1枚奖励骰，附加3点<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>。
 灵感分流|战技|被动|0|主动攻击<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>数值不为9的目标时，若本次攻击附加的<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>会令目标的<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>数值超过9，则你可以以不附加超出部分的<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>为代价，获得那个数值的渊墨。记录并累加因本战技获得的渊墨，记录的数值不会减少，达到25时，转化本战技。
 <font color="#800080">灵感分流</font>|战技|已转化的被动|0|进行会附加<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>的攻击时，可以自由选择附加、不附加或改为减少那个数值的<a href="../../../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>，根据选择的模式获得效果：<br>不附加：回复那个数值的SP<br>减少：获得那个数值两倍的渊墨
-飘渺渊绘|战技|被动|0|使用墨法与拜龙密教所提供的特殊战技时，若投入的渊墨超过6点，则1d5令目标抵抗负面效果：<br>1-<a href="../../../../status/normal/#燃烧" target="_blank">“燃烧”</a><br>2-<a href="../../../../status/normal/#麻痹" target="_blank">“麻痹”</a><br>3-<a href="../../../../status/normal/#粘滞" target="_blank">“粘滞”</a><br>4-中毒<br>5-<a href="../../../../status/normal/#昏睡" target="_blank">昏睡</a>
+飘渺渊绘|战技|被动|0|使用墨法与拜龙密教所提供的特殊战技时，若投入的渊墨超过6点，则1d5令目标抵抗负面效果：<br>1-<a href="../../../../status/normal/#燃烧" target="_blank">“燃烧”</a><br>2-<a href="../../../../status/normal/#麻痹" target="_blank">“麻痹”</a><br>3-<a href="../../../../status/normal/#粘滞" target="_blank">“粘滞”</a><br>4-<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a><br>5-<a href="../../../../status/normal/#昏睡" target="_blank">昏睡</a>
 
 ### 特殊技艺表
 
