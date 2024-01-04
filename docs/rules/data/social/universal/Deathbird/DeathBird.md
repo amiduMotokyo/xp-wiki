@@ -36,22 +36,24 @@
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
 告死之鸟|战技|被动|0|指名一个单位作为本次猎杀的目标，获得目标信息（视为侦查30级能力“洞悉一切”）。且对目标可以触发一次满足条件下不论武器类型的暗杀效果。
-血战狂热|战技|被动|0|对拥有<a href="../../../../data/status/mark/#流血印记" target="_blank">“流血印记”</a>的敌人造成伤害时将会恢复该数额/4的临时生命值与临时精神力（不可超出自身上限）
+血战狂热|战技|被动|0|对拥有<a href="../../../../status/mark/#流血印记" target="_blank">“流血印记”</a>的敌人造成伤害时将会恢复该数额/4的临时生命值与临时精神力（不可超出自身上限）
 摄魂鸣叫|战技|被动|0|每回合的第一次惊吓话术效果升级：附带奖励骰。敌人对抗阈值减半。
 死亡阴影|战技|被动|0|若本回合开始自身处于隐身/潜行时则移动消耗减半。
 燃血秘法|战技|被动|0|所有进攻可选择消耗10HP来将鉴定结果-10。
-剧毒军备|战技|被动|0|使用武器造成伤害时，敌人判定<a href="../../../../data/status/normal/#中毒" target="_blank">“中毒”</a>。且不论抵抗成功失败叠加层数+1。
+剧毒军备|战技|被动|0|使用武器造成伤害时，敌人判定<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>。且不论抵抗成功失败叠加层数+1。
 
 唯一强化效果可选内容：
+
+名称|效果
 :--:|:--:
-积重难返|当<a href="../../../../data/status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，移除该目标<a href="../../../../data/status/normal/#中毒" target="_blank">“中毒”</a>解除手段中的“每未成功一次，增加一枚奖励骰，直到<a href="../../../../data/status/normal/#中毒" target="_blank">“中毒”</a>成功后重置”且所有抵抗鉴定增加1枚惩罚骰
-昏厥效应|当<a href="../../../../data/status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#晕眩" target="_blank">“晕眩”</a>
-神经麻痹|当<a href="../../../../data/status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#麻痹" target="_blank">“麻痹”</a>且视为内生型
-深度麻醉|当<a href="../../../../data/status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，抵抗判定<a href="../../../../data/status/normal/#昏睡" target="_blank">“昏睡”</a>
-浓烈强酸|当<a href="../../../../data/status/mark/#中毒印记" target="_blank">“中毒印记”</a>抵抗成功后，仍然对目标造成3x附加层数的伤害，但无法附加异常。<a href="../../../../data/status/normal/#中毒" target="_blank">“中毒”</a>伤害+1（可与双倍剂量叠加）
+积重难返|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，移除该目标<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>解除手段中的“每未成功一次，增加一枚奖励骰，直到<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>成功后重置”且所有抵抗鉴定增加1枚惩罚骰
+昏厥效应|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#晕眩" target="_blank">“晕眩”</a>
+神经麻痹|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#麻痹" target="_blank">“麻痹”</a>且视为内生型
+深度麻醉|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，抵抗判定<a href="../../../../data/status/normal/#昏睡" target="_blank">“昏睡”</a>
+浓烈强酸|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>抵抗成功后，仍然对目标造成3x附加层数的伤害，但无法附加异常。<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>伤害+1（可与双倍剂量叠加）
 
 !!! info "唯一强化效果"
-    当对目标附加中毒时会添加进中毒效果当中，中毒被解除时一并解除。对于已中毒的目标，若附加了<a href="../../../../data/status/mark/#中毒印记" target="_blank">层数则也会将当前效果添加进中毒效果中。
+    当对目标附加中毒时会添加进中毒效果当中，中毒被解除时一并解除。对于已中毒的目标，若附加了<a href="../../../../status/mark/#中毒印记" target="_blank">层数则也会将当前效果添加进中毒效果中。
 
     与之前添加特殊效果不同的是：唯一强化只能只能存在一种，当附加新效果时会覆盖旧有效果。
 
