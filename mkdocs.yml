@@ -233,6 +233,8 @@ nav:
             - 进阶职业:
               - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
               - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
+              - ★★★众神之眷: rules/data/social/Tengu/jinja/kamigami_no_ken.md
+              - ☆☆☆天魔雄命: rules/data/social/Tengu/jinja/amanojyaku.md
           - 忍者屋敷:
             - 社群简介: rules/data/social/Tengu/shinobi_yashiki/shinobi_yashiki.md
             - 进阶职业:
@@ -278,6 +280,7 @@ nav:
               - ★海族指挥使: rules/data/social/Tengu/nao_the_prince/umiumeshikikan.md
               - ★★钿珠女命: rules/data/social/Tengu/nao_the_prince/denjumenomikoto.md
               - ★★海族智者: rules/data/social/Tengu/nao_the_prince/umiumenochisha.md
+              - ★★★海族参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
         - 魔族:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
@@ -444,15 +447,6 @@ nav:
         - 说明: temp/DeatLvens/introduce.md
         - 修改意见: temp/DeatLvens/debug.md
         - 廻天流: temp/DeatLvens/kaiten_ryu.md
-        - 死翼鸟社群: 
-          - 社群简介: temp/DeatLvens/Deathbird/Deathbird(union).md
-          - ★影羽: temp/DeatLvens/Deathbird/ShadowFeather.md
-          - ★血爪: temp/DeatLvens/Deathbird/BloodyClaw.md
-          - ★★魇羽: temp/DeatLvens/Deathbird/FrighteningFeather.md
-          - ★★血喙: temp/DeatLvens/Deathbird/BloodyBeak.md
-          - ☆☆瘴骨: temp/DeatLvens/Deathbird/MiasmBone.md
-          - ★★★死翼鸟: temp/DeatLvens/Deathbird/DeathBird.md
-          - 暗影系魔法书: temp/DeatLvens/ShadowMagic.md
 
           
 theme:
