@@ -82,6 +82,7 @@ nav:
         - 心灵类魔法: rules/data/magic/mind.md
         - 鲜血系魔法: rules/data/magic/blood.md
         - 暗影系魔法: rules/data/magic/shadow.md
+        - 美杜莎瞳术: rules/data/magic/medusa_eye_magic.md
         - 3.8规则旧设:
           - 元素类魔法: rules/data/magic/elemental.md
           - 自然类魔法: rules/data/magic/natural.md
@@ -280,6 +281,7 @@ nav:
               - ★海族指挥使: rules/data/social/Tengu/nao_the_prince/umiumeshikikan.md
               - ★★钿珠女命: rules/data/social/Tengu/nao_the_prince/denjumenomikoto.md
               - ★★海族智者: rules/data/social/Tengu/nao_the_prince/umiumenochisha.md
+              - ★★★绝命华: rules/data/social/Tengu/nao_the_prince/setsumeino_haname.md
               - ★★★海族参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
         - 魔族:
           - 魔族基础职业:
