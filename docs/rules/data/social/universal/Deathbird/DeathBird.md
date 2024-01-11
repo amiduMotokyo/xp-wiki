@@ -47,13 +47,13 @@
 名称|效果
 :--:|:--:
 积重难返|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，移除该目标<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>解除手段中的“每未成功一次，增加一枚奖励骰，直到<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>成功后重置”且所有抵抗鉴定增加1枚惩罚骰
-昏厥效应|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#晕眩" target="_blank">“晕眩”</a>
-神经麻痹|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../data/status/normal/#麻痹" target="_blank">“麻痹”</a>且视为内生型
-深度麻醉|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，抵抗判定<a href="../../../../data/status/normal/#昏睡" target="_blank">“昏睡”</a>
+昏厥效应|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>，同一目标每回合只能触发一次
+神经麻痹|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到8层后，抵抗判定一次<a href="../../../../status/normal/#麻痹" target="_blank">“麻痹”</a>且视为内生型，同一目标每回合只能触发一次
+深度麻醉|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数达到6层后，抵抗判定<a href="../../../../status/normal/#昏睡" target="_blank">“昏睡”</a>，同一目标每回合只能触发一次
 浓烈强酸|当<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>抵抗成功后，仍然对目标造成3x附加层数的伤害，但无法附加异常。<a href="../../../../status/normal/#中毒" target="_blank">“中毒”</a>伤害+1（可与双倍剂量叠加）
 
 !!! info "唯一强化效果"
-    当对目标附加中毒时会添加进中毒效果当中，中毒被解除时一并解除。对于已中毒的目标，若附加了<a href="../../../../status/mark/#中毒印记" target="_blank">层数则也会将当前效果添加进中毒效果中。
+    当对目标附加中毒时会添加进中毒效果当中，中毒被解除时一并解除。对于已中毒的目标，若附加了<a href="../../../../status/mark/#中毒印记" target="_blank">“中毒印记”</a>层数则也会将当前效果添加进中毒效果中。
 
     与之前添加特殊效果不同的是：唯一强化只能只能存在一种，当附加新效果时会覆盖旧有效果。
 
