@@ -4,9 +4,7 @@
 
 ## 第一步：下载角色卡
 
-链接：<a href="https://pan.baidu.com/s/1LcqBLWMgm-kKgFbTBt-4wQ" target="_blank">https://pan.baidu.com/s/1LcqBLWMgm-kKgFbTBt-4wQ</a>
-
-提取码：rwsr
+<a href="../../../XP团角色卡模板.xlsm" target="_blank">点击此处下载角色卡模板</a>
 
 表格中凡是有公式占据的位置都是不用你手动填写的。
 
