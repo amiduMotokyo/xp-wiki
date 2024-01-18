@@ -175,6 +175,7 @@ nav:
           - 郡县:
             - 社群简介: rules/data/social/GreatHong/Jun&Xian/Jun&Xian.md
             - 乡勇: rules/data/social/GreatHong/Jun&Xian/militiamen.md
+            - 骁骑: rules/data/social/GreatHong/Jun&Xian/horseman.md
             - 进阶职业:
               - ★小吏: rules/data/social/GreatHong/Jun&Xian/beadle.md
               - ★骑手: rules/data/social/GreatHong/Jun&Xian/rider.md
