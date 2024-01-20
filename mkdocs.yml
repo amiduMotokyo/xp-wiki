@@ -66,6 +66,10 @@ nav:
           - 冶金系魔法: rules/data/magic/alchemy/metallurgy.md
           - 医药系魔法: rules/data/magic/alchemy/medical.md
           - 符文系魔法: rules/data/magic/alchemy/rune.md
+        - 召唤类魔法:
+          - 铸造系魔法: rules/data/magic/summon/cast.md
+          - 活物系魔法: rules/data/magic/summon/organism.md
+          - 亡灵系魔法: rules/data/magic/summon/necromance.md
         - 信仰类魔法:
           - 西方大陆:
             - 圣光魔法: rules/data/magic/faith/west/holy.md
@@ -134,6 +138,7 @@ nav:
               - ★★Zwei暗袭者: rules/data/social/universal/zwei/zwei-assassin.md
               - ★★Zwei近弓手: rules/data/social/universal/zwei/zwei-archer.md
               - ★★Zwei佣兵队长: rules/data/social/universal/zwei/zwei-commander.md
+              - ★★★Zwei佣兵副团长: rules/data/social/universal/zwei/Zwei Mercenary Deputy Commander.md
           - 魔法学院:
             - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
             - 进阶职业:
@@ -283,7 +288,7 @@ nav:
               - ★★钿珠女命: rules/data/social/Tengu/nao_the_prince/denjumenomikoto.md
               - ★★海族智者: rules/data/social/Tengu/nao_the_prince/umiumenochisha.md
               - ★★★绝命华: rules/data/social/Tengu/nao_the_prince/setsumeino_haname.md
-              - ★★★海族参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
+              - ★★★海人参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
         - 魔族:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
@@ -312,7 +317,7 @@ nav:
               - ☆☆烈光骁骑: rules/data/social/monman/lightUnion/sunKnight.md
               - ☆☆柔光从骑: rules/data/social/monman/lightUnion/moonKnight.md
       - 单位:
-        - 召唤单位:
+        - 召唤单位（废案备份）:
           - 魔像: rules/data/unit/summon/golem.md
           - 石兽: rules/data/unit/summon/stoneBeast.md
           - 迷你战车: rules/data/unit/summon/miniChariot.md

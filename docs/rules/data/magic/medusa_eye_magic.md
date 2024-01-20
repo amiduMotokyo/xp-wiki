@@ -78,10 +78,10 @@
 
 #### 效果
 
-* 初始：为目标附加<a href="../status/normal/#石化" target="_blank">“石化”</a>状态
-* 10级进阶：对附有<a href="../status/normal/#石化" target="_blank">“石化”</a>状态的目标造成魔法威力为4的伤害
-* 20级进阶：对附有<a href="../status/normal/#石化" target="_blank">“石化”</a>状态的目标造成魔法威力为6的伤害
-* 30级进阶：为目标附加<a href="../status/normal/#石化" target="_blank">“石化”</a>状态，并造成魔法威力为8的伤害
+* 初始：为目标附加<a href="../../status/normal/#石化" target="_blank">“石化”</a>状态
+* 10级进阶：对附有<a href="../../status/normal/#石化" target="_blank">“石化”</a>状态的目标造成魔法威力为4的伤害
+* 20级进阶：对附有<a href="../../status/normal/#石化" target="_blank">“石化”</a>状态的目标造成魔法威力为6的伤害
+* 30级进阶：为目标附加<a href="../../status/normal/#石化" target="_blank">“石化”</a>状态，并造成魔法威力为8的伤害
 * 30级名称改变：石化射线
 
 ### 念力术
@@ -113,10 +113,10 @@
 
 #### 效果
 
-* 初始：对目标附加<a href="../status/normal/#不由自主" target="_blank">“不由自主”</a>状态
-* 10级进阶：<a href="../status/normal/#不由自主" target="_blank">“不由自主”</a>状态升级：状态中抵抗阈值-5
+* 初始：对目标附加<a href="../../status/normal/#不由自主" target="_blank">“不由自主”</a>状态
+* 10级进阶：<a href="../../status/normal/#不由自主" target="_blank">“不由自主”</a>状态升级：状态中抵抗阈值-5
 * 20级进阶：目标+1
-* 30级进阶：<a href="../status/normal/#不由自主" target="_blank">“不由自主”</a>状态升级：解除手段1变为：1回合后自动解除
+* 30级进阶：<a href="../../status/normal/#不由自主" target="_blank">“不由自主”</a>状态升级：解除手段1变为：1回合后自动解除
 * 30级名称改变：人格抽取
 
 ### 引燃术
@@ -130,9 +130,9 @@
 
 #### 效果
 
-* 初始：为目标附加<a href="../status/normal/#引燃" target="_blank">“引燃”</a>状态，并造成魔法威力为3的火焰伤害
+* 初始：为目标附加<a href="../../status/normal/#引燃" target="_blank">“引燃”</a>状态，并造成魔法威力为3的火焰伤害
 * 10级进阶：魔法威力提升为5
-* 20级进阶：<a href="../status/normal/#不由自主" target="_blank">“引燃”</a>效果升级：在原有基础上，再在每次增加<a href="../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>的基础上增加1层。即，若本次造成5的火焰伤害，则将会累加2*5+1=11层。
+* 20级进阶：<a href="../../status/normal/#不由自主" target="_blank">“引燃”</a>效果升级：在原有基础上，再在每次增加<a href="../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>的基础上增加1层。即，若本次造成5的火焰伤害，则将会累加2*5+1=11层。
 * 30级进阶：魔法威力提升为8
 * 30级名称改变：爆燃预兆
 

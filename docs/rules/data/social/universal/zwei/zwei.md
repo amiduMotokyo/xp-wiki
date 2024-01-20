@@ -47,6 +47,8 @@
 
 <a href="../zwei-commander" target="_blank">★★Zwei佣兵队长</a>
 
+<a href="../Zwei Mercenary Deputy Commander" target="_blank">★★★Zwei佣兵副团长</a>
+
 ---
 
 > *小龙龙宝宝*

@@ -62,6 +62,11 @@
 
 <a href="../umiumenochisha" target="_blank">★★海族智者</a>
 
+<a href="../setsumeino_haname" target="_blank">★★★绝命华</a>
+
+<a href="../umennto_sanjikan" target="_blank">★★★海人参议</a>
+
+
 ---
 
 > *秋田*、*amidu*
