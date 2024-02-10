@@ -39,7 +39,7 @@
 
 #### 效果
 
-* 初始：目标附加<a href="../../../status/normal/#水盾" target="_blank">“水盾”</a>与<a href="../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态
+* 初始：目标附加<a href="../../../status/normal/#水盾" target="_blank">“水盾”</a>状态；若水盾被消灭，则强制附加<a href="../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态（完全版本）
 * 10级进阶：<a href="../../../status/normal/#水盾" target="_blank">“水盾”</a>的额外HP变为8
 * 20级进阶：<a href="../../../status/normal/#水盾" target="_blank">“水盾”</a>的额外HP变为10
 * 30级进阶：<a href="../../../status/normal/#水盾" target="_blank">“水盾”</a>状态下的防御与魔法抗性检定获得一枚奖励骰

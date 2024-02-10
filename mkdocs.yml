@@ -101,6 +101,7 @@ nav:
           - ★卫士: rules/data/social/basicJob/Guard.md
           - ★旗手: rules/data/social/basicJob/Standard-bearer.md
           - ☆专家: rules/data/social/basicJob/Specialist.md
+          - ☆法工: rules/data/social/basicJob/Spellcrafter.md
         - 西方大陆:
           - 封土（世袭领地）:
             - 社群简介: rules/data/social/universal/feoff/feoff.md
