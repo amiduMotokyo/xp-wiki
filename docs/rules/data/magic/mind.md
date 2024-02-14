@@ -73,9 +73,9 @@
 #### 效果
 
 * 初始：赋予目标4层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>。（若失败，赋予印记层数减半）
-* 10级进阶：只要目标还有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，抵抗获得一枚惩罚骰。
-* 20级进阶：只要目标还有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，防守阈值衰减速度变为1.5倍。
-* 30级进阶：改为赋予目标6层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，只要目标还有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，每有一层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>便使检定阈值额外再-2。
+* 10级进阶：若成功，目标强制附加<a href="../../status/normal/#心神不稳" target="_blank">“心神不稳”</a>状态
+* 20级进阶：<a href="../../status/normal#心神不稳" target="_blank">“心神不稳”</a>状态下，防守阈值衰减速度变为1.5倍。
+* 30级进阶：改为赋予目标6层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，<a href="../../status/normal#心神不稳" target="_blank">“心神不稳”</a>状态下，每有一层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>便使检定阈值额外再-2。
 * 30级名称改变：心神失形
 
 ### 碎灵狂搅
