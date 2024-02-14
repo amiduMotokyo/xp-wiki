@@ -461,6 +461,11 @@ nav:
         - 说明: temp/DeatLvens/introduce.md
         - 修改意见: temp/DeatLvens/debug.md
         - 廻天流: temp/DeatLvens/kaiten_ryu.md
+      - 苦叶茶创作区:
+        - 说明: temp/KMT/index.md
+        # - 设定相关:
+        - 游戏系统相关:
+          - 匠魂武器: temp/KMT/rules/TiC.md
 
           
 theme:
