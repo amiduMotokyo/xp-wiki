@@ -53,7 +53,7 @@
 3|战技“<font color="#FF3030">赤月之势</font>”升级：当<font color="#FF3030">赤月之势</font>满层时获得<font color="#4876FF">靛风之势</font>时，消耗等量<font color="#FF3030">赤月之势</font>使本回合获得消耗量/2仅限移动的行动力。（最多恢复3点）<br>战技“<font color="#4876FF">靛风之势</font>”升级：当<font color="#4876FF">靛风之势</font><br>满层时获得<font color="#FF3030">赤月之势</font>时，消耗等量<font color="#FF3030">赤月之势</font>使本回合获得消耗量/2仅限进攻的行动力。（最多恢复3点）<br>授予“廻天流·切纸”<a href="../../dan" target="_blank">段位</a>
 4|获得战技：诸刃流转
 5|获得战技：<font color="#C9C9C9">白雪之势</font><br>战技：<font color="#3f2109">黑檀之势</font><br>授予“廻天流·兵法目录”<a href="../../dan" target="_blank">段位</a>
-6|战技“<font color="#C9C9C9">白雪之势</font>”升级：获得时减少对应获得层数的进攻衰减<br>战技“<font color="#3f2109">黑檀之势</font>”升级：获得时下次攻击无视对应获得层数的敌人护甲
+6|战技“<font color="#C9C9C9">白雪之势</font>”升级：获得时减少对应获得层数/2的进攻衰减<br>战技“<font color="#3f2109">黑檀之势</font>”升级：获得时下次攻击无视对应获得层数的护甲
 7|获得战技：<font color="#FFC125">廻天之势</font><br>授予“廻天流·免许”<a href="../../dan" target="_blank">段位</a>
 8|战技“<font color="#FFC125">廻天之势</font>”升级：当自身“<font color="#FF3030">赤月之势</font>”与“<font color="#4876FF">靛风之势</font>”达到上限时，本回合不会再被消耗改为本场战斗中不会再被消耗。当自身“<font color="#C9C9C9">白雪之势</font>”与“<font color="#3f2109">黑檀之势</font>”达到上限时，获得超出上限的部分将会计算为获得5层效果。
 9|获得特殊战技：<font color="#FFC125">诸天百战·一势廻天</font><br>授予“廻天流·免许皆传”<a href="../../dan" target="_blank">段位</a>
@@ -77,6 +77,8 @@
 :--:|:--:
 <font color="#FF3030">赤月之势</font>|本回合基础伤害提升层数/点
 <font color="#4876FF">靛风之势</font>|本回合受到伤害减少层数/2点
-<font color="#C9C9C9">白雪之势</font>|本回合进攻行动力消耗-0.5倍层数/次，但本回合伤害降低层数x5%
-<font color="#3f2109">黑檀之势</font>|本回合伤害提升层数x10%
+<font color="#C9C9C9">白雪之势</font>|本回合进攻行动力消耗可-0.5倍层数/次，但当次伤害倍率降低层数x0.1，且本回合内造成其他伤害时倍率-层数x0.05
+<font color="#3f2109">黑檀之势</font>|本回合所有伤害倍率提升层数x0.1
 <font color="#FFC125">廻天之势</font>|回合结束时恢复自身层数%生命值
+
+* 注：气势均为内生效果，且不可被弱化和解除，只能被技能消耗。
