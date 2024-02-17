@@ -51,7 +51,6 @@ nav:
         - 驯兽熟练度升级: rules/data/update/mount.md
         - 通用坐骑技能: rules/data/update/mountUniversal.md
       - 魔法书:
-        - 塑型土: rules/data/magic/plastic_Soil.md
         - 元素类魔法:
           - 火系魔法: rules/data/magic/elemental/fire.md
           - 水系魔法: rules/data/magic/elemental/water.md
@@ -86,6 +85,8 @@ nav:
             - 梅山: rules/data/magic/faith/Tengu/umeyama.md
           - 大鸿:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
+        - 时空类魔法:
+          - 塔罗系魔法: rules/data/magic/space_time/Tarot.md
         - 心灵类魔法: rules/data/magic/mind.md
         - 鲜血系魔法: rules/data/magic/blood.md
         - 暗影系魔法: rules/data/magic/shadow.md
@@ -180,6 +181,10 @@ nav:
               - ★探沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sand Explorer.md
               - ★★行沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sandwalker.md
               - ★★★隐沙大师: rules/data/social/universal/Sandwalker/Sandwalker_Hidden Master.md
+          - “匠魂”:
+            - 社群简介: rules/data/social/universal/TiC/TiC.md
+            - 进阶职业:
+              - ☆☆匠魂武器工匠: rules/data/social/universal/TiC/TiC_artisan.md
           - 武器技法:
             - ☆☆艾特里斯特战团（重武器技法）: rules/data/social/universal/weaponTech/AtList.md
         - 大鸿:
@@ -422,6 +427,7 @@ nav:
           - ★摄影: rules/data/abandoned/genryu_shinbunsha/photographer.md
           - ★信使: rules/data/abandoned/genryu_shinbunsha/messenger.md
       - 巨兽猎手: rules/data/abandoned/hugeHunter.md
+      - 塑型土: rules/data/abandoned/plastic_Soil.md
     - 创作缓冲区:
       - 说明: temp/index.md
       - 如何开始创作: temp/tutorial.md
