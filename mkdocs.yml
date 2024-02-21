@@ -105,7 +105,6 @@ nav:
           - ★卫士: rules/data/social/basicJob/Guard.md
           - ★旗手: rules/data/social/basicJob/Standard-bearer.md
           - ☆专家: rules/data/social/basicJob/Specialist.md
-          - ☆法工: rules/data/social/basicJob/Spellcrafter.md
         - 西方大陆:
           - 封土（世袭领地）:
             - 社群简介: rules/data/social/universal/feoff/feoff.md
@@ -413,6 +412,7 @@ nav:
         - 魔法百科全书（未完）: settings/magic/magicBook.md
         - 塑型土: settings/magic/plasticSoil.md
     - 废案:
+      - ☆法工: rules/data/abandoned/Spellcrafter.md
       - 装备:
         - 武器及其平均性能表: rules/data/abandoned/equipment/weapons.md
         - 防具及其平均性能表: rules/data/abandoned/equipment/armor.md
