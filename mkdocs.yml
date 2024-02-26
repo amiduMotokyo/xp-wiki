@@ -6,7 +6,9 @@ plugins:
             - ja
         separator: '[\s\-\.]+'
 nav:
-    - 导航: index.md
+    - 导航: 
+      - 更新日志: index.md
+      - 主世界的计划进度: plan.md
     - 规则:
       - 检定模块:
         - 100面骰检定法（D100）: rules/basicRules/checkModule/D100.md
