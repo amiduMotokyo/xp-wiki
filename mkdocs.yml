@@ -89,6 +89,7 @@ nav:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
         - 时空类魔法:
           - 塔罗系魔法: rules/data/magic/space_time/Tarot.md
+        - 魂源系魔法: rules/data/magic/soulmine.md
         - 心灵类魔法: rules/data/magic/mind.md
         - 鲜血系魔法: rules/data/magic/blood.md
         - 暗影系魔法: rules/data/magic/shadow.md
