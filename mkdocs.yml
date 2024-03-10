@@ -127,6 +127,10 @@ nav:
               - ★守望者: rules/data/social/universal/elfFamily/watcher.md
               - ★★游侠: rules/data/social/universal/elfFamily/ranger.md
               - ★★猎师: rules/data/social/universal/elfFamily/huntMaster.md
+            - 鹰眼家族进阶职业:
+              - ★★★鹰眼猎手: rules/data/social/universal/elfFamily/hawkeyeHunter.md
+              - ★★★影行者: rules/data/social/universal/elfFamily/shadowWalker.md
+              - ★★★克洛托剑圣: rules/data/social/universal/elfFamily/swordMaster.md
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
             - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md

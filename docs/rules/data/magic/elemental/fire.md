@@ -74,7 +74,7 @@
 #### 效果
 
 * 初始：使目标地点直线1~3格燃起<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>
-* 10级进阶：角色踏入或踏出（每一格<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>只生效一次）<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>时会受到3点<font color="#dd0000">火焰伤害</font>
+* 10级进阶：角色踏入或踏出（每一格<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>只生效一次）或停留在<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>时会受到3点<font color="#dd0000">火焰伤害</font>
 * 20级进阶：可选范围变成直线1~5格
 * 30级进阶：<a href="../../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>状态升级为<a href="../../../status/terrain/#烈焰之壁" target="_blank">“烈焰之壁”</a>
 * 30级名称改变：烈焰之壁
