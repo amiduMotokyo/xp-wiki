@@ -23,7 +23,7 @@
 
 #### 魔法流派与消耗
 
-* 旋涡之法
+* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
 * SP消耗：8
 
 #### 效果
@@ -38,7 +38,7 @@
 
 #### 魔法流派与消耗
 
-* 旋涡之法
+* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
 * SP消耗：5
 
 #### 效果
@@ -58,7 +58,7 @@
 
 #### 魔法流派与消耗
 
-* 心神之法
+* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -72,7 +72,7 @@
 
 #### 魔法流派与消耗
 
-* 心神之法
+* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -88,7 +88,7 @@
 
 #### 魔法流派与消耗
 
-* 旋涡之法
+* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
 * SP消耗：12
 
 #### 效果

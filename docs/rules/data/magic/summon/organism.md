@@ -28,7 +28,7 @@
 
 #### 魔法流派与消耗
 
-* 塑型之法
+* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：300g
 * 模块指令槽：2
@@ -75,7 +75,7 @@
 
 #### 魔法流派与消耗
 
-* 塑型之法
+* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：350g
 * 模块指令槽：2
@@ -125,7 +125,7 @@
 
 #### 魔法流派与消耗
 
-* 塑型之法
+* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
 * SP消耗：8
 * 塑型土消耗：550g
 * 模块指令槽：3
@@ -173,7 +173,7 @@
 
 #### 魔法流派与消耗
 
-* 塑型之法
+* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
 * SP消耗：10
 * 塑型土消耗：750g
 * 模块指令槽：3
@@ -224,7 +224,7 @@
 
 #### 魔法流派与消耗
 
-* 塑型之法
+* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
 * SP消耗：15
 * 塑型土消耗：1000g
 * 模块指令槽：4

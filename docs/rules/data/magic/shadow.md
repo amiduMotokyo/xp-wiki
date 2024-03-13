@@ -23,7 +23,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -41,7 +41,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -58,7 +58,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -75,7 +75,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -99,7 +99,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -116,7 +116,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -132,7 +132,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -156,7 +156,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -180,7 +180,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -203,7 +203,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
@@ -219,7 +219,7 @@
 
 #### 魔法流派与消耗
 
-* 仪式之法
+* <a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
 
 #### 效果
 
