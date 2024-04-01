@@ -27,3 +27,4 @@
 武术名称|类型|简介
 :--:|:--:|:--:
 <a href="../Martial_Arts/Gatebuster" target="_blank">开门拳</a>|通用武术|强调开篇一招打穿敌人防守的武术，需要修炼弹跳力来配合招式的发挥
+<a href="../Martial_Arts/Xuanti Genre" target="_blank">玄体流</a>|通用武术|将自身的体术锻炼到极致的武术，可达到几乎刀枪不入的境界
