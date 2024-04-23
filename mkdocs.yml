@@ -291,6 +291,7 @@ nav:
               - ☆☆缭乱流: rules/data/social/Tengu/ryuha/ryouran_ryu.md
               - ☆☆野兽流: rules/data/social/Tengu/ryuha/yaju_ryu.md
               - ☆☆廻天流: rules/data/social/Tengu/ryuha/kaiten_ryu.md
+              - ☆☆瞬死流: rules/data/social/Tengu/ryuha/syunsi-ryu.md
           - 桐坂众（桐坂流）:
             - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
             - 进阶职业:
@@ -309,6 +310,11 @@ nav:
               - ★★海族智者: rules/data/social/Tengu/nao_the_prince/umiumenochisha.md
               - ★★★绝命华: rules/data/social/Tengu/nao_the_prince/setsumeino_haname.md
               - ★★★海人参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
+          - 铭见城:
+            - 社群简介: rules/data/social/Tengu/mei-ken/mei-ken.md
+            - 进阶职业:
+              - ★刃众: rules/data/social/Tengu/mei-ken/kan-juu.md
+              - ★★★铭刃众: rules/data/social/Tengu/mei-ken/mei-kenn-shu.md
         - 魔族:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
@@ -419,24 +425,6 @@ nav:
       - 魔法理论:
         - 魔法百科全书（未完）: settings/magic/magicBook.md
         - 塑型土: settings/magic/plasticSoil.md
-    - 废案:
-      - ☆法工: rules/data/abandoned/Spellcrafter.md
-      - 装备:
-        - 武器及其平均性能表: rules/data/abandoned/equipment/weapons.md
-        - 防具及其平均性能表: rules/data/abandoned/equipment/armor.md
-        - 道具列表: rules/data/abandoned/equipment/item.md
-        - 坐骑及其平均性能表: rules/data/abandoned/equipment/mount.md
-        - 坐骑防具及其平均性能表: rules/data/abandoned/equipment/mountArmor.md
-      - 源流报社:
-        - 社群简介: rules/data/abandoned/genryu_shinbunsha/genryu_shinbunsha.md
-        - 进阶职业:
-          - ★编辑: rules/data/abandoned/genryu_shinbunsha/editor.md
-          - ★执笔: rules/data/abandoned/genryu_shinbunsha/writer.md
-          - ★摄影: rules/data/abandoned/genryu_shinbunsha/photographer.md
-          - ★信使: rules/data/abandoned/genryu_shinbunsha/messenger.md
-      - 巨兽猎手: rules/data/abandoned/hugeHunter.md
-      - 塑型土: rules/data/abandoned/plastic_Soil.md
-      - 塑型之法: rules/data/abandoned/plasticSoilMagic.md
     - 创作缓冲区:
       - 说明: temp/index.md
       - 如何开始创作: temp/tutorial.md

@@ -76,8 +76,8 @@
 
 * 初始：目标附加<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态，计算距离时无视障碍物与垂直高度
 * 10级进阶：<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态下，进攻行动消耗行动点也+1倍
-* 20级进阶：<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态下，无法移动
-* 30级进阶：<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态下，无法进攻
+* 20级进阶：<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态下，每回合最多移动3m（非斜向3格）
+* 30级进阶：<a href="../../../status/normal/#强引力" target="_blank">“强引力”</a>状态下，每回合最多进攻一次
 * 30级名称改变：地缚术
 
 ## 上级魔法

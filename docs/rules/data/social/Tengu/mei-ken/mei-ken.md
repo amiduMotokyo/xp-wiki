@@ -37,7 +37,7 @@
 
 <a href="..kan-juu/" target="_blank">★刃众</a>
 
-<a href="../mei-kenn-shu" target="_blank">★★★铭剑众</a>
+<a href="../mei-kenn-shu" target="_blank">★★★铭刃众</a>
 
 ---
 

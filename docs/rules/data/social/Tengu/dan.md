@@ -30,4 +30,5 @@
 <a href="../ryuha/ryouran_ryu" target="_blank">缭乱流</a>|剑术流派|精通二刀流的流派，一边战斗一边踏出杀与华之步伐，经过一定的三连组合后可以形成强大的效果
 <a href="../ryuha/yaju_ryu" target="_blank">野兽流</a>|剑术流派|强悍豪迈的流派，要求双手共持武器进行进攻，配合进攻前的气合吼，可以有效地粉碎敌方的防御能力
 <a href="../ryuha/kaiten_ryu" target="_blank">廻天流</a>|剑术流派|意在生息变化气势流转，如获廻天之力。通过四种气势的相互转换可以使用最终技能《廻天·风花雪月斩》以此一击制敌
+<a href="../ryuha/syunsi-ryu" target="_blank">瞬死流</a>|剑术流派|纯粹的杀人技术，残忍的手法，招招毙命
 <a href="../kirisaki_ryu/kirisaki_ryu" target="_blank">桐坂流</a>|火器流派|针对火器的特性，桐坂众发明的一套相互配合影响的火器专用战术，有散兵、狙击与战勤三个项目，需要通过获取主职等级来提升段位
