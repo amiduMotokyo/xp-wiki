@@ -10,9 +10,6 @@ nav:
       - 更新日志: index.md
       - 主世界的计划进度: plan.md
     - 规则:
-      - 检定模块:
-        - 100面骰检定法（D100）: rules/basicRules/checkModule/D100.md
-        - XP特色100面骰检定法: rules/basicRules/checkModule/XPD100.md
       - 旧版V4.x规则架构:
         - 序章：简介: rules/V4.x rules/prologue.md
         - 第一章：属性: rules/V4.x rules/1·attribute.md
@@ -44,6 +41,9 @@ nav:
           - 料理规则: rules/V3.8rules/cook.md
           - 竞速规则: rules/V3.8rules/contest.md
           - 轻量级副本探索规则: rules/V3.8rules/mapFarm.md
+      - 检定模块:
+        - 100面骰检定法（D100）: rules/basicRules/checkModule/D100.md
+        - XP特色100面骰检定法: rules/basicRules/checkModule/XPD100.md
     - 游戏数据:
       - 技能升级:
         - 泛用技能熟练度升级: rules/data/update/skills.md
@@ -208,6 +208,18 @@ nav:
               - ★★★将帅: rules/data/social/GreatHong/Jun&Xian/general.md
               - ★★★魁首: rules/data/social/GreatHong/Jun&Xian/chief.md
               - ★★★督军: rules/data/social/GreatHong/Jun&Xian/governor.md
+          - 鸿武门:
+            - 社群简介: rules/data/social/GreatHong/HongWuGate/HongWuGate.md
+            - 进阶职业:
+              - ★★鸿武卫镇抚使: rules/data/social/GreatHong/HongWuGate/pacificationEnvoy.md
+              - ★★★鸿武卫指挥使: rules/data/social/GreatHong/HongWuGate/commander.md
+              - ★★★“常选”: rules/data/social/GreatHong/HongWuGate/changChoice.md
+          - 太学:
+            - 社群简介: rules/data/social/GreatHong/ImperialAcademy/ImperialAcademy.md
+            - 进阶职业:
+              - ★理生: rules/data/social/GreatHong/ImperialAcademy/liStudent.md
+              - ★★博士: rules/data/social/GreatHong/ImperialAcademy/liTeacher.md
+              - ★★★祭酒: rules/data/social/GreatHong/ImperialAcademy/liMaster.md
           - 相剑道门:
             - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
             - 进阶职业:
@@ -239,10 +251,11 @@ nav:
               - ★★异彩涂客: rules/data/social/GreatHong/artistgroup/artist_sect/Colorful_Artist.md
               - ★★黯绘塑师: rules/data/social/GreatHong/artistgroup/artist_sect/Shaper_Artist.md
               - ★★★万艺巨匠: rules/data/social/GreatHong/artistgroup/artist_sect/Versatile_Colossus.md
-          - 武术段位等级: rules/data/social/GreatHong/MartialLevel.md
           - 武术:
-            - ☆☆开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
-            - ☆☆玄体流: rules/data/social/GreatHong/Martial_Arts/Xuanti Genre.md
+            - 武术段位等级: rules/data/social/GreatHong/MartialLevel.md
+            - 进阶职业:
+              - ☆☆开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
+              - ☆☆玄体流: rules/data/social/GreatHong/Martial_Arts/Xuanti Genre.md
           - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
         - 天狗国:
           - 士幕府:
@@ -282,8 +295,8 @@ nav:
               - ★★★校官（战斗岗）: rules/data/social/Tengu/seaDragonGuard/battlecadet.md
               - ★★★校官（研究岗）: rules/data/social/Tengu/seaDragonGuard/r&dcadet.md
               - ☆☆☆舰队领航: rules/data/social/Tengu/seaDragonGuard/C4ISR.md
-          - 段位与流派: rules/data/social/Tengu/dan.md
           - 流派:
+            - 段位与流派: rules/data/social/Tengu/dan.md
             - 进阶职业:
               - ☆源流: rules/data/social/Tengu/ryuha/genryu.md
               - ☆岭越流: rules/data/social/Tengu/ryuha/reiechi_ryu.md
@@ -292,6 +305,7 @@ nav:
               - ☆☆野兽流: rules/data/social/Tengu/ryuha/yaju_ryu.md
               - ☆☆廻天流: rules/data/social/Tengu/ryuha/kaiten_ryu.md
               - ☆☆瞬死流: rules/data/social/Tengu/ryuha/syunsi-ryu.md
+              - ☆☆大河原流: rules/data/social/Tengu/ryuha/ookawara_ryu.md
           - 桐坂众（桐坂流）:
             - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
             - 进阶职业:
@@ -319,6 +333,27 @@ nav:
           - 魔族基础职业:
             - ☆魔族公民: rules/data/social/monman/basicJob/citizen.md
             - ☆穿界者: rules/data/social/monman/basicJob/interWorlder.md
+          - 护卫大厅:
+            - 社群简介: rules/data/social/monman/guardHall/guardHall.md
+            - 进阶职业:
+              - ★魔族护卫: rules/data/social/monman/guardHall/monGuard.md
+              - ★采血师: rules/data/social/monman/guardHall/bloodTaker.md
+              - ★魂源法师: rules/data/social/monman/guardHall/soulMineMage.md
+          - 禁卫屯所:
+            - 社群简介: rules/data/social/monman/praetorianHeadquarters/praetorianHeadquarters.md
+            - 进阶职业:
+              - ★★魔族禁卫: rules/data/social/monman/praetorianHeadquarters/monPraetorian.md
+              - ★★魂源网络管理员: rules/data/social/monman/praetorianHeadquarters/administrator.md
+              - ★★★魔族军团长: rules/data/social/monman/praetorianHeadquarters/monLegatus.md
+              - ★★★血族禁卫: rules/data/social/monman/praetorianHeadquarters/bloodPraetorian.md
+              - ★★★血族大师: rules/data/social/monman/praetorianHeadquarters/bloodMaster.md
+          - 巫妖科技:
+            - 社群简介: rules/data/social/monman/lichTechnology/lichTechnology.md
+            - 进阶职业:
+              - ★唤灵师: rules/data/social/monman/lichTechnology/summonLich.md
+              - ★★魂附师: rules/data/social/monman/lichTechnology/possessLich.md
+              - ☆☆研究员: rules/data/social/monman/lichTechnology/researcher.md
+              - ★★★高阶巫妖: rules/data/social/monman/lichTechnology/highLich.md
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:

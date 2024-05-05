@@ -34,3 +34,7 @@
 <a href="../shuku_miko" target="_blank">★祝/巫女</a>
 
 <a href="../oshuku_omiko" target="_blank">★★御祝/御巫女</a>
+
+<a href="../kamigami_no_ken" target="_blank">★★★众神之眷</a>
+
+<a href="../amanojyaku" target="_blank">☆☆☆天魔雄命</a>

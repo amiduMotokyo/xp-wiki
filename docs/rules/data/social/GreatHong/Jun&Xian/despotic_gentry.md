@@ -8,6 +8,7 @@
 
 * <a href="../../../basicJob/Sentinel" target="_blank">哨兵</a>职业等级达到3级
 * <a href="../bureaucrat" target="_blank">士大夫</a>职业等级达到3级
+* 不可选择<a href="../strategist" target="_blank">策士</a>职业
 
 ## 关键属性
 
