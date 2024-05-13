@@ -9,8 +9,8 @@
 ## 必要条件
 
 * 你宣誓效忠朝廷
-* <a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级达到3级
-* <a href="../../bakufu/samurai" target="_blank">武士</a>职业等级达到2级
+* 拥有<a href="../../../basicJob/Guard" target="_blank">卫士</a>的职业等级
+* 拥有<a href="../../bakufu/samurai" target="_blank">武士</a>的职业等级
 * <a href="../../shinobi_yashiki/genin" target="_blank">下忍</a>职业等级达到5级，或者某一流派达到“切纸”<a href="../../dan" target="_blank">段位</a>
 
 ## 关键属性
@@ -22,11 +22,11 @@
 ## 熟练技能
 
 * 武士职业中选择的武器技能
-* 任意武器
-* 抵抗、防御或闪避三选一
+* 任意武器、抵抗、防御或闪避四选一
 * 缴械
 * 侦查感知二选一
-* 心理学乔装二选一
+* 心理学
+* 乔装
 
 ## 职业特性
 

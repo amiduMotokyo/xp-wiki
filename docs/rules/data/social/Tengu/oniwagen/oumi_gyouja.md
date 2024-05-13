@@ -11,7 +11,7 @@
 * 你宣誓效忠朝廷
 * 你的种族为鲸天狗
 * <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级达到3级
-* <a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级达到5级
+* <a href="../../../basicJob/Guard" target="_blank">卫士</a>职业等级达到3级
 * <a href="../metsuke" target="_blank">目付</a>职业等级达到4级
 
 ## 关键属性
@@ -22,7 +22,6 @@
 ## 熟练技能
 
 * 武士职业中选择的武器技能
-* 长柄刀、长枪二选一
 * 防御
 * 缴械
 * 侦查感知二选一

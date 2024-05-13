@@ -113,7 +113,9 @@ nav:
             - 社群简介: rules/data/social/universal/feoff/feoff.md
             - 进阶职业:
               - ★步兵: rules/data/social/universal/feoff/footman.md
+              - ★勇士: rules/data/social/universal/feoff/valor.md
               - ★扈从: rules/data/social/universal/feoff/squire.md
+              - ★★重战士: rules/data/social/universal/feoff/heavyWarrior.md
               - ★★骑士: rules/data/social/universal/feoff/knight.md
           - 圣堂:
             - 社群简介: rules/data/social/universal/sanctuary/sanctuary.md
