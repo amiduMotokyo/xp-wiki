@@ -123,6 +123,12 @@ nav:
               - ★修士/修女: rules/data/social/universal/sanctuary/friar_nun.md
               - ★★诵经师: rules/data/social/universal/sanctuary/chanter.md
               - ★★★圣裁官: rules/data/social/universal/sanctuary/inquisitor.md
+          - 圣骑士团:
+            - 社群简介: rules/data/social/universal/HolyKnights/HolyKnights.md
+            - 进阶职业:
+              - ☆☆猎骑兵: rules/data/social/universal/HolyKnights/Chasseur.md
+              - ★★★圣光骑士: rules/data/social/universal/HolyKnights/LightKnight.md
+              - ★★★雷光骑士: rules/data/social/universal/HolyKnights/ThunderKnight.md
           - 精灵家族领:
             - 社群简介: rules/data/social/universal/elfFamily/elfFamily.md
             - 进阶职业:
