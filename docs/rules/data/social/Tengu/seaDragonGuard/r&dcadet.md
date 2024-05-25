@@ -9,7 +9,6 @@
 * <a href="../lieutenant" target="_blank">尉官</a>
 达到5级
 * 魔力属性≥45
-* 种族为精灵
 
 ## 关键属性
 
