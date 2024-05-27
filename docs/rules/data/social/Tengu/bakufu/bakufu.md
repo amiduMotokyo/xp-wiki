@@ -31,12 +31,12 @@
 
 ## 社群职位
 
+<a href="../bugyou" target="_blank">☆奉行</a>
+
 <a href="../samurai" target="_blank">★★武士</a>
 
 <a href="../hatamoto_taishou" target="_blank">★★旗本大将</a>
 
 <a href="../hatamoto_umamawarishu" target="_blank">★★旗本马回众</a>
-
-<a href="../bugyou" target="_blank">☆☆奉行</a>
 
 <a href="../daimyou" target="_blank">★★★大名</a>

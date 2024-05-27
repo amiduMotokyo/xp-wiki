@@ -269,10 +269,10 @@ nav:
           - 士幕府:
             - 社群简介: rules/data/social/Tengu/bakufu/bakufu.md
             - 进阶职业:
+              - ☆奉行: rules/data/social/Tengu/bakufu/bugyou.md
               - ★★武士: rules/data/social/Tengu/bakufu/samurai.md
               - ★★旗本大将: rules/data/social/Tengu/bakufu/hatamoto_taishou.md
               - ★★旗本马回众: rules/data/social/Tengu/bakufu/hatamoto_umamawarishu.md
-              - ☆☆奉行: rules/data/social/Tengu/bakufu/bugyou.md
               - ★★★大名: rules/data/social/Tengu/bakufu/daimyou.md
           - 神社:
             - 社群简介: rules/data/social/Tengu/jinja/jinja.md
