@@ -300,9 +300,13 @@ nav:
               - ★列兵: rules/data/social/Tengu/seaDragonGuard/enlistedpersonnel.md
               - ★士官: rules/data/social/Tengu/seaDragonGuard/noncommissionedofficer.md
               - ★★尉官: rules/data/social/Tengu/seaDragonGuard/lieutenant.md
+              - ★★前线实验员: rules/data/social/Tengu/seaDragonGuard/Frontline Experimenter.md
               - ★★★校官（战斗岗）: rules/data/social/Tengu/seaDragonGuard/battlecadet.md
               - ★★★校官（研究岗）: rules/data/social/Tengu/seaDragonGuard/r&dcadet.md
+              - ★★★原型驭师: rules/data/social/Tengu/seaDragonGuard/Prototypenaut.md
+              - ☆损管小组: rules/data/social/Tengu/seaDragonGuard/temp.md    
               - ☆☆☆舰队领航: rules/data/social/Tengu/seaDragonGuard/C4ISR.md
+              - ☆☆☆海击先锋: rules/data/social/Tengu/seaDragonGuard/temp.md
           - 流派:
             - 段位与流派: rules/data/social/Tengu/dan.md
             - 进阶职业:
@@ -522,10 +526,6 @@ nav:
           - 社群内部状态: temp/pixelhead/Mihist_School/status.md
         - 破碎外包区:
           - 见习军官（暂定）: temp/pixelhead/Noposui/Untitled.md
-        - 海军DLC:
-          - ★TYPE:TRIDENT: temp/pixelhead/TYPE：TRIDENT.md
-          - ★TYPE:LAUNCHER: temp/pixelhead/TYPE：LAUNCHER.md
-          - ★★前线研究员: temp/pixelhead/frontline experimenter.md
       - 黑羽魇鸽创作区:
         - 说明: temp/DeatLvens/introduce.md
         - 修改意见: temp/DeatLvens/debug.md

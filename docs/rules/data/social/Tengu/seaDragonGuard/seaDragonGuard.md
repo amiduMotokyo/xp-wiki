@@ -40,11 +40,19 @@
 
 <a href="../lieutenant" target="_blank">★★尉官</a>
 
+<a href="../Frontline Experimenter" target="_blank">★★前线实验员</a>
+
 <a href="../battlecadet" target="_blank">★★★校官（战斗岗）</a>
 
 <a href="../r&dcadet" target="_blank">★★★校官（研究岗）</a>
 
+<a href="../Prototypenaut" target="_blank">★★★原型驭师</a>
+
+<a href="../temp" target="_blank">☆损管小组</a>
+
 <a href="../C4ISR" target="_blank">☆☆☆舰队领航</a>
+
+<a href="../temp" target="_blank">☆☆☆海击先锋</a>
 
 ---
 
