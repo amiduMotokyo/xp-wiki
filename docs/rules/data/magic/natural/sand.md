@@ -37,7 +37,7 @@
 #### 效果
 
 * 初始：目标附加<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态
-* 增益：若同时处于<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态与<a href="../../../status/terrain/#荒漠地形" target="_blank">“荒漠地形”</a>，额外获得全身1点护甲与额外5％减伤
+* 增益：若同时处于<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态与<a href="../../../status/terrain/#荒漠地形" target="_blank">“荒漠地形”</a>，额外获得全身1点护甲值与额外5％减伤
 * 10级进阶：<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态下可以免疫<a href="../../../status/terrain/#流沙陷阱" target="_blank">“流沙陷阱”</a>
 * 20级进阶：<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态下再额外获得全身5％减伤
 * 30级进阶：目标进入<a href="../../../status/normal/#沙行" target="_blank">“沙行”</a>状态的同时立刻进入“隐形”状态
