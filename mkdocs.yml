@@ -350,7 +350,7 @@ nav:
             - 进阶职业:
               - ★魔族护卫: rules/data/social/monman/guardHall/monGuard.md
               - ★采血师: rules/data/social/monman/guardHall/bloodTaker.md
-              - ★魂源法师: rules/data/social/monman/guardHall/soulMineMage.md
+              - ★魂源调度员: rules/data/social/monman/guardHall/soulMineDispatcher.md
           - 禁卫屯所:
             - 社群简介: rules/data/social/monman/praetorianHeadquarters/praetorianHeadquarters.md
             - 进阶职业:
@@ -436,6 +436,7 @@ nav:
           - 大鸿国家概况: settings/civilization/GreatHong/GreatHong.md
         - 西方大陆:
           - 人类联合王国国家概况: settings/civilization/Westland/human/summary.md
+          - 人类联合王国政治架构: settings/civilization/Westland/human/Kingdom_feoff.md
           - 木精灵社群国家概况: settings/civilization/Westland/woodElf/summary.md
           - 沙漠帝国国家概况: settings/civilization/Westland/sandEmpire/summary.md
           - 蚁族夜镰商会概况: settings/civilization/Westland/NightSickle/NightSickle.md
