@@ -10,7 +10,6 @@
 * <a href="../Frontline Experimenter" target="_blank">前线实验员</a>达到5级
 * 智力≥45，学习等级至少30
 * 力量或敏捷≥55
-* 经历点至少23
 
 ## 关键属性
 
