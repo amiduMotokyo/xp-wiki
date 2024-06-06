@@ -48,11 +48,11 @@
 
 <a href="../Prototypenaut" target="_blank">★★★原型驭师</a>
 
-<a href="../temp" target="_blank">☆损管小组</a>
+<a href="../lo-losser" target="_blank">☆损管小组</a>
 
 <a href="../C4ISR" target="_blank">☆☆☆舰队领航</a>
 
-<a href="../temp" target="_blank">☆☆☆海击先锋</a>
+<a href="../spearhead" target="_blank">☆☆☆海击先锋</a>
 
 ---
 

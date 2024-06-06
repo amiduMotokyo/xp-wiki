@@ -1,6 +1,6 @@
 # TYPE：LAUNCHER
 
-若不具有<a href="../Frontline Experimenter" target="_blank">前线实验员</a>等级则无法升级。
+本衍生职业视作1星副职，若不具有<a href="../Frontline Experimenter" target="_blank">前线实验员</a>等级则无法升级。
 
 ## 熟练技能
 
