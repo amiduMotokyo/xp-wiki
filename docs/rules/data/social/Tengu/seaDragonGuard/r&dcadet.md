@@ -9,6 +9,7 @@
 * <a href="../lieutenant" target="_blank">尉官</a>
 达到5级
 * 魔力属性≥45
+* 经历点至少23
 
 ## 关键属性
 
