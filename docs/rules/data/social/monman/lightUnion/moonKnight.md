@@ -8,7 +8,7 @@
 
 ## 必要条件
 
-* 拥有<a href="../lightmaster" target="_blank">耀光学者</a>或<a href="../lightmarksman" target="_blank">影光猎户</a>的职业等级
+* <a href="../lightBachelor" target="_blank">明光学士</a>或<a href="../lighthuntsman" target="_blank">披光猎手</a>的职业等级至少为3
 
 ## 关键属性
 

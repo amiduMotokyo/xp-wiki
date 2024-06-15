@@ -8,7 +8,7 @@
 
 ## 必要条件
 
-* 拥有<a href="../lightartist" target="_blank">流光乱匠</a>或<a href="../dragoner" target="_blank">暮光龙候</a>的职业等级
+* <a href="../lightCraftsman" target="_blank">辉光巧匠</a>或<a href="../dragonShadow" target="_blank">吸光龙影</a>的职业等级至少为3
 
 ## 关键属性
 
