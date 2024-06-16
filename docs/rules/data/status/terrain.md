@@ -16,7 +16,7 @@
 ### <h id="潮没地形">潮没地形</h>
 
 * 以蓝黑色地块表示
-* 特别注意：不是<a href="#导电地形" target="_blank">“导电地形”</a>，所在单元格为水单元格
+* 特别注意：不是<a href="#导电地形" target="_blank">“导电地形”</a>
 * 效果：具有<a href="#川流地形（浅水）" target="_blank">“川流地形（浅水）”</a>的特性，角色通过时自动附加<a href="../normal/#潮湿" target="_blank">“潮湿”</a>状态、<a href="../normal/#水冷易伤" target="_blank">“水冷易伤”</a>状态以及<a href="../normal/#水蚀" target="_blank">“水蚀”</a>状态。
 * 解除手段：一回合后退化为<a href="#川流地形（浅水）" target="_blank">“川流地形（浅水）”</a>
 
