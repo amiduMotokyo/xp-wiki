@@ -934,6 +934,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../V4.x%20rules/Extra/Shield/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    盾类武器规则
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17282,6 +17303,7 @@
 </table>
 <h2 id="_32">盾类武器</h2>
 <p>若无特殊说明，盾类武器全为单手武器</p>
+<p>盾类武器是特殊的攻防一体武器，其特性参看<a href="../../../V4.x rules/Extra/Shield" target="_blank">盾类武器规则</a></p>
 <h3 id="_33">轻盾系</h3>
 <table>
 <thead>
@@ -17301,7 +17323,7 @@
 <td style="text-align: center;">15</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">可应用短程武器通用技能<br>只要手持（无论主副武器），防御成功提供全身1点临时护甲</td>
+<td style="text-align: center;">最大格挡值=武器威力×2<br>格挡恢复值=武器威力</td>
 </tr>
 <tr>
 <td style="text-align: center;">筝形盾</td>
@@ -17309,7 +17331,7 @@
 <td style="text-align: center;">25</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">可应用短程武器通用技能<br>只要手持（无论主副武器），防御成功提供全身1点临时护甲</td>
+<td style="text-align: center;">最大格挡值=武器威力×2<br>格挡恢复值=武器威力</td>
 </tr>
 <tr>
 <td style="text-align: center;">仪式用徽盾</td>
@@ -17317,7 +17339,7 @@
 <td style="text-align: center;">30</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">有属性加成<br>只要手持（无论主副武器），防御成功提供全身1点临时护甲</td>
+<td style="text-align: center;">最大格挡值=武器威力×2<br>格挡恢复值=武器威力<br>有属性加成</td>
 </tr>
 </tbody>
 </table>
@@ -17355,8 +17377,8 @@
 <td style="text-align: center;">力量/敏捷</td>
 <td style="text-align: center;">25</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">允许在盾牌上挂载任意道具武器，但会将武器的力量阈值附加在本武器上作为额外代价（道具不计）。存取行为不会产生“破绽”<br>只要手持（无论主副武器），防御时提供全身1点临时护甲<br>只要手持（无论主副武器），受到来自正面的远程物理伤害倍率减少20％</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">最大格挡值=武器威力×3<br>格挡恢复值=武器威力<br>允许在盾牌上挂载任意道具武器，但会将武器的力量阈值附加在本武器上作为额外代价（道具不计）。存取行为不会产生“破绽”</td>
 </tr>
 <tr>
 <td style="text-align: center;">大圆盾</td>
@@ -17364,7 +17386,7 @@
 <td style="text-align: center;">35</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">可应用重型武器通用技能<br>以敏捷作为挂钩属性时，力量阈值+5<br>只要手持（无论主副武器），防御时提供全身1点临时护甲</td>
+<td style="text-align: center;">最大格挡值=武器威力×3<br>格挡恢复值=武器威力<br>以敏捷作为挂钩属性时，力量阈值+5</td>
 </tr>
 <tr>
 <td style="text-align: center;">牙形盾</td>
@@ -17372,7 +17394,7 @@
 <td style="text-align: center;">40</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">可应用重型武器通用技能<br>只要手持（无论主副武器），防御时提供全身1点临时护甲</td>
+<td style="text-align: center;">最大格挡值=武器威力×3<br>格挡恢复值=武器威力</td>
 </tr>
 </tbody>
 </table>
@@ -17386,13 +17408,14 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">只要手持（无论主副武器），防御时提供全身1点临时护甲</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">只要手持（无论主副武器），防御成功时提供全身1点临时护甲</td>
+<td style="text-align: center;">2</td>
 <td style="text-align: center;">2</td>
 </tr>
 </tbody>
 </table>
 <h3 id="_35">巨盾系</h3>
+<p>你可以将巨盾系的武器放置在面前的空地上充当全身掩体，放取均消耗1行动点。若该巨盾受到了攻击，且其周围1范围内存在角色，则这些角色可以选择视为持有该巨盾，用自己的巨盾检定阈值走盾牌防守的流程；否则，对抗阈值固定为10。</p>
 <table>
 <thead>
 <tr>
@@ -17411,7 +17434,7 @@
 <td style="text-align: center;">40</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">可应用重型武器通用技能<br>只要手持（无论主副武器），受到来自正面的远程物理伤害倍率减少40％</td>
+<td style="text-align: center;">最大格挡值=武器威力×4<br>格挡恢复值=武器威力/2<br>放置在面前空地时视为半身掩体，且周围1范围内必须存在角色，否则视为武器掉落</td>
 </tr>
 <tr>
 <td style="text-align: center;">塔盾</td>
@@ -17419,7 +17442,7 @@
 <td style="text-align: center;">45</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">可应用重型武器通用技能<br>提供全身1点护甲<br>只要手持（无论主副武器），受到来自正面的远程物理伤害倍率减少60％</td>
+<td style="text-align: center;">最大格挡值=武器威力×4<br>格挡恢复值=武器威力/2</td>
 </tr>
 <tr>
 <td style="text-align: center;">重型塔盾</td>
@@ -17427,7 +17450,7 @@
 <td style="text-align: center;">55</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">为双手武器<br>可应用重型武器通用技能<br>提供全身2点护甲<br>只要手持（无论主副武器），受到来自正面的远程物理伤害倍率减少80％</td>
+<td style="text-align: center;">为双手武器<br>最大格挡值=武器威力×4<br>格挡恢复值=武器威力/2<br>提供全身1点护甲</td>
 </tr>
 </tbody>
 </table>
@@ -17441,7 +17464,7 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">额外提供全身1点护甲</td>
+<td style="text-align: center;">只要手持（无论主副武器），额外提供全身1点护甲</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">1</td>
 </tr>

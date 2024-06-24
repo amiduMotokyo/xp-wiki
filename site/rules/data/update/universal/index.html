@@ -934,6 +934,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../V4.x%20rules/Extra/Shield/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    盾类武器规则
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -15465,7 +15486,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">远程狙击（瞄准部位）的情况下，可以选择让选定的部位护甲减伤率变为100％</td>
+<td style="text-align: center;">远程狙击（瞄准部位）的情况下，可以选择让选定的部位护甲减伤率变为100％<br>若进攻的是盾牌，则对盾攻击手段伤害倍率增加到0.5</td>
 </tr>
 <tr>
 <td style="text-align: center;">机动</td>
@@ -15514,7 +15535,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">任何弹药附加的异常状态效果×1.5倍</td>
+<td style="text-align: center;">任何弹药附加异常状态时，对方的抵抗异常状态检定获得一枚惩罚骰，检定值获得+4惩罚</td>
 </tr>
 <tr>
 <td style="text-align: center;">开门见山</td>
@@ -15563,7 +15584,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">射程+0.5倍，无视射程中的阻碍（包括角色），但是没法穿墙（指无法穿过2个连续相邻的障碍物）</td>
+<td style="text-align: center;">在一次射击中，以下效果二选一：<br>射程+0.5倍<br>无视射程中的阻碍（包括角色），但是没法穿墙（指无法穿过2个连续相邻的障碍物）</td>
 </tr>
 <tr>
 <td style="text-align: center;">暗袭</td>
@@ -15598,7 +15619,7 @@
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">与武器一致</td>
 <td style="text-align: center;">10</td>
-<td style="text-align: center;">若成功则造成伤害，且此伤害为固伤，不会受到任何减免影响</td>
+<td style="text-align: center;">若成功则造成伤害，且此伤害为固伤，不会受到任何减免影响，只计算防具减伤的伤害分摊<br>若进攻的是盾牌，则对盾攻击手段伤害倍率增加到0.5</td>
 </tr>
 </tbody>
 </table>
@@ -15981,7 +16002,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">对占地超过1格的单位造成的伤害*1.5倍</td>
+<td style="text-align: center;">对占地超过1格的单位造成的伤害×1.5倍</td>
 </tr>
 <tr>
 <td style="text-align: center;">抡转</td>
@@ -16115,7 +16136,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">冲锋过程中可对冲锋路径周围（武器范围-1）格的所有敌人造成伤害（不应用冲锋加成）</td>
+<td style="text-align: center;">冲锋过程中可对冲锋路径周围（武器范围-1）格的所有敌人造成伤害</td>
 </tr>
 <tr>
 <td style="text-align: center;">龙闪</td>
@@ -16214,7 +16235,7 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">进攻时可以多花费0.5倍的行动点，若对手拼刀，无视其武器威力提供的减伤效果；若对手防御，无视防御带来的50％的减伤效果（成功25％，失败0％）</td>
+<td style="text-align: center;">进攻时可以多花费0.5倍的行动点，若对手拼刀，无视其武器威力提供的减伤效果；若对手防御，无视防御带来的50％的减伤效果（成功25％，失败0％）；若对手用盾牌防守，则对盾攻击手段伤害倍率+0.3倍</td>
 </tr>
 <tr>
 <td style="text-align: center;">穷追猛打</td>
@@ -16310,6 +16331,7 @@
 </tbody>
 </table>
 <h2 id="_22">盾类武器</h2>
+<p>盾类武器是特殊的攻防一体武器，其特性参看<a href="../../../V4.x rules/Extra/Shield" target="_blank">盾类武器规则</a></p>
 <h3 id="_23">初级</h3>
 <table>
 <thead>
@@ -16327,35 +16349,42 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">触发</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">额外增加1基础AP消耗（最高增加10威力），使本次攻击获得武器力量阈值/5的威力。</td>
+<td style="text-align: center;">使用盾进攻时，可额外花费1行动点，使本次攻击获得武器力量阈值/5的威力（最高增加10威力）</td>
 </tr>
 <tr>
-<td style="text-align: center;">硬度优势</td>
-<td style="text-align: center;">战技</td>
-<td style="text-align: center;">被动</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">拼刀时额外增加武器威力/2点阈值。</td>
-</tr>
-<tr>
-<td style="text-align: center;">盾牌格挡</td>
+<td style="text-align: center;">临时修补</td>
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">触发</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">额外消耗盾牌类武器力量阈值/15点sp，使用当前盾牌类武器代替防御进行对抗，计算为武器衰减。</td>
+<td style="text-align: center;">每回合一次，花费2行动点，使盾牌额外恢复一次格挡值</td>
+</tr>
+<tr>
+<td style="text-align: center;">撑盾</td>
+<td style="text-align: center;">战技</td>
+<td style="text-align: center;">触发</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">每回合一次，盾牌防守流程中可选择触发，使当次的盾牌护甲值翻倍</td>
+</tr>
+<tr>
+<td style="text-align: center;">附加锁链</td>
+<td style="text-align: center;">战技</td>
+<td style="text-align: center;">触发</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">盾牌武器以外力被卸除时，可花费1行动点免疫该效果。若盾牌被投掷脱手，则可在3格范围内立刻花费1行动点收回并装备</td>
 </tr>
 <tr>
 <td style="text-align: center;">盾牌猛击</td>
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">与武器一致</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">若成功，可选择威力减半让敌人判定<a href="../../status/normal/#晕眩" target="_blank">“晕眩”</a>。</td>
+<td style="text-align: center;">若成功，可选择威力减半让敌人判定<a href="../../status/normal/#晕眩" target="_blank">“晕眩”</a></td>
 </tr>
 <tr>
 <td style="text-align: center;">盾牌冲撞</td>
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">与武器一致</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">视作使用“冲锋”战术，至少对2格外无阻挡直线上的目标使用。<br>计算与目标的距离额外消耗距离/2的AP，增加额外消耗AP量的伤害。</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">无视“冲锋”前不可位移的条件，选定“冲锋”战术中允许的目标，视作使用“冲锋”战术进攻，且本次“冲锋”不计入本回合“冲锋”的使用次数</td>
 </tr>
 </tbody>
 </table>
@@ -16376,35 +16405,42 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">在“坚守姿态”下若持有轻盾/长盾/巨盾系武器，受到正面的近战攻击伤害减少20%/30%/50%，两侧拥有一半效果。<br>因自身“破绽”所触发敌人子弹时间时无效本技能。</td>
+<td style="text-align: center;">每回合第一次盾牌防守流程不算衰减，且盾牌的格挡值消耗减半</td>
 </tr>
 <tr>
-<td style="text-align: center;">阻挡流弹</td>
+<td style="text-align: center;">飞祸拦截</td>
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">在非措手不及状态下面对攻击者，若为轻盾/长盾则受到远程物理伤害倍率减少25％/30%，若为巨盾系则改为侧方获得武器初始远程物理减伤率一半。</td>
+<td style="text-align: center;">手持盾牌时，不以你为主目标的范围物理技能（包括固伤），无法对你生效<br>特别地，如果这类范围物理技能只覆盖到你一人，则还是会对你生效</td>
 </tr>
 <tr>
-<td style="text-align: center;">附加锁链</td>
+<td style="text-align: center;">巩固架势</td>
 <td style="text-align: center;">战技</td>
-<td style="text-align: center;">触发</td>
+<td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">盾牌武器以外力被卸除时，可耗费1ap免疫该效果。若盾牌被投掷脱手，则可在3格范围内立刻耗费1AP收回并装备。</td>
+<td style="text-align: center;">盾牌的格挡恢复值增加（武器威力/2）</td>
+</tr>
+<tr>
+<td style="text-align: center;">连携</td>
+<td style="text-align: center;">战技</td>
+<td style="text-align: center;">被动</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">只需手持盾牌，在双持状态下，可在使用其中一把武器的特殊战技后免行动力派生另一把武器的特殊战技。(此派生会视作正常使用)</td>
 </tr>
 <tr>
 <td style="text-align: center;">飞盾攻击</td>
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">与武器一致</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">按照“投掷”系射程计算，获得一半的投掷距离，附加力量/15的额外固定伤害。</td>
+<td style="text-align: center;">按照“投掷”系射程计算，获得一半的投掷距离，附加当前格挡值/5的额外固定伤害（最多10点）</td>
 </tr>
 <tr>
 <td style="text-align: center;">损伤偏移</td>
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">与武器一致</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">防守时才能使用，根据触发本战技的盾牌类型获得不同增益：<br>轻盾：当次最终伤害减少1+（差值因子×1.5）<br>长盾：当次最终伤害减少3+（差值因子×1）<br>巨盾：当次最终伤害减少5+（差值因子×0.5）</td>
+<td style="text-align: center;">受到攻击后使用本技能，若成功，根据触发本战技的盾牌类型获得不同增益：<br>轻盾：当次最终伤害减少1+（差值×0.15）<br>长盾：当次最终伤害减少3+（差值×0.1）<br>巨盾：当次最终伤害减少5+（差值×0.05）</td>
 </tr>
 </tbody>
 </table>
@@ -16425,28 +16461,42 @@
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">本技能可重复习得。以下效果四选二：<br>移除“质量冲击”额外AP消耗。<br>“硬度优势”效果翻倍。<br>“盾牌猛击”威力不再减半。<br>“盾牌冲撞”在冲锋时若未拥有“跳劈”允许临时习得使用（不会增加跳跃经验值），若已拥有则翻倍加成（不翻倍上限）。</td>
+<td style="text-align: center;">移除“质量冲击”额外AP消耗<br>“盾牌猛击”威力不再减半<br>“盾牌冲撞”在冲锋时若未拥有“跳劈”允许临时习得使用（不会增加跳跃经验值），若已拥有则翻倍加成（不翻倍上限）</td>
 </tr>
 <tr>
 <td style="text-align: center;">不落城塞</td>
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">“灵活防护”两侧拥有效果从一半改为全额，不会因自身“破绽”失效<br>“阻挡流弹”移除非措手不及条件。<br>自身所有受到2点以下的生命值/护甲生命值物理伤害变为0，若大于2点则-1。</td>
+<td style="text-align: center;">“灵活防护”盾牌格挡值消耗减半改为不减<br>“飞祸拦截”增强：若你受到不以你为主目标的范围魔法技能影响，你在闪避、对抗检定中获得一枚奖励骰，检定值获得-4奖励<br>自身所有受到2点以下的生命值/护甲生命值物理伤害变为0，若大于2点则-1</td>
 </tr>
 <tr>
 <td style="text-align: center;">不懈守护</td>
 <td style="text-align: center;">战技</td>
 <td style="text-align: center;">被动</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">获得1个额外战术技能等级分配给“坚守姿态”或“背靠背”，若为巨盾系武器则获得3个额外战术等级自由分配给“坚守姿态”或“背靠背”。<br>作为副武器时无需切换武器也能享受特殊效果带来的增益。<br>“背靠背”可叠加上限-1，但自身永久获得等同于1层当前等级的“背靠背”战术效果及战术15级与30级加成</td>
+<td style="text-align: center;">获得2个额外战术技能等级分配给“坚守姿态”或“背靠背”<br>盾类武器作为副武器时无需切换武器也能享受特殊效果带来的增益<br>“背靠背”可叠加上限-1，但自身永久获得等同于1层当前等级的“背靠背”战术效果及战术15级与30级加成</td>
+</tr>
+<tr>
+<td style="text-align: center;">拼盾</td>
+<td style="text-align: center;">战技</td>
+<td style="text-align: center;">触发</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">使用盾进攻时，可选择消耗x点（x&lt;=10）当前格挡值，使本次进攻阈值+1.5x，武器威力+0.5x，若x=10，则还可以使本次进攻造成的伤害+0.5倍</td>
 </tr>
 <tr>
 <td style="text-align: center;">撼地猛击</td>
 <td style="text-align: center;">特殊战技</td>
 <td style="text-align: center;">力量</td>
 <td style="text-align: center;">10</td>
-<td style="text-align: center;">固定攻击自身一格范围内的地面，增加100%伤害倍率。<br>从攻击点每向外扩散一圈伤害倍率-50%，伤害倍率不为0范围内的接地敌人受击部位固定位腿部，只能用防御对抗，半额抵抗<a href="../../status/normal/#倒地" target="_blank">“倒地”</a>。</td>
+<td style="text-align: center;">固定攻击自身一格范围内的地面，增加100%伤害倍率<br>从攻击点每向外扩散一圈伤害倍率-50%，伤害倍率不为0范围内的接地敌人受击部位固定位腿部，并抵抗判<a href="../../status/normal/#倒地" target="_blank">“倒地”</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">寓守于攻</td>
+<td style="text-align: center;">特殊战技</td>
+<td style="text-align: center;">与武器一致</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">若对抗成功，可将造成的任意伤害量转移给手持盾牌的当前格挡值（最多转移最大格挡值的一半）<br>在持盾的情况下，非盾类武器也可以使用本特殊战技</td>
 </tr>
 </tbody>
 </table>

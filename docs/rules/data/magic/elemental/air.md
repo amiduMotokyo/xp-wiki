@@ -2,9 +2,9 @@
 
 ## 气系魔法共通效果
 
-### <a href="../../../status/normal/#流血" target="_blank">“流血”</a>状态
+### <a href="../../../status/mark/#流血印记" target="_blank">“流血印记”</a>
 
-* 触发条件：单次受到的<font color="#00dd00">灵气伤害</font>超过8点，需要抵抗判<a href="../../../status/normal/#流血" target="_blank">“流血”</a>。此外，受到的<font color="#00dd00">灵气伤害</font>每比8点多1点，抵抗的阈值减少5点。
+* 触发条件：每受到5点<font color="#00dd00">灵气伤害</font>，就会携带一层<a href="../../../status/mark/#流血印记" target="_blank">“流血印记”</a>。
 
 ### 特殊技艺：气系精通
 
