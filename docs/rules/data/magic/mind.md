@@ -62,7 +62,7 @@
 
 #### 效果
 
-* 初始：选择施法范围内1名其他友方，赋予其X层<a href="../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>，赋予自己X-2（至少为1）层<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>。（若失败，赋予印记层数减半）
+* 初始：选择施法范围内1名其他友方，赋予其X层<a href="../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>，赋予自己X-2（至少为1）层<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>，如果在一个行动轮第二次使用本法术，那么直到当前行动轮结束前，自身的<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>不会减少。（若失败，赋予印记层数减半）
 * 10级进阶：赋予的<a href="../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>层数+2。
 * 20级进阶：还会赋予其X/3（四舍五入）层<a href="../../status/mark/#勇敢印记" target="_blank">“勇敢印记”</a>。
 * 30级进阶：<a href="../../status/mark/#勇敢印记" target="_blank">“勇敢印记”</a>存在期间，目标的普通攻击和抵抗获得一枚奖励骰。
@@ -105,7 +105,7 @@
 #### 魔法分支与消耗
 
 * 支援者分支
-* SP消耗：3X
+* SP消耗：2X+Y²（Y=本回合该法术已使用次数）
 
 #### 效果
 
@@ -172,11 +172,11 @@
 
 #### 效果
 
-每次拥有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>的角色判定失败，选择偷取其3点sp或使其叠加一层任意阈值衰减。
+每次拥有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>的角色判定失败，选择偷取其3点sp或使其叠加一层<a href="../../status/mark/#笨拙印记" target="_blank">“笨拙印记”</a>、<a href="../../status/mark/#脆断印记" target="_blank">“脆断印记”</a>或<a href="../../status/mark/#折戟印记" target="_blank">“折戟印记”</a>。
 
 #### 进阶效果
 
-你附加的<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>效果变为“判定阈值-7（效果不叠加，只叠加次数）”，每次拥有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>的角色判定失败，选择偷取其5点sp或使其叠加一层任意阈值衰减，此效果叠加的阈值衰减固定持续一回合。
+你附加的<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>效果变为“判定阈值-7（效果不叠加，只叠加次数）”，每次拥有<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>的角色判定失败，选择偷取其5点sp或使其叠加<a href="../../status/mark/#笨拙印记" target="_blank">“笨拙印记”</a>、<a href="../../status/mark/#脆断印记" target="_blank">“脆断印记”</a>或<a href="../../status/mark/#折戟印记" target="_blank">“折戟印记”</a>中的两种各一层。
 
 ### 幻痛
 
