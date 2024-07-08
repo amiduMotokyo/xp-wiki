@@ -15276,7 +15276,7 @@
 </table>
 <h2 id="_4">骁骑的检定阈值</h2>
 <p>根据骁骑等级，骁骑拥有一个基础的阈值。在此基础上，还会获得其招募者（（智力+魅力）/10四舍五入）点额外的阈值加成。</p>
-<p>行动顺序排序时看的也是这个基础的阈值。</p>
+<p>行动顺序固定排在其招募者之后。</p>
 <p>可见，就算大鸿的武官考试对魅力没有要求，想要带出一支精壮的部队，仍然需要锻炼你的领导才能。</p>
 <table>
 <thead>
@@ -15288,178 +15288,116 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">40</td>
-</tr>
-<tr>
-<td style="text-align: center;">2</td>
 <td style="text-align: center;">45</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
 <td style="text-align: center;">50</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
 <td style="text-align: center;">55</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
 <td style="text-align: center;">60</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
+<td style="text-align: center;">5</td>
 <td style="text-align: center;">65</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
 <td style="text-align: center;">70</td>
 </tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">75</td>
+</tr>
 </tbody>
 </table>
+<p>此外，默认情况下，骁骑的战术奖励固定为（骁骑的检定阈值/8四舍五入），此检定阈值为算完招募者智力与魅力的加成后的值。</p>
 <h2 id="_5">骁骑的武装</h2>
-<p>所有骁骑使用统一的武器与防具，武器采用选定类型的模板，防具采用躯干模板。如果你想更换他们的武器类型，需要在长休时花费1长休行动点进行更换。</p>
-<p>根据骁骑的等级，骁骑可以提升他们武装的质量。与乡勇不同的是，骁骑只允许装备近战武器。</p>
+<p>所有骁骑使用统一的武器与防具，武器采用选定类型的模板，防具采用中甲躯干模板，初始武器为3级，防具为5级。如果你想更换他们的武器类型，需要在长休时花费1长休行动点进行更换。</p>
+<p>根据骁骑的等级，骁骑可以提升他们武装的质量，且只允许装备近战武器，具体来说：</p>
 <table>
 <thead>
 <tr>
 <th style="text-align: center;">骁骑等级</th>
-<th style="text-align: center;">武器威力增加</th>
-<th style="text-align: center;">护甲值增加</th>
-<th style="text-align: center;">减伤增加</th>
-<th style="text-align: center;">额外生命增加</th>
+<th style="text-align: center;">武装质量提升</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">无</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">武器升为4级，防具升为6级</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">防具升为7级</td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">6</td>
+<td style="text-align: center;">武器升为5级，防具升为8级</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">防具升为9级</td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">武器升为6级，防具升为10级</td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">20％</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">武器升为7级，防具升为11级</td>
 </tr>
 </tbody>
 </table>
-<p>此外，每一位骁骑还配备一匹战马（只能是战马）。这些战马也会跟随骁骑的等级一起成长。</p>
+<p>此外，每一位骁骑还配备一匹战马（只能是战马），初始为3级，初始坐骑防具为5级，这些战马也会跟随骁骑的等级一起成长。</p>
 <table>
 <thead>
 <tr>
 <th style="text-align: center;">骁骑等级</th>
-<th style="text-align: center;">坐骑性能增加</th>
-<th style="text-align: center;">坐骑生命增加</th>
-<th style="text-align: center;">坐骑机动增加</th>
-<th style="text-align: center;">马具护甲值增加</th>
-<th style="text-align: center;">马具减伤增加</th>
-<th style="text-align: center;">马具额外生命增加</th>
+<th style="text-align: center;">战马质量提升</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">无</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">战马升为4级，坐骑防具升为6级</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">坐骑防具升为7级</td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">6</td>
+<td style="text-align: center;">战马升为5级，坐骑防具升为8级</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">坐骑防具升为9级</td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">战马升为6级，坐骑防具升为10级</td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">20％</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">战马升为7级，坐骑防具升为11级</td>
 </tr>
 </tbody>
 </table>
+<p>注：骁骑的装备与战马无法用于卖钱，没有印痕与训练能力，若在战斗中损坏或丢失，战后自动修复。</p>
 <h2 id="_6">骁骑的特殊能力</h2>
 <p>根据骁骑等级，骁骑可以习得其配备武器与坐骑的熟练度等级技能。如果你想更换他们的通用武器能力，需要在长休时花费1长休行动点进行更换。</p>
 <table>

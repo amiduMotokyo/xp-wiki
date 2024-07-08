@@ -15201,7 +15201,7 @@
 <p>乡勇拥有等级，范围是1~7级，等级越高的乡勇拥有越强大的实力上限。</p>
 <p>每个乡勇都拥有各自的等级，但出阵的乡勇采用的是所有乡勇的平均等级（四舍五入）。</p>
 <p>累积乡勇经验值，可以提升乡勇的等级。每累积3点乡勇经验值，就可以提升指定的乡勇1级。</p>
-<p>乡勇经验值可以通过“练兵”特殊技艺来获取。特别地，若在战斗中派出的乡勇在战斗中存活，则他们每人在战斗结束后都可以直接提升1级。</p>
+<p>乡勇经验值可以通过“点兵”特殊技艺来获取。特别地，若在战斗中派出的乡勇在战斗中存活，则他们每人在战斗结束后都可以直接提升1级。</p>
 <h2 id="hpsp">乡勇的HP与SP</h2>
 <p>乡勇等级越高，乡勇的HP与SP越多。</p>
 <table>
@@ -15252,7 +15252,7 @@
 </table>
 <h2 id="_3">乡勇的检定阈值</h2>
 <p>根据乡勇等级，乡勇拥有一个基础的阈值。在此基础上，还会获得其招募者（（智力+魅力）/10四舍五入）点额外的阈值加成。</p>
-<p>行动顺序排序时看的也是这个基础的阈值。</p>
+<p>行动顺序固定排在其招募者之后。</p>
 <table>
 <thead>
 <tr>
@@ -15291,71 +15291,49 @@
 </tr>
 </tbody>
 </table>
+<p>此外，默认情况下，乡勇的战术奖励固定为（乡勇的检定阈值/8四舍五入），此检定阈值为算完招募者智力与魅力的加成后的值。</p>
 <h2 id="_4">乡勇的武装</h2>
-<p>所有乡勇使用统一的武器与防具，武器采用选定类型的模板，防具采用躯干模板。如果你想更换他们的武器类型，需要在长休时花费1长休行动点进行更换。</p>
-<p>根据乡勇的等级，乡勇可以提升他们武装的质量。</p>
+<p>所有乡勇使用统一的武器与防具，武器采用选定类型的模板，防具采用中甲躯干模板，初始全为1级。如果你想更换他们的武器类型，需要在长休时花费1长休行动点进行更换。</p>
+<p>根据乡勇的等级，乡勇可以提升他们武装的质量，具体来说：</p>
 <table>
 <thead>
 <tr>
 <th style="text-align: center;">乡勇等级</th>
-<th style="text-align: center;">武器威力增加</th>
-<th style="text-align: center;">护甲值增加</th>
-<th style="text-align: center;">减伤增加</th>
-<th style="text-align: center;">额外生命增加</th>
+<th style="text-align: center;">武装质量提升</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">无</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">5％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">武器升为2级，防具升为2级</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: center;">防具升为3级</td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">10％</td>
-<td style="text-align: center;">6</td>
+<td style="text-align: center;">武器升为3级，防具升为4级</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">防具升为5级</td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">15％</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">武器升为4级，防具升为6级</td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">20％</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">武器升为5级，防具升为7级</td>
 </tr>
 </tbody>
 </table>
+<p>注：乡勇的装备无法用于卖钱，没有印痕，若在战斗中损坏或丢失，战后自动修复。</p>
 <h2 id="_5">乡勇的特殊能力</h2>
 <p>根据乡勇等级，乡勇可以习得其配备武器的熟练度等级技能。如果你想更换他们的通用武器能力，需要在长休时花费1长休行动点进行更换。</p>
 <table>

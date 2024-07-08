@@ -28,3 +28,23 @@
 ### 标志
 
 因各郡太守而异
+
+## 社群职位
+
+<a href="../beadle" target="_blank">★小吏</a>
+
+<a href="../rider" target="_blank">★骑手</a>
+
+<a href="../bureaucrat" target="_blank">★★士大夫</a>
+
+<a href="../field_officer" target="_blank">★★校尉</a>
+
+<a href="../despotic_gentry" target="_blank">★★豪杰</a>
+
+<a href="../strategist" target="_blank">★★策士</a>
+
+<a href="../general" target="_blank">★★★将帅</a>
+
+<a href="../chief" target="_blank">★★★魁首</a>
+
+<a href="../governor" target="_blank">★★★督军</a>
