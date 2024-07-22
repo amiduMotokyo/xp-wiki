@@ -9,6 +9,7 @@ nav:
     - 导航: 
       - 更新日志: index.md
       - 主世界的计划进度: plan.md
+      - 编年史: chronicle.md
     - 规则:
       - 旧版V4.x规则架构:
         - 序章：简介: rules/V4.x rules/prologue.md
