@@ -28,6 +28,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：10
 
 #### 效果
@@ -43,6 +44,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -59,6 +61,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -73,6 +76,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">力场型</a>
 
 #### 效果
 
@@ -89,6 +93,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">地刺型</a>
 * SP消耗：12
 
 #### 效果

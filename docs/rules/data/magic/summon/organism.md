@@ -28,6 +28,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：每个2
 * 塑型土消耗：每个100g
 * 召唤行动点：每个1
@@ -65,6 +66,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：每个2
 * 塑型土消耗：每个120g
 * 召唤行动点：每个1
@@ -104,6 +106,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：每个4
 * 塑型土消耗：每个275g
 * 召唤行动点：每个1.5
@@ -141,6 +144,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：每个5
 * 塑型土消耗：每个375g
 * 召唤行动点：每个1.5
@@ -181,6 +185,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：每个8
 * 塑型土消耗：每个500g
 * 召唤行动点：每个2
