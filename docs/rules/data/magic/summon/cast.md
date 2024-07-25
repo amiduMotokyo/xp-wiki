@@ -27,7 +27,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：300g
 * 召唤行动点：2
@@ -65,7 +65,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：400g
 * 召唤行动点：2
@@ -103,7 +103,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：350g
 * 召唤行动点：2
@@ -144,7 +144,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：8
 * 塑型土消耗：450g
 * 召唤行动点：2
@@ -197,7 +197,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：8
 * 塑型土消耗：500g
 * 召唤行动点：2
@@ -239,7 +239,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：15
 * 塑型土消耗：1000g
 * 召唤行动点：4

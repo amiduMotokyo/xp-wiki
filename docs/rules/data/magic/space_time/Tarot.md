@@ -87,7 +87,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -103,7 +103,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -121,7 +121,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -137,7 +137,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -155,7 +155,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 

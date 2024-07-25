@@ -15,7 +15,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -29,7 +29,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -43,7 +43,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
 * SP消耗：5
 
 #### 效果
@@ -60,7 +60,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -74,7 +74,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>
+* <a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>
 * SP消耗：5
 * 塑型土消耗：100g
 
@@ -92,7 +92,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
 * SP消耗：8
 
 #### 效果
@@ -109,7 +109,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -123,7 +123,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
 * SP消耗：10
 
 #### 效果

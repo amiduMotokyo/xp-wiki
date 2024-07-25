@@ -80,7 +80,7 @@
 
 <a href="../../../../magic/summon/cast" target="_blank">召唤魔法课表</a>
 
-另外，主修召唤院且主修“<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>”的学生可以免费获得1.5kg塑型土；主修召唤院但不主修“<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>”的学生，可以在获得第一个<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>魔法时，免费获得500g塑型土。
+另外，主修召唤院且主修“<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>”的学生可以免费获得1.5kg塑型土；主修召唤院但不主修“<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>”的学生，可以在获得第一个<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>魔法时，免费获得500g塑型土。
 
 #### 炼金院
 
@@ -94,7 +94,7 @@
 
 <a href="../../../../magic/alchemy/metallurgy" target="_blank">炼金魔法课表</a>
 
-另外，主修炼金院且主修“<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>”的学生可以免费获得1.5kg塑型土；主修炼金院但不主修“<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>”的学生，可以在获得第一个<a href="/rules/V4.x rules/8·magic/#_23" target="_blank">塑型之法</a>魔法时，免费获得500g塑型土。
+另外，主修炼金院且主修“<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>”的学生可以免费获得1.5kg塑型土；主修炼金院但不主修“<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>”的学生，可以在获得第一个<a href="/rules/V4.x rules/8·magic/#塑型之法" target="_blank">塑型之法</a>魔法时，免费获得500g塑型土。
 
 ### 社团信息
 
@@ -144,11 +144,11 @@
 
 自从卡珊娜剿灭校内的邪教组织之后，深感宗教信仰对人们的负面影响。然而，信仰类魔法也是魔法学院的重要研究课题之一，于是她整合了所有信仰社团，并自任为社长来亲自管制他们。
 
-在信仰社，你可以潜心于研究你自己的信仰以及其派生的<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>，并且还能在这里找到你的同好。但要小心，一旦卡珊娜社长认为你信仰的宗旨有悖人伦，她就会立刻进行取缔。
+在信仰社，你可以潜心于研究你自己的信仰以及其派生的<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>，并且还能在这里找到你的同好。但要小心，一旦卡珊娜社长认为你信仰的宗旨有悖人伦，她就会立刻进行取缔。
 
 社团熟练技能：感知
 
-特殊：允许将你信仰专属的信仰类魔法加入到魔法学院进阶职业中可学习的“任意魔法”范围中，且可以在学院中购买<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>素材。
+特殊：允许将你信仰专属的信仰类魔法加入到魔法学院进阶职业中可学习的“任意魔法”范围中，且可以在学院中购买<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材。
 
 #### 艺术社
 

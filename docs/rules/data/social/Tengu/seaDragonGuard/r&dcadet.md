@@ -37,10 +37,10 @@
 
 职业等级|月零用|奖励能力
 :--:|:--:|:--:
-1|25贯|获得战技：导魔炼弹<br>选择获得<a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>：电流迭变或<a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>：热量剥离
+1|25贯|获得战技：导魔炼弹<br>选择获得<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>：电流迭变或<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>：热量剥离
 2|30贯|选择获得战技：优良导体或战技：快速冷冻
 3|35贯|获得战技：海波涌动
-4|40贯|选择获得<a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>：电流迭变或<a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>：热量剥离
+4|40贯|选择获得<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>：电流迭变或<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>：热量剥离
 5|50贯|选择获得战技：优良导体或战技：快速冷冻<br>获得60点经验值，仅可分配给法术。
 
 ### 奖励能力解释
@@ -56,7 +56,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_10" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
 * SP消耗：12
 
 #### 效果
@@ -71,7 +71,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 

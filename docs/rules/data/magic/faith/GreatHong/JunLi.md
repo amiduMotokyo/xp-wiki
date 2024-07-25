@@ -2,15 +2,15 @@
 
 ## 简介
 
-大鸿的先祖尤其关注大鸿子民争斗中的公平性与道德性，具体来说就是要讲武德。而大鸿军理的<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>会给武德充沛者降下福祉，给投机取巧者降下惩罚。
+大鸿的先祖尤其关注大鸿子民争斗中的公平性与道德性，具体来说就是要讲武德。而大鸿军理的<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>会给武德充沛者降下福祉，给投机取巧者降下惩罚。
 
 ## 武德
 
-武德是大鸿军理<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>施展的必要资源，相当于其他<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>中要消耗的素材。与素材不同的是，大鸿军理<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>不会消耗武德，而是会根据武德的多少决定<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>的强度。
+武德是大鸿军理<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>施展的必要资源，相当于其他<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>中要消耗的素材。与素材不同的是，大鸿军理<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>不会消耗武德，而是会根据武德的多少决定<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>的强度。
 
 ### 武德的增减
 
-武德可正可负，负武德的情况下无法使用大鸿军理<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>，甚至还会被对方的大鸿军理<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>所针对。
+武德可正可负，负武德的情况下无法使用大鸿军理<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>，甚至还会被对方的大鸿军理<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>所针对。
 
 武德获取方式如下：
 

@@ -17,7 +17,7 @@
 * 代替：可以使用1/2/3份血袋来代替保底HP消耗，代替部分不可计算为额外消耗量。 每进行t重过载，血袋消耗量就要翻t倍。
 * 限制：没法榨出血的种族（例如骷髅和幽灵）只能通过消耗血袋来释放鲜血系魔法。
 * 优势：血族可减半施法保底HP消耗（向上取整），且获得的增益保持不变。
-* 注意：鲜血系魔法无法使用“允许缝合另一<a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>流派魔法的效果”过载效果。
+* 注意：鲜血系魔法无法使用“允许缝合另一<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>流派魔法的效果”过载效果。
 
 !!! info "用数学公式解释鲜血系魔法消耗HP规则"
     几乎所有鲜血魔法都有“额外施法消耗”来增强魔法的能力，记为z。
@@ -44,7 +44,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -58,7 +58,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -72,7 +72,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -88,7 +88,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -104,7 +104,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -120,7 +120,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -136,7 +136,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -152,7 +152,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -168,7 +168,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -182,7 +182,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 
@@ -197,7 +197,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#_14" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 
 #### 效果
 

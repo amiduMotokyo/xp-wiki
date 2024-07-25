@@ -3,7 +3,7 @@
 ## 魂源系魔法共通效果
 
 * 使用任何魂源系魔法，均需要消耗魂源
-* 所有魂源系魔法均属于<a href="/rules/V4.x rules/8·magic/#_19" target="_blank">仪式之法</a>
+* 所有魂源系魔法均属于<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>
 * 默认情况下每一种魂源法术一回合最多用一次
 
 ## 素材
