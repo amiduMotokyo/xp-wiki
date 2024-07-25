@@ -13,26 +13,28 @@
 
 ## 初级魔法
 
-### 召唤光球
+### 幽光侵扰
 
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
-* SP消耗：6
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
+* SP消耗：7
 
 #### 效果
 
-* 初始：获得一层<a href="../../../../status/mark/#浮游光球" target="_blank">“浮游光球”</a>
-* 10级进阶：行动轮内/外威力变为8X/6X
-* 20级进阶：若在子弹时间内使用则无需额外消耗子弹时间；成功且差值因子大于3的进攻可以打断冲锋
-* 30级进阶：行动外进攻不再需要消耗子弹时间，层数上限变为6
-* 30级名称改变：自律光球
+* 初始：造成威力为3的魔法伤害，若成功即可改变目标的朝向
+* 10级进阶：目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+* 20级进阶：魔法威力+1，若成功，目标本回合内无法使用改变朝向的战技及进入子弹时间
+* 30级进阶：魔法威力+2，抵抗该技能时检定值+12
+* 30级名称改变：幽光吞噬
 
 ### 光弹急射
 
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：8
 
 #### 效果
@@ -48,6 +50,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：8
 
 #### 效果
@@ -63,6 +66,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -77,6 +81,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -91,6 +96,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -102,18 +108,35 @@
 
 ## 中级魔法
 
+### 召唤光球
+
+#### 魔法流派与消耗
+
+* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型，发射时为弹道型</a>
+* SP消耗：6
+
+#### 效果
+
+* 初始：获得一层<a href="../../../../status/mark/#浮游光球" target="_blank">“浮游光球”</a>
+* 10级进阶：行动轮内/外威力变为8X/6X
+* 20级进阶：若在子弹时间内使用则无需额外消耗子弹时间；成功且差值因子大于3的进攻可以打断冲锋
+* 30级进阶：行动外进攻不再需要消耗子弹时间，层数上限变为6
+* 30级名称改变：自律光球
+
 ### 光束打击
 
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：8
 
 #### 效果
 
-* 初始：直线射出宽度为1，距离等同于施法范围的光束，对第一个目标造成6魔法伤害
-* 10级进阶：伤害变为8，可以穿过一个单位，对第二个单位造成4魔法伤害
-* 20级进阶：伤害变为12，可以穿过两个单位，对第二个单位造成6魔法伤害，对第三个单位造成3魔法伤害
+* 初始：直线射出宽度为1，距离等同于施法范围的光束，对第一个目标或掩体造成6魔法伤害
+* 10级进阶：伤害变为8，可以穿过一个目标或掩体，对第二个目标或掩体造成4魔法伤害
+* 20级进阶：伤害变为12，可以穿过两个目标或掩体，对第二个目标或掩体造成6魔法伤害，对第三个目标或掩体造成3魔法伤害
 * 30级进阶：宽度变为三格，每条直线分别判定；中间列的目标闪避获得一个惩罚骰，但若成功则可在攻击结束时以最短路径移到光束两侧
 * 30级名称改变：光炮轰炸
 
@@ -122,6 +145,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：6
 
 #### 效果
@@ -132,26 +156,12 @@
 * 30级进阶：目标每次解除失败，光网便对其造成4魔法伤害
 * 30级名称改变：光网猎捕
 
-### 幽光侵扰
-
-#### 魔法流派与消耗
-
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
-* SP消耗：7
-
-#### 效果
-
-* 初始：造成威力为3的魔法伤害，若成功即可改变目标的朝向
-* 10级进阶：目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
-* 20级进阶：魔法威力+1，若成功，目标本回合内无法使用改变朝向的战技及进入子弹时间
-* 30级进阶：魔法威力+2，抵抗该技能时检定值+12
-* 30级名称改变：幽光吞噬
-
 ### 致盲光轮
 
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">力场型</a>
 
 #### 效果
 
@@ -166,6 +176,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -180,6 +191,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -196,11 +208,12 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">降落型</a>
 * SP消耗：14
 
 #### 效果
 
-* 初始：目标2×2范围内降下光柱，对所有单位造成8魔法伤害且抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a><br>同一行动轮内，对同一单位而言，第二次及以后受到本法术的伤害或治疗量减半
+* 初始：目标2×2范围内降下光柱，对Z轴上所有单位造成8魔法伤害且抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a><br>同一行动轮内，对同一单位而言，第二次及以后受到本法术的伤害或治疗量减半
 * 10级进阶：对友方角色的伤害变为回复，友方当次抵抗获得一枚奖励骰且改为抵抗弱化版<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 20级进阶：威力+2，若敌方目标拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="../../../../status/normal/#烈光压制" target="_blank">“烈光压制”</a>
 * 30级进阶：威力+2，可以选择两块2×2区域（不可完全重叠）<br><a href="../../../../status/normal/#烈光压制" target="_blank">“烈光压制”</a>状态下，防守阈值-8
@@ -211,6 +224,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：4
 
 #### 效果
@@ -226,6 +240,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 
 #### 效果
 
@@ -244,6 +259,7 @@
 #### 魔法流派与消耗
 
 * <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">力场型</a>
 
 #### 效果
 
