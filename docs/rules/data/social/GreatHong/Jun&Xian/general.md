@@ -7,7 +7,7 @@
 ## 必要条件
 
 * 拥有<a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>的职业等级
-* <a href="../../../basicJob/Warrior" target="_blank">武者</a>与 <a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>职业等级合计达到10级
+* <a href="../../../basicJob/Warrior" target="_blank">武者</a>与<a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>职业等级合计达到10级
 * <a href="../field_officer" target="_blank">校尉</a>职业等级达到6级
 
 ## 关键属性

@@ -105,7 +105,7 @@ nav:
           - ★卫士: rules/data/social/basicJob/Guard.md
           - ★旗手: rules/data/social/basicJob/Standard-bearer.md
           - ☆专家: rules/data/social/basicJob/Specialist.md
-        - 西方大陆:
+        - 人类联合王国:
           - 封土（世袭领地）:
             - 社群简介: rules/data/social/universal/feoff/feoff.md
             - 进阶职业:
@@ -126,16 +126,65 @@ nav:
               - ☆☆猎骑兵: rules/data/social/universal/HolyKnights/Chasseur.md
               - ★★★圣光骑士: rules/data/social/universal/HolyKnights/LightKnight.md
               - ★★★雷光骑士: rules/data/social/universal/HolyKnights/ThunderKnight.md
+          - 死翼鸟:
+            - 社群简介: rules/data/social/universal/Deathbird/Deathbird(union).md
+            - 进阶职业:
+              - ★影羽: rules/data/social/universal/Deathbird/ShadowFeather.md
+              - ★血爪: rules/data/social/universal/Deathbird/BloodyClaw.md
+              - ★瘴骨: rules/data/social/universal/Deathbird/MiasmBone.md
+              - ★★魇羽: rules/data/social/universal/Deathbird/FrighteningFeather.md
+              - ★★血喙: rules/data/social/universal/Deathbird/BloodyBeak.md
+              - ★★疫心: rules/data/social/universal/Deathbird/PestilenceHeart.md
+              - ★★★死翼鸟: rules/data/social/universal/Deathbird/DeathBird.md
+        - 木精灵社群:
           - 精灵家族领:
             - 社群简介: rules/data/social/universal/elfFamily/elfFamily.md
             - 进阶职业:
+              - ★林卫: rules/data/social/universal/elfFamily/forestKeeper.md
               - ★守望者: rules/data/social/universal/elfFamily/watcher.md
               - ★★游侠: rules/data/social/universal/elfFamily/ranger.md
               - ★★猎师: rules/data/social/universal/elfFamily/huntMaster.md
-            - 鹰眼家族进阶职业:
-              - ★★★鹰眼猎手: rules/data/social/universal/elfFamily/hawkeyeHunter.md
-              - ★★★影行者: rules/data/social/universal/elfFamily/shadowWalker.md
-              - ★★★克洛托剑圣: rules/data/social/universal/elfFamily/swordMaster.md
+          - 德鲁伊行会:
+            - 社群简介: rules/data/social/universal/druidGuild/druidGuild.md
+            - 进阶职业:
+              - ★林语者: rules/data/social/universal/druidGuild/spiritAudience.md
+              - ★★德鲁伊: rules/data/social/universal/druidGuild/Druid.md
+              - ★★★高阶德鲁伊: rules/data/social/universal/druidGuild/highDruid.md
+          - 绿林家族:
+            - 社群简介: rules/data/social/universal/greenWood/greenWood.md
+            - 进阶职业:
+              - ☆☆绿林技法: rules/data/social/universal/greenWood/greenWoodSkill.md
+              - ★★★神灵卫: rules/data/social/universal/greenWood/spiritGuard.md
+              - ★★★化身德鲁伊: rules/data/social/universal/greenWood/personificationDruid.md
+              - ★★★提奈引路使: rules/data/social/universal/greenWood/forestGuide.md
+          - 鹰眼家族:
+            - 社群简介: rules/data/social/universal/hawkeye/hawkeye.md
+            - 进阶职业:
+              - ☆☆鹰眼技法: rules/data/social/universal/hawkeye/hawkeyeSkill.md
+              - ★★★鹰眼猎手: rules/data/social/universal/hawkeye/hawkeyeHunter.md
+              - ★★★影行者: rules/data/social/universal/hawkeye/shadowWalker.md
+              - ★★★克洛托剑圣: rules/data/social/universal/hawkeye/swordMaster.md
+          - 守夜家族:
+            - 社群简介: rules/data/social/universal/nightWatch/nightWatch.md
+            - 进阶职业:
+              - ☆☆守夜技法: rules/data/social/universal/nightWatch/nightWatchSkill.md
+              - ★★★牡鹿骑士: rules/data/social/universal/nightWatch/stagRider.md
+              - ★★★巨鹰骑士: rules/data/social/universal/nightWatch/eagleRider.md
+              - ★★★伊兰丽尔公使: rules/data/social/universal/nightWatch/forestDiplomat.md
+        - 沙漠帝国:
+          - 行沙者行会:
+            - 社群简介: rules/data/social/universal/Sandwalker/Sandwalker_Guild.md
+            - 进阶职业:
+              - ★探沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sand Explorer.md
+              - ★★行沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sandwalker.md
+              - ★★★隐沙大师: rules/data/social/universal/Sandwalker/Sandwalker_Hidden Master.md
+        - 西方大陆中立社群:
+          - 魔法学院:
+            - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
+            - 进阶职业:
+              - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
+              - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
+              - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md          
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
             - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md
@@ -155,12 +204,6 @@ nav:
               - ★★Zwei近弓手: rules/data/social/universal/zwei/zwei-archer.md
               - ★★Zwei佣兵队长: rules/data/social/universal/zwei/zwei-commander.md
               - ★★★Zwei佣兵副团长: rules/data/social/universal/zwei/Zwei Mercenary Deputy Commander.md
-          - 魔法学院:
-            - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
-            - 进阶职业:
-              - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
-              - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
-              - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
           - 律法守护者:
             - 社群简介: rules/data/social/universal/law_keeper/law_keeper.md
             - 进阶职业:
@@ -176,22 +219,6 @@ nav:
               - ★★★锐爪袭者: rules/data/social/universal/law_keeper/elite_dilacerater.md
               - ★★★葬空游者: rules/data/social/universal/law_keeper/elite_sky_raider.md
               - ★★★化龙缚者: rules/data/social/universal/law_keeper/elite_deformer.md
-          - 死翼鸟:
-            - 社群简介: rules/data/social/universal/Deathbird/Deathbird(union).md
-            - 进阶职业:
-              - ★影羽: rules/data/social/universal/Deathbird/ShadowFeather.md
-              - ★血爪: rules/data/social/universal/Deathbird/BloodyClaw.md
-              - ★瘴骨: rules/data/social/universal/Deathbird/MiasmBone.md
-              - ★★魇羽: rules/data/social/universal/Deathbird/FrighteningFeather.md
-              - ★★血喙: rules/data/social/universal/Deathbird/BloodyBeak.md
-              - ★★疫心: rules/data/social/universal/Deathbird/PestilenceHeart.md
-              - ★★★死翼鸟: rules/data/social/universal/Deathbird/DeathBird.md
-          - 行沙者行会:
-            - 社群简介: rules/data/social/universal/Sandwalker/Sandwalker_Guild.md
-            - 进阶职业:
-              - ★探沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sand Explorer.md
-              - ★★行沙者: rules/data/social/universal/Sandwalker/Sandwalker_Sandwalker.md
-              - ★★★隐沙大师: rules/data/social/universal/Sandwalker/Sandwalker_Hidden Master.md
           - “匠魂”:
             - 社群简介: rules/data/social/universal/TiC/TiC.md
             - 进阶职业:
