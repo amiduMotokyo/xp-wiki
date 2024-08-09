@@ -509,6 +509,16 @@ nav:
           - 规则详解: temp/akita/insane/inSane_ruleS.md
         - 小说:
           - 人物背景补足:
+            - 燃烧殆尽的秋: temp/akita/idling_characters/ChasingDeath.md
+            - 醉酒扎布劳: temp/akita/idling_characters/Drunk_zarblau.md
+            - 安缇·法泽尔: temp/akita/idling_characters/GoldenBlossom.md
+            - 梅德汉姆: temp/akita/idling_characters/LostPuppetHouse.md
+            - 斯佩小姐: temp/akita/idling_characters/MissSerpent.md
+            - 未定1-梅丽: temp/akita/idling_characters/SacrificeGirl.md
+            - 未定2-雷诺伊&卡勒: temp/akita/idling_characters/StarsInTower.md
+            - 【女皇】: temp/akita/idling_characters/Suoluo&effey.md
+            - 隋雨: temp/akita/idling_characters/YuluoXiaoxiao.md
+            - 孔央&谈仲雪: temp/akita/idling_characters/Zhongxue&yang.md
             - 【穿刺】: temp/akita/idling_characters/calissi_barrier.md
             - 【穿刺】其二: temp/akita/idling_characters/her_regret.md
           - 佘镇故事补: temp/akita/shezhen_story/shezhen-1.md
@@ -522,8 +532,10 @@ nav:
           - ★初级测绘师: temp/akita/mererif_geo_center/primeSurveyor.md
           - ★中级测绘师: temp/akita/mererif_geo_center/commonSurveyor.md
         - 时空研究所(ITS):
+          - 简介: temp/akita/its/its_profile.md
           - 1026号文献: temp/akita/its/its_essays_1026.md
           - 1088号文献: temp/akita/its/its_essays_1088.md
+          - S的假期: temp/akita/its/S'sVacation.md
         - 美杜莎(未实装):
           - 瞳术师: temp/akita/medusa/eye_mage.md
       - amidu创作区:
