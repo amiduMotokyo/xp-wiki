@@ -24,7 +24,7 @@
 
 * 以浅蓝色地块表示
 * 特别注意：不是<a href="#导电地形" target="_blank">“导电地形”</a>
-* 效果：通过这种地形需要消耗2倍的行动点，通过时自动附加<a href="../normal/#潮湿" target="_blank">“潮湿”</a>状态；<br>处于这种地形上的角色不会受到<font color="#dd0000">火焰伤害</font>与<font color="#dddd00">雷电伤害</font>，同样也无法使用<font color="#dd0000">火焰</font>与<font color="#dddd00">雷电</font>相关的能力；<br>处于这种地形上的角色使用<font color="#00dddd">水系魔法</font>或相关能力时获得一枚奖励骰。
+* 效果：通过这种地形需要消耗的行动点+1倍，通过时自动附加<a href="../normal/#潮湿" target="_blank">“潮湿”</a>状态；<br>处于这种地形上的角色不会受到<font color="#dd0000">火焰伤害</font>与<font color="#dddd00">雷电伤害</font>，同样也无法使用<font color="#dd0000">火焰</font>与<font color="#dddd00">雷电</font>相关的能力；<br>处于这种地形上的角色使用<font color="#00dddd">水系魔法</font>或相关能力时获得一枚奖励骰。
 
 ### <h id="川流地形（深水）">川流地形（深水）</h>
 

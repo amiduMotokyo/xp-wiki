@@ -68,7 +68,7 @@
 * 初始：目标附加<a href="../../../status/normal/#石肤" target="_blank">“石肤”</a>状态；若目标为队友，则可以选择同时对目标附加<a href="../../../status/normal/#石附" target="_blank">“石附”</a>状态
 * 10级进阶：<a href="../../../status/normal/#石肤" target="_blank">“石肤”</a>状态效果新增：防御检定获得一枚奖励骰
 * 20级进阶：<a href="../../../status/normal/#石肤" target="_blank">“石肤”</a>状态效果新增：全身防具减伤+20％，额外生命+6
-* 30级进阶：<a href="../../../status/normal/#石肤" target="_blank">“石肤”</a>状态效果升级：现在全身防具护甲值×2倍，额外生命+12，减伤+30％
+* 30级进阶：<a href="../../../status/normal/#石肤" target="_blank">“石肤”</a>状态效果升级：现在全身防具护甲值+1倍，额外生命+12，减伤+30％
 * 30级名称改变：钢铁皮肤
 
 ### 地刺术
