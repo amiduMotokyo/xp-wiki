@@ -35,7 +35,7 @@
 * 初始：赋予目标2层<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>与2层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，若成功，则回复（差值/10四舍五入）点SP。（若失败，赋予印记层数减半）
 * 10级进阶：<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>层数变为4。
 * 20级进阶：<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>层数变为6。
-* 30级进阶：目标一回合内从<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>和<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>中获得的效果翻倍。
+* 30级进阶：目标一回合内从<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>和<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>中获得的效果+1倍。
 * 30级名称改变：专注毁损
 
 ### 疑心病现象
@@ -110,7 +110,7 @@
 #### 效果
 
 * 初始：对目标造成2+(X/2)点魔法伤害，那之后清空其<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>。
-* 10级进阶：目标在本次对抗判定中从<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>处获得的效果翻倍。
+* 10级进阶：目标在本次对抗判定中从<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>处获得的效果+1倍。
 * 20级进阶：也会触发额外效果，但额外效果的各项数值减半。
 * 30级进阶：伤害变为4+X，目标本次防守获得一枚惩罚骰。
 * 30级名称改变：毁灵爆破
@@ -158,7 +158,7 @@
 
 * 初始：赋予2层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>与<a href="../../status/normal/#软弱" target="_blank">“软弱”</a>状态。（若失败，赋予印记层数减半，弱化附加的异常状态）
 * 10级进阶：<a href="../../status/normal/#软弱" target="_blank">“软弱”</a>状态持续时间变为2回合。
-* 20级进阶：<a href="../../status/normal/#软弱" target="_blank">“软弱”</a>状态效果翻倍，目标与本技能对抗时抵抗阈值-8。
+* 20级进阶：<a href="../../status/normal/#软弱" target="_blank">“软弱”</a>状态效果+1倍，目标与本技能对抗时抵抗阈值-8。
 * 30级进阶：再赋予额外效果“获得4层<a href="../../status/mark/#分心印记" target="_blank">“分心印记”</a>，之后赋予其6<a href="../../status/mark/#精神损伤" target="_blank">“精神损伤”</a>。
 * 30级名称改变：植入恐惧
 
@@ -187,7 +187,7 @@
 #### 效果
 
 * 初始：选择一名其他友方，赋予双方<a href="../../status/normal/#意志传输" target="_blank">“意志传输”</a>状态（同时只能与一名友方生效）。
-* 10级进阶：自身移动消耗的行动点不再翻倍。
+* 10级进阶：自身移动消耗的行动点不再+1倍。
 * 20级进阶：再赋予其4层<a href="../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>和1层<a href="../../status/mark/#勇敢印记" target="_blank">“勇敢印记”</a>。
 * 30级进阶：X数值减半，<a href="../../status/normal/#意志传输" target="_blank">“意志传输”</a>的受术者检定还会附加一层战术奖励。
 * 30级名称改变：意识同调

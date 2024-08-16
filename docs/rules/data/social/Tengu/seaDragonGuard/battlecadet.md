@@ -46,7 +46,7 @@
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
 海战适应|战技|被动|0|感知范围内友军在受到非来源于水地形的<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态时获得<a href="../../../../status/normal/#水盾" target="_blank">“水盾”</a>并解除<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态；<br>成功附加<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>状态时，半径两格内所有友方视为被附加了<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>。
-湿气过重|战技|被动|0|全场单位失去对<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的免疫（若有）；<br>全场<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的敌人防守阈值衰减速度翻倍。
+湿气过重|战技|被动|0|全场单位失去对<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的免疫（若有）；<br>全场<a href="../../../../status/normal/#潮湿" target="_blank">“潮湿”</a>的敌人防守阈值衰减速度+1倍。
 
 ---
 
