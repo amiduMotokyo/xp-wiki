@@ -6,8 +6,8 @@
 
 ## 必要条件
 
-* <a href="../puppetster" target="_blank">控儡师</a>达到6级且<a href="../mech_disciple" target="_blank">百器使</a>达到3级
-* 
+* <a href="../puppetster" target="_blank">★★控儡师</a>达到6级
+* <a href="../maintenance_artisan" target="_blank">☆砺兵匠</a>达到3级
 
 ## 关键属性
 

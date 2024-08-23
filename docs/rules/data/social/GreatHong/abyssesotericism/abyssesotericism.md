@@ -58,6 +58,8 @@
 
 <a href="../dragonsummoner" target="_blank">★★★唤龙使</a>
 
+<a href="../abyss seer" target="_blank">☆☆☆☆☆渊赐叡矚</a>
+
 ---
 
 > *PixelHead*

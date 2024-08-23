@@ -70,13 +70,9 @@
 
 <a href="../puppetster" target="_blank">★★控儡师</a>
 
-<a href="../mindsculptor" target="_blank">★★塑念师</a>
-
 <a href="../mechster" target="_blank">★★千机师</a>
 
 <a href="../puppet_prodigy" target="_blank">★★★御傀逸才</a>
-
-<a href="../sculpt_puppeter" target="_blank">★★★嵌志逸才</a>
 
 <a href="../mech_sculptor" target="_blank">★★★武库逸才</a>
 

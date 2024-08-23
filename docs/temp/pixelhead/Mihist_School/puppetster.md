@@ -6,8 +6,8 @@
 
 ## 必要条件
 
-* <a href="../puppet_disciple" target="_blank">操偶使</a>达到6级
-* 
+* <a href="../puppet_disciple" target="_blank">★操偶使</a>达到6级
+* “魔线操术”特殊技艺等级达到15级
 
 ## 关键属性
 
