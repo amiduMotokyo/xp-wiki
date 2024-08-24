@@ -5,6 +5,12 @@
 * <a href="../bladecorroder" target="_blank">★★★蚀锋卫</a>、<a href="../executioner" target="_blank">★★★处刑人</a>、<a href="../bodykeeper" target="_blank">★★★守尸客</a>、<a href="../cultwizard" target="_blank">★★★邪术师</a>、<a href="../dragonsummoner" target="_blank">★★★唤龙使</a>其中一个达到5级
 * 于渗透系统中投入至少9点经历点
 
+## 熟练技能
+
+* 任意武器技能
+* 防御、闪避、抵抗、心理学、魔法抗性任选两种
+* 武器技能、防御、闪避、抵抗、心理学、魔法抗性外任选三种
+
 ## 升级收益
 
 职业等级|月零用|奖励能力
