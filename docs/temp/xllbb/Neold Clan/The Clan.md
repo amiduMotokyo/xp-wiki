@@ -1,4 +1,4 @@
-# 怒海族群
+# 尼奥尔德聚落
 
 ## 基本信息
 
@@ -25,7 +25,5 @@
 
 ## 社群职位
 
-<a href="../Wave Apprentdice" target="_blank">★海潮学徒</a>
-<a href="../Wind Apprentdice" target="_blank">★气浪学徒</a>
-<a href="../Thunder Apprentdice" target="_blank">★雷霆学徒</a>
-<a href="../Rough Seas Fighter" target="_blank">★怒海战士</a>
+<a href="../Temple Apprentdice" target="_blank">★神殿学徒</a>
+<a href="../Son of sea hunters" target="_blank">☆猎海之子</a>
