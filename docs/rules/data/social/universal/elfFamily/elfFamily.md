@@ -29,9 +29,9 @@
 
 ## 社群职位
 
-<a href="../watcher" target="_blank">★守望者</a>
-
 <a href="../forestKeeper" target="_blank">★林卫</a>
+
+<a href="../watcher" target="_blank">★守望者</a>
 
 <a href="../ranger" target="_blank">★★游侠</a>
 

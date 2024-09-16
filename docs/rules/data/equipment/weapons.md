@@ -292,7 +292,7 @@
 
 独特升级项目|消耗武器等级|叠加上限
 :--:|:--:|:--:
-<a href="../../status/mark/#鞭痕" target="_blank">“鞭痕”</a>最大叠加层数+1|1|5
+<a href="../../status/mark/#鞭痕" target="_blank">“鞭痕”</a>最大叠加层数+1|1|4
 <a href="../../status/mark/#鞭痕" target="_blank">“鞭痕”</a>不需要检定成功即可附加|4|1
 
 ## 长柄武器
