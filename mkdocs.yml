@@ -243,9 +243,10 @@ nav:
           - 鸿武门:
             - 社群简介: rules/data/social/GreatHong/HongWuGate/HongWuGate.md
             - 进阶职业:
+              - ★候补力士: rules/data/social/GreatHong/HongWuGate/alternateWrestler.md
               - ★★鸿武卫镇抚使: rules/data/social/GreatHong/HongWuGate/pacificationEnvoy.md
               - ★★★鸿武卫指挥使: rules/data/social/GreatHong/HongWuGate/commander.md
-              - ★★★“常选”: rules/data/social/GreatHong/HongWuGate/changChoice.md
+              - ☆☆“常选”: rules/data/social/GreatHong/HongWuGate/changChoice.md
           - 太学:
             - 社群简介: rules/data/social/GreatHong/ImperialAcademy/ImperialAcademy.md
             - 进阶职业:
