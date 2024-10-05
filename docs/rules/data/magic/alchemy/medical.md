@@ -68,10 +68,10 @@
 
 #### 效果
 
-* 初始：暂时免除致伤（条件允许的话），持续1回合；HP修正到0的情况下，解除目标的<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>状态
-* 10级进阶：持续时间延长1回合
-* 20级进阶：现在就算HP没有修正到0，也可以直接解除目标的<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>状态，此效果限定每场战斗每人一次
-* 30级进阶：保全术持续时间内，角色血量不会为负，不会再陷入<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>或致伤状态，此效果限定每场战斗每人一次，最多持续2回合
+* 初始：若对未濒死的目标使用，则目标附加<a href="../../../status/normal/#保全术" target="_blank">“保全术”</a>状态；若对已濒死的目标使用，HP修正到0的情况下，解除目标的<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>状态
+* 10级进阶：若施法者在行动轮外的某时刻存在保全术的合法释放目标，则他可以立刻消耗一次子弹时间机会来使用保全术
+* 20级进阶：若对已濒死的目标使用，现在就算HP没有修正到0，也可以直接解除目标的<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>状态，此效果限定每场战斗每人一次
+* 30级进阶：<a href="../../../status/normal/#保全术" target="_blank">“保全术”</a>状态持续时间内，若角色受到了足以造成<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>或<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>的伤害，则免除本次伤害，整个持续时间内此效果只生效一次
 * 30级名称改变：完美保全术
 
 ### 塑型土修复术
@@ -87,7 +87,7 @@
 
 #### 效果
 
-* 初始：每投入100g塑型土（最多1kg），目标每次行动轮开始时回复1点HP，直到回满为止
+* 初始：每投入100g塑型土（最多1kg），目标每次行动轮开始时回复1点HP，直到回满为止；受术者可以随时以本魔法立刻结束效果为代价，立刻回复单次的回复量
 * 10级进阶：每100g塑型土回复1.5点HP
 * 20级进阶：每100g塑型土回复2点HP
 * 30级进阶：每100g塑型土回复2点HP与1点SP
@@ -122,7 +122,7 @@
 
 * 初始：目标附加<a href="../../../status/normal/#回光返照" target="_blank">“回光返照”</a>状态，最多持续2回合
 * 10级进阶：<a href="../../../status/normal/#回光返照" target="_blank">“回光返照”</a>持续时间内，免疫致伤效果
-* 20级进阶：<a href="../../../status/normal/#回光返照" target="_blank">“回光返照”</a>持续时间内，角色血量不会为负，不会再陷入<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>与<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>或致伤状态
+* 20级进阶：<a href="../../../status/normal/#回光返照" target="_blank">“回光返照”</a>持续时间内，若角色受到了足以造成<a href="../../../status/normal/#濒死" target="_blank">“濒死”</a>或<a href="../../../status/normal/#致命伤" target="_blank">“致命伤”</a>的伤害，则免除本次伤害，整个持续时间内此效果只生效一次
 * 30级进阶：<a href="../../../status/normal/#回光返照" target="_blank">“回光返照”</a>持续时间内，可选择免疫任意个指定的的异常状态与印记
 * 30级名称改变：高等回光返照
 
