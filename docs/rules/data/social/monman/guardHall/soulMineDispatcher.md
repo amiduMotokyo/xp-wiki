@@ -16,7 +16,7 @@
 
 * 智力
 * 魅力
-* 相关魔法：<a href="/rules/data/magic/soulmine/" target="_blank">魂源系魔法</a>
+* 相关魔法：<a href="/rules/data/magic/faith/Monman/soulmine/" target="_blank">魂源系魔法</a>
 
 ## 熟练技能
 

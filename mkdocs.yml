@@ -11,7 +11,7 @@ nav:
       - 主世界的计划进度: plan.md
       - 编年史: chronicle.md
     - 规则:
-      - 旧版V4.x规则架构:
+      - V4.x规则架构:
         - 序章：简介: rules/V4.x rules/prologue.md
         - 第一章：属性: rules/V4.x rules/1·attribute.md
         - 第二章：种族: rules/V4.x rules/2·race.md
@@ -80,19 +80,20 @@ nav:
         - 信仰类魔法:
           - 西方大陆:
             - 圣光魔法: rules/data/magic/faith/west/holy.md
+          - 魔族:
+            - 魂源系魔法: rules/data/magic/faith/Monman/soulmine.md
           - 天狗国:
             - 八咫鸟大神: rules/data/magic/faith/Tengu/yatagarasuKami.md
+            - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
+            - 开拓大神: rules/data/magic/faith/Tengu/kaitakuKami.md
             - 斗争大神: rules/data/magic/faith/Tengu/tatakaiKami.md
             - 锻造大神: rules/data/magic/faith/Tengu/tanzouKami.md
-            - 稻荷大神: rules/data/magic/faith/Tengu/inariKami.md
             - 荒胫大神: rules/data/magic/faith/Tengu/arasuneKami.md
-            - 开拓大神: rules/data/magic/faith/Tengu/kaitakuKami.md
             - 梅山: rules/data/magic/faith/Tengu/umeyama.md
           - 大鸿:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
         - 时空类魔法:
           - 塔罗系魔法: rules/data/magic/space_time/Tarot.md
-        - 魂源系魔法: rules/data/magic/soulmine.md
         - 心灵类魔法: rules/data/magic/mind.md
         - 鲜血系魔法: rules/data/magic/blood.md
         - 暗影系魔法: rules/data/magic/shadow.md
