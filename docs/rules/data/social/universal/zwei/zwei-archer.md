@@ -25,7 +25,7 @@
  
 ## 职业特性
 
-被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色防守鉴定失去一颗奖励骰，被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色获得2点（最多4）只可用于敌意行动的的行动点；继承zwei佣兵的职业特性，继承武者的职业特性。
+被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色防守鉴定失去一颗奖励骰，被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色获得2点（最多4）只可用于敌意行动的的行动点；继承zwei佣兵的职业特性，继承武者的职业特性。
 
 ## 升级收益
 

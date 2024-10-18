@@ -28,7 +28,7 @@
 <a href="../Temple Apprentdice" target="_blank">★神殿学徒</a>
 <a href="../Son of sea hunters" target="_blank">☆猎海之子</a>
 <a href="../Wave riser" target="_blank">★起浪众</a>
-<a href="../Wave Breaking Warrior" target="_blank">★★破浪尖兵</a>
+<a href="../Wave Breaking Vanguard" target="_blank">★★破浪尖兵</a>
 <a href="../Wave Riders" target="_blank">★★乘浪行者</a>
 <a href="../Wave Warrior" target="_blank">★★化浪勇士</a>
-<a href="../Wave unifier" target="_blank">☆☆统浪官</a>
+<a href="../Wave unifier" target="_blank">☆☆驭浪官</a>

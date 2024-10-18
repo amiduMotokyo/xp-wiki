@@ -24,7 +24,7 @@
 
 ## 职业特性
 
-被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色造成的总伤倍率-0.1（最多0.4）；被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色受到总伤倍率-0.1（最多0.4）；继承Zwei佣兵的职业特性；继承卫士的职业特性。
+被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色造成的总伤倍率-0.1（最多0.4）；被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色受到总伤倍率-0.1（最多0.4）；继承Zwei佣兵的职业特性；继承卫士的职业特性。
 
 ## 升级收益
 

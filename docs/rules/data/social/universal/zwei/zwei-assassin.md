@@ -26,7 +26,7 @@
 
 ## 职业特性
 
-被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色感知范围-4格，被<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色若未被敌人发现则自动进入隐身状态；继承zwei佣兵的职业特性；继承哨兵的职业特性。
+被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的敌方角色感知范围-4格，被你<a href="../../../../status/mark/#Zwei标记" target="_blank">“Zwei标记”</a>的友方角色若未被敌人发现则自动进入隐身状态；继承zwei佣兵的职业特性；继承哨兵的职业特性。
 
 ## 升级收益
 
