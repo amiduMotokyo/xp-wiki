@@ -127,14 +127,14 @@
 
 * 是<a href="#导电地形" target="_blank">“导电地形”</a>
 * 效果：角色踏入或踏出（每一格水洼地形只生效一次）“水洼”地形时，需要抵抗判<a href="../normal/#倒地" target="_blank">“倒地”</a>状态。<br>如果在“水洼”中陷入<a href="../normal/#倒地" target="_blank">“倒地”</a>状态，则附加<a href="../normal/#潮湿" target="_blank">“潮湿”</a>状态，并可消除<a href="../normal/#燃烧" target="_blank">“燃烧”</a>状态。
-* 解除手段：与* 是<a href="#火墙" target="_blank">“火墙”</a>或<a href="#烈焰之壁" target="_blank">“烈焰之壁”</a>相互抵消。
+* 解除手段：与<a href="#火墙地形" target="_blank">“火墙地形”</a>或<a href="#烈焰之壁" target="_blank">“烈焰之壁”</a>相互抵消。
 
 ## T列
 
 ### <h id="藤蔓地形">藤蔓地形</h>
 
 * 效果：藤蔓地形是一种高级的<a href="#丛林地形" target="_blank">“丛林地形”</a>。除了<a href="#丛林地形" target="_blank">“丛林地形”</a>的基本特性外，角色踏入或踏出（每一格藤蔓地形只生效一次）藤蔓地形时，需要抵抗判<a href="../normal/#缠绕" target="_blank">“缠绕”</a>状态，等级与本魔法同步。
-* 解除手段：1回合后变回<a href="#丛林地形" target="_blank">“丛林地形”</a>，若因<font color="#dd0000">火焰伤害</font>而生成<a href="#火墙" target="_blank">“火墙”</a>，则藤蔓地形额外效果消失。
+* 解除手段：1回合后变回<a href="#丛林地形" target="_blank">“丛林地形”</a>，若因<font color="#dd0000">火焰伤害</font>而生成<a href="#火墙地形" target="_blank">“火墙地形”</a>，则藤蔓地形额外效果消失。
 
 ## X列
 
