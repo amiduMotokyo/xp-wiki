@@ -18,7 +18,7 @@
   
 ## 职业特性
 
-熟练度10以下的光魔法获得的经验+1倍，升级时获得一枚奖励骰<br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
+熟练度10以下的光魔法获得的经验+1倍，升级时获得一枚奖励骰<br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 

@@ -26,7 +26,7 @@
   
 ## 职业特性
 
-可以以锻造检定代替附魔检定进行耀光附魔（经验值由锻造获得），以此法附加耀光附魔时消耗的SP减半，若以此法附加成功，可以选择目标的一件护甲，为其附加3层<a href="../../../../status/mark/#光镀护盾" target="_blank">“光镀护盾”</a><br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
+可以以锻造检定代替附魔检定进行耀光附魔（经验值由锻造获得），以此法附加耀光附魔时消耗的SP减半，若以此法附加成功，可以选择目标的一件护甲，为其附加3层<a href="xp-wiki/docs/rules/data/status/mark/#光镀护盾" target="_blank">“光镀护盾”</a><br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 
@@ -41,9 +41,9 @@
 
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
-流光锻师|战技|被动|0|辉光锻师附加的<a href="../../../../status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>层数改为相当于该护甲额外生命值40%（至少为4）层，耀光附魔成功时额外附加“攻击已<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>目标时威力+3”的效果
-折光护盾+|战技|触发|3|受到近战攻击时可用，本次应对获得一颗奖励骰，攻击者攻击结束后抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
-攻防一体|战技|被动|0|拥有自身提供的附魔效果的角色全身护甲值+1且在伤害计算时至少视为1，可以用一次子弹时间机会来抵消一次破绽<br>拥有自身提供的<a href="../../../../status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>的角色攻击检定获得-8奖励，武器威力+2。
+流光锻师|战技|被动|0|辉光锻师附加的<a href="xp-wiki/docs/rules/data/status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>层数改为相当于该护甲额外生命值40%（至少为4）层，耀光附魔成功时额外附加“攻击已<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>目标时威力+3”的效果
+折光护盾+|战技|触发|3|受到近战攻击时可用，本次应对获得一颗奖励骰，攻击者攻击结束后抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+攻防一体|战技|被动|0|拥有自身提供的附魔效果的角色全身护甲值+2，可以用一次子弹时间机会来抵消一次破绽<br>拥有自身提供的<a href="xp-wiki/docs/rules/data/status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>的角色攻击检定获得-8奖励，武器威力+2。
 
 ---
 

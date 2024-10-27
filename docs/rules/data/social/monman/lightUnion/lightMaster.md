@@ -26,7 +26,7 @@
   
 ## 职业特性
 
-熟练度20以上的光魔法有阈值+4奖励且获得一枚奖励骰<br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
+熟练度20以上的光魔法有阈值+4奖励且获得一枚奖励骰<br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 
@@ -41,8 +41,8 @@
 
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
-致盲大师|战技|被动|0|敌人抵抗由自己附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>获得一枚惩罚骰；与拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的敌人对抗时获得一枚奖励骰
-复明反噬|战技|触发|0|解除目标拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>敌人的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>状态并使其流失6点生命值
+致盲大师|战技|被动|0|敌人抵抗由自己附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>获得一枚惩罚骰；与拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的敌人对抗时获得一枚奖励骰
+复明反噬|战技|触发|0|解除目标拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>敌人的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>状态，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>并使其流失6点生命值
 
 ---
 

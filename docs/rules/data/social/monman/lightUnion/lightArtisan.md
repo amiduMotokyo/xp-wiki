@@ -20,7 +20,7 @@
   
 ## 职业特性
 
-可以以锻造检定代替附魔检定进行耀光附魔（经验值由锻造获得）<br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
+可以以锻造检定代替附魔检定进行耀光附魔（经验值由锻造获得）<br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 
@@ -42,7 +42,7 @@
 
 附魔名称|效果|增益后效果
 :--:|:--:|:--:
-耀光|攻击成功时目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>|武器威力增加（附魔差值/10四舍五入），最多+5
+耀光|攻击成功时目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>|武器威力增加（附魔差值/10四舍五入），最多+5
 
 ## 新锻造制品解释
 
@@ -50,13 +50,13 @@
 
 #### 效果
 
-目标及地点周围一圈角色造成1+2X固伤，抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+对目标及地点周围一圈的角色叠加叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>，造成1+2X固伤，之后受影响目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
 
 #### 制成效能
 
 每次长休可花费1行动点制造光爆石，消耗1个+X素材和3SP进行锻造检定，若成功，制成一个光爆石
 
-售价为：100+75X
+售价为：100+75X通
 
 ### 发光玩具
 
@@ -68,7 +68,7 @@
 
 每次长休可花费1行动点制造发光玩具，消耗1个+X素材和3SP进行锻造检定，若成功，制成一个发光玩具
 
-售价为：125+125X
+售价为：125+125X通
 
 ---
 

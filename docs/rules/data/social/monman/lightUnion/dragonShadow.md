@@ -22,7 +22,7 @@
   
 ## 职业特性
 
-使用龙化秘法时选择获得3点仅可用于攻击的行动点或3点仅可用于移动的行动点<br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
+使用龙化秘法时选择获得3点仅可用于攻击的行动点或3点仅可用于移动的行动点<br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 
@@ -37,8 +37,8 @@
 
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
-龙化秘法·特|战技|触发|12|不处于<a href="../../../../status/normal/#龙化秘法" target="_blank">“龙化秘法”</a>状态下可用。消耗3点行动点，自身周围一圈单位抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>。1回合内施法范围+0.5倍，使用杖攻击的检定值减少相当于施法范围的数值
-化龙命运|战技|被动|0|使用<a href="../../../../status/normal/#龙化秘法" target="_blank">“龙化秘法”</a>时可免费释放一个初级或中级光耀系魔法
+龙化秘法·特|战技|触发|12|不处于<a href="xp-wiki/docs/rules/data/status/normal/#龙化秘法" target="_blank">“龙化秘法”</a>状态下可用。消耗3点行动点，自身周围一圈单位抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>。1回合内施法范围+0.5倍，使用杖攻击的检定值减少相当于施法范围的数值
+化龙命运|战技|被动|0|使用<a href="xp-wiki/docs/rules/data/status/normal/#龙化秘法" target="_blank">“龙化秘法”</a>时可免费释放一个初级或中级光耀系魔法
 魔法利刃（龙）|战技|被动|0|法杖攻击范围+2，伤害+3，视为近战的魔法攻击（应用魔法对抗流程），但无法应用武器通用能力中的战技与特殊战技<br>每次施放光耀系魔法，下次武器进攻便获得1枚奖励骰<br>可以花费1行动点切换成原来的模式
 
 ---
