@@ -183,9 +183,9 @@ nav:
           - 甜点研究社:
             - 社群简介: rules/data/social/universal/Desert dessert/Desert dessert.md
             - 进阶职业:
-              - ★★烘培师: rules/data/social/universal/Desert dessert/baker
-              - ★★裱花匠: rules/data/social/universal/Desert dessert/decorator
-              - ★★★西点大师: rules/data/social/universal/Desert dessert/west_point_pastry
+              - ★★烘培师: rules/data/social/universal/Desert dessert/baker.md
+              - ★★裱花匠: rules/data/social/universal/Desert dessert/decorator.md
+              - ★★★西点大师: rules/data/social/universal/Desert dessert/west_point_pastry.md
           - “匠魂”:
             - 社群简介: rules/data/social/universal/TiC/TiC.md
             - 进阶职业:
@@ -351,6 +351,7 @@ nav:
             - 进阶职业:
               - ☆源流: rules/data/social/Tengu/ryuha/genryu.md
               - ☆岭越流: rules/data/social/Tengu/ryuha/reiechi_ryu.md
+              - ☆湿原流: rules/data/social/Tengu/ryuha/shigen_ryu.md
               - ☆☆集心流: rules/data/social/Tengu/ryuha/shushin_ryu.md
               - ☆☆缭乱流: rules/data/social/Tengu/ryuha/ryouran_ryu.md
               - ☆☆野兽流: rules/data/social/Tengu/ryuha/yaju_ryu.md
@@ -583,12 +584,10 @@ nav:
           - 百器使: temp/pixelhead/Mihist_School/mech_disciple.md
           - 操偶使: temp/pixelhead/Mihist_School/puppet_disciple.md
           - 社群内部状态: temp/pixelhead/Mihist_School/status.md
-        - 歌舞伎町（暂定）:
-          - ★启幕人: temp/pixelhead/Kabuki jo/1-Mokuhasha.md
-          - ★★歌舞伎: temp/pixelhead/Kabuki jo/2-Kabuki.md
-          - ★★★御前役者: temp/pixelhead/Kabuki jo/3-Gozenyakusya.md
         - 破碎外包区:
-          - 见习军官（暂定）: temp/pixelhead/Noposui/Untitled.md
+          - 前线参谋: temp/pixelhead/Noposui/staff_officer.md
+          - 破晓指挥官: temp/pixelhead/Noposui/Commander.md
+          - 曙光战略家: temp/pixelhead/Noposui/strategist.md
       - 黑羽魇鸽创作区:
         - 说明: temp/DeatLvens/introduce.md
         - 修改意见: temp/DeatLvens/debug.md
