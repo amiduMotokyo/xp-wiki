@@ -24,7 +24,7 @@
 #### 效果
 
 * 初始：造成威力为3的魔法伤害，若成功即可改变目标的朝向
-* 10级进阶：目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+* 10级进阶：目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 20级进阶：魔法威力+1，若成功，目标本回合内无法使用改变朝向的战技及进入子弹时间
 * 30级进阶：魔法威力+2，抵抗该技能时检定值+12
 * 30级名称改变：幽光吞噬
@@ -40,8 +40,8 @@
 #### 效果
 
 * 初始：造成威力为6的魔法伤害
-* 10级进阶：若命中头部，目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
-* 20级进阶：对拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的目标威力+3
+* 10级进阶：若命中头部，目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+* 20级进阶：对拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的目标威力+3
 * 30级进阶：改为造成威力为2的魔法伤害3次（单次施法仅计算一次差值因子）
 * 30级名称改变：光弹豪雨
 
@@ -57,8 +57,8 @@
 
 * 初始：对自身周围一圈的所有单位造成威力为3的魔法伤害并击退1格
 * 10级进阶：威力+1，可以选择向外击退0至2格
-* 20级进阶：威力+1，对拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的目标威力+2
-* 30级进阶：所有目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#失衡" target="_blank">“失衡”</a>，拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#倒地" target="_blank">“倒地”</a>
+* 20级进阶：威力+1，对拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的目标威力+2
+* 30级进阶：所有目标抵抗判<a href="../../../../status/normal/#失衡" target="_blank">“失衡”</a>，拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的目标抵抗判<a href="../../../../status/normal/#倒地" target="_blank">“倒地”</a>
 * 30级名称改变：光芒震爆
 
 ### 眩目明光
@@ -70,10 +70,10 @@
 
 #### 效果
 
-* 初始：目标抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
-* 10级进阶：若目标拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="xp-wiki/docs/rules/data/status/normal/#感光失调" target="_blank">“感光失调”</a>
-* 20级进阶：<a href="xp-wiki/docs/rules/data/status/normal/#感光失调" target="_blank">“感光失调”</a>状态下，全阈值有-8惩罚
-* 30级进阶：该技能附加的非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>可叠加时长
+* 初始：目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+* 10级进阶：若目标拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="../../../../status/normal/#感光失调" target="_blank">“感光失调”</a>
+* 20级进阶：<a href="../../../../status/normal/#感光失调" target="_blank">“感光失调”</a>状态下，全阈值有-8惩罚
+* 30级进阶：该技能附加的非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>可叠加时长
 * 30级名称改变：压制辉光
 
 ### 抚慰烁光
@@ -86,9 +86,9 @@
 #### 效果
 
 * 初始：对范围内一个单位恢复（3+差值因子）点HP
-* 10级进阶：目标下回合首次攻击成功，对面抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+* 10级进阶：目标下回合首次攻击成功，对面抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 20级进阶：基础回复量变为6
-* 30级进阶：改为目标下回合前两次攻击附加2点额外伤害，若成功，对面抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+* 30级进阶：改为目标下回合前两次攻击附加2点额外伤害，若成功，对面抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 30级名称改变：无畏耀光
 
 ### 强化光刃
@@ -102,7 +102,7 @@
 
 * 初始：一回合内，目标当前武器威力+1，直到下回合为止至多两次，可以让攻击类型变为魔法（应用魔法对抗流程），但无法应用武器通用能力中的战技与特殊战技。若本就是魔法武器，则威力再+2。
 * 10级进阶：武器威力再+1，攻击时为自身回复2HP。
-* 20级进阶：武器威力再+1，攻击已<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>目标时偷取目标1SP。
+* 20级进阶：武器威力再+1，攻击已<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>目标时偷取目标1SP。
 * 30级进阶：成功的攻击可以让目标下次抵抗阈值减半，直到下回合为止至多四次，可以让攻击类型变为魔法（应用魔法对抗流程），但无法应用武器通用能力中的战技与特殊战技。
 * 30级名称改变：顶点光刃
 
@@ -118,7 +118,7 @@
 
 #### 效果
 
-* 初始：获得一层<a href="xp-wiki/docs/rules/data/status/mark/#浮游光球" target="_blank">“浮游光球”</a>
+* 初始：获得一层<a href="../../../../status/mark/#浮游光球" target="_blank">“浮游光球”</a>
 * 10级进阶：行动轮内/外威力变为8X/6X
 * 20级进阶：若在子弹时间内使用则无需额外消耗子弹时间；成功且差值因子大于3的进攻可以打断冲锋
 * 30级进阶：行动外进攻不再需要消耗子弹时间，层数上限变为6
@@ -165,9 +165,9 @@
 
 #### 效果
 
-* 初始：目标格周围一圈的角色抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+* 初始：目标格周围一圈的角色抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 10级进阶：范围扩大一圈
-* 20级进阶：可以选择至多2名受影响角色，先对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
+* 20级进阶：可以选择至多2名受影响角色，先对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
 * 30级进阶：20级进阶可选目标变为3，可以再选择至多一名受影响角色，令其行动力-2（不会低于0）
 * 30级名称改变：磔罚光轮
 
@@ -180,10 +180,10 @@
 
 #### 效果
 
-* 初始：目标两个部位的护甲获得（1+差值因子×对应部位减伤率/30%，四舍五入）层<a href="xp-wiki/docs/rules/data/status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>，同一个目标每场战斗只能被附加一次该效果
-* 10级进阶：若成功，目标强制附加<a href="xp-wiki/docs/rules/data/status/normal/#光镀佑护" target="_blank">“光镀佑护”</a>状态
-* 20级进阶：改为目标全身的护甲获得（1+差值因子×对应部位减伤率/20%，四舍五入）层<a href="xp-wiki/docs/rules/data/status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>，同一个目标每场战斗只能被附加至多两次该效果且不能连续两回合对同一目标使用
-* 30级进阶：<a href="xp-wiki/docs/rules/data/status/normal/#光镀佑护" target="_blank">“光镀佑护”</a>状态下，对对应的部位的近战攻击会在攻击前受到3固伤的反击且攻击结束后抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
+* 初始：目标两个部位的护甲获得（1+差值因子×对应部位减伤率/30%，四舍五入）层<a href="../../../../status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>，同一个目标每场战斗只能被附加一次该效果
+* 10级进阶：若成功，目标强制附加<a href="../../../../status/normal/#光镀佑护" target="_blank">“光镀佑护”</a>状态
+* 20级进阶：改为目标全身的护甲获得（1+差值因子×对应部位减伤率/20%，四舍五入）层<a href="../../../../status/mark/#光镀护盾" target="_blank">“光镀护盾”</a>，同一个目标每场战斗只能被附加至多两次该效果且不能连续两回合对同一目标使用
+* 30级进阶：<a href="../../../../status/normal/#光镀佑护" target="_blank">“光镀佑护”</a>状态下，对对应的部位的近战攻击会在攻击前受到3固伤的反击且攻击结束后抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 30级名称改变：流光护体
 
 ### 幻光惑影
@@ -197,9 +197,9 @@
 #### 效果
 
 * 初始：每场战斗限一次，在1格内创造一个生命值为施术者最大生命值1/4，不能共享意识但可以由施法者操控，检定阈值为施术者一半，其余数值与施术者一致的幻影，幻影没有也无法获得战技和特殊战技，不能使用敌意行动。
-* 10级进阶：幻影死亡时，周围一圈敌人受到5魔法伤害并抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>。
+* 10级进阶：幻影死亡时，周围一圈敌人受到5魔法伤害并抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>。
 * 20级进阶：幻影受到足以让HP归零的伤害时，可在死亡前免行动力移动最多两格。
-* 30级进阶：幻影可以使用敌意行动，可以主动自爆（即10级进阶效果）以造成两倍的死亡伤害并先对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>。
+* 30级进阶：幻影可以使用敌意行动，可以主动自爆（即10级进阶效果）以造成两倍的死亡伤害并先对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>。
 * 30级名称改变：幻光猎影
 
 ## 上级魔法
@@ -214,10 +214,10 @@
 
 #### 效果
 
-* 初始：目标2×2范围内降下光柱，对Z轴上所有单位造成8魔法伤害且抵抗判<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a><br>同一行动轮内，对同一单位而言，第二次及以后受到本法术的伤害或治疗量减半
-* 10级进阶：对友方角色的伤害变为回复，友方当次抵抗获得一枚奖励骰且改为抵抗弱化版<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>
-* 20级进阶：威力+2，若敌方目标拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="xp-wiki/docs/rules/data/status/normal/#烈光压制" target="_blank">“烈光压制”</a>
-* 30级进阶：威力+2，可以选择两块不完全重叠的2×2区域<br><a href="xp-wiki/docs/rules/data/status/normal/#烈光压制" target="_blank">“烈光压制”</a>状态下，防守阈值-8
+* 初始：目标2×2范围内降下光柱，对Z轴上所有单位造成8魔法伤害且抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a><br>同一行动轮内，对同一单位而言，第二次及以后受到本法术的伤害或治疗量减半
+* 10级进阶：对友方角色的伤害变为回复，友方当次抵抗获得一枚奖励骰且改为抵抗弱化版<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+* 20级进阶：威力+2，若敌方目标拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="../../../../status/normal/#烈光压制" target="_blank">“烈光压制”</a>
+* 30级进阶：威力+2，可以选择两块不完全重叠的2×2区域<br><a href="../../../../status/normal/#烈光压制" target="_blank">“烈光压制”</a>状态下，防守阈值-8
 * 30级名称改变：神光天罚
 
 ### 逸散弧光
@@ -245,9 +245,9 @@
 
 #### 效果
 
-* 初始：施法范围内所有拥有非弱化版本<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的角色流失2行动点，若不足则改为流失上限（最低扣至4）
-* 10级进阶：施法范围内所有拥有非弱化版<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的角色流失5SP，若不足则改为流失1行动点，仍不足则改为流失上限（最低扣至4）
-* 20级进阶：施法范围内所有拥有非弱化版<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>的角色流失5HP。
+* 初始：施法范围内所有拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的角色流失2行动点，若不足则改为流失上限（最低扣至4）
+* 10级进阶：施法范围内所有拥有非弱化版<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的角色流失5SP，若不足则改为流失1行动点，仍不足则改为流失上限（最低扣至4）
+* 20级进阶：施法范围内所有拥有非弱化版<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>的角色流失5HP。
 * 30级进阶：施放时可以将一种效果的流失改为偷取，但是只能从至多两个被偷取角色上获益。
 * 30级名称改变：夺心暮光
 
@@ -267,7 +267,7 @@
 * 初始：全场所有已受伤友方单位保底回复3点HP，成功则额外恢复（差值因子）点HP（无视感知范围及施法范围限制）
 * 10级进阶：若成功，则先为所有当前HP小于HP上限一半的友方单位回复5点HP
 * 20级进阶：若成功，则再回复（差值因子）点SP
-* 30级进阶：HP修正到0的情况下，解除受影响目标的<a href="xp-wiki/docs/rules/data/status/normal/#濒死" target="_blank">“濒死”</a>与“致命伤”状态，但本场战斗剩余时间内其受该技能的治疗量减半。此效果限定每场战斗每人一次。
+* 30级进阶：HP修正到0的情况下，解除受影响目标的<a href="../../../../status/normal/#濒死" target="_blank">“濒死”</a>与“致命伤”状态，但本场战斗剩余时间内其受该技能的治疗量减半。此效果限定每场战斗每人一次。
 * 30级名称改变：希望曙光
 
 ---

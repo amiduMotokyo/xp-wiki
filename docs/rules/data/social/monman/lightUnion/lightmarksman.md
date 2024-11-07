@@ -29,7 +29,7 @@
 
 ## 职业特性
 
-可以在远程武器攻击落点处派生一个光魔法（施法范围为1且不可超出远程武器射程），每回合首次派生光魔法消耗行动点-2<br>敌人每次成功抵抗由你附加的<a href="xp-wiki/docs/rules/data/status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="xp-wiki/docs/rules/data/status/mark/#光敏" target="_blank">“光敏”</a>
+可以在远程武器攻击落点处派生一个光魔法（施法范围为1且不可超出远程武器射程），每回合首次派生光魔法消耗行动点-2<br>敌人每次成功抵抗由你附加的<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，对其叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
 
 ## 升级收益
 

@@ -208,11 +208,11 @@ nav:
               - ★★海盗军需官: rules/data/social/universal/Hark_pirate/pirate_supplier.md
               - ★★★海盗船长: rules/data/social/universal/Hark_pirate/pirate_captain.md
           - 无限剧场:
-            - 社群简介: rules/data/social/Cross-over/Infinite Therter/Grand_scenario/Infinite theater.md
+            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
             - 进阶职业:
-              - ★执笔者: rules/data/social/Cross-over/Grand_scenario/1-Writer.md
-              - ★★编剧家: rules/data/social/Cross-over/Grand_scenario/2-Playwright.md
-              - ★★★剧作名手: rules/data/social/Cross-over/Grand_scenario/3-Great_dramatist.md
+              - ★执笔者: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/1-Writer.md
+              - ★★编剧家: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/2-Playwright.md
+              - ★★★剧作名手: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/3-Great_dramatist.md
           - Zwei佣兵团:
             - 社群简介: rules/data/social/universal/zwei/zwei.md
             - 进阶职业:
@@ -334,11 +334,11 @@ nav:
               - ★★★御地行者: rules/data/social/Tengu/oniwagen/otsuchi_gyouja.md
               - ★★★御海行者: rules/data/social/Tengu/oniwagen/oumi_gyouja.md
           - 无限剧场:
-            - 社群简介: rules/data/social/Cross-over/Infinite Therter/Kabuki/Infinite theater.md
+            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
             - 进阶职业:
-              - ★启幕人: rules/data/social/Cross-over/Kabuki/1-Mokuhasha.md
-              - ★★歌舞伎: rules/data/social/Cross-over/Kabuki/2-Kabuki.md
-              - ★★★御前役者: rules/data/social/Cross-over/Kabuki/3-Gozenyakusya.md
+              - ★启幕人: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/1-Mokuhasha.md
+              - ★★歌舞伎: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/2-Kabuki.md
+              - ★★★御前役者: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/3-Gozenyakusya.md
           - 鳞海戍卫军:
             - 社群简介: rules/data/social/Tengu/seaDragonGuard/seaDragonGuard.md
             - 进阶职业:

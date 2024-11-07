@@ -120,7 +120,7 @@
 
 * 以褐色地块表示
 * 是极度<a href="#易燃地形" target="_blank">“易燃地形”</a>
-* 效果：为通过的角色自动附加<a href="xp-wiki/docs/rules/data/status/normal/#粘滞" target="_blank">“粘滞”</a>状态，受到火焰伤害时与相邻的黏油地形转化为持续5回合的<a href="#火墙地形" target="_blank">“火墙地形”</a><br>处于这种地形与由这种地形转化为的<a href="#火墙地形" target="_blank">“火墙地形”</a>上的角色会多受到0.5倍的<font color="#dd0000">火焰伤害</font>
+* 效果：为通过的角色自动附加<a href="../../../../status/normal/#粘滞" target="_blank">“粘滞”</a>状态，受到火焰伤害时与相邻的黏油地形转化为持续5回合的<a href="#火墙地形" target="_blank">“火墙地形”</a><br>处于这种地形与由这种地形转化为的<a href="#火墙地形" target="_blank">“火墙地形”</a>上的角色会多受到0.5倍的<font color="#dd0000">火焰伤害</font>
 
 ## Q列
 

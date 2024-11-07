@@ -35,8 +35,8 @@
 1|2500通|获得战技：谋杀清单<br>升级长休效果“战果兑换”：不再需要消耗长休行动点
 2|2750通|获得战技：Suger rush<br>升级长休效果“甜品制作”：所需长休行动点-0.5
 3|3000通|升级战技“随身烤箱”：造成的<font color="#dd0000">火焰伤害</font>数值+2，生效期间自身受到的<font color="#dd0000">火焰伤害</font>倍率-0.5<br>升级战技“截短枪管”：造成的固伤+2，固伤范围变为前方横3格纵1格
-4|3500通|升级战技“猛火炙烤”：SP消耗-2，进攻<a href="xp-wiki/docs/rules/data/status/normal/#燃烧" target="_blank">“燃烧”</a>或<a href="xp-wiki/docs/rules/data/status/normal/#烧伤" target="_blank">“烧伤”</a>状态的单位时阈值+8<br>升级战技“点缀苦痛”：若将装弹AP消耗降为0，则下次射击阈值+8，可以穿透第一个单位
-5|4000通|升级战技“回火”：对<a href="xp-wiki/docs/rules/data/status/normal/#燃烧" target="_blank">“燃烧”</a>状态的目标造成伤害时回复2点SP；造成<a href="xp-wiki/docs/rules/data/status/normal/#烧伤" target="_blank">“烧伤”</a>时回复2点AP，下次进攻不算衰减<br>升级特殊战技“定制寄语”：采集检定额外获得一枚奖励骰，进攻时武器威力+1且目标闪避获得一枚惩罚骰
+4|3500通|升级战技“猛火炙烤”：SP消耗-2，进攻<a href="../../../../status/normal/#燃烧" target="_blank">“燃烧”</a>或<a href="../../../../status/normal/#烧伤" target="_blank">“烧伤”</a>状态的单位时阈值+8<br>升级战技“点缀苦痛”：若将装弹AP消耗降为0，则下次射击阈值+8，可以穿透第一个单位
+5|4000通|升级战技“回火”：对<a href="../../../../status/normal/#燃烧" target="_blank">“燃烧”</a>状态的目标造成伤害时回复2点SP；造成<a href="../../../../status/normal/#烧伤" target="_blank">“烧伤”</a>时回复2点AP，下次进攻不算衰减<br>升级特殊战技“定制寄语”：采集检定额外获得一枚奖励骰，进攻时武器威力+1且目标闪避获得一枚惩罚骰
 
 ### 奖励能力解释
 
