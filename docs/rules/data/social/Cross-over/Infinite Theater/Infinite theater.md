@@ -54,7 +54,6 @@
 
 <a href="../Infinite Therter/Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
 
-
 ---
 
 > *PixelHead*
