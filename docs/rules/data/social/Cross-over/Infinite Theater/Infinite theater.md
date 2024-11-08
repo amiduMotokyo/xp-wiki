@@ -42,17 +42,17 @@
 
 无限剧场的成员分布范围广到难以想象，而交流演出也是常有的事~
 
-<a href="../Infinite Therter/Kabuki jo/1-Mokuhasha.md" target="_blank">★启幕人</a>
+<a href="../Kabuki jo/1-Mokuhasha" target="_blank">★启幕人</a>
 
-<a href="../Infinite Therter/Kabuki jo/2-Kabuki.md" target="_blank">★★歌舞伎</a>
+<a href="../Kabuki jo/2-Kabuki" target="_blank">★★歌舞伎</a>
 
-<a href="../Infinite Therter/Kabuki jo/3-Gozenyakusya.md" target="_blank">★★★御前役者</a>
+<a href="../Kabuki jo/3-Gozenyakusya" target="_blank">★★★御前役者</a>
 
-<a href="../Infinite Therter/Grand_scenario/1-Writer.md" target="_blank">★执笔者</a>
+<a href="../Grand_scenario/1-Writer" target="_blank">★执笔者</a>
 
-<a href="../Infinite Therter/Grand_scenario/2-Playwright.md" target="_blank">★★编剧家</a>
+<a href="../Grand_scenario/2-Playwright" target="_blank">★★编剧家</a>
 
-<a href="../Infinite Therter/Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
+<a href="../Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
 
 ---
 
