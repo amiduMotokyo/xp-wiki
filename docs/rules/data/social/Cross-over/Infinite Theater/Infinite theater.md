@@ -10,7 +10,7 @@
 创始人|热爱艺术的人们
 领导人|无
 成立年份|不明
-总部地址|歌舞伎町四番街/达库坦大剧院/鬼城音乐厅/上京戏楼
+总部地址|骏山国歌舞伎町/达库坦大剧院/鬼城音乐厅/上京戏楼
 
 ## 发展史
 
@@ -53,6 +53,10 @@
 <a href="../Grand_scenario/2-Playwright" target="_blank">★★编剧家</a>
 
 <a href="../Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
+
+1跑堂儿
+
+3戏班班主
 
 ---
 
