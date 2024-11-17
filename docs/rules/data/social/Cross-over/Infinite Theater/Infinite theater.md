@@ -54,9 +54,11 @@
 
 <a href="../Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
 
-1跑堂儿
+★跑堂儿（暂未实装）
 
-3戏班班主
+★★千面众（暂未实装）
+
+★★★戏班班主（暂未实装）
 
 ---
 
