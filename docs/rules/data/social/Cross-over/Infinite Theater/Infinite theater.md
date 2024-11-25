@@ -54,11 +54,17 @@
 
 <a href="../Grand_scenario/3-Great_dramatist" target="_blank">★★★剧作名手</a>
 
-★跑堂儿（暂未实装）
+<a href="../HELL_orchestra/1-Tuner" target="_blank">★调律客</a>
 
-★★千面众（暂未实装）
+<a href="../HELL_orchestra/2-Mixer" target="_blank">★★混音师</a>
 
-★★★戏班班主（暂未实装）
+<a href="../HELL_orchestra/3-Ace_musician" target="_blank">★★★金牌奏者</a>
+
+<a href="../HELL_orchestra/1-Trainee" target="_blank">★跑堂儿</a>
+
+<a href="../HELL_orchestra/2-Face_changer" target="_blank">★★千面众</a>
+
+<a href="../HELL_orchestra/3-Troupe_leader" target="_blank">★★★戏班班主</a>
 
 ---
 
