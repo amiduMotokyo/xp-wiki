@@ -74,8 +74,8 @@
 毒瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#中毒" target="_blank">中毒</a>|5|无
 麻痹瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#麻痹" target="_blank">麻痹</a>|4|无
 昏睡瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#昏睡" target="_blank">昏睡</a>|3|无
-燃烧瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#燃烧" target="_blank">燃烧</a>|4|若普通使用该状态瓶，目标地点及周围一圈变为<a href="../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>
-湿气瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#潮湿" target="_blank">潮湿</a>|5|若普通使用该状态瓶，目标地点及周围一圈变为<a href="../../status/terrain/#水洼地形" target="_blank">“水洼地形”</a>
+燃烧瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#燃烧" target="_blank">燃烧</a>|4|若普通使用该状态瓶，目标地点变为<a href="../../status/terrain/#火墙地形" target="_blank">“火墙地形”</a>
+湿气瓶|下一次攻击的目标抵抗判<a href="../../status/normal/#潮湿" target="_blank">潮湿</a>|5|若普通使用该状态瓶，目标地点变为<a href="../../status/terrain/#水洼地形" target="_blank">“水洼地形”</a>
 
 !!! success "绳索的用途"
     绳索在战斗中与战斗外均有多种不同的用途，可以与主持人商议决定，以下列举几种经典用途：

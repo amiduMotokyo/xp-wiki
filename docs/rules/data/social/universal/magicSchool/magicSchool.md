@@ -38,7 +38,9 @@
 
 <a href="../postgraduate" target="_blank">★★魔法进修生</a>
 
-<a href="../apprentice" target="_blank">★★★魔法教授</a>
+<a href="../professor" target="_blank">★★★魔法教授</a>
+
+<a href="../battleMage" target="_blank">☆☆战斗法师</a>
 
 ## 额外背景介绍
 

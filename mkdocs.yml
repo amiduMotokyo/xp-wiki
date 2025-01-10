@@ -197,7 +197,8 @@ nav:
             - 进阶职业:
               - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
               - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
-              - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md          
+              - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
+              - ☆☆战斗法师: rules/data/social/universal/magicSchool/battleMage.md          
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
             - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md
