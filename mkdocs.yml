@@ -209,12 +209,6 @@ nav:
               - ★★海盗强袭者: rules/data/social/universal/Hark_pirate/pirate_assaulter.md
               - ★★海盗军需官: rules/data/social/universal/Hark_pirate/pirate_supplier.md
               - ★★★海盗船长: rules/data/social/universal/Hark_pirate/pirate_captain.md
-          - 无限剧场:
-            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
-            - 进阶职业:
-              - ★执笔者: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/1-Writer.md
-              - ★★编剧家: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/2-Playwright.md
-              - ★★★剧作名手: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/3-Great_dramatist.md
           - Zwei佣兵团:
             - 社群简介: rules/data/social/universal/zwei/zwei.md
             - 进阶职业:
@@ -335,13 +329,6 @@ nav:
               - ★★★御空行者: rules/data/social/Tengu/oniwagen/osora_gyouja.md
               - ★★★御地行者: rules/data/social/Tengu/oniwagen/otsuchi_gyouja.md
               - ★★★御海行者: rules/data/social/Tengu/oniwagen/oumi_gyouja.md
-          - 无限剧场:
-            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
-            - 社群简介-歌舞伎篇: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/expansion.md
-            - 进阶职业:
-              - ★启幕人: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/1-Mokuhasha.md
-              - ★★歌舞伎: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/2-Kabuki.md
-              - ★★★御前役者: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/3-Gozenyakusya.md
           - 鳞海戍卫军:
             - 社群简介: rules/data/social/Tengu/seaDragonGuard/seaDragonGuard.md
             - 进阶职业:
@@ -422,13 +409,6 @@ nav:
               - ★★追迹猎手: rules/data/social/monman/hugeHunter/chaser.md
               - ★★驯兽师: rules/data/social/monman/hugeHunter/tamer.md
               - ★★★围猎大师: rules/data/social/monman/hugeHunter/siegeMaster.md
-          - 无限剧场:
-            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
-            - 进阶职业:
-              - 无上乐谱: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/supreme_score.md
-              - ★调律客: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/1-Tuner.md
-              - ★★混音师: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/2-Mixer.md
-              - ★★★金牌奏者: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/3-Ace_musician.md
           - 明光学联:
             - 社群简介: rules/data/social/monman/lightUnion/lightUnion.md
             - 光耀系魔法书: rules/data/social/monman/lightUnion/lightMagic.md
@@ -445,6 +425,32 @@ nav:
               - ★★★影光猎户: rules/data/social/monman/lightUnion/lightmarksman.md
               - ☆☆烈光骁骑: rules/data/social/monman/lightUnion/sunKnight.md
               - ☆☆柔光从骑: rules/data/social/monman/lightUnion/moonKnight.md
+        - 国际社群:
+          - 无限剧场:
+            - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
+            - 社群简介-歌舞伎篇: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/expansion.md
+            - 社群简介-地狱乐团篇: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/expansion.md
+            - 西陆进阶职业:
+              - ★执笔者: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/1-Writer.md
+              - ★★编剧家: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/2-Playwright.md
+              - ★★★剧作名手: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/3-Great_dramatist.md
+            - 大鸿进阶职业:
+              - ★跑堂儿: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/1-Trainee.md
+              - ★★千面众: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/2-Face_changer.md
+              - ★★★戏班班主: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/3-Troupe_leader.md
+            - 天狗国进阶职业:
+              - ★启幕人: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/1-Mokuhasha.md
+              - ★★歌舞伎: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/2-Kabuki.md
+              - ★★★御前役者: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/3-Gozenyakusya.md
+            - 魔族进阶职业:
+              - 无上乐谱: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/supreme_score.md
+              - ★调律客: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/1-Tuner.md
+              - ★★混音师: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/2-Mixer.md
+              - ★★★金牌奏者: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/3-Ace_musician.md
+          - 镜光联会:
+            - 社群简介: rules/data/social/Cross-over/Joker/joker_profile.md
+            - 进阶职业:
+              - ★★奇术师: rules/data/social/Cross-over/Joker/joker.md
       - 单位:
         - 召唤单位（废案备份）:
           - 魔像: rules/data/unit/summon/golem.md

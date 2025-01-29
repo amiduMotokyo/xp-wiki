@@ -45,4 +45,4 @@
 
 ## 社群职位
 
-★★奇术师
+<a href="../joker" target="_blank">★★奇术师</a>

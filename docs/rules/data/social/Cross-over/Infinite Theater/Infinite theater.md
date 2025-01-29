@@ -60,11 +60,11 @@
 
 <a href="../HELL_orchestra/3-Ace_musician" target="_blank">★★★金牌奏者</a>
 
-<a href="../HELL_orchestra/1-Trainee" target="_blank">★跑堂儿</a>
+<a href="../Theatrical_troupe/1-Trainee" target="_blank">★跑堂儿</a>
 
-<a href="../HELL_orchestra/2-Face_changer" target="_blank">★★千面众</a>
+<a href="../Theatrical_troupe/2-Face_changer" target="_blank">★★千面众</a>
 
-<a href="../HELL_orchestra/3-Troupe_leader" target="_blank">★★★戏班班主</a>
+<a href="../Theatrical_troupe/3-Troupe_leader" target="_blank">★★★戏班班主</a>
 
 ---
 
