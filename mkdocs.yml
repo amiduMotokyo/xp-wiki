@@ -7,7 +7,7 @@ plugins:
         separator: '[\s\-\.]+'
 nav:
     - 导航: 
-      - 更新日志: index.md
+      - XP跑团规则首页: index.md
       - 主世界的计划进度: plan.md
       - 编年史: chronicle.md
     - 规则:
