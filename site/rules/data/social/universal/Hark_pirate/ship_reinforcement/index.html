@@ -17389,7 +17389,7 @@
 <h2 id="_5">船只船备</h2>
 <p>船只船备分为舰炮与支援系统构成<br>当可用船员达到需求时才可启用系统，启用系统后船员将会被占用不再可用</p>
 <h3 id="_6">舰炮</h3>
-<p>舰炮即装备在舰船上的火炮，可以在战斗中支援战场，船炮需要玩家操控或者特定技能指挥才能开火，且开火后需要一回合冷却时间，每门炮独立计算冷却时间。</p>
+<p>舰炮即装备在舰船上的火炮，可以在战斗中支援战场，船炮需要玩家操控或者特定技能指挥才能开火，且开火后需要一行动轮冷却时间，每门炮独立计算冷却时间。</p>
 <p>名称：指舰炮的类型，不同类型的舰炮有着不同的属性。<br>操纵船员数：操纵这门炮所需的船员数量<br>操纵难度：在玩家操控时，成功操纵舰炮所需额外鉴定难度<br>攻击范围：舰炮攻击的伤害范围<br>攻击阈值：舰炮攻击时提供的鉴定阈值，默认为npc攻击阈值<br>威力：舰炮的攻击威力<br>特殊效果：这门舰炮拥有什么特别的能力</p>
 <h3 id="_7">支援系统</h3>
 <p>除了最直接的火炮轰击，舰船还可以拥有其他支援战场的手段，这些手段被称为支援系统。</p>
@@ -17430,7 +17430,7 @@
 <td style="text-align: center;">6/2/0</td>
 <td style="text-align: center;">2/1/0</td>
 <td style="text-align: center;">100</td>
-<td style="text-align: center;">战斗中仅一次，回合开始时发动，本回合所有支援系统效果获得强化</td>
+<td style="text-align: center;">战斗中仅一次，行动轮开始时发动，本行动轮所有支援系统效果获得强化</td>
 </tr>
 <tr>
 <td style="text-align: center;">火炮要塞海盗战船</td>
@@ -17438,7 +17438,7 @@
 <td style="text-align: center;">10/6/4</td>
 <td style="text-align: center;">2/1/0</td>
 <td style="text-align: center;">150</td>
-<td style="text-align: center;">所有舰炮攻击阈值+20，现在舰炮可以选择瞬发或半回合延迟</td>
+<td style="text-align: center;">所有舰炮攻击阈值+20，现在舰炮可以选择瞬发或半行动轮延迟</td>
 </tr>
 <tr>
 <td style="text-align: center;">支援堡垒海盗战船</td>
@@ -17596,25 +17596,25 @@
 <td style="text-align: center;">“血色骷髅”船旗</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">被动</td>
-<td style="text-align: center;">所有敌方角色回合开始时需要用心理学对抗阈值为（船员数）恐吓，恐吓成功时该角色全属性临时-1，持续整场战斗。（强化效果：变为-2）</td>
+<td style="text-align: center;">所有敌方角色行动轮开始时需要用心理学对抗阈值为（船员数）恐吓，恐吓成功时该角色全属性临时-1，持续整场战斗。（强化效果：变为-2）</td>
 </tr>
 <tr>
 <td style="text-align: center;">“屹立”船旗</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">被动</td>
-<td style="text-align: center;">战斗开始时，给予所有我方海盗20点额外生命上限，之后每个新回合开始时恢复所有我方海盗10点额外生命（强化效果：改为30/15）</td>
+<td style="text-align: center;">战斗开始时，给予所有我方海盗20点额外生命上限，之后每个新行动轮开始时恢复所有我方海盗10点额外生命（强化效果：改为30/15）</td>
 </tr>
 <tr>
 <td style="text-align: center;">“重振”战鼓</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">触发</td>
-<td style="text-align: center;">海盗船长回合消耗3行动力可以使用，恢复所有我方海盗25%hp与25%sp，每场战斗只可使用两次（强化效果:改为50%hp与50%sp）</td>
+<td style="text-align: center;">海盗船长行动轮消耗3行动力可以使用，恢复所有我方海盗25%hp与25%sp，每场战斗只可使用两次（强化效果:改为50%hp与50%sp）</td>
 </tr>
 <tr>
 <td style="text-align: center;">“激励”战鼓</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">触发</td>
-<td style="text-align: center;">海盗船长每回合可以消耗2行动力使用一次，指定一名其感知范围内的友方海盗或自己直到下个回合开始全属性+5，（强化效果：变为感知范围内所有友方海盗）</td>
+<td style="text-align: center;">海盗船长每行动轮可以消耗2行动力使用一次，指定一名其感知范围内的友方海盗或自己直到下个行动轮开始全属性+5，（强化效果：变为感知范围内所有友方海盗）</td>
 </tr>
 <tr>
 <td style="text-align: center;">桅杆瞭望员</td>
@@ -17657,7 +17657,7 @@
 <td style="text-align: center;">“激昂”号角</td>
 <td style="text-align: center;">20</td>
 <td style="text-align: center;">触发</td>
-<td style="text-align: center;">船长回合可以消耗6行动力使用，立刻插入所有其他我方海盗3点行动力的额外回合，每场战斗只可使用两次（强化效果：变为6点行动力的额外回合）</td>
+<td style="text-align: center;">船长行动轮可以消耗6行动力使用，立刻插入所有其他我方海盗3点行动力的额外行动轮，每场战斗只可使用两次（强化效果：变为6点行动力的额外行动轮）</td>
 </tr>
 <tr>
 <td style="text-align: center;">优质军火库</td>

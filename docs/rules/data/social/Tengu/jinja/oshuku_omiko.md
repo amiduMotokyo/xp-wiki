@@ -31,7 +31,7 @@
 :--:|:--:
 1|获得特殊技艺：神签开光<br>习得一个本家的中级阴阳术
 2|习得一个本家的中级阴阳术<br>职业特性升级：<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>不再露出破绽
-3|职业特性新增：可以让<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材消耗倍率+0.5倍为代价，让<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>准备时间减少半回合
+3|职业特性新增：可以让<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材消耗倍率+0.5倍为代价，让<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>准备时间减少半行动轮
 4|习得一个本家的上级阴阳术
 5|特殊技艺“神签开光”效果“神罚”升级：根据信奉神明不同，附加不同的效果<br>魔力、魅力永久+5<br>若没有，则被“大祝”赐予本家的“氏”
 
@@ -49,7 +49,7 @@
 信奉神明|神罚升级效果（职业等级达到5级）
 :--:|:--:
 八咫鸟大神|造成伤害视为<a href="/rules/data/magic/elemental/air" target="_blank">灵气伤害</a>
-稻荷大神|为自己或感知范围内的某队友施加一个提供（造成伤害的一半）额外生命的护盾，每个护盾最高10额外生命，持续1回合
+稻荷大神|为自己或感知范围内的某队友施加一个提供（造成伤害的一半）额外生命的护盾，每个护盾最高10额外生命，持续1行动轮
 开拓大神|造成伤害视为<a href="/rules/data/magic/elemental/water" target="_blank">水冷伤害</a>
 斗争大神|造成伤害视为<a href="/rules/data/magic/elemental/thunder" target="_blank">雷电伤害</a>
 锻造大神|造成伤害视为<a href="/rules/data/magic/elemental/fire" target="_blank">火焰伤害</a>

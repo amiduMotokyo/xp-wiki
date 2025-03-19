@@ -8,7 +8,7 @@
 
 ### <a href="../../../status/normal/#烧伤" target="_blank">“烧伤”</a>状态
 
-* 触发条件：累积25层<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>。角色每受到1点<font color="#dd0000">火焰伤害</font>就会被叠上一层<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>。<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>存在1回合后就会自动消失。
+* 触发条件：累积25层<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>。角色每受到1点<font color="#dd0000">火焰伤害</font>就会被叠上一层<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>。<a href="../../../status/mark/#烧伤印记" target="_blank">“烧伤印记”</a>存在1行动轮后就会自动消失。
 
 ### 特殊技艺：火系精通
 

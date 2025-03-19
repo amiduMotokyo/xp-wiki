@@ -63,7 +63,7 @@
 #### 效果
 
 * 初始：目标附加<a href="../../../status/normal/#浮空" target="_blank">“浮空”</a>状态
-* 10级进阶：<a href="../../../status/normal/#浮空" target="_blank">“浮空”</a>状态持续回合+1
+* 10级进阶：<a href="../../../status/normal/#浮空" target="_blank">“浮空”</a>状态持续行动轮+1
 * 20级进阶：与重物搬运成功难度值比较时，浮空术检定提供的差值+1倍
 * 30级进阶：现在可以同时指定2个目标附加<a href="../../../status/normal/#浮空" target="_blank">“浮空”</a>状态
 * 30级名称改变：念动力

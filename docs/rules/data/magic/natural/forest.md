@@ -69,9 +69,9 @@
 #### 效果
 
 * 初始：目标附加<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态
-* 增益：若目标处在<a href="../../../status/terrain/#丛林地形" target="_blank">“丛林地形”</a>，则持续时间延长1回合
-* 10级进阶：<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态下每回合HP-3
-* 增益：若目标处在<a href="../../../status/terrain/#丛林地形" target="_blank">“丛林地形”</a>，<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态下每回合HP再-3
+* 增益：若目标处在<a href="../../../status/terrain/#丛林地形" target="_blank">“丛林地形”</a>，则持续时间延长1行动轮
+* 10级进阶：<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态下每行动轮HP-3
+* 增益：若目标处在<a href="../../../status/terrain/#丛林地形" target="_blank">“丛林地形”</a>，<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态下每行动轮HP再-3
 * 20级进阶：<a href="../../../status/normal/#缠绕" target="_blank">“缠绕”</a>状态下所有行动消耗行动点+1
 * 30级进阶：可选替换效果：可将3×3范围里的<a href="../../../status/terrain/#丛林地形" target="_blank">“丛林地形”</a>升级为“藤蔓”地形
 * 30级名称改变：藤蔓术
@@ -83,7 +83,7 @@
 
     若因<font color="#dd0000">火焰伤害</font>而生成<font color="#dd0000">“火墙”</font>，则藤蔓地形额外效果消失。
 
-    藤蔓地形会在1回合后变回“丛林”地形。
+    藤蔓地形会在1行动轮后变回“丛林”地形。
 
 ### 生草术
 
