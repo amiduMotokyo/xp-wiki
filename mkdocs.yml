@@ -315,6 +315,7 @@ nav:
             - 进阶职业:
               - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
               - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
+              - ★★力士: rules/data/social/Tengu/jinja/rikishi.md
               - ★★★众神之眷: rules/data/social/Tengu/jinja/kamigami_no_ken.md
               - ☆☆☆天魔雄命: rules/data/social/Tengu/jinja/amanojyaku.md
           - 忍者屋敷:
