@@ -10,7 +10,7 @@
 
 * 你宣誓效忠某一位大名，或是朝廷
 * 必须携带一把“打刀”作为副武器
-* 拥有<a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级
+* <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级达到3级
 * 你出生于天狗国的武士阶层，或者拥有至少8个经历点
 
 ## 关键属性
