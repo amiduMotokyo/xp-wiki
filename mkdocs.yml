@@ -437,21 +437,21 @@ nav:
         - 国际社群:
           - 无限剧场:
             - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
-            - 社群简介-歌舞伎篇: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/expansion.md
+            - 社群简介-狂言会馆篇: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/expansion.md
             - 社群简介-地狱乐团篇: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/expansion.md
-            - 西陆进阶职业:
+            - 羽笔作协@西陆:
               - ★执笔者: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/1-Writer.md
               - ★★编剧家: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/2-Playwright.md
               - ★★★剧作名手: rules/data/social/Cross-over/Infinite Theater/Grand_scenario/3-Great_dramatist.md
-            - 大鸿进阶职业:
+            - 万民戏院@大鸿:
               - ★跑堂儿: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/1-Trainee.md
               - ★★千面众: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/2-Face_changer.md
               - ★★★戏班班主: rules/data/social/Cross-over/Infinite Theater/Theatrical_troupe/3-Troupe_leader.md
-            - 天狗国进阶职业:
+            - 狂言会馆@天狗:
               - ★启幕人: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/1-Mokuhasha.md
               - ★★歌舞伎: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/2-Kabuki.md
               - ★★★御前役者: rules/data/social/Cross-over/Infinite Theater/Kabuki jo/3-Gozenyakusya.md
-            - 魔族进阶职业:
+            - 地狱乐团@魔界:
               - 无上乐谱: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/supreme_score.md
               - ★调律客: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/1-Tuner.md
               - ★★混音师: rules/data/social/Cross-over/Infinite Theater/HELL_orchestra/2-Mixer.md
