@@ -150,30 +150,30 @@ nav:
           - 德鲁伊行会:
             - 社群简介: rules/data/social/universal/druidGuild/druidGuild.md
             - 进阶职业:
-              - ★林语者: rules/data/social/universal/druidGuild/spiritAudience.md
-              - ★★德鲁伊: rules/data/social/universal/druidGuild/Druid.md
-              - ★★★高阶德鲁伊: rules/data/social/universal/druidGuild/highDruid.md
+              - ★林语者（未实装）: rules/data/social/universal/druidGuild/spiritAudience.md
+              - ★★德鲁伊（未实装）: rules/data/social/universal/druidGuild/Druid.md
+              - ★★★高阶德鲁伊（未实装）: rules/data/social/universal/druidGuild/highDruid.md
           - 绿林家族:
             - 社群简介: rules/data/social/universal/greenWood/greenWood.md
             - 进阶职业:
-              - ☆☆绿林技法: rules/data/social/universal/greenWood/greenWoodSkill.md
-              - ★★★神灵卫: rules/data/social/universal/greenWood/spiritGuard.md
-              - ★★★化身德鲁伊: rules/data/social/universal/greenWood/personificationDruid.md
-              - ★★★提奈引路使: rules/data/social/universal/greenWood/forestGuide.md
+              - ☆☆绿林技法（未实装）: rules/data/social/universal/greenWood/greenWoodSkill.md
+              - ★★★神灵卫（未实装）: rules/data/social/universal/greenWood/spiritGuard.md
+              - ★★★化身德鲁伊（未实装）: rules/data/social/universal/greenWood/personificationDruid.md
+              - ★★★提奈引路使（未实装）: rules/data/social/universal/greenWood/forestGuide.md
           - 鹰眼家族:
             - 社群简介: rules/data/social/universal/hawkeye/hawkeye.md
             - 进阶职业:
-              - ☆☆鹰眼技法: rules/data/social/universal/hawkeye/hawkeyeSkill.md
+              - ☆☆鹰眼技法（未实装）: rules/data/social/universal/hawkeye/hawkeyeSkill.md
               - ★★★鹰眼猎手: rules/data/social/universal/hawkeye/hawkeyeHunter.md
               - ★★★影行者: rules/data/social/universal/hawkeye/shadowWalker.md
               - ★★★克洛托剑圣: rules/data/social/universal/hawkeye/swordMaster.md
           - 守夜家族:
             - 社群简介: rules/data/social/universal/nightWatch/nightWatch.md
             - 进阶职业:
-              - ☆☆守夜技法: rules/data/social/universal/nightWatch/nightWatchSkill.md
-              - ★★★牡鹿骑士: rules/data/social/universal/nightWatch/stagRider.md
-              - ★★★巨鹰骑士: rules/data/social/universal/nightWatch/eagleRider.md
-              - ★★★伊兰丽尔公使: rules/data/social/universal/nightWatch/forestDiplomat.md
+              - ☆☆守夜技法（未实装）: rules/data/social/universal/nightWatch/nightWatchSkill.md
+              - ★★★牡鹿骑士（未实装）: rules/data/social/universal/nightWatch/stagRider.md
+              - ★★★巨鹰骑士（未实装）: rules/data/social/universal/nightWatch/eagleRider.md
+              - ★★★伊兰丽尔公使（未实装）: rules/data/social/universal/nightWatch/forestDiplomat.md
         - 沙漠帝国:
           - 行沙者行会:
             - 社群简介: rules/data/social/universal/Sandwalker/Sandwalker_Guild.md
@@ -254,16 +254,16 @@ nav:
           - 鸿武门:
             - 社群简介: rules/data/social/GreatHong/HongWuGate/HongWuGate.md
             - 进阶职业:
-              - ★候补力士: rules/data/social/GreatHong/HongWuGate/alternateWrestler.md
-              - ★★鸿武卫镇抚使: rules/data/social/GreatHong/HongWuGate/pacificationEnvoy.md
-              - ★★★鸿武卫指挥使: rules/data/social/GreatHong/HongWuGate/commander.md
-              - ☆☆“常选”: rules/data/social/GreatHong/HongWuGate/changChoice.md
+              - ★候补力士（未实装）: rules/data/social/GreatHong/HongWuGate/alternateWrestler.md
+              - ★★鸿武卫镇抚使（未实装）: rules/data/social/GreatHong/HongWuGate/pacificationEnvoy.md
+              - ★★★鸿武卫指挥使（未实装）: rules/data/social/GreatHong/HongWuGate/commander.md
+              - ☆☆“常选”（未实装）: rules/data/social/GreatHong/HongWuGate/changChoice.md
           - 太学:
             - 社群简介: rules/data/social/GreatHong/ImperialAcademy/ImperialAcademy.md
             - 进阶职业:
-              - ★理生: rules/data/social/GreatHong/ImperialAcademy/liStudent.md
-              - ★★博士: rules/data/social/GreatHong/ImperialAcademy/liTeacher.md
-              - ★★★祭酒: rules/data/social/GreatHong/ImperialAcademy/liMaster.md
+              - ★理生（未实装）: rules/data/social/GreatHong/ImperialAcademy/liStudent.md
+              - ★★博士（未实装）: rules/data/social/GreatHong/ImperialAcademy/liTeacher.md
+              - ★★★祭酒（未实装）: rules/data/social/GreatHong/ImperialAcademy/liMaster.md
           - 相剑道门:
             - 社群简介: rules/data/social/GreatHong/XiangJian_Sect/XiangJian_Sect.md
             - 进阶职业:
@@ -298,7 +298,7 @@ nav:
           - 武术:
             - 武术段位等级: rules/data/social/GreatHong/MartialLevel.md
             - 进阶职业:
-              - ☆☆开门拳: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
+              - ☆☆开门拳（待重置）: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
               - ☆☆玄体流: rules/data/social/GreatHong/Martial_Arts/Xuanti Genre.md
           - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
         - 天狗国:
@@ -315,9 +315,9 @@ nav:
             - 进阶职业:
               - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
               - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
-              - ★★力士: rules/data/social/Tengu/jinja/rikishi.md
+              - ★★力士（缺背景）: rules/data/social/Tengu/jinja/rikishi.md
               - ★★★众神之眷: rules/data/social/Tengu/jinja/kamigami_no_ken.md
-              - ★★★倾奇力士: rules/data/social/Tengu/jinja/kabuki_rikishi.md
+              - ★★★倾奇力士（未实装）: rules/data/social/Tengu/jinja/kabuki_rikishi.md
               - ☆☆☆天魔雄命: rules/data/social/Tengu/jinja/amanojyaku.md
           - 忍者屋敷:
             - 社群简介: rules/data/social/Tengu/shinobi_yashiki/shinobi_yashiki.md
@@ -328,10 +328,10 @@ nav:
           - 御庭番:
             - 社群简介: rules/data/social/Tengu/oniwagen/oniwagen.md
             - 进阶职业:
-              - ★★目付: rules/data/social/Tengu/oniwagen/metsuke.md
-              - ★★★御空行者: rules/data/social/Tengu/oniwagen/osora_gyouja.md
-              - ★★★御地行者: rules/data/social/Tengu/oniwagen/otsuchi_gyouja.md
-              - ★★★御海行者: rules/data/social/Tengu/oniwagen/oumi_gyouja.md
+              - ★★目付（待重置）: rules/data/social/Tengu/oniwagen/metsuke.md
+              - ★★★御空行者（待重置）: rules/data/social/Tengu/oniwagen/osora_gyouja.md
+              - ★★★御地行者（待重置）: rules/data/social/Tengu/oniwagen/otsuchi_gyouja.md
+              - ★★★御海行者（待重置）: rules/data/social/Tengu/oniwagen/oumi_gyouja.md
           - 鳞海戍卫军:
             - 社群简介: rules/data/social/Tengu/seaDragonGuard/seaDragonGuard.md
             - 进阶职业:
@@ -395,29 +395,29 @@ nav:
             - 社群简介: rules/data/social/monman/praetorianHeadquarters/praetorianHeadquarters.md
             - 进阶职业:
               - ★★魔族禁卫: rules/data/social/monman/praetorianHeadquarters/monPraetorian.md
-              - ★★★魔族军团长: rules/data/social/monman/praetorianHeadquarters/monLegatus.md
-              - ★★★血族禁卫: rules/data/social/monman/praetorianHeadquarters/bloodPraetorian.md
+              - ★★★魔族军团长（未实装）: rules/data/social/monman/praetorianHeadquarters/monLegatus.md
+              - ★★★血族禁卫（未实装）: rules/data/social/monman/praetorianHeadquarters/bloodPraetorian.md
           - 市政厅:
             - 社群简介: rules/data/social/monman/cityHall/cityHall.md
             - 进阶职业:
-              - ★★魂源网络管理员: rules/data/social/monman/cityHall/administrator.md
-              - ★★驭血师: rules/data/social/monman/cityHall/hemorrheologist.md
-              - ★★★魂源白客: rules/data/social/monman/cityHall/onlineSecurityGuard.md
-              - ★★★血族大师: rules/data/social/monman/cityHall/bloodMaster.md
+              - ★★魂源网络管理员（缺背景）: rules/data/social/monman/cityHall/administrator.md
+              - ★★驭血师（缺背景）: rules/data/social/monman/cityHall/hemorrheologist.md
+              - ★★★魂源白客（未实装）: rules/data/social/monman/cityHall/onlineSecurityGuard.md
+              - ★★★血族大师（未实装）: rules/data/social/monman/cityHall/bloodMaster.md
           - 巫妖科技:
             - 社群简介: rules/data/social/monman/lichTechnology/lichTechnology.md
             - 进阶职业:
-              - ★唤灵师: rules/data/social/monman/lichTechnology/summonLich.md
-              - ★★魂附师: rules/data/social/monman/lichTechnology/possessLich.md
-              - ☆☆研究员: rules/data/social/monman/lichTechnology/researcher.md
-              - ★★★高阶巫妖: rules/data/social/monman/lichTechnology/highLich.md
+              - ★唤灵师（未实装）: rules/data/social/monman/lichTechnology/summonLich.md
+              - ★★魂附师（未实装）: rules/data/social/monman/lichTechnology/possessLich.md
+              - ☆☆研究员（未实装）: rules/data/social/monman/lichTechnology/researcher.md
+              - ★★★高阶巫妖（未实装）: rules/data/social/monman/lichTechnology/highLich.md
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:
-              - ★巨兽猎兵: rules/data/social/monman/hugeHunter/jager.md
-              - ★★追迹猎手: rules/data/social/monman/hugeHunter/chaser.md
-              - ★★驯兽师: rules/data/social/monman/hugeHunter/tamer.md
-              - ★★★围猎大师: rules/data/social/monman/hugeHunter/siegeMaster.md
+              - ★巨兽猎兵（待重置）: rules/data/social/monman/hugeHunter/jager.md
+              - ★★追迹猎手（待重置）: rules/data/social/monman/hugeHunter/chaser.md
+              - ★★驯兽师（待重置）: rules/data/social/monman/hugeHunter/tamer.md
+              - ★★★围猎大师（待重置）: rules/data/social/monman/hugeHunter/siegeMaster.md
           - 明光学联:
             - 社群简介: rules/data/social/monman/lightUnion/lightUnion.md
             - 光耀系魔法书: rules/data/social/monman/lightUnion/lightMagic.md
