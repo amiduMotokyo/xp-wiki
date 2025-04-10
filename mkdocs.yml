@@ -388,13 +388,17 @@ nav:
           - 护卫大厅:
             - 社群简介: rules/data/social/monman/guardHall/guardHall.md
             - 进阶职业:
-              - ★魔族护卫: rules/data/social/monman/guardHall/monGuard.md
+              - ★魔族护卫·斗士: rules/data/social/monman/guardHall/militant.md
+              - ★魔族护卫·百夫长: rules/data/social/monman/guardHall/centurion.md
+              - ★魔族护卫·哨骑: rules/data/social/monman/guardHall/post.md
               - ★采血师: rules/data/social/monman/guardHall/bloodTaker.md
               - ★魂源调度员: rules/data/social/monman/guardHall/soulMineDispatcher.md
           - 禁卫屯所:
             - 社群简介: rules/data/social/monman/praetorianHeadquarters/praetorianHeadquarters.md
             - 进阶职业:
-              - ★★魔族禁卫: rules/data/social/monman/praetorianHeadquarters/monPraetorian.md
+              - ★★魔族禁卫·先锋百夫长: rules/data/social/monman/praetorianHeadquarters/vanguardCenturion.md
+              - ★★魔族禁卫·尖啸骑士: rules/data/social/monman/praetorianHeadquarters/screamingKnight.md
+              - ★★魔族禁卫·阴风骑士: rules/data/social/monman/praetorianHeadquarters/chillyKnight.md
               - ★★★魔族军团长（未实装）: rules/data/social/monman/praetorianHeadquarters/monLegatus.md
               - ★★★血族禁卫（未实装）: rules/data/social/monman/praetorianHeadquarters/bloodPraetorian.md
           - 市政厅:
@@ -407,10 +411,10 @@ nav:
           - 巫妖科技:
             - 社群简介: rules/data/social/monman/lichTechnology/lichTechnology.md
             - 进阶职业:
-              - ★唤灵师（未实装）: rules/data/social/monman/lichTechnology/summonLich.md
-              - ★★魂附师（未实装）: rules/data/social/monman/lichTechnology/possessLich.md
+              - ★唤灵师（缺背景）: rules/data/social/monman/lichTechnology/summonLich.md
+              - ★★魂附师（缺背景）: rules/data/social/monman/lichTechnology/possessLich.md
               - ☆☆研究员（未实装）: rules/data/social/monman/lichTechnology/researcher.md
-              - ★★★高阶巫妖（未实装）: rules/data/social/monman/lichTechnology/highLich.md
+              - ★★★高阶巫妖（缺背景）: rules/data/social/monman/lichTechnology/highLich.md
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:

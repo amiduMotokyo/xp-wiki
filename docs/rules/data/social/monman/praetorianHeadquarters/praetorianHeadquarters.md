@@ -29,7 +29,11 @@
 
 ## 社群职位
 
-<a href="../monPraetorian" target="_blank">★★魔族禁卫</a>
+<a href="../vanguardCenturion" target="_blank">★★魔族禁卫·先锋百夫长</a>
+
+<a href="../screamingKnight" target="_blank">★★魔族禁卫·尖啸骑士</a>
+
+<a href="../chillyKnight" target="_blank">★★魔族禁卫·阴风骑士</a>
 
 <a href="../monLegatus" target="_blank">★★★魔族军团长</a>
 

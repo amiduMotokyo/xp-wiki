@@ -35,7 +35,11 @@
 
 ## 社群职位
 
-<a href="../monGuard" target="_blank">★魔族护卫</a>
+<a href="../militant" target="_blank">★魔族护卫·斗士</a>
+
+<a href="../centurion" target="_blank">★魔族护卫·百夫长</a>
+
+<a href="../post" target="_blank">★魔族护卫·哨骑</a>
 
 <a href="../bloodTaker" target="_blank">★采血师</a>
 
