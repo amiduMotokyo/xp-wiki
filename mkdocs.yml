@@ -345,28 +345,6 @@ nav:
               - ☆损管小组: rules/data/social/Tengu/seaDragonGuard/lo-losser.md   
               - ☆☆☆舰队领航: rules/data/social/Tengu/seaDragonGuard/C4ISR.md
               - ☆☆☆海击先锋: rules/data/social/Tengu/seaDragonGuard/spearhead.md
-          - 流派:
-            - 段位与流派: rules/data/social/Tengu/dan.md
-            - 进阶职业:
-              - ☆☆源流: rules/data/social/Tengu/ryuha/genryu.md
-              - ☆☆岭越流: rules/data/social/Tengu/ryuha/reiechi_ryu.md
-              - ☆☆湿原流: rules/data/social/Tengu/ryuha/shigen_ryu.md
-              - ☆☆集心流: rules/data/social/Tengu/ryuha/shushin_ryu.md
-              - ☆☆缭乱流: rules/data/social/Tengu/ryuha/ryouran_ryu.md
-              - ☆☆野兽流: rules/data/social/Tengu/ryuha/yaju_ryu.md
-              - ☆☆廻天流: rules/data/social/Tengu/ryuha/kaiten_ryu.md
-              - ☆☆瞬死流: rules/data/social/Tengu/ryuha/syunsi-ryu.md
-              - ☆☆桜斩流: rules/data/social/Tengu/ryuha/sakuzen_ryu.md
-              - ☆☆大河原流: rules/data/social/Tengu/ryuha/ookawara_ryu.md
-          - 桐坂众（桐坂流）:
-            - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
-            - 进阶职业:
-              - ★★散兵: rules/data/social/Tengu/kirisaki_ryu/skirmisher.md
-              - ★★★尖兵: rules/data/social/Tengu/kirisaki_ryu/vanguard.md
-              - ★★狙击手: rules/data/social/Tengu/kirisaki_ryu/sniper.md
-              - ★★★枪眼: rules/data/social/Tengu/kirisaki_ryu/gunEye.md
-              - ★★战勤: rules/data/social/Tengu/kirisaki_ryu/service.md
-              - ★★★司务: rules/data/social/Tengu/kirisaki_ryu/secretary.md
           - 北乡府:
             - 社群简介: rules/data/social/Tengu/nao_the_prince/nao_the_profile.md
             - 进阶职业:
@@ -376,7 +354,35 @@ nav:
               - ★★海族智者: rules/data/social/Tengu/nao_the_prince/umiumenochisha.md
               - ★★★绝命华: rules/data/social/Tengu/nao_the_prince/setsumeino_haname.md
               - ★★★海人参议: rules/data/social/Tengu/nao_the_prince/umennto_sanjikan.md
-          - 铭见城:
+          - 流派:
+            - 段位与流派: rules/data/social/Tengu/dan.md
+            - 进阶职业:
+              - ☆☆岭越流: rules/data/social/Tengu/ryuha/reiechi_ryu.md
+              - ☆☆湿原流: rules/data/social/Tengu/ryuha/shigen_ryu.md
+              - ☆☆集心流: rules/data/social/Tengu/ryuha/shushin_ryu.md
+              - ☆☆缭乱流: rules/data/social/Tengu/ryuha/ryouran_ryu.md
+              - ☆☆野兽流: rules/data/social/Tengu/ryuha/yaju_ryu.md
+              - ☆☆廻天流: rules/data/social/Tengu/ryuha/kaiten_ryu.md
+              - ☆☆瞬死流: rules/data/social/Tengu/ryuha/syunsi-ryu.md
+              - ☆☆桜斩流: rules/data/social/Tengu/ryuha/sakuzen_ryu.md
+              - ☆☆大河原流: rules/data/social/Tengu/ryuha/ookawara_ryu.md
+          - 源流报社（源流）:
+            - 社群简介: rules/data/social/Tengu/genryu_shinbunsha/genryu_shinbunsha.md
+            - 进阶职业:
+              - ☆☆编辑: rules/data/social/Tengu/genryu_shinbunsha/editor.md
+              - ☆☆执笔: rules/data/social/Tengu/genryu_shinbunsha/writer.md
+              - ☆☆摄影: rules/data/social/Tengu/genryu_shinbunsha/photographer.md
+              - ☆☆信使: rules/data/social/Tengu/genryu_shinbunsha/messenger.md
+          - 桐坂众（桐坂流）:
+            - 社群简介: rules/data/social/Tengu/kirisaki_ryu/kirisaki_ryu.md
+            - 进阶职业:
+              - ★★散兵: rules/data/social/Tengu/kirisaki_ryu/skirmisher.md
+              - ★★★尖兵: rules/data/social/Tengu/kirisaki_ryu/vanguard.md
+              - ★★狙击手: rules/data/social/Tengu/kirisaki_ryu/sniper.md
+              - ★★★枪眼: rules/data/social/Tengu/kirisaki_ryu/gunEye.md
+              - ★★战勤: rules/data/social/Tengu/kirisaki_ryu/service.md
+              - ★★★司务: rules/data/social/Tengu/kirisaki_ryu/secretary.md
+          - 铭见城（瞬死流）:
             - 社群简介: rules/data/social/Tengu/mei-ken/mei-ken.md
             - 进阶职业:
               - ★刃众: rules/data/social/Tengu/mei-ken/kan-juu.md
@@ -411,10 +417,10 @@ nav:
           - 巫妖科技:
             - 社群简介: rules/data/social/monman/lichTechnology/lichTechnology.md
             - 进阶职业:
-              - ★唤灵师（缺背景）: rules/data/social/monman/lichTechnology/summonLich.md
-              - ★★魂附师（缺背景）: rules/data/social/monman/lichTechnology/possessLich.md
+              - ★唤灵师: rules/data/social/monman/lichTechnology/summonLich.md
+              - ★★魂附师: rules/data/social/monman/lichTechnology/possessLich.md
               - ☆☆研究员（未实装）: rules/data/social/monman/lichTechnology/researcher.md
-              - ★★★高阶巫妖（缺背景）: rules/data/social/monman/lichTechnology/highLich.md
+              - ★★★高阶巫妖: rules/data/social/monman/lichTechnology/highLich.md
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:

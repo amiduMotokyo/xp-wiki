@@ -24,7 +24,7 @@
 
 流派名称|类型|简介
 :--:|:--:|:--:
-<a href="../ryuha/genryu" target="_blank">源流</a>|技术流派|根据新闻业的职业分工派生出的流派，进修简单，拥有能够适应各种场合的独特能力
+<a href="../genryu_shinbunsha/genryu_shinbunsha" target="_blank">源流</a>|技术流派|根据新闻业的职业分工派生出的流派，进修简单，拥有能够适应各种场合的独特能力
 <a href="../ryuha/reiechi_ryu" target="_blank">岭越流</a>|忍术流派|由忍者之祖创立的流派，以绳镖、绳镖发射器与混合炸药为特色，强调机动与干扰的战术
 <a href="../ryuha/shigen_ryu" target="_blank">湿原流</a>|忍术流派|望夜会泽城周边忍者创立的流派，以两用武器·锁镰为主要作战方式，拥有多种能让对手失能的招式
 <a href="../ryuha/shushin_ryu" target="_blank">集心流</a>|剑术流派|强调在未持械的收刀状态以静制动的流派，招牌技能“居合斩”发动条件苛刻，但威力无穷
@@ -32,5 +32,6 @@
 <a href="../ryuha/yaju_ryu" target="_blank">野兽流</a>|剑术流派|强悍豪迈的流派，要求双手共持武器进行进攻，配合进攻前的气合吼，可以有效地粉碎敌方的防御能力
 <a href="../ryuha/kaiten_ryu" target="_blank">廻天流</a>|剑术流派|意在生息变化气势流转，如获廻天之力。通过四种气势的相互转换可以使用最终技能《廻天·风花雪月斩》以此一击制敌
 <a href="../ryuha/syunsi-ryu" target="_blank">瞬死流</a>|剑术流派|纯粹的杀人技术，残忍的手法，招招毙命
+<a href="../ryuha/sakuzen_ryu" target="_blank">桜斩流</a>|剑术流派|强调变化的流派，擅长在自己的回合外对敌人造成难以防备的打击
 <a href="../ryuha/ookawara_ryu" target="_blank">大河原流</a>|枪术流派|变化多端，具有强力针对性的流派，行动轮开始获得随机强力招式，能够在自己的行动轮外形成连招
 <a href="../kirisaki_ryu/kirisaki_ryu" target="_blank">桐坂流</a>|火器流派|针对火器的特性，桐坂众发明的一套相互配合影响的火器专用战术，有散兵、狙击与战勤三个项目，需要通过获取主职等级来提升段位
