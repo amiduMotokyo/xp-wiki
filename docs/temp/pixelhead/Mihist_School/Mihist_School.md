@@ -64,11 +64,11 @@
 
 糜家舍弃了天命，拒斥着列祖列宗的干涉，坚信只有脱离这些，只有手中的丝线与统御的奇械才能为大鸿带来光明的未来————一个士农工商皆为平等，众人自力更生开拓的未来。
 
-<a href="../puppet_disciple" target="_blank">★操偶使</a>
+<a href="../1A-puppet_disciple" target="_blank">★操偶使</a>
 
-<a href="../mech_disciple" target="_blank">★百器使</a>
+<a href="../1B-mech_disciple" target="_blank">★百器使</a>
 
-<a href="../puppetster" target="_blank">★★控儡师</a>
+<a href="../2A-puppetster" target="_blank">★★控儡师</a>
 
 <a href="../mechster" target="_blank">★★千机师</a>
 
