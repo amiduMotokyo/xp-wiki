@@ -70,15 +70,15 @@
 
 <a href="../2A-puppetster" target="_blank">★★控儡师</a>
 
-<a href="../mechster" target="_blank">★★千机师</a>
+<a href="../2B-mechster" target="_blank">★★千机师</a>
 
-<a href="../puppet_prodigy" target="_blank">★★★御傀逸才</a>
+<a href="../3A-puppet_prodigy" target="_blank">★★★御傀逸才</a>
 
-<a href="../mech_sculptor" target="_blank">★★★武库逸才</a>
+<a href="../3B-mech_prodigy" target="_blank">★★★纵械逸才</a>
 
-<a href="../mech_prodigy" target="_blank">★★★纵械逸才</a>
+<a href="../EX-walking_arsenal" target="_blank">★★★自走武库</a>
 
-<a href="../maintenance_artisan" target="_blank">☆砺兵匠</a>
+<a href="../0-maintenance_artisan" target="_blank">☆砺兵匠</a>
 
 ---
 
