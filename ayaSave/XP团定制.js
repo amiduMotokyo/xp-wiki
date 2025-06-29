@@ -13,6 +13,292 @@ if (!ext) {
 }
 const storage_dir = "data/default/extensions/xp/"
 
+// ↓↓↓↓↓↓处理特殊效果的函数↓↓↓↓↓↓
+function effectsTreatment(specialEffects,uniqueEffects)
+{
+	const allEffects = [...specialEffects];
+
+	const remainingUnique = [...uniqueEffects];
+    
+    for (let i = remainingUnique.length - 1; i >= 0; i--) 
+	{
+		const u = remainingUnique[i];
+        
+		// 新增：过滤属性增益上限升级
+		if (u.效果.includes("属性增益上限+2")) {
+			remainingUnique.splice(i, 1);
+			continue;
+		}
+
+        // 处理特殊效果显示
+        if (u.已使用次数 >= 1) {
+            // 弓
+            if (u.效果.includes("在武器攻击范围/2的范围内进行的射击，进攻阈值+4")) 
+			{
+                u.效果 = `在武器攻击范围/2的范围内进行的射击，进攻阈值+${4 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("射击射程超过范围的目标时，消耗行动点倍率不再+0.5（长弓限定）")) 
+			{
+				const origin = allEffects.findIndex(e => e.startsWith('射程超过范围仍然可以射击，但消耗行动点倍率+0.5，且总伤倍率减半'));
+				allEffects[origin] = `射程超过范围仍然可以射击，但总伤倍率减半`;
+				remainingUnique.splice(i, 1);
+            }
+            // 弩
+            else if (u.效果.includes("提升1点装弹量上限")) 
+			{
+				const count = u.已使用次数;
+				const ammoIndex = allEffects.findIndex(e => e.startsWith('装弹量上限：'));
+				if (ammoIndex !== -1) 
+				{
+                	const current = parseInt(allEffects[ammoIndex].split('：')[1]);
+                	allEffects[ammoIndex] = `装弹量上限：${current + count}`;
+            	} 
+				else 
+				{
+                	allEffects.push(`装弹量上限：${count}`);
+            	}
+				remainingUnique.splice(i, 1);
+            }
+			// 投掷（飞镖）
+			else if (u.效果.includes("涂抹药物后，对方抵抗判定异常状态获得+4惩罚")) 
+			{
+				const origin = allEffects.findIndex(e => e.startsWith('涂抹药物后，对方抵抗判定异常状态获得+8惩罚'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `涂抹药物后，对方抵抗判定异常状态获得+${8 + 4 * u.已使用次数}惩罚`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `涂抹药物后，对方抵抗判定异常状态获得+${4 * u.已使用次数}惩罚`;
+				}
+            }	
+            else if (u.效果.includes("可选择最多的连发次数+1（效果与弩系武器升级技能中的连射类似）")) 
+			{
+				const origin = allEffects.findIndex(e => e.startsWith('可选择最多两连发（效果与弩系武器升级技能中的连射类似）'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `可选择最多三连发（效果与弩系武器升级技能中的连射类似）`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `可选择最多两连发（效果与弩系武器升级技能中的连射类似）`;
+				}
+            }
+			// 发射器（暂时无特殊处理）
+
+			// 火器（暂时无特殊处理）
+
+			// 格斗（拳套）
+			else if (u.效果.includes("每有1层蓄力层数，下一次攻击检定阈值+3")) 
+			{
+                u.效果 = `每有1层蓄力层数，下一次攻击检定阈值+${3 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("攻击若成功，对目标防具的额外生命造成额外1点伤害（指虎限定）")) 
+			{
+                u.效果 = `攻击若成功，对目标防具的额外生命造成额外${u.已使用次数}点伤害（指虎限定）`;
+            }
+			else if (u.效果.includes("作为主武器时，防御检定再有额外-4奖励（铁臂环限定）")) 
+			{
+				const origin = allEffects.findIndex(e => e.startsWith('作为主武器时，防御检定有-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `作为主武器时，防御检定有-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `作为主武器时，防御检定有-${4 * u.已使用次数}奖励`;
+				}
+            }
+			// 爪
+			else if (u.效果.includes("攻击若造成伤害，让对方抵抗判“流血”，其中叠加层数改为1层")) //这个匕首也有
+			{
+				if(u.已使用次数 == 2)
+				{
+					u.效果 = `攻击若造成伤害，让对方抵抗判“流血”`;
+				}
+            }
+			else if (u.效果.includes("对方抵抗爪类武器附加的“撕裂”效果时，检定值获得+4惩罚")) 
+			{
+                u.效果 = `对方抵抗爪类武器附加的“撕裂”效果时，检定值获得+${4 * u.已使用次数}惩罚`;
+            }
+			else if (u.效果.includes("进行特殊战技检定时，检定值再可获得额外-4奖励（臂刃限定）")) 
+			{
+				const origin = allEffects.findIndex(e => e.startsWith('进行特殊战技检定时，检定值可获得-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `进行特殊战技检定时，检定值可获得-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `进行特殊战技检定时，检定值可获得-${4 * u.已使用次数}奖励`;
+				}
+            }
+			// 匕首
+			else if (u.效果.includes("对措手不及的目标发动的攻击，进攻阈值+4")) 
+			{
+                u.效果 = `对措手不及的目标发动的攻击，进攻阈值+${4 * u.已使用次数}`;
+            }
+			// 杖
+			else if (u.效果.includes("指定某魔法，令其阈值+4")) 
+			{
+                u.效果 = `指定某魔法，令其阈值+${4 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("因弱点而进行魔法抗性对抗时，检定获得-4奖励（御币限定）")) 
+			{
+                u.效果 = `因弱点而进行魔法抗性对抗时，检定获得-${4 * u.已使用次数}奖励（御币限定）`;
+            }
+			// 打刀
+			else if (u.效果.includes("应对攻击距离比自己长的近战武器时，检定值阈值+4")) 
+			{
+                u.效果 = `应对攻击距离比自己长的近战武器时，检定值阈值+${4 * u.已使用次数}`;
+            }
+			// 长刀
+			else if (u.效果.includes("暴击阈值+2")) 
+			{
+                u.效果 = `暴击阈值+${2 * u.已使用次数}`;
+            }
+			// 剑
+			else if (u.效果.includes("拼刀时，检定阈值+4")) 
+			{
+                u.效果 = `拼刀时，检定阈值+${4 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("作为主武器时，防御检定再-4奖励（佩剑限定）")) 
+			{
+                const origin = allEffects.findIndex(e => e.startsWith('作为主武器时，防御检定有-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `作为主武器时，防御检定有-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `作为主武器时，防御检定有-${4 * u.已使用次数}奖励`;
+				}
+            }
+			else if (u.效果.includes("暴击阈值+2（刺突剑限定）")) 
+			{
+                u.效果 = `暴击阈值+${2 * u.已使用次数}（刺突剑限定）`;
+            }
+			else if (u.效果.includes("暴击后总伤倍率+0.1（重剑限定）")) 
+			{
+                u.效果 = `暴击后总伤倍率+${0.1 * u.已使用次数}（重剑限定）`;
+            }
+			// 短棍（暂时无特殊处理）
+			
+			// 鞭
+			else if (u.效果.includes("“鞭痕”最大叠加层数+1")) 
+			{
+                u.效果 = `“鞭痕”最大叠加层数+${u.已使用次数}`;
+            }
+			// 长枪
+			else if (u.效果.includes("若攻击检定成功，额外附加1点固定伤害（矛限定）")) 
+			{
+                const origin = allEffects.findIndex(e => e.startsWith('若攻击检定成功，附加2点固定伤害'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `若攻击检定成功，附加${2 + u.已使用次数}点固定伤害`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `若攻击检定成功，附加${u.已使用次数}点固定伤害`;
+				}
+            }
+			// 长柄刀
+			else if (u.效果.includes("进攻作用目标数超过2人时，检定阈值+4")) 
+			{
+                u.效果 = `“进攻作用目标数超过2人时，检定阈值+${4 * u.已使用次数}`;
+            }
+			// 长戟
+			else if (u.效果.includes("对方抵抗长戟造成的异常状态时，检定阈值-4")) 
+			{
+                u.效果 = `“对方抵抗长戟造成的异常状态时，检定阈值-${4 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("进攻直线路径上的敌人时，检定再有额外-4奖励（三叉戟限定）")) 
+			{
+                const origin = allEffects.findIndex(e => e.startsWith('进攻直线路径上的敌人时，检定有-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `进攻直线路径上的敌人时，检定有-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `进攻直线路径上的敌人时，检定有-${4 * u.已使用次数}奖励`;
+				}
+            }
+			// 棍
+			else if (u.效果.includes("无论进攻成功与否，都对目标造成1点SP伤害")) 
+			{
+                u.效果 = `“无论进攻成功与否，都对目标造成${u.已使用次数}点SP伤害`;
+            }
+			// 镰刀
+			else if (u.效果.includes("暴击阈值+2")) //大锤也有这个
+			{
+                u.效果 = `“暴击阈值+${2 * u.已使用次数}`;
+            }
+			else if (u.效果.includes("暴击后总伤倍率+0.1")) //巨剑也有这个
+			{
+                u.效果 = `“暴击后总伤倍率+${0.1 * u.已使用次数}`;
+            }
+			// 巨剑
+			else if (u.效果.includes("作为主武器时，防御检定再有额外-4奖励（巨剑限定）")) 
+			{
+                const origin = allEffects.findIndex(e => e.startsWith('作为主武器时，防御检定有-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `作为主武器时，防御检定有-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `作为主武器时，防御检定有-${4 * u.已使用次数}奖励`;
+				}
+            }
+			else if (u.效果.includes("拼刀时，进攻检定有-4奖励（双手重剑限定）")) 
+			{
+                const origin = allEffects.findIndex(e => e.startsWith('拼刀时，进攻检定有-4奖励'));
+				if(origin !== -1)
+				{
+					allEffects[origin] = `拼刀时，进攻检定有-${4 + 4 * u.已使用次数}奖励`;
+					remainingUnique.splice(i, 1);
+				}
+				else
+				{
+					u.效果 = `拼刀时，进攻检定有-${4 * u.已使用次数}奖励`;
+				}
+            }
+			// 大锤（暂时无特殊处理）
+
+			// 战斧
+			else if (u.效果.includes("进攻目标身后（特指你与目标构成的直线）是障碍物时，进攻检定阈值+4"))
+			{
+                u.效果 = `“进攻目标身后（特指你与目标构成的直线）是障碍物时，进攻检定阈值+${4 * u.已使用次数}`;
+            }
+			// 轻盾
+			else if (u.效果.includes("进攻成功时额外对敌人造成1点固定伤害")) 
+			{
+                u.效果 = `“进攻成功时额外对敌人造成${u.已使用次数}点固定伤害`;
+            }
+			// 长盾
+			else if (u.效果.includes("只要手持（无论主副武器），防御成功时提供全身1点临时护甲")) 
+			{
+                u.效果 = `“只要手持（无论主副武器），防御成功时提供全身${u.已使用次数}点临时护甲`;
+            }
+			// 巨盾（暂时无特殊处理）
+        }
+    }
+    remainingUnique.forEach(u => {
+        allEffects.push(u.效果);
+    });
+    return allEffects;
+}
+// ↑↑↑↑↑↑处理特殊效果的函数↑↑↑↑↑↑
+
 const cmd1 = seal.ext.newCmdItemInfo();
 cmd1.name = 'dmg';
 cmd1.help = '自动计算伤害';
@@ -278,11 +564,21 @@ cmd5.solve = (ctx, msg, cmdArgs) => {
                 .then((data) => {
 					const category = data.weaponInfo ? data.weaponInfo.大类 : '未知大类'; // 获取第一列
             		if (data.success) {
-                		text += `武器大类：${category}\n`;  // 显示大类信息
+						text += `等级：${numLevel || '未知'}  |  `;
+						text += `武器大类：${category || '未知'}  |  `;
 						text += `武器系：${data.weaponInfo.子类 || '未知'}\n`;
+						text += `挂钩属性：${data.weaponInfo.挂钩属性 || '未知'}  |  `;
+						text += `力量阈值：${data.weaponInfo.力量阈值 || '未知'}  |  `;
 						text += `变体：${data.weaponInfo.变体 || '未知'}\n`;
-						text += `挂钩属性：${data.weaponInfo.挂钩属性 || '未知'}\n`;
-						text += `攻击范围：${data.weaponInfo.攻击范围 || '未知'}\n`;
+
+						let attackRange = data.weaponInfo.攻击范围 || '未知';
+						// 长枪特殊处理
+						if (data.weaponInfo.子类 === '长枪' && 
+    						data.weaponInfo.独特升级?.some(u => u.效果.includes('攻击范围不再限定直线'))) {
+    						attackRange = attackRange.toString().replace(/直线/g, '');
+						}
+						text += `攻击范围：${attackRange}  |  `;
+
 						text += `武器威力：${data.weaponInfo.武器威力 || '未知'}\n`;
 						if(data.weaponInfo.施法范围 > 1)
 						{
@@ -290,10 +586,21 @@ cmd5.solve = (ctx, msg, cmdArgs) => {
 						}
 						if(data.weaponInfo.初始弹药量 > 0)
 						{
-							if(data.weaponInfo.子类 == '短棍')
-							{
-								text += `战技使用次数：${data.weaponInfo.初始弹药量 || '未知'}\n`;
-							}
+							if(data.weaponInfo.子类 == '短棍') {
+        						let totalAmmo = data.weaponInfo.初始弹药量 || 0;
+        						// 新的检测逻辑开始
+        						if (data.weaponInfo.独特升级?.length) {
+            						const combatUpgrades = data.weaponInfo.独特升级.filter(u => 
+                						u.效果.includes("战技使用次数+1")
+            						);
+            						totalAmmo += combatUpgrades.reduce((sum, u) => sum + u.已使用次数, 0);
+									data.weaponInfo.独特升级 = data.weaponInfo.独特升级.filter(u => 
+            							!u.效果.includes("战技使用次数+1")
+        							);
+        						}
+        						// 新检测逻辑结束
+        						text += `战技使用次数：${totalAmmo}\n`;
+    						}
 							else if(data.weaponInfo.变体 == '短斧' || data.weaponInfo.变体 == '手戟')
 							{
 								text += `备用武器最大持有量：${data.weaponInfo.初始弹药量 || '未知'}\n`;
@@ -303,16 +610,137 @@ cmd5.solve = (ctx, msg, cmdArgs) => {
 								text += `初始弹药量：${data.weaponInfo.初始弹药量 || '未知'}\n`;
 							}	
 						}
-						text += `特殊效果：\n${data.weaponInfo.特殊效果 || '未知'}\n`;
+						seal.replyToSender(ctx, msg, text);	
+						//--------------------以下是特殊效果的处理--------------------
+						text = "";
+						const specialEffects = data.weaponInfo.特殊效果 
+    						? data.weaponInfo.特殊效果.split('\n').filter(line => line.trim() !== '无特效')  // 拆分并过滤空行
+    						: [];  // 默认值处理
+						// 添加独特升级效果
+						const allEffects = effectsTreatment(specialEffects,data.weaponInfo.独特升级);
+						text += "特殊效果：\n";
+						if (allEffects.length > 0) 
+						{
+    						allEffects.forEach((effect, index) => {
+        						text += `${index + 1}. ${effect}\n`;
+    						});
+						} 
+						else 
+						{
+							if(data.weaponInfo.是否有属性加成 == 0)
+							{
+								text += "无特效\n";
+							}
+						}
+						//--------------------以下是属性加成的处理--------------------	
 						if(data.weaponInfo.是否有属性加成 > 0)
 						{
-							text += `有属性加成`;
+							text += `有属性加成\n`;
+							if(data.weaponInfo.属性加成.力量>0)
+							{
+								text += `力量+${data.weaponInfo.属性加成.力量}，`;
+							}
+							if(data.weaponInfo.属性加成.敏捷>0)
+							{
+								text += `敏捷+${data.weaponInfo.属性加成.敏捷}，`;
+							}
+							if(data.weaponInfo.属性加成.体质>0)
+							{
+								text += `体质+${data.weaponInfo.属性加成.体质}，`;
+							}
+							if(data.weaponInfo.属性加成.智力>0)
+							{
+								text += `智力+${data.weaponInfo.属性加成.智力}，`;
+							}
+							if(data.weaponInfo.属性加成.魅力>0)
+							{
+								text += `魅力+${data.weaponInfo.属性加成.魅力}，`;
+							}
+							if(data.weaponInfo.属性加成.魔力>0)
+							{
+								text += `魔力+${data.weaponInfo.属性加成.魔力}\n`;
+							}
 						}
             		} else {
                 		text += `随机失败，失败原因：${data.error || "未知错误"}`;
             		}
 					seal.replyToSender(ctx, msg, text);
+					//--------------------以下是升级记录的处理--------------------
+					if(numLevel > 1)
+					{
+						seal.replyToSender(ctx, msg, `升级记录：\n${data.upgradeLog.join('\n')}`);
+					}
+					//--------------------以下是印痕记录的处理--------------------
+					text = "";
+					if (data.weaponInfo.印痕?.length > 0)
+					{
+						text += "\n印痕效果：\n";
+						data.weaponInfo.印痕.forEach((m, idx) => {
+							const countText = m.count > 1 ? `【${m.count}次】` : '';
+							// 修改后的共鸣刻痕处理
+							if (m.name === '共鸣刻痕' && data.weaponInfo.共鸣属性?.length > 0) 
+							{
+								// 统计属性出现次数
+								const attrCounts = data.weaponInfo.共鸣属性.reduce((acc, attr) => {
+									acc[attr] = (acc[attr] || 0) + 1;
+									return acc;
+								}, {});
+								// 生成属性描述
+								const attrDesc = Object.entries(attrCounts)
+									.map(([attr, count]) => `${attr}+${count}`)
+									.join('、');
+								text += `${idx + 1}. ${m.name}：${attrDesc}${countText}\n`;
+							}
+							else if(m.name === '减重刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：力量阈值-${5 * m.count}${countText}\n`;
+							}
+							else if(m.name === '扩容刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：初始弹药量+${2 * m.count}${countText}\n`;
+							}
+							else if(m.name === '及远刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：射程+${m.count}${countText}\n`;
+							}
+							else if(m.name === '魔感刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：施法范围+${m.count}${countText}\n`;
+							}
+							else if(m.name === '特异刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：获得${m.count}点独特升级点（待分配）${countText}\n`;
+							}
+							else if(m.name === '奇崛刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：获得${2 * m.count}点独特升级点（待分配）${countText}\n`;
+							}
+							else if(m.name === '省悟刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：有属性加成\n`;
+							}
+							else if(m.name === '猛袭刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：武器威力+${m.count}${countText}\n`;
+							}
+							else if(m.name === '储备刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：若在战斗结束前使用了弹药，则可以无条件回收最多2个\n`;
+							}
+							else if(m.name === '变通刻痕') 
+							{
+								text += `${idx + 1}. ${m.name}：可挂钩属性增加\n`;
+							}
+							else 
+							{
+								text += `${idx + 1}. ${m.name}：${m.effect}${countText}\n`;
+							}
+						});
+						seal.replyToSender(ctx, msg, text);
+					}
+
                 })
 	return seal.ext.newCmdExecuteResult(true);
 };
 ext.cmdMap['随机武器'] = cmd5;
+
