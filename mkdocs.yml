@@ -94,6 +94,7 @@ nav:
             - 大鸿军理: rules/data/magic/faith/GreatHong/JunLi.md
         - 时空类魔法:
           - 时间系魔法: rules/data/magic/space_time/time.md
+          - 空间系魔法: rules/data/magic/space_time/space.md
           - 塔罗系魔法: rules/data/magic/space_time/Tarot.md
         - 心灵类魔法: rules/data/magic/mind.md
         - 鲜血系魔法: rules/data/magic/blood.md
@@ -198,6 +199,7 @@ nav:
               - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
               - ★★魔法进修生: rules/data/social/universal/magicSchool/postgraduate.md
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
+              - ☆优等生: rules/data/social/universal/magicSchool/honorsStudent.md    
               - ☆☆战斗法师: rules/data/social/universal/magicSchool/battleMage.md          
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
@@ -425,7 +427,7 @@ nav:
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:
-              - ★巨兽猎兵（待重置）: rules/data/social/monman/hugeHunter/jager.md
+              - ★★巨兽猎兵（待重置）: rules/data/social/monman/hugeHunter/jager.md
               - ★★追迹猎手（待重置）: rules/data/social/monman/hugeHunter/chaser.md
               - ★★驯兽师（待重置）: rules/data/social/monman/hugeHunter/tamer.md
               - ★★★围猎大师（待重置）: rules/data/social/monman/hugeHunter/siegeMaster.md

@@ -9,6 +9,7 @@
 * <a href="../apprentice" target="_blank">魔法学徒</a>职业等级达到5级
 * 继承魔法学徒阶段选择的学院以及社团
 * 选择1个新的社团参加，提供熟练技能
+* 若<a href="../honorsStudent" target="_blank">优等生</a>职业等级达到2级，则可以在你的主修学院中增加时空院
 
 ## 关键属性
 
