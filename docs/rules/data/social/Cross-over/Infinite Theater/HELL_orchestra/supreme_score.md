@@ -138,7 +138,7 @@
 * 初始：施法范围内所有其他友方/敌方尽可能回复/失去HP与行动力直到最终数值为整数<br>共鸣3：再回复/失去（差值/10四舍五入）+3点HP
 * 10级进阶：本法术每造成1点HP/行动力变动，自身获得一层<a href="../../../../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>
 * 20级进阶：获得的<a href="../../../../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>层数可以在感知范围内的友方中任意分配<br><font color=' #FFFFFF '> 10级进阶：</font>和声4：并为以此法分配到<a href="../../../../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>的其他友方回复2点行动力
-* 30级进阶：可以选择为以此法分配到<a href="../../../../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>的其他友方解除一个内生型异常状态或获得一层<a href="../../../../../status/mark/#机敏印记" target="_blank">“机敏印记”</a><br><font color=' #FFFFFF '> 10级进阶：</font>超和声3、超共鸣2：并在此回合结束后插入一个额外的回合，那之后本条本场战斗中失效
+* 30级进阶：可以选择为以此法分配到<a href="../../../../../status/mark/#鼓舞印记" target="_blank">“鼓舞印记”</a>的其他友方解除一个内生型异常状态或获得一层<a href="../../../../../status/mark/#机敏印记" target="_blank">“机敏印记”</a><br><font color=' #FFFFFF '> 10级进阶：</font>超和声3：若任一目标满足超共鸣2，则在此回合结束后插入一个自身的额外的回合，那之后本条本场战斗中失效
 
 ## 上级乐章
 
@@ -180,7 +180,7 @@
 * 初始：对施法范围内至多两个目标造成魔法威力为8的伤害<br><font color=' #FFFFFF '> 进阶：</font>共鸣3：并抵抗<a href="../../../../../status/normal/#动摇" target="_blank">“动摇”</a>
 * 10级进阶：威力+2，主目标半径2内的其他同阵营单位抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a><br><font color=' #FFFFFF '> 10级进阶：</font>和声4：可以先让主目标免行动力移动至多3格
 * 20级进阶：威力+2，若抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>的目标同时也是主目标，那么不是抵抗一次而是抵抗三次
-* 30级进阶：抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>的半径变为3<br><font color=' #FFFFFF '> 10级进阶：</font>超共鸣3：目标最大数+2<br><font color=' #FFFFFF '> 10级进阶：</font>超和声2：不是抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>而是同时抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>和<a href="../../../../../status/normal/#中毒" target="_blank">“中毒”</a>
+* 30级进阶：抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>的半径变为3<br><font color=' #FFFFFF '> 10级进阶：</font>超和声3：目标最大数+2<br><font color=' #FFFFFF '> 10级进阶：</font>超共鸣2：不是抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>而是同时抵抗<a href="../../../../../status/normal/#虚弱无力" target="_blank">“虚弱无力”</a>和<a href="../../../../../status/normal/#中毒" target="_blank">“中毒”</a>
 * 30级名称改变：交响曲『无垠凄寂』
 
 ### 三和声爆

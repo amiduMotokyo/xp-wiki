@@ -76,7 +76,7 @@
 
 <a href="../3B-mech_prodigy" target="_blank">★★★纵械逸才</a>
 
-<a href="../EX-walking_arsenal" target="_blank">★★★自走武库</a>
+~~★★★自走武库~~
 
 <a href="../0-maintenance_artisan" target="_blank">☆砺兵匠</a>
 
