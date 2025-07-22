@@ -7,8 +7,7 @@
 ## 必要条件
 
 * 进攻型<a href="../../elfFamily/forestKeeper" target="_blank">林卫</a>职业等级达到8级，且选择了“巨剑”作为熟练项
-* <a href="../../../basicJob/Warrior" target="_blank">武者</a>职业等级达到8级
-* 拥有至少20个经历点
+* <a href="../../elfFamily/ranger" target="_blank">游侠</a>职业等级达到5级
 
 ## 关键属性
 
