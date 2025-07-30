@@ -567,6 +567,8 @@ nav:
       - 创作积分制度: temp/bonusSystem.md
       - 秋田创作区:
         - 说明: temp/akita/akita_profile.md
+        - 世界观设定相关:
+          - 天使与天界（研修中）: temp/akita/mererifKingdom/Angels_Heaven.md
         - INSANE:
           - 前言: temp/akita/insane/prologue_for_inSane.md
           - excel角色卡: temp/akita/insane/INSANE人物卡.xlsx
@@ -600,8 +602,14 @@ nav:
           - 1026号文献: temp/akita/its/its_essays_1026.md
           - 1088号文献: temp/akita/its/its_essays_1088.md
           - S的假期: temp/akita/its/S'sVacation.md
+        - 天狗国黑帮: 
+          - 社群简介: temp/akita/gokudo/gokudo_profile.md
+          - ★黑帮打手: temp/akita/gokudo/kobun.md
+          - ☆☆若头: temp/akita/gokudo/wakasira.md
+          - ☆☆组长: temp/akita/gokudo/oyabun.md
         - 美杜莎(未实装):
           - 瞳术师: temp/akita/medusa/eye_mage.md
+          - 美杜莎学徒: temp/akita/medusa/medusa_apprentice.md
       - amidu创作区:
         - 说明: temp/amidu/profile.md
         - 设定补充:
