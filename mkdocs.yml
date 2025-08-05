@@ -413,11 +413,11 @@ nav:
           - 市政厅:
             - 社群简介: rules/data/social/monman/cityHall/cityHall.md
             - 进阶职业:
-              - ★★魂源网络管理员（缺背景）: rules/data/social/monman/cityHall/administrator.md
-              - ★★驭血师（缺背景）: rules/data/social/monman/cityHall/hemorrheologist.md
+              - ★★魂源网络管理员: rules/data/social/monman/cityHall/administrator.md
+              - ★★驭血师: rules/data/social/monman/cityHall/hemorrheologist.md
               - ★★★魂源白客（未实装）: rules/data/social/monman/cityHall/onlineSecurityGuard.md
-              - ★★★活血特勤（未实装）: rules/data/social/monman/cityHall/bloodVitaliter.md
-              - ★★★血族大师（未实装）: rules/data/social/monman/cityHall/bloodMaster.md
+              - ★★★活血特勤: rules/data/social/monman/cityHall/bloodVitaliter.md
+              - ★★★血族大师: rules/data/social/monman/cityHall/bloodMaster.md
           - 巫妖科技:
             - 社群简介: rules/data/social/monman/lichTechnology/lichTechnology.md
             - 进阶职业:

@@ -42,7 +42,7 @@
 :--:|:--:|:--:|:--:
 <a href="../../../settings/civilization/GreatHong/GreatHong" target="_blank">鸿族</a>|1、原种族特性二选一<br>2、正天命效果1.5倍，负天命惩罚触发概率翻倍，允许天命增减方式各多一种<br>3、拥有通过消耗天命触发的种族专属仪式之法|人类、精灵、蚁族、鬼族|大鸿国土
 <a href="../../../settings/civilization/Westland/sandEmpire/sandMan" target="_blank">北方沙族</a>|1、原种族特性二选一<br>2、拥有种族独有的变身魔法<br>3、抵抗北方魔力场乱流的检定获得一枚奖励骰|人类、蚁族|中层世界·沙漠帝国
-<a href="../../../settings/civilization/Monman/ghost" target="_blank">血族</a>|1、原种族特性二选一<br>2、每次近战攻击回复相当于造成伤害四分之一的体力和精神力<br>3、亡灵族|人类、蚁族|下层世界·魔族城堡
+<a href="../../../settings/civilization/Monman/ghost" target="_blank">血族</a>|1、原种族特性二选一<br>2、每次近战攻击回复相当于造成HP伤害四分之一的HP和SP<br>3、亡灵族|人类、蚁族|下层世界·魔族城堡
 <a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶骷髅</a>|1、原种族特性二选一<br>2、他人对你进行远程攻击时，失去所有奖励骰<br>3、亡灵族，免疫带有“活体”词条的异常状态与印记|人类、精灵、蚁族、鲸天狗、狐天狗、鸦天狗、鬼族|下层世界各处
 <a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶僵尸</a>|保留原种族全部特性<br>亡灵族|人类、精灵、蚁族、鲸天狗、狐天狗、鸦天狗、鬼族|下层世界各处
 混血|原两个种族的特性各二选一|排列组合，但请先获得主持人的许可|世界各处
