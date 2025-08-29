@@ -30,7 +30,7 @@
 
 * 初始：目标附加<a href="../../../status/normal/#水行" target="_blank">“水行”</a>状态
 * 10级进阶：无视<a href="../../../status/terrain/#川流地形（浅水）" target="_blank">“川流地形（浅水）”</a>的惩罚
-* 20级进阶：无视<a href="../../../status/terrain/#迷雾地形" target="_blank">“迷雾地形”</a>的惩罚
+* 20级进阶：无视<a href="../../../status/terrain/#迷雾地形" target="_blank">“迷雾地形”</a>的非视觉效果惩罚
 * 30级进阶：无视<a href="../../../status/terrain/#川流地形（深水）" target="_blank">“川流地形（深水）”</a>的惩罚（即水下行动与陆上无异）
 * 30级名称改变：水隐术
 
