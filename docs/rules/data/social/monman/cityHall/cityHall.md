@@ -31,3 +31,15 @@
 ### 标志
 
 因各市市长而异
+
+## 社群职位
+
+<a href="../administrator" target="_blank">★★魂源网络管理员</a>
+
+<a href="../hemorrheologist" target="_blank">★★驭血师</a>
+
+<a href="../onlineSecurityGuard" target="_blank">★★★魂源白客</a>
+
+<a href="../bloodVitaliter" target="_blank">★★★活血特勤</a>
+
+<a href="../bloodMaster" target="_blank">★★★血族大师</a>
