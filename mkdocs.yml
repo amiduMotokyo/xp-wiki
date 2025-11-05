@@ -477,6 +477,7 @@ nav:
           - 镜光联会:
             - 社群简介: rules/data/social/Cross-over/Joker/joker_profile.md
             - 进阶职业:
+              - ★怪盗: rules/data/social/Cross-over/Joker/thief_in_mask.md
               - ★★奇术师: rules/data/social/Cross-over/Joker/joker.md
       - 单位:
         - 召唤单位（废案备份）:
@@ -573,6 +574,7 @@ nav:
         - 说明: temp/akita/akita_profile.md
         - 世界观设定相关:
           - 天使与天界（研修中）: temp/akita/mererifKingdom/Angels_Heaven.md
+          - 大鸿年表梳理: temp/akita/HongMemos/HongHistory.md
         - INSANE:
           - 前言: temp/akita/insane/prologue_for_inSane.md
           - excel角色卡: temp/akita/insane/INSANE人物卡.xlsx
