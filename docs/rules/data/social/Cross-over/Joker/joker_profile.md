@@ -45,4 +45,6 @@
 
 ## 社群职位
 
+<a href="../thief_in_mask" target="_blank">★怪盗</a>
+
 <a href="../joker" target="_blank">★★奇术师</a>
