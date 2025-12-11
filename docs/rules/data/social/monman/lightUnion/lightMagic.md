@@ -73,7 +73,7 @@
 * 初始：目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 * 10级进阶：若目标拥有非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>，则强制附加<a href="../../../../status/normal/#感光失调" target="_blank">“感光失调”</a>
 * 20级进阶：<a href="../../../../status/normal/#感光失调" target="_blank">“感光失调”</a>状态下，全阈值有-8惩罚
-* 30级进阶：该技能附加的非弱化版本<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>可叠加时长
+* 30级进阶：若目标抵抗成功，则对其附加两层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>
 * 30级名称改变：压制辉光
 
 ### 抚慰烁光
