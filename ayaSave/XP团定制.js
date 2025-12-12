@@ -13,6 +13,39 @@ if (!ext) {
 }
 const storage_dir = "data/default/extensions/xp/"
 
+// 存储所有活动的定时器ID
+let activeTimeouts = [];
+
+// 从活动定时器列表中移除指定的定时器ID
+function removeTimeout(timeoutId) {
+    const index = activeTimeouts.indexOf(timeoutId);
+    if (index > -1) {
+        activeTimeouts.splice(index, 1);
+    }
+}
+
+
+function cancelAllTimeouts(ctx, msg) {
+    if (activeTimeouts.length === 0) {
+        seal.replyToSender(ctx, msg, "当前没有正在运行的倒计时任务");
+        return;
+    }
+    
+    // 取消所有定时器
+    activeTimeouts.forEach(timeoutId => {
+        clearTimeout(timeoutId);
+    });
+    
+    // 获取取消的定时器数量
+    const count = activeTimeouts.length;
+    
+    // 清空活动定时器列表
+    activeTimeouts = [];
+    
+    // 发送取消确认消息
+    seal.replyToSender(ctx, msg, `已成功取消所有 ${count} 个倒计时任务`);
+}
+
 // ↓↓↓↓↓↓处理特殊效果的函数↓↓↓↓↓↓
 function effectsTreatment(specialEffects,uniqueEffects)
 {
@@ -744,3 +777,79 @@ cmd5.solve = (ctx, msg, cmdArgs) => {
 };
 ext.cmdMap['随机武器'] = cmd5;
 
+const cmd6 = seal.ext.newCmdItemInfo();
+cmd6.name = 'c';
+cmd6.help = '一个定时器，格式如下：\n.c 任务名称 持续时间\n示例：.c 微波炉 30\n效果为：30s后显示“任务<微波炉>倒计时已结束”\n注意：任务名称如果是“取消”，则会取消所有任务的倒计时';
+cmd6.solve = (ctx, msg, cmdArgs) => {
+	let thingName = cmdArgs.getArgN(1);
+	let durationstr = cmdArgs.getArgN(2);
+	// 检查是否是取消命令
+    if (thingName === '取消') {
+        cancelAllTimeouts(ctx, msg);
+        return seal.ext.newCmdExecuteResult(true);
+    }
+	// 参数有效性检查
+	if (!thingName || !durationstr) {
+        seal.replyToSender(ctx, msg, "一个定时器，格式如下：\n.c 任务名称 持续时间\n示例：.c 微波炉 30\n效果为：30s后显示“任务<微波炉>倒计时已结束”\n注意：任务名称如果是“取消”，则会取消所有任务的倒计时");
+        return seal.ext.newCmdExecuteResult(true);
+    }
+		
+	// 转换数字类型参数
+	const duration = parseInt(durationstr);
+    if (isNaN(duration)|| duration <= 0) {
+        seal.replyToSender(ctx, msg, "持续时间必须是大于0的数字，单位为秒");
+        return seal.ext.newCmdExecuteResult(true);
+    }
+
+	// 发送确认消息
+    seal.replyToSender(ctx, msg, `已设置“${thingName}”的${duration}秒倒计时`);
+
+	// 创建相关联的定时器组
+    const timeoutGroup = {
+        main: null,
+        halfway: null,
+        tenSeconds: null,
+        thingName: thingName,
+        duration: duration
+    };
+
+	// 设置中途提醒定时器
+        // 1. 过半提醒
+        const halfwayTime = Math.floor(duration / 2);
+        if (halfwayTime >= 1) { // 至少1秒才设置提醒
+            timeoutGroup.halfway = setTimeout(() => {
+                seal.replyToSender(ctx, msg, `${thingName} 倒计时已过半，剩余${halfwayTime}秒`);
+                // 从活动定时器列表中移除已完成的中途提醒
+                removeTimeout(timeoutGroup.halfway);
+            }, halfwayTime * 1000);
+            activeTimeouts.push(timeoutGroup.halfway);
+        }
+        
+        // 2. 10秒提醒（仅当总时长超过10秒时）
+        if (duration > 10) {
+            const tenSecondsTime = duration - 10;
+            timeoutGroup.tenSeconds = setTimeout(() => {
+                seal.replyToSender(ctx, msg, `${thingName} 倒计时还剩10秒！`);
+                // 从活动定时器列表中移除已完成的10秒提醒
+                removeTimeout(timeoutGroup.tenSeconds);
+            }, tenSecondsTime * 1000);
+            activeTimeouts.push(timeoutGroup.tenSeconds);
+        }
+        
+        // 设置主倒计时定时器
+        timeoutGroup.main = setTimeout(() => {
+            // 倒计时结束后发送提醒消息
+            seal.replyToSender(ctx, msg, `${thingName} 倒计时完毕`);
+            
+            // 清理相关定时器引用
+            removeTimeout(timeoutGroup.main);
+            if (timeoutGroup.halfway) removeTimeout(timeoutGroup.halfway);
+            if (timeoutGroup.tenSeconds) removeTimeout(timeoutGroup.tenSeconds);
+        }, duration * 1000);
+        
+        // 将主定时器ID添加到活动列表
+        activeTimeouts.push(timeoutGroup.main);
+	
+	return seal.ext.newCmdExecuteResult(true);
+};
+ext.cmdMap['c'] = cmd6;

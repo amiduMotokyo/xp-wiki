@@ -38,7 +38,7 @@
 
 * 初始：目标附加<a href="../../../status/normal/#弹跃" target="_blank">“弹跃”</a>状态
 * 10级进阶：<a href="../../../status/normal/#弹跃" target="_blank">“弹跃”</a>状态增强：现在攀爬成果变为（差值/10向上取整）
-* 20级进阶：<a href="../../../status/normal/#弹跃" target="_blank">“弹跃”</a>状态增强：攀爬状态下的防守检定阈值不再减半
+* 20级进阶：<a href="../../../status/normal/#弹跃" target="_blank">“弹跃”</a>状态增强：攀爬状态下需要减半的检定阈值不再减半
 * 30级进阶：<a href="../../../status/normal/#弹跃" target="_blank">“弹跃”</a>状态增强：对于一个攀爬对象，只要存在坡度，即可在上面自由活动，无需再过攀爬判定
 * 30级名称改变：山羊脚
 

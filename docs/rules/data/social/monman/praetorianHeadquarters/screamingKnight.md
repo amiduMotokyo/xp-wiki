@@ -13,8 +13,8 @@
 ## 必要条件
 
 * 拥有至少14个经历点
-* <a href="../post" target="_blank">魔族护卫·哨骑</a>职业达到5级
-* <a href="../centurion" target="_blank">魔族护卫·百夫长</a>职业达到5级
+* <a href="../../guardHall/post" target="_blank">魔族护卫·哨骑</a>职业达到5级
+* <a href="../../guardHall/centurion" target="_blank">魔族护卫·百夫长</a>职业达到5级
 * 不可选择<a href="../chillyKnight" target="_blank">魔族禁卫·阴风骑士</a>与<a href="../vanguardCenturion" target="_blank">魔族禁卫·先锋百夫长</a>职业
 
 ## 关键属性
