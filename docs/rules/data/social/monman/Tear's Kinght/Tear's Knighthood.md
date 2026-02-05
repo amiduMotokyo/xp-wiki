@@ -37,7 +37,7 @@
 
 <a href="../Tear's Knight" target="_blank">★涓泪骑士</a>
 
-<a href="../BooldyTear‘s Knight" target="_blank">★★血泪骑士</a>
+<a href="../BooldyTear's Knight" target="_blank">★★血泪骑士</a>
 
 <a href="../Tear's BloodyRose" target="_blank">★★★“血泪蔷薇”</a>
 
