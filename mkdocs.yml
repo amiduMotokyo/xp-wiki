@@ -318,10 +318,10 @@ nav:
           - 神社:
             - 社群简介: rules/data/social/Tengu/jinja/jinja.md
             - 进阶职业:
-              - ★祝/巫女: rules/data/social/Tengu/jinja/shuku_miko.md
-              - ★★御祝/御巫女: rules/data/social/Tengu/jinja/oshuku_omiko.md
+              - ★祝/巫女（待重置）: rules/data/social/Tengu/jinja/shuku_miko.md
+              - ★★御祝/御巫女（待重置）: rules/data/social/Tengu/jinja/oshuku_omiko.md
               - ★★力士（缺背景）: rules/data/social/Tengu/jinja/rikishi.md
-              - ★★★众神之眷: rules/data/social/Tengu/jinja/kamigami_no_ken.md
+              - ★★★众神之眷（待重置）: rules/data/social/Tengu/jinja/kamigami_no_ken.md
               - ★★★倾奇力士（未实装）: rules/data/social/Tengu/jinja/kabuki_rikishi.md
               - ☆☆☆天魔雄命: rules/data/social/Tengu/jinja/amanojyaku.md
           - 忍者屋敷:
