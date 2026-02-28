@@ -458,6 +458,13 @@ nav:
               - ★涓泪骑士: rules/data/social/monman/Tear's Kinght/Tear's Knight.md
               - ★★血泪骑士: rules/data/social/monman/Tear's Kinght/BooldyTear's Knight.md
               - ★★★血泪蔷薇: rules/data/social/monman/Tear's Kinght/Tear's BloodyRose.md
+          - 狠揍帮:
+            - 社群简介: rules/data/social/monman/Brawl_gang/Brawl_gang.md
+            - 进阶职业:
+              - ★街溜子: rules/data/social/monman/Brawl_gang/1-Street_rat.md
+              - ★★惹祸精: rules/data/social/monman/Brawl_gang/2-Troublemaker.md
+              - ★★★销音客: rules/data/social/monman/Brawl_gang/3-Silencer.md
+              - ☆小巷贩商: rules/data/social/monman/Brawl_gang/0-Dealer.md
         - 国际社群:
           - 无限剧场:
             - 社群简介: rules/data/social/Cross-over/Infinite Theater/Infinite theater.md
@@ -657,12 +664,6 @@ nav:
           - ★★★纵械逸才: temp/pixelhead/Mihist_School/3B-mech_prodigy.md
           - ☆砺兵匠: temp/pixelhead/Mihist_School/0-maintenance_artisan.md
           - 社群内部状态: temp/pixelhead/Mihist_School/status.md
-        - 狠揍帮:
-          - 社群简介: temp/pixelhead/Brawl_gang/Brawl_gang.md
-          - ★街溜子: temp/pixelhead/Brawl_gang/1-Street_rat.md
-          - ★★惹祸精: temp/pixelhead/Brawl_gang/2-Troublemaker.md
-          - ★★★销音客: temp/pixelhead/Brawl_gang/3-Silencer.md
-          - ☆小巷贩商: temp/pixelhead/Brawl_gang/0-Dealer.md
         - 破碎外包区:
           - 前线参谋: temp/pixelhead/Noposui/staff_officer.md
           - 破晓指挥官: temp/pixelhead/Noposui/Commander.md
