@@ -6,7 +6,7 @@
 
 ## 必要条件
 
-* <a href="../Artist_Apprentice" target="_blank">研墨门徒</a>达到5级且灵感或战技至少一项达到10级或拥有<a href="../Versatile_Colossus" target="_blank">万艺巨匠</a>职业等级
+* <a href="../Artist_Apprentice" target="_blank">研墨门徒</a>达到5级且灵知或战技至少一项达到10级或拥有<a href="../Versatile_Colossus" target="_blank">万艺巨匠</a>职业等级
 
 ## 关键属性
 
@@ -17,7 +17,7 @@
 
 * 美术
 * 抵抗
-* 灵感
+* 灵知
 * 杖
 
 ## 职业特性

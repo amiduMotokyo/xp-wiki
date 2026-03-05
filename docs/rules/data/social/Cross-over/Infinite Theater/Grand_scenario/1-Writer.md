@@ -18,7 +18,7 @@ Roses are red<br>Violets are blue<br>Stage is here<br>And performers we are
 ## 熟练技能
 
 * 见闻
-* 灵感
+* 灵知
 
 ## 职业特性
 
