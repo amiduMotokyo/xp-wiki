@@ -529,6 +529,8 @@ DeatLvens|铭刃天满|被当做铭见城下一任大名培养的女孩，不过
 
 <a href="/logs/西陆争霸.rar" target="_blank">结团log下载</a>
 
+<a href="/logs/NPC图鉴与后日谈.pptx" target="_blank">后日谈下载</a>
+
 PL|PC|备注
 :--:|:--:|:--:
 amidu|主持人|amidu就是带TG

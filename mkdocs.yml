@@ -194,7 +194,7 @@ nav:
             - 进阶职业:
               - ☆☆匠魂武器工匠: rules/data/social/universal/TiC/TiC_artisan.md
         - 西方大陆中立社群:
-          - 魔法学院:
+          - 魔法学院（限天历6年及以前）:
             - 社群简介: rules/data/social/universal/magicSchool/magicSchool.md
             - 进阶职业:
               - ★魔法学徒: rules/data/social/universal/magicSchool/apprentice.md
@@ -202,6 +202,9 @@ nav:
               - ★★★魔法教授: rules/data/social/universal/magicSchool/professor.md
               - ☆优等生: rules/data/social/universal/magicSchool/honorsStudent.md    
               - ☆☆战斗法师: rules/data/social/universal/magicSchool/battleMage.md          
+          - 魔法大学（限天历7年及以后）:
+            - 社群简介（中央联合魔法大学）: rules/data/social/universal/magicUniversity/magicUniversity_Central.md
+            - 社群简介（苏尔伍德第二魔法大学）: rules/data/social/universal/magicUniversity/magicUniversity_Second.md
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
             - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md
