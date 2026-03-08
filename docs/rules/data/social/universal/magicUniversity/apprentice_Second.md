@@ -10,7 +10,7 @@
 * 选择1个<a href="../magicUniversity_Second/#学院信息" target="_blank">学院</a>作为主修学院（本学院）
 * 可以将任何1个非垄断的、未包括在传统五大类别中的魔法类别，加入到自己主修学院的体系当中
 * 选择1个<a href="../magicUniversity_Second/#学生自治组织信息" target="_blank">学生自治组织</a>参加，提供熟练技能
-* 无法选择<a href="../apprentice_Central" target="_blank">法师候补生</a>职业，但可以通过办理转校（需符合对方职业必要条件）把本职业等级替换为对方职业等级
+* 无法选择<a href="../apprentice_Central" target="_blank">法师候补生</a>职业，但可以通过办理转校（需符合对方职业必要条件，所选学院不可变）把本职业等级替换为对方职业等级
 
 ## 关键属性
 

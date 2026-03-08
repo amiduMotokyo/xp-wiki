@@ -10,7 +10,7 @@
 * <a href="../apprentice_Central" target="_blank">法师候补生</a>职业等级达到5级
 * 继承法师候补生阶段选择的<a href="../magicUniversity_Central/#学院信息" target="_blank">学院</a>以及<a href="../magicUniversity_Central/#学生自治组织信息" target="_blank">学生自治组织</a>
 * 选择1个新的<a href="../magicUniversity_Central/#学生自治组织信息" target="_blank">学生自治组织</a>参加，提供熟练技能
-* 无法选择<a href="../postgraduate_Second" target="_blank">魔法进修生</a>职业，但可以通过办理转校（需符合对方职业必要条件）把本职业等级替换为对方职业等级
+* 无法选择<a href="../postgraduate_Second" target="_blank">魔法进修生</a>职业，但可以通过办理转校（需符合对方职业必要条件，所选学院不可变）把本职业等级替换为对方职业等级
 
 ## 关键属性
 
