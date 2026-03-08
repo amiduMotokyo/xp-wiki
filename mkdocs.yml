@@ -205,6 +205,14 @@ nav:
           - 魔法大学（限天历7年及以后）:
             - 社群简介（中央联合魔法大学）: rules/data/social/universal/magicUniversity/magicUniversity_Central.md
             - 社群简介（苏尔伍德第二魔法大学）: rules/data/social/universal/magicUniversity/magicUniversity_Second.md
+            - 进阶职业:
+              - ★法师候补生: rules/data/social/universal/magicUniversity/apprentice_Central.md
+              - ★魔法学徒: rules/data/social/universal/magicUniversity/apprentice_Second.md
+              - ★★受训法师: rules/data/social/universal/magicUniversity/postgraduate_Central.md
+              - ★★魔法进修生: rules/data/social/universal/magicUniversity/postgraduate_Second.md
+              - ★★★授权教授: rules/data/social/universal/magicUniversity/professor_Central.md
+              - ★★★魔法教授: rules/data/social/universal/magicUniversity/professor_Second.md
+              - ☆☆战斗法师: rules/data/social/universal/magicUniversity/battleMage.md  
           - 哈克海盗:
             - 社群简介: rules/data/social/universal/Hark_pirate/pirate.md
             - 酒类道具: rules/data/social/universal/Hark_pirate/wine.md
