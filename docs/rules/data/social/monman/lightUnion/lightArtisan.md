@@ -50,7 +50,7 @@
 
 #### 效果
 
-对目标及地点周围一圈的角色叠加叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>，造成1+2X固伤，之后受影响目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
+对目标及地点周围一圈的角色叠加一层<a href="../../../../status/mark/#光敏" target="_blank">“光敏”</a>，造成1+2X固伤，之后受影响目标抵抗判<a href="../../../../status/normal/#致盲" target="_blank">“致盲”</a>
 
 #### 制成效能
 
