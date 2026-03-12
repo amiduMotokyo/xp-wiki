@@ -443,9 +443,10 @@ nav:
           - 巨兽猎手:
             - 社群简介: rules/data/social/monman/hugeHunter/hugeHunter.md
             - 进阶职业:
-              - ★★巨兽猎兵（待重置）: rules/data/social/monman/hugeHunter/jager.md
+              - ★★巨兽猎兵: rules/data/social/monman/hugeHunter/jager.md
               - ★★追迹猎手（待重置）: rules/data/social/monman/hugeHunter/chaser.md
               - ★★驯兽师（待重置）: rules/data/social/monman/hugeHunter/tamer.md
+              - ☆☆狩猎大巧思: rules/data/social/monman/hugeHunter/huntTechnique.md
               - ★★★围猎大师（待重置）: rules/data/social/monman/hugeHunter/siegeMaster.md
           - 明光学联:
             - 社群简介: rules/data/social/monman/lightUnion/lightUnion.md
