@@ -69,10 +69,10 @@
 
 #### 效果
 
-* 初始：仅可以<a href="../../../../status/mark/#范本" target="_blank">范本</a>作为目标，对其附加（<font color="#B22222">层数为2的</font>）<a href="../../../../status/normal/#研习" target="_blank">研习</a>状态并结束回合
-* 10级进阶：<a href="../../../../status/mark/#研习印记" target="_blank">研习印记</a>额外获得“对抗敌意行动时阈值-4”的效果
+* 初始：仅可以<a href="../../../../../status/mark/#范本" target="_blank">范本</a>作为目标，对其附加（<font color="#B22222">层数为2的</font>）<a href="../../../../../status/normal/#研习" target="_blank">研习</a>状态并结束回合
+* 10级进阶：<a href="../../../../../status/mark/#研习印记" target="_blank">研习印记</a>额外获得“对抗敌意行动时阈值-4”的效果
 * 20级进阶：立刻获得（差值因子/2向上取整）墨滴
-* 30级进阶：改为附加<a href="../../../../status/normal/#研习" target="_blank">研习</a>状态两次（分别对抗）（<font color="##0000FF">且不再强制结束回合</font>）
+* 30级进阶：改为附加<a href="../../../../../status/normal/#研习" target="_blank">研习</a>状态两次（分别对抗）（<font color="##0000FF">且不再强制结束回合</font>）
 
 ## 上级魔法
 
@@ -83,21 +83,21 @@
 * <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>/<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型/定点型</a>
 * SP消耗：12/额外消耗：一重过载
-* 若本回合内消耗过的墨滴量大于等于16点，则作为<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>释放
+* 若本回合内消耗过的墨滴量大于等于8点，则作为<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>释放
 
 #### <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>效果
 
-* 初始：造成魔法威力0的伤害，本回合每消耗过1点墨滴伤害+2，至多+12
+* 初始：造成魔法威力0的伤害，本回合每消耗过1点墨滴伤害+1，至多+12
 * 10级进阶：若目标具有的状态和印记种类小于等于3种，则目标抵抗<a href="../../../../../status/normal/#粘滞" target="_blank">“粘滞”</a>且目标本次抵抗难度增加差值因子×5，否则令魔法威力与魔法威力上限+3
-* 20级进阶：若目标已损失生命值大于等于20，则强制对其附加2层<a href="../../../../status/mark/#碎盾印记" target="_blank">碎盾印记</a>，否则令魔法威力与魔法威力上限+3
+* 20级进阶：若目标已损失生命值大于等于20，则强制对其附加2层<a href="../../../../../status/mark/#碎盾印记" target="_blank">碎盾印记</a>，否则令魔法威力与魔法威力上限+3
 * 30级进阶：可以额外消耗一次临摹次数，使魔法威力与威力上限变为1.5倍
 
 #### <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>效果
 
 * 初始：本行动轮内，若感知范围小于（智力/5），则将其恢复至智力/5；感知范围+3，下次临摹的行动点消耗变为0
-* 10级进阶：感知范围+1，获得（差值/15向下取整）层<a href="../../../../status/mark/#点睛印记" target="_blank">点睛印记</a>
-* 20级进阶：感知范围+1，<a href="../../../../status/mark/#点睛印记" target="_blank">点睛印记</a>额外获得：“每一层点睛印记使所有<a href="../../../../status/mark/#范本" target="_blank">范本</a>防守检定获得检定值+4惩罚。”
-* 30级进阶：改为本回合内临摹的行动点消耗变为0，回合结束时，场上每有一个<a href="../../../../status/mark/#范本" target="_blank">范本</a>，获得3点墨滴
+* 10级进阶：感知范围+1，获得（差值/15向下取整）层<a href="../../../../../status/mark/#点睛印记" target="_blank">点睛印记</a>
+* 20级进阶：感知范围+1，<a href="../../../../../status/mark/#点睛印记" target="_blank">点睛印记</a>额外获得：“每一层点睛印记使所有<a href="../../../../../status/mark/#范本" target="_blank">范本</a>防守检定获得检定值+4惩罚。”
+* 30级进阶：改为本回合内临摹的行动点消耗变为0，回合结束时，场上每有一个<a href="../../../../../status/mark/#范本" target="_blank">范本</a>，获得3点墨滴
 
 !!! tip "双类别法术"
     获得时，同时在<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>和<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>的栏位中记录，根据条件释放对应法术。<br>此外，同一行动轮内只能使用该法术的其中一种形态。

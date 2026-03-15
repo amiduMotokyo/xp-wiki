@@ -17,7 +17,7 @@ I don’t know, my friends. Look at the world! How beautiful it is, the sun, the
 ## 熟练技能
 
 * 见闻
-* 灵知
+* 灵感
 * 任意武器技能
 * 战术
 * 写作（剧本）

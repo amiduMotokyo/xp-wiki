@@ -17,7 +17,7 @@ All the world's a stage<br>And all the men and women merely players<br>They have
 ## 熟练技能
 
 * 见闻
-* 灵知
+* 灵感
 * 任意武器技能
 * 战术
 * 写作（剧本）
