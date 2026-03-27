@@ -42,6 +42,8 @@
 
 无限剧场的成员分布范围广到难以想象，而交流演出也是常有的事~
 
+*尽管对于各个地域来说，对应分部的职业会更为常见，但只要有合理的理由，其他分部的职业也同样可选*
+
 <a href="../Kabuki jo/1-Mokuhasha" target="_blank">★启幕人</a>
 
 <a href="../Kabuki jo/2-Kabuki" target="_blank">★★歌舞伎</a>
