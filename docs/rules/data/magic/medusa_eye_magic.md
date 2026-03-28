@@ -6,7 +6,7 @@
 
 如果有更进一步的兴趣也可以寻找一位魔法大师拜师学艺，在瞳术大师的路途上踏出坚实的一步。
 
-瞳术在现有的魔法体系中，有些可以归类为<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>，有些则需要被归类为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>。
+瞳术在现有的魔法体系中，有些可以归类为<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>，有些则需要被归类为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>。
 
 瞳术与其他种类魔法的不同便在于施法媒介。普通的施法媒介乃是身外之物，而美杜莎以自己的眼瞳为媒介施法。由此带来的结果有利有弊。
 
@@ -40,9 +40,9 @@
 
 ### 眼瞳连发效果
 
-通过眼瞳使用<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>时，每进行一次连发，便能在连发的基础上获得一个**眼瞳连发效果**。眼瞳连发效果将随着施法者的<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>流派等级提高而逐步解锁。具体内容如下：
+通过眼瞳使用<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>时，每进行一次连发，便能在连发的基础上获得一个**眼瞳连发效果**。眼瞳连发效果将随着施法者的<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>流派等级提高而逐步解锁。具体内容如下：
 
-<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a><br>流派等级|眼瞳连发效果
+<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a><br>流派等级|眼瞳连发效果
 :--:|:--:
 0|不能连发，没有效果
 1|本次连发额外造成差值伤害因子/2的魔法伤害
@@ -67,7 +67,7 @@
 
 ### 连发过热
 
-同样地，使用<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>类型的瞳术也有连发限制。
+同样地，使用<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>类型的瞳术也有连发限制。
 
 使用瞳术时，若追加了至少3次连发，那么根据当次魔法的连发次数和该瞳术的等级（初级/中级/上级），给与施术者：**（连发次数-3）*20/30/40**点的物理伤害。这个伤害将在这个瞳术的效果结算后立即结算。这个伤害不计算防具的减伤和护甲值，不会对防具造成损伤，击中位置固定为头部。
 
@@ -97,7 +97,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * SP消耗：6
 
 #### 效果
@@ -132,7 +132,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * SP消耗：8
 
 #### 效果
@@ -167,7 +167,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * SP消耗：12
 
 #### 效果

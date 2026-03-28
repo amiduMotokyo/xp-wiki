@@ -17,7 +17,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：6
 
@@ -49,7 +49,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：8
 
@@ -80,12 +80,12 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>/<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>/<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型/定点型</a>
 * SP消耗：12/额外消耗：一重过载
-* 若本回合内消耗过的墨滴量大于等于8点，则作为<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>释放
+* 若本回合内消耗过的墨滴量大于等于8点，则作为<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>释放
 
-#### <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>效果
+#### <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>效果
 
 * 初始：造成魔法威力0的伤害，本回合每消耗过1点墨滴伤害+1，至多+12
 * 10级进阶：若目标具有的状态和印记种类小于等于3种，则目标抵抗<a href="../../../../../status/normal/#粘滞" target="_blank">“粘滞”</a>且目标本次抵抗难度增加差值因子×5，否则令魔法威力与魔法威力上限+3
@@ -100,7 +100,7 @@
 * 30级进阶：改为本回合内临摹的行动点消耗变为0，回合结束时，场上每有一个<a href="../../../../../status/mark/#范本" target="_blank">范本</a>，获得3点墨滴
 
 !!! tip "双类别法术"
-    获得时，同时在<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>和<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>的栏位中记录，根据条件释放对应法术。<br>此外，同一行动轮内只能使用该法术的其中一种形态。
+    获得时，同时在<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>和<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>的栏位中记录，根据条件释放对应法术。<br>此外，同一行动轮内只能使用该法术的其中一种形态。
 
 ---
 

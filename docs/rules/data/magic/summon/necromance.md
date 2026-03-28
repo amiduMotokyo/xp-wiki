@@ -53,7 +53,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：8
 * 召唤位数量：2
@@ -82,7 +82,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：8
 * 召唤位数量：2
@@ -134,7 +134,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：10
 
@@ -163,7 +163,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：6
 
@@ -195,7 +195,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之法</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">地刺型</a>
 * SP消耗：15
 * 使用后，直到自己下个回合的结束步骤无法使用

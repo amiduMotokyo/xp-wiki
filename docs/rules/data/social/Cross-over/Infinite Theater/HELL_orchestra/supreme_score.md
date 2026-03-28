@@ -24,7 +24,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：9
 
@@ -40,7 +40,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：8
 
@@ -86,7 +86,7 @@
 
 #### 魔法流派与消耗
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：7
 
@@ -100,7 +100,7 @@
 
 ### 练习曲『致艾莉丝』
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型</a>
 * SP消耗：11
 
@@ -144,10 +144,10 @@
 
 ### 超轮奏『无终卡农』
 
-* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>/<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>/<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">定点型/弹道型</a>
 * 额外消耗：一重过载/SP消耗：13
-* 若场上存在<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>的层数，则作为<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>释放
+* 若场上存在<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>的层数，则作为<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>释放，否则便作为<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>释放
 
 #### <a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>效果
 
@@ -157,7 +157,7 @@
 * 20级进阶：若具有<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>层数的角色陷入<a href="../../../../../status/normal/#濒死" target="_blank">“濒死”</a>或<a href="../../../../../status/normal/#致命伤" target="_blank">“致命伤”</a>状态，则其上的<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>会转移给直线距离最近的同阵营角色
 * 30级进阶：超和声3：可选目标+1<br><font color=' #FFFFFF '> 10级进阶：</font>超共鸣3：目标再失去相当于<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>层数的行动点
 
-#### <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>效果
+#### <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>效果
 
 * 无法连发
 * 初始：对目标造成10+<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>层数的魔法伤害，之后解除目标所有的<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>层数，并对对应部位的护甲造成等同于解除的印记层数的伤害
@@ -166,11 +166,11 @@
 * 30级进阶：超和声3：可以选择所有具有<a href="../../../../../status/mark/#循环声部" target="_blank">“循环声部”</a>的单位作为进攻目标<br><font color=' #FFFFFF '> 10级进阶：</font>超共鸣3：段数+1
 
 !!! tip "双类别法术"
-    获得时，同时在<a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>和<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>的栏位中记录，根据条件释放对应法术。<br>此外，同一行动轮内只能使用该法术的其中一种形态。
+    获得时，同时在<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>和<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之章</a>的栏位中记录，根据条件释放对应法术。<br>此外，同一行动轮内只能使用该法术的其中一种形态。
 
 ### 练习曲『悲怆逆流』
 
-* <a href="/rules/V4.x rules/8·magic/#旋涡之法" target="_blank">漩涡之章</a>
+* <a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之章</a>
 * 击发类型：<a href="/rules/V4.x rules/8·magic/#魔法的击发类型" target="_blank">弹道型</a>
 * SP消耗：7
 
