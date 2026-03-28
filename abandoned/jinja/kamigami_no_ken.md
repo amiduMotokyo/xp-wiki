@@ -7,7 +7,7 @@
 ## 必要条件
 
 * 宣誓侍奉某一位大神，并获得了你侍奉的大神的青睐
-* <a href="../oiwai_omiko" target="_blank">御祝/御巫女</a>职业等级达到5级
+* <a href="../oshuku_omiko" target="_blank">御祝/御巫女</a>职业等级达到5级
 * 已经习得侍奉大神旗下的所有阴阳术
 * <a href="../../../basicJob/Standard-bearer" target="_blank">旗手</a>职业等级达到3级
 

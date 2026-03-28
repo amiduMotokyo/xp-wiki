@@ -32,9 +32,9 @@
 
 ## 社群职位
 
-<a href="../iwai_miko" target="_blank">★祝/巫女</a>
+<a href="../shuku_miko" target="_blank">★祝/巫女</a>
 
-<a href="../oiwai_omiko" target="_blank">★★御祝/御巫女</a>
+<a href="../oshuku_omiko" target="_blank">★★御祝/御巫女</a>
 
 <a href="../kamigami_no_ken" target="_blank">★★★众神之眷</a>
 

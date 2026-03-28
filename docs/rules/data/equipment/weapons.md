@@ -547,7 +547,7 @@
 :--:|:--:|:--:|:--:|:--:|:--:
 法杖|敏捷|20|1|6|施法范围6
 魔杖|敏捷|15|1|4|施法范围4<br>不用切换成主武器也可提供施法范围，但无法适用武器技能
-御币|敏捷|20|1|6|施法范围8<br>此施法范围仅对<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>有效
+御币|敏捷|20|1|6|施法范围8<br>此施法范围对<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">漩涡之法</a>、<a href="/rules/V4.x rules/8·magic/#心神之法" target="_blank">心神之法</a>和<a href="/rules/V4.x rules/8·magic/#漩涡之法" target="_blank">塑型之法</a>无效
 
 独特升级项目|消耗武器等级|叠加上限
 :--:|:--:|:--:
