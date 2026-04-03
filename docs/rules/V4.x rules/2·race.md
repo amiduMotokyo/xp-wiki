@@ -11,9 +11,9 @@
 <a href="../../../settings/civilization/Westland/human/human" target="_blank">人类</a>|照下镜子看看自己就知道长啥样了|1、与智力挂钩的检定可获得一枚奖励骰<br>2、每次熟练度升级从1d3变为1d4|中层世界·人类王国、中层世界·魔法森林、下层世界·魔族城堡
 <a href="../../../settings/civilization/Westland/woodElf/elf" target="_blank">精灵</a>|你的身材拔高了几公分，原本的圆耳了尖耳|1、与体质挂钩的检定可获得一枚奖励骰<br>2、与敏捷挂钩的检定可获得一枚奖励骰|中层世界·魔法森林、中层世界·精灵社群
 <a href="../../../settings/civilization/Westland/NightSickle/antMan" target="_blank">蚁族</a>|你的头上长出了两个触须，而且多出了两只手|1、【固定】多出两只手<br>2、【固定】无法使用魔法<br>3、可额外选择一只手作为惯用手<br>4、“搬运”检定保底提供20点成功难度值|中层世界·山脉地区、下层世界·山脉地区
-<a href="../../../settings/civilization/Tengu/gujira" target="_blank">鲸天狗</a>|你的手背和胳膊上长出了鳍|1、允许在水下活动无惩罚，“水性”检定初始30级<br>2、根据所选家族，拥有家传特性（具体参看左边的超链接）|中层世界·天狗国外圈
-<a href="../../../settings/civilization/Tengu/kitsune" target="_blank">狐天狗</a>|你的头上长出了一对狐耳，背后长出了若干条狐尾|1、与魅力挂钩的检定可获得一枚奖励骰<br>2、根据所选家族，拥有家传特性（具体参看左边的超链接）|中层世界·天狗国
-<a href="../../../settings/civilization/Tengu/karasu" target="_blank">鸦天狗</a>|你的背上长出了一对乌黑的翅膀|1、允许飞行<br>2、根据所选家族，拥有家传特性（具体参看左边的超链接）|中层世界·天狗国内圈
+<a href="../../../settings/civilization/Tengu/gujira" target="_blank">鲸天狗</a>|你的手背和胳膊上长出了鳍|1、允许在水下活动无惩罚，“水性”检定初始30级<br>2、根据所选家族，拥有<a href="../../../settings/civilization/Tengu/nameAbility" target="_blank">家传特性</a>|中层世界·天狗国外圈
+<a href="../../../settings/civilization/Tengu/kitsune" target="_blank">狐天狗</a>|你的头上长出了一对狐耳，背后长出了若干条狐尾|1、与魅力挂钩的检定可获得一枚奖励骰<br>2、根据所选家族，拥有<a href="../../../settings/civilization/Tengu/nameAbility" target="_blank">家传特性</a>|中层世界·天狗国
+<a href="../../../settings/civilization/Tengu/karasu" target="_blank">鸦天狗</a>|你的背上长出了一对乌黑的翅膀|1、允许飞行<br>2、根据所选家族，拥有<a href="../../../settings/civilization/Tengu/nameAbility" target="_blank">家传特性</a>|中层世界·天狗国内圈
 <a href="../../../settings/civilization/Monman/demon" target="_blank">鬼族</a>|你头上长出了一对角，而且你明显感觉你的力量变大了|1、与力量挂钩的检定可获得一枚奖励骰<br>2、所有装备对你而言力量阈值-10|下层世界·魔族城堡、下层世界·鬼城
 <a href="../../../settings/civilization/Monman/ghost" target="_blank">幽灵</a>|你发现你的身体好像半透明了|1、他人对你进行非魔法攻击时，失去所有奖励骰<br>2、只能装备轻甲，且腿部防具固定为“近地悬浮物质”<br>3、亡灵族，免疫带有“活体”词条的异常状态与印记<br>4、计算力量属性时，上限固定为30|下层世界·各处
 
@@ -57,7 +57,7 @@
 种族|种族特性|允许血族变体|允许鸿族变体|存在地区
 :--:|:--:|:--:|:--:|:--:
 狼人|1、半血以下时，所有进攻获得一枚奖励骰<br>2、自带特殊战技：爪击|是|是|下层世界各处
-兽人|1、所有进攻检定值获得-10奖励<br>2、暴击时，总伤倍率额外+0.5|是|是|下层世界各处
+兽人|1、当经历点达到0/5/10/15时，所有进攻检定值获得-4/-6/-8/-10奖励<br>2、暴击时，总伤倍率额外+0.5|是|是|下层世界各处
 蜥蜴人|1、与智力挂钩的检定可获得一枚奖励骰<br>2、每次获得的长休行动点+1倍|是|是|下层世界各处
 梦魔/魅魔|1、与魅力挂钩的检定可获得一枚奖励骰<br>2、自带特殊战技：魅惑汲取|否|是|下层世界各处
 <a href="../../../settings/civilization/Monman/medusa" target="_blank">美杜莎</a>|1、自带一个初级瞳术，瞳术的基础施法范围为5<br>2、所有特殊技艺以及泛用技能“灵知”获得1奖励骰|否|是|下层世界·黄昏花园

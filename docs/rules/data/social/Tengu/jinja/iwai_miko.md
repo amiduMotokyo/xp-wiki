@@ -12,6 +12,13 @@
 ## 关键属性
 
 * 魔力
+* 相关魔法：
+  * <a href="/rules/data/magic/faith/Tengu/yatagarasuKami/" target="_blank">八咫鸟大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/inariKami/" target="_blank">稻荷大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/kaitakuKami/" target="_blank">开拓大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/tatakaiKami/" target="_blank">斗争大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/tanzouKami/" target="_blank">锻造大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/arasuneKami/" target="_blank">荒胫大神</a>旗下的“阴阳术”
 
 ## 熟练技能
 
@@ -53,7 +60,7 @@
 * 战斗效果：
 * 神罚：花费2行动点，2SP与1张根本家的第一种<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材（各种神签），选定施法范围的某目标（定点型），用“祭祀”检定对目标造成威力为（3+祭祀熟练度/4四舍五入）的魔法伤害，根据信奉神明不同，附加不同的效果
 * 长休效果：
-* 祈愿之舞【1长休行动点】：进行“祭祀”检定，根据检定成果获得本家的第二种<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材（赐福鸦羽、狐毛、刚毛）：保底获得1个；若成功，额外获得（差值/5四舍五入）个
+* 祈愿之舞【1长休行动点】：（种族限定为鸦天狗/狐天狗/鲸天狗）进行“祭祀”检定，根据检定成果获得天狗国阴阳术的第二种<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材（鸦天狗→赐福鸦羽、狐天狗→狐毛、鲸天狗→刚毛）：保底获得1个；若成功，额外获得（差值/5四舍五入）个
 * 神签开光【1长休行动点】：进行“祭祀”检定，根据检定成果获得本家的第一种<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>素材（各种神签）：保底获得1个；若成功，额外获得（差值/5四舍五入）个
 
 信奉神明|神罚附加效果

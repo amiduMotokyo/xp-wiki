@@ -19,6 +19,7 @@
 * 魅力
 * 智力
 * 魔力
+* 相关魔法：<a href="/rules/data/magic/faith/west/holy/" target="_blank">圣光魔法</a>
 
 ## 熟练技能
 

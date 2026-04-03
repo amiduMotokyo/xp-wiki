@@ -13,6 +13,13 @@
 ## 关键属性
 
 * 魔力
+* 相关魔法：
+  * <a href="/rules/data/magic/faith/Tengu/yatagarasuKami/" target="_blank">八咫鸟大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/inariKami/" target="_blank">稻荷大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/kaitakuKami/" target="_blank">开拓大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/tatakaiKami/" target="_blank">斗争大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/tanzouKami/" target="_blank">锻造大神</a>旗下的“阴阳术”
+  * <a href="/rules/data/magic/faith/Tengu/arasuneKami/" target="_blank">荒胫大神</a>旗下的“阴阳术”
 
 ## 熟练技能
 
@@ -45,7 +52,7 @@
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
 祓除仪式|战技|被动|0|准备天狗国阴阳术有关的<a href="/rules/V4.x rules/8·magic/#仪式之法" target="_blank">仪式之法</a>时，你可以免行动点消耗执行一次“神罚”以及一次“大神赐福”
-补任|战技|被动|0|魔力属性与魅力属性永久+5点<br>若没有，则被本家神社的“神主”赐予本家的“氏”（或苗字），额外获得本家的家传特性<br>若自身的“氏”（或苗字）原本就是本家的，则施展本家阴阳术所消耗的素材-0.5倍
+补任|战技|被动|0|魔力属性与魅力属性永久+5点<br>若没有，则被本家神社的“神主”赐予本家的“氏”（或苗字），额外获得本家的<a href="/settings/civilization/Tengu/nameAbility/" target="_blank">家传特性</a><br>若自身的“氏”（或苗字）原本就是本家的，则施展本家阴阳术所消耗的素材-0.5倍
 
 信奉神明|大神赐福效果
 :--:|:--:
