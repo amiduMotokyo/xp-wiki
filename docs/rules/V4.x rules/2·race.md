@@ -127,8 +127,8 @@
 <a href="../../../settings/civilization/GreatHong/GreatHong" target="_blank">鸿族</a>|1|1、原种族特性二选一<br>2、正天命效果1.5倍，负天命惩罚触发概率翻倍，允许天命增减方式各多一种|人类、精灵、蚁族、鬼族、狼人、兽人、蜥蜴人|大鸿国土
 <a href="../../../settings/civilization/Westland/sandEmpire/sandMan" target="_blank">北方沙族</a>|（未定）|（暂时不可选）|人类、蚁族|中层世界·沙漠帝国
 <a href="../../../settings/civilization/Monman/ghost" target="_blank">血族</a>|2|1、原种族特性二选一<br>2、每次近战攻击回复相当于造成HP伤害四分之一的HP和SP<br>3、亡灵族|人类、蚁族、狼人、兽人、蜥蜴人|下层世界·魔族城堡
-<a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶骷髅</a>|-2|1、原种族特性二选一<br>2、计算力量属性时，上限固定为30<br>3、自带战技：自我组装<br>4、亡灵族，免疫带有“活体”词条的异常状态与印记|除幽灵外皆可|下层世界各处
-<a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶僵尸</a>|-2|1、原种族特性二选一<br>2、亡灵族|除幽灵外皆可|下层世界各处
+<a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶骷髅</a>|-2|1、原种族特性二选一<br>2、计算力量属性时，上限固定为40<br>3、自带战技：自我组装<br>4、亡灵族，免疫带有“活体”词条的异常状态与印记|除幽灵外皆可|下层世界各处
+<a href="../../../settings/civilization/Monman/ghost" target="_blank">高阶僵尸</a>|-1|1、原种族特性二选一<br>2、亡灵族|除幽灵外皆可|下层世界各处
 混血|不定|原两个种族的特性各二选一|排列组合，但请先获得主持人的许可|世界各处
 
 能力解释：
