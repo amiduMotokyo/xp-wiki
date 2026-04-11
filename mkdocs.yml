@@ -317,6 +317,17 @@ nav:
               - ☆☆开门拳（待重置）: rules/data/social/GreatHong/Martial_Arts/Gatebuster.md
               - ☆☆玄体流: rules/data/social/GreatHong/Martial_Arts/Xuanti Genre.md
           - 玉峰剑派（待重置）: rules/data/social/GreatHong/YuFeng.md
+          - 糜家:
+            - 社群简介: rules/data/social/GreatHong/Mihist_School/Mihist_School.md
+            - 机巧教典: rules/data/social/GreatHong/Mihist_School/0-machine_manual.md
+            - 进阶职业:
+              - ★操偶使: rules/data/social/GreatHong/Mihist_School/1A-puppet_disciple.md
+              - ★百器使: rules/data/social/GreatHong/Mihist_School/1B-mech_disciple.md
+              - ★★控儡师: rules/data/social/GreatHong/Mihist_School/2A-puppetster.md
+              - ★★千机师: rules/data/social/GreatHong/Mihist_School/2B-mechster.md
+              - ★★★御傀逸才: rules/data/social/GreatHong/Mihist_School/3A-puppet_prodigy.md
+              - ★★★纵械逸才: rules/data/social/GreatHong/Mihist_School/3B-mech_prodigy.md
+              - ☆砺兵匠: rules/data/social/GreatHong/Mihist_School/0-maintenance_artisan.md
         - 天狗国:
           - 士幕府:
             - 社群简介: rules/data/social/Tengu/bakufu/bakufu.md
@@ -506,6 +517,13 @@ nav:
             - 进阶职业:
               - ★怪盗: rules/data/social/Cross-over/Joker/thief_in_mask.md
               - ★★奇术师: rules/data/social/Cross-over/Joker/joker.md
+          - 红蔷薇会:
+            - 社群简介: rules/data/social/Cross-over/Red_rambler/Red_rambler.md
+            - 进阶职业:
+              - ★志愿医士: rules/data/social/Cross-over/Red_rambler/1-Feldsher.md
+              - ★★矢志医师: rules/data/social/Cross-over/Red_rambler/2-Healer.md
+              - ★★★漫浪医圣: rules/data/social/Cross-over/Red_rambler/3-Rambler.md
+            - 幕间: rules/data/social/Cross-over/Red_rambler/Sidestory.md
       - 单位:
         - 召唤单位（废案备份）:
           - 魔像: rules/data/unit/summon/golem.md
@@ -668,16 +686,7 @@ nav:
           - 魔法学院招生政策及立场相关: temp/pixelhead/FA♂Q/magicschoolnewpeople.md
           - 关于穿界门的一些问题: temp/pixelhead/FA♂Q/portal.md
           - 圣诞节（未完）: temp/pixelhead/FA♂Q/Christmas.md
-        - 糜家:
-          - 社群简介: temp/pixelhead/Mihist_School/Mihist_School.md
-          - 机巧教典: temp/pixelhead/Mihist_School/0-machine_manual.md
-          - ★操偶使: temp/pixelhead/Mihist_School/1A-puppet_disciple.md
-          - ★百器使: temp/pixelhead/Mihist_School/1B-mech_disciple.md
-          - ★★控儡师: temp/pixelhead/Mihist_School/2A-puppetster.md
-          - ★★千机师: temp/pixelhead/Mihist_School/2B-mechster.md
-          - ★★★御傀逸才: temp/pixelhead/Mihist_School/3A-puppet_prodigy.md
-          - ★★★纵械逸才: temp/pixelhead/Mihist_School/3B-mech_prodigy.md
-          - ☆砺兵匠: temp/pixelhead/Mihist_School/0-maintenance_artisan.md
+
           - 社群内部状态: temp/pixelhead/Mihist_School/status.md
         - 破碎外包区:
           - 前线参谋: temp/pixelhead/Noposui/staff_officer.md
