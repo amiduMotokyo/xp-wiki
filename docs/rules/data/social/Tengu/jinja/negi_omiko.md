@@ -7,7 +7,7 @@
 ## 必要条件
 
 * 宣誓侍奉某一位大神
-* <a href="../iwai_miko" target="_blank">祝/巫女</a>职业等级达到5级
+* <a href="../houri_miko" target="_blank">祝/巫女</a>职业等级达到5级
 * 拥有至少8个经历点
 
 ## 关键属性

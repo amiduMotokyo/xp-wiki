@@ -8,7 +8,7 @@
 
 ## 必要条件
 
-* <a href="../iwai_miko" target="_blank">祝/巫女</a>职业等级达到5级
+* <a href="../houri_miko" target="_blank">祝/巫女</a>职业等级达到5级
 
 ## 关键属性
 

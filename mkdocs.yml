@@ -340,7 +340,7 @@ nav:
           - 神社:
             - 社群简介: rules/data/social/Tengu/jinja/jinja.md
             - 进阶职业:
-              - ★祝/巫女: rules/data/social/Tengu/jinja/iwai_miko.md
+              - ★祝/巫女: rules/data/social/Tengu/jinja/houri_miko.md
               - ★★祢宜/御巫女: rules/data/social/Tengu/jinja/negi_omiko.md
               - ★★力士（缺背景）: rules/data/social/Tengu/jinja/rikishi.md
               - ★★★神主: rules/data/social/Tengu/jinja/kannushi.md

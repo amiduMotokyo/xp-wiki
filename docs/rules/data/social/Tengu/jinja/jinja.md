@@ -32,7 +32,7 @@
 
 ## 社群职位
 
-<a href="../iwai_miko" target="_blank">★祝/巫女</a>
+<a href="../houri_miko" target="_blank">★祝/巫女</a>
 
 <a href="../negi_omiko" target="_blank">★★祢宜/御巫女</a>
 
