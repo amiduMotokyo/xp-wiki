@@ -24,7 +24,7 @@
 
 ## 职业特性
 
-继承武者职业特性，进攻<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，伤害倍率增加0.75
+继承武者职业特性，进攻具有完整版<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，伤害倍率增加0.75<br>进攻具有<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，若成功，强制附加2层<a href="../../../../status/mark/#迟缓印记" target="_blank">“迟缓印记”</a>并为其新增解除手段“自身无<a href="../../../../status/normal/#晕眩" target="_blank">‘晕眩’</a>状态时清空”
 
 ## 升级收益
 
@@ -41,7 +41,7 @@
 名称|类型|挂钩属性|SP消耗|效果
 :--:|:--:|:--:|:--:|:--:
 再试一次|战技|触发|2|每轮一次，当某一能附加<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>的战技或特殊战技未能成功附加完整版<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态时可以触发，回复一次该战技或特殊战技的使用次数
-完美连段|战技|被动|0|若某次进攻同时解除并附加了<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态，则自身获得1层<a href="../../../../status/mark/#反应印记" target="_blank">“反应印记”</a>、1层<a href="../../../../status/mark/#锐兵印记" target="_blank">“锐兵印记”</a>和1层<a href="../../../../status/mark/#惯击印记" target="_blank">“惯击印记”</a>
+完美连段|战技|被动|0|若某次进攻同时解除并附加了完整版<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态，则自身获得1层<a href="../../../../status/mark/#反应印记" target="_blank">“反应印记”</a>、1层<a href="../../../../status/mark/#锐兵印记" target="_blank">“锐兵印记”</a>和1层<a href="../../../../status/mark/#惯击印记" target="_blank">“惯击印记”</a>
 
 ---
 
