@@ -24,7 +24,7 @@
 
 ## 职业特性
 
-继承武者职业特性，进攻具有完整版<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，伤害倍率增加0.75<br>进攻具有<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，若成功，强制附加2层<a href="../../../../status/mark/#迟缓印记" target="_blank">“迟缓印记”</a>并为其新增解除手段“自身无<a href="../../../../status/normal/#晕眩" target="_blank">‘晕眩’</a>状态时清空”
+继承武者职业特性，进攻具有完整版<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，伤害倍率增加0.5<br>进攻具有<a href="../../../../status/normal/#晕眩" target="_blank">“晕眩”</a>状态的敌人时，若成功，强制附加2层<a href="../../../../status/mark/#迟缓印记" target="_blank">“迟缓印记”</a>并为其新增解除手段“自身无<a href="../../../../status/normal/#晕眩" target="_blank">‘晕眩’</a>状态时清空”
 
 ## 升级收益
 
