@@ -731,3 +731,4 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.mark
   - pymdownx.caret
+  - md_in_html
