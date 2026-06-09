@@ -1,3 +1,5 @@
 {
-    "marscode.chatLanguage": "cn"
+    "marscode.chatLanguage": "cn",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.defaultPackageManager": "ms-python.python:pip"
 }

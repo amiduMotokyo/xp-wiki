@@ -5,9 +5,12 @@ plugins:
             - en
             - ja
         separator: '[\s\-\.]+'
+    - gen-files:
+        scripts:
+          - gen_indexes.py  # 指向你接下来要创建的 Python 脚本
 nav:
     - 导航: 
-      - XP跑团规则首页: index.md
+      - 更新日志: update.md
       - 主世界的计划进度: plan.md
       - 编年史: chronicle.md
     - 规则:
@@ -612,7 +615,7 @@ nav:
         - 魔法百科全书（未完）: settings/magic/magicBook.md
         - 塑型土: settings/magic/plasticSoil.md
     - 创作缓冲区:
-      - 说明: temp/index.md
+      - 说明: temp/introduce.md
       - 如何开始创作: temp/tutorial.md
       - 创作积分制度: temp/bonusSystem.md
       - 秋田创作区:
@@ -695,7 +698,7 @@ nav:
         - 说明: temp/DeatLvens/introduce.md
         - 修改意见: temp/DeatLvens/debug.md
       - 苦叶茶创作区:
-        - 说明: temp/KMT/index.md
+        - 说明: temp/KMT/introduce.md
         # - 设定相关:
         - 游戏系统相关:
           - 匠魂武器: temp/KMT/rules/TiC.md
@@ -705,6 +708,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.indexes
   icon:
     admonition:
       note: octicons/tag-16
