@@ -32,11 +32,11 @@
 
 
 
-<a href="../1A-puppet_disciple" target="_blank">★士兵</a>
+<a href="../1" target="_blank">★士兵</a>
 
-<a href="../2A-puppetster" target="_blank">★★准军士</a>
+<a href="../2" target="_blank">★★百夫士</a>
 
-<a href="../EX-walking_arsenal" target="_blank">★★★准军团长</a>
+<a href="../3" target="_blank">★★★军团长</a>
 
 ---
 
